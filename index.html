@@ -217,15 +217,23 @@
   .up  { color:#3ecf8e; }
   .down{ color:#ff6b6b; }
 
-  /* アフィリ展開 */
-  .affiliate-panel{
+  /* ── 本文（折りたたみ） ── */
+  .detail-body{
     display:none;
     grid-column:1/-1;
-    margin-top:12px;
-    padding-top:14px;
+    padding-top:12px;
     border-top:1px solid var(--border);
+    margin-top:8px;
   }
-  .ranking-item.expanded .affiliate-panel{ display:block; }
+  .ranking-item.expanded .detail-body{ display:block; }
+
+  /* バッジ・メタ情報（展開後に表示） */
+  .rank-meta{
+    display:flex;gap:7px;align-items:center;flex-wrap:wrap;
+    margin-bottom:14px;
+  }
+
+  /* アフィリエイトリンク */
   .affiliate-label{
     font-size:11px;color:var(--text-muted);
     letter-spacing:0.1em;margin-bottom:10px;
@@ -244,8 +252,13 @@
   .rank-right{
     display:flex;flex-direction:column;align-items:flex-end;gap:4px;padding-top:6px;
   }
-  .chevron{ color:var(--text-muted);font-size:12px;transition:transform 0.2s; }
-  .ranking-item.expanded .chevron{ transform:rotate(180deg); }
+  .chevron{
+    color:var(--text-muted);font-size:11px;transition:transform 0.2s;
+    display:flex;align-items:center;gap:4px;
+  }
+  .chevron::after{ content:"詳細"; font-size:10px; font-family:'Noto Sans JP',sans-serif; }
+  .ranking-item.expanded .chevron{ transform:none; color:var(--gold); }
+  .ranking-item.expanded .chevron::after{ content:"閉じる"; }
   .count-badge{ font-size:10px;color:var(--text-muted);white-space:nowrap; }
 
   /* 更新情報 */
@@ -471,13 +484,13 @@ async function renderRanking() {
       <div class="rank-num ${rankClass(item.rank)}">${item.rank}</div>
       <div class="rank-info">
         <div class="rank-keyword">${item.keyword}</div>
-        <div class="rank-meta">
-          <span class="cat-badge ${catClass(item.category)}">${item.category}</span>
-          <span class="source-badge ${srcClass(item.source)}">${srcLabel(item.source)}</span>
-          <span class="trend-arrow ${trendClass(item.trend)}">${item.trend}</span>
-          <span style="font-size:11px;color:var(--text-muted)">検索 ${fmtVol(item.volume)}</span>
-        </div>
-        <div class="affiliate-panel">
+        <div class="detail-body">
+          <div class="rank-meta">
+            <span class="cat-badge ${catClass(item.category)}">${item.category}</span>
+            <span class="source-badge ${srcClass(item.source)}">${srcLabel(item.source)}</span>
+            <span class="trend-arrow ${trendClass(item.trend)}">${item.trend}</span>
+            <span style="font-size:11px;color:var(--text-muted)">検索 ${fmtVol(item.volume_approx || item.volume)}</span>
+          </div>
           <div class="affiliate-label">▸ 関連商品を探す</div>
           <div class="affiliate-links">
             <a class="aff-link aff-amazon"
@@ -493,7 +506,6 @@ async function renderRanking() {
       </div>
       <div class="rank-right">
         <span class="chevron">▼</span>
-        <span class="count-badge">${fmtVol(item.volume)}</span>
       </div>
     `;
 
