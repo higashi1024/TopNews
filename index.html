@@ -493,8 +493,8 @@ function updateCount(n) {
 // ================================================================
 function rankClass(r) { return r===1?'r1':r===2?'r2':r===3?'r3':''; }
 function trendClass(t) { return t.startsWith('↑')?'up':t.startsWith('↓')?'down':''; }
-function srcClass(s)  { return `src-${s}`; }
-function srcLabel(s)  { return {google:'Google',niconico:'NicoNico',yahoo:'Yahoo!'}[s]||s; }
+function srcClass(s)  { return s === 'google_news' ? 'src-google' : `src-${s}`; }
+function srcLabel(s)  { return {google:'Google',niconico:'NicoNico',yahoo:'Yahoo!',google_news:'Google News'}[s]||s; }
 function fmtVol(v)    { if (!v && v !== 0) return ''; if (typeof v === 'string') return v; return v>=10000?(v/10000).toFixed(0)+'万件':v.toLocaleString()+'件'; }
 
 async function renderRanking() {
@@ -513,17 +513,12 @@ async function renderRanking() {
 
   document.getElementById('update-time').textContent = `最終更新: ${data.updated_at ? data.updated_at.slice(0,16).replace('T',' ') : data.updated || '不明'}`;
 
-  // カテゴリ別にフィルタリング・再ランキング
-  const allTrends = data.trends || [];
+  // すべて → trends TOP10 / カテゴリ別 → categories[カテゴリ名]
   let items;
   if (currentCat === "すべて") {
-    // すべて: 全体TOP10
-    items = allTrends.slice(0, 10);
+    items = (data.trends || []).slice(0, 10);
   } else {
-    // カテゴリ別: 該当カテゴリを抽出して再ランキング
-    items = allTrends
-      .filter(item => item.category === currentCat)
-      .map((item, i) => ({ ...item, rank: i + 1 }));
+    items = (data.categories && data.categories[currentCat]) || [];
   }
   if (items.length === 0) {
     list.innerHTML = '<div style="color:var(--text-muted);padding:24px;text-align:center">このカテゴリのデータはありません</div>';
@@ -547,10 +542,10 @@ async function renderRanking() {
           <div class="rank-meta">
             <span class="cat-badge ${catClass(item.category)}">${item.category}</span>
             <span class="source-badge ${srcClass(item.source)}">${srcLabel(item.source)}</span>
-            <span class="trend-arrow ${trendClass(item.trend)}">${item.trend}</span>
-            <span style="font-size:11px;color:var(--text-muted)">検索 ${fmtVol(item.volume_approx || item.volume)}</span>
+            ${item.trend ? `<span class="trend-arrow ${trendClass(item.trend)}">${item.trend}</span>` : ''}
+            ${item.volume_approx ? `<span style="font-size:11px;color:var(--text-muted)">検索 ${fmtVol(item.volume_approx)}</span>` : ''}
           </div>
-          <div class="affiliate-label" style="margin-bottom:8px">▸ 関連ニュース</div>
+          <div class="affiliate-label" style="margin-bottom:8px">${item.type === "news" ? "▸ 記事を読む" : "▸ 関連ニュース"}</div>
           <div class="news-list">
             ${(item.news && item.news.length > 0)
               ? item.news.slice(0,3).map(n => `

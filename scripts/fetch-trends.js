@@ -1,15 +1,8 @@
 /**
  * fetch-trends.js
  *
- * 役割:
- *   1. Google Trends RSS（全体）を取得（最大25件）
- *   2. Anthropic API でカテゴリを自動判定
- *      ※ キーワード + ニュース見出しをセットで渡すことで人名も正確に判定
- *   3. data/YYYY-MM-DD.json に保存
- *   4. 5日より古いファイルを削除
- *
- * 動作環境: Node.js 18以上
- * 必要な環境変数: ANTHROPIC_API_KEY
+ * すべて   → Google Trends RSS → AI分類 → TOP10
+ * 各カテゴリ → Google News カテゴリ別RSS → TOP10
  */
 
 const fs    = require("fs");
@@ -23,10 +16,21 @@ const CONFIG = {
   KEEP_DAYS:         5,
   DATA_DIR:          path.join(__dirname, "../data"),
   ASSOCIATE_ID:      "YOUR-ASSOCIATE-ID",
-  GOOGLE_RSS_URL:    "https://trends.google.co.jp/trending/rss?geo=JP",
+  GOOGLE_TRENDS_URL: "https://trends.google.co.jp/trending/rss?geo=JP",
   ANTHROPIC_API_URL: "https://api.anthropic.com/v1/messages",
   ANTHROPIC_MODEL:   "claude-haiku-4-5-20251001",
 };
+
+// カテゴリ別 Google News RSS
+const CATEGORY_SOURCES = [
+  { name: "テクノロジー",   url: "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ja&gl=JP&ceid=JP:ja" },
+  { name: "経済・投資",     url: "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ja&gl=JP&ceid=JP:ja" },
+  { name: "エンタメ",       url: "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=ja&gl=JP&ceid=JP:ja" },
+  { name: "ライフスタイル", url: "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ja&gl=JP&ceid=JP:ja" },
+  { name: "スポーツ",       url: "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ja&gl=JP&ceid=JP:ja" },
+  { name: "グルメ",         url: "https://news.google.com/rss/search?q=グルメ+料理+レシピ&hl=ja&gl=JP&ceid=JP:ja" },
+  { name: "社会・ニュース", url: "https://news.google.com/rss/headlines/section/topic/NATION?hl=ja&gl=JP&ceid=JP:ja" },
+];
 
 const CATEGORIES = ["テクノロジー","経済・投資","エンタメ","ライフスタイル","スポーツ","グルメ","社会・ニュース"];
 
@@ -53,7 +57,7 @@ function fetchUrl(url) {
 }
 
 // ================================================================
-// CDATA または通常タグからテキストを抽出
+// テキスト抽出ヘルパー
 // ================================================================
 function extractText(block, tag) {
   const re = new RegExp(
@@ -64,22 +68,26 @@ function extractText(block, tag) {
   return (m[1] !== undefined ? m[1] : m[2] || "").trim();
 }
 
+function decodeHtml(str) {
+  return str
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">").replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'").replace(/<[^>]+>/g, "").trim();
+}
+
 // ================================================================
 // Google Trends RSS を解析
 // ================================================================
-function parseGoogleTrendsRSS(xml) {
+function parseTrendsRSS(xml) {
   const items = [];
   const itemPattern = /<item>([\s\S]*?)<\/item>/g;
   let match;
-
   while ((match = itemPattern.exec(xml)) !== null) {
     const block = match[1];
     const keyword = extractText(block, "title");
     if (!keyword) continue;
-
     const trafficMatch = block.match(/<ht:approx_traffic>([\s\S]*?)<\/ht:approx_traffic>/);
-    const volume = trafficMatch ? trafficMatch[1].trim() : "不明";
-
+    const volume = trafficMatch ? trafficMatch[1].trim() : "";
     const newsItems = [];
     const newsPattern = /<ht:news_item>([\s\S]*?)<\/ht:news_item>/g;
     let nm;
@@ -91,54 +99,92 @@ function parseGoogleTrendsRSS(xml) {
       const source  = extractText(nb, "ht:news_item_source");
       if (title) newsItems.push({ title, snippet, url, source });
     }
-
     items.push({ keyword, volume, news: newsItems });
   }
-
   return items;
 }
 
 // ================================================================
-// Anthropic API でカテゴリ判定
-// ※ キーワード + ニュース見出しをセットで渡す（人名も正確に判定できる）
+// Google News RSS を解析
+// ================================================================
+function parseNewsRSS(xml, categoryName) {
+  const items = [];
+  const itemPattern = /<item>([\s\S]*?)<\/item>/g;
+  let match;
+  while ((match = itemPattern.exec(xml)) !== null) {
+    const block = match[1];
+
+    // タイトル
+    const titleRaw = extractText(block, "title") ||
+      (block.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "";
+    const title = decodeHtml(titleRaw);
+    if (!title) continue;
+
+    // URL（link または guid）
+    const linkMatch = block.match(/<link>([\s\S]*?)<\/link>/) ||
+                      block.match(/<guid[^>]*>([\s\S]*?)<\/guid>/);
+    const url = linkMatch ? linkMatch[1].trim() : "";
+
+    // 概要（description から HTML タグ除去）
+    const descRaw = extractText(block, "description") ||
+      (block.match(/<description>([\s\S]*?)<\/description>/) || [])[1] || "";
+    const snippet = decodeHtml(descRaw).slice(0, 120);
+
+    // 発行元
+    const sourceMatch = block.match(/<source[^>]*>([\s\S]*?)<\/source>/);
+    const publisher = sourceMatch ? decodeHtml(sourceMatch[1]) : "";
+
+    items.push({ title, url, snippet, publisher });
+  }
+
+  return items.slice(0, 10).map((item, i) => {
+    // アフィリエイト検索用：見出しの先頭30文字
+    const searchKw = encodeURIComponent(item.title.slice(0, 30));
+    return {
+      rank:          i + 1,
+      keyword:       item.title,
+      category:      categoryName,
+      source:        "google_news",
+      type:          "news",
+      volume_approx: "",
+      trend:         "",
+      news:          [{ title: item.title, snippet: item.snippet, url: item.url, source: item.publisher }],
+      amazon_url:    `https://www.amazon.co.jp/s?k=${searchKw}&tag=${CONFIG.ASSOCIATE_ID}`,
+      rakuten_url:   `https://search.rakuten.co.jp/search/mall/${searchKw}/`,
+    };
+  });
+}
+
+// ================================================================
+// Anthropic API でカテゴリ判定（すべて用）
 // ================================================================
 async function classifyWithAI(items) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) throw new Error("ANTHROPIC_API_KEY が設定されていません");
-
   const categoryList = CATEGORIES.join("、");
-
-  // 各キーワードに関連ニュース見出し（1件目）を付けてリスト化
   const keywordList = items.map((item, i) => {
-    const newsHint = item.news.length > 0
-      ? ` (関連ニュース: 「${item.news[0].title.slice(0, 40)}」)`
-      : "";
-    return `${i + 1}. ${item.keyword}${newsHint}`;
+    const hint = item.news.length > 0
+      ? ` (関連ニュース: 「${item.news[0].title.slice(0, 40)}」)` : "";
+    return `${i + 1}. ${item.keyword}${hint}`;
   }).join("\n");
-
-  const prompt = `以下の日本語トレンドキーワードを、それぞれ最も適切なカテゴリに分類してください。
-カテゴリの選択肢: ${categoryList}
-
-各キーワードには参考として関連ニュースの見出しを付けています。
-人名・固有名詞はニュース見出しの内容を参考に判断してください。
+  const prompt = `以下の日本語トレンドキーワードを最も適切なカテゴリに分類してください。
+カテゴリ: ${categoryList}
+人名・固有名詞はニュース見出しを参考に判断してください。
 
 ${keywordList}
 
-回答はJSON配列のみ返してください。配列の順番はキーワードの順番と同じにしてください。
-例: ["エンタメ","スポーツ","経済・投資"]`;
+JSON配列のみ返してください: ["エンタメ","スポーツ",...]`;
 
   const body = JSON.stringify({
-    model:      CONFIG.ANTHROPIC_MODEL,
-    max_tokens: 512,
-    messages:   [{ role: "user", content: prompt }],
+    model: CONFIG.ANTHROPIC_MODEL, max_tokens: 512,
+    messages: [{ role: "user", content: prompt }],
   });
-
   return new Promise((resolve, reject) => {
     const req = https.request(CONFIG.ANTHROPIC_API_URL, {
-      method:  "POST",
+      method: "POST",
       headers: {
-        "Content-Type":      "application/json",
-        "x-api-key":         apiKey,
+        "Content-Type": "application/json",
+        "x-api-key": apiKey,
         "anthropic-version": "2023-06-01",
       },
     }, (res) => {
@@ -147,45 +193,34 @@ ${keywordList}
       res.on("data", chunk => (data += chunk));
       res.on("end", () => {
         if (res.statusCode !== 200) {
-          reject(new Error(`Anthropic API エラー: HTTP ${res.statusCode} - ${data}`));
-          return;
+          reject(new Error(`Anthropic API エラー: HTTP ${res.statusCode}`)); return;
         }
         try {
-          const json     = JSON.parse(data);
-          const text     = json.content[0].text.trim();
-          const arrMatch = text.match(/\[[\s\S]*\]/);
-          if (!arrMatch) throw new Error("JSON配列が見つかりません: " + text);
-          resolve(JSON.parse(arrMatch[0]));
-        } catch (e) {
-          reject(new Error("レスポンス解析失敗: " + e.message));
-        }
+          const json = JSON.parse(data);
+          const text = json.content[0].text.trim();
+          const arr  = text.match(/\[[\s\S]*\]/);
+          if (!arr) throw new Error("JSON配列なし");
+          resolve(JSON.parse(arr[0]));
+        } catch (e) { reject(new Error("解析失敗: " + e.message)); }
       });
     });
     req.on("error", reject);
-    req.write(body);
-    req.end();
+    req.write(body); req.end();
   });
 }
 
-// ================================================================
-// フォールバック: AIが失敗した場合のルールベース判定
-// ================================================================
+// フォールバック判定
 const FALLBACK_RULES = [
   { category: "テクノロジー",   keywords: ["AI","スマホ","iPhone","Android","PC","アプリ","ゲーム","Switch","PS5","ChatGPT","Claude","プログラミング","GPU","IT"] },
   { category: "経済・投資",     keywords: ["NISA","株","投資","Bitcoin","仮想通貨","円","ドル","銀行","ふるさと納税","確定申告","税"] },
   { category: "エンタメ",       keywords: ["映画","ドラマ","アニメ","音楽","ライブ","Netflix","YouTube","アイドル","俳優","歌手","漫画"] },
   { category: "スポーツ",       keywords: ["野球","サッカー","バスケ","テニス","ゴルフ","MLB","NBA","Jリーグ","大谷","オリンピック","選手","試合"] },
   { category: "グルメ",         keywords: ["レシピ","料理","ラーメン","寿司","スイーツ","カフェ","レストラン","食べ","グルメ","居酒屋"] },
-  { category: "社会・ニュース", keywords: ["地震","台風","首相","大臣","選挙","事故","事件","裁判","政府","自民","立憲","国会","警察","火災"] },
+  { category: "社会・ニュース", keywords: ["地震","台風","首相","大臣","選挙","事故","事件","裁判","政府","警察","火災"] },
   { category: "ライフスタイル", keywords: ["旅行","観光","ホテル","キャンプ","ファッション","美容","スキンケア","ダイエット","健康","サプリ"] },
 ];
-
-function fallbackCategory(keyword) {
-  for (const rule of FALLBACK_RULES) {
-    for (const kw of rule.keywords) {
-      if (keyword.includes(kw)) return rule.category;
-    }
-  }
+function fallbackCategory(kw) {
+  for (const r of FALLBACK_RULES) for (const k of r.keywords) if (kw.includes(k)) return r.category;
   return "社会・ニュース";
 }
 
@@ -197,9 +232,7 @@ function deleteOldFiles() {
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - CONFIG.KEEP_DAYS);
   const cutoffStr = cutoff.toISOString().slice(0, 10);
-  const files = fs.readdirSync(CONFIG.DATA_DIR)
-    .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f));
-  for (const file of files) {
+  for (const file of fs.readdirSync(CONFIG.DATA_DIR).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))) {
     if (file.replace(".json", "") < cutoffStr) {
       fs.unlinkSync(path.join(CONFIG.DATA_DIR, file));
       console.log(`🗑 削除: ${file}`);
@@ -214,64 +247,65 @@ async function main() {
   const jstOffset = 9 * 60 * 60 * 1000;
   const today = new Date(Date.now() + jstOffset).toISOString().slice(0, 10);
   console.log(`📅 対象日: ${today}`);
+  if (!fs.existsSync(CONFIG.DATA_DIR)) fs.mkdirSync(CONFIG.DATA_DIR, { recursive: true });
 
-  if (!fs.existsSync(CONFIG.DATA_DIR)) {
-    fs.mkdirSync(CONFIG.DATA_DIR, { recursive: true });
-  }
-
+  // ── すべて：Google Trends RSS + AI分類 ──
   console.log("🔍 Google Trends RSS を取得中...");
-  let xml;
+  let trendsItems = [];
   try {
-    xml = await fetchUrl(CONFIG.GOOGLE_RSS_URL);
-  } catch (err) {
-    console.error("❌ RSS取得失敗:", err.message);
-    process.exit(1);
-  }
+    const xml      = await fetchUrl(CONFIG.GOOGLE_TRENDS_URL);
+    const rawItems = parseTrendsRSS(xml);
+    console.log(`✅ Trends: ${rawItems.length} 件取得`);
 
-  const rawItems = parseGoogleTrendsRSS(xml);
-  if (rawItems.length === 0) {
-    console.error("❌ トレンドデータが見つかりません");
-    process.exit(1);
-  }
-  console.log(`✅ ${rawItems.length} 件取得`);
-
-  // AI でカテゴリ判定
-  let categories;
-  try {
-    console.log("🤖 AI によるカテゴリ判定中（ニュース見出し付き）...");
-    categories = await classifyWithAI(rawItems);
-    if (!Array.isArray(categories) || categories.length !== rawItems.length) {
-      throw new Error(`カテゴリ数不一致: ${categories?.length} / ${rawItems.length}`);
+    let cats;
+    try {
+      console.log("🤖 AI カテゴリ判定中...");
+      cats = await classifyWithAI(rawItems);
+      if (!Array.isArray(cats) || cats.length !== rawItems.length) throw new Error("件数不一致");
+      console.log("✅ AI 判定完了");
+    } catch (err) {
+      console.warn(`⚠️ AI失敗 → ルールベース: ${err.message}`);
+      cats = rawItems.map(item => fallbackCategory(item.keyword));
     }
-    console.log("✅ AI カテゴリ判定完了");
+
+    trendsItems = rawItems.slice(0, 10).map((item, i) => {
+      const cat = CATEGORIES.includes(cats[i]) ? cats[i] : fallbackCategory(item.keyword);
+      const enc = encodeURIComponent(item.keyword);
+      return {
+        rank: i + 1, keyword: item.keyword, category: cat,
+        source: "google", type: "trend",
+        volume_approx: item.volume, trend: "→0",
+        news: item.news,
+        amazon_url:  `https://www.amazon.co.jp/s?k=${enc}&tag=${CONFIG.ASSOCIATE_ID}`,
+        rakuten_url: `https://search.rakuten.co.jp/search/mall/${enc}/`,
+      };
+    });
   } catch (err) {
-    console.warn(`⚠️ AI判定失敗 → ルールベースで代替: ${err.message}`);
-    categories = rawItems.map(item => fallbackCategory(item.keyword));
+    console.error("❌ Trends取得失敗:", err.message);
   }
 
-  // データを組み立て（全件をフラットな trends 配列に）
-  const jst = new Date(Date.now() + jstOffset);
-  const updatedAt = jst.toISOString().replace("Z", "+09:00");
+  // ── カテゴリ別：Google News RSS ──
+  console.log("📰 Google News RSS を並列取得中...");
+  const categoryResults = await Promise.allSettled(
+    CATEGORY_SOURCES.map(src =>
+      fetchUrl(src.url).then(xml => ({ name: src.name, items: parseNewsRSS(xml, src.name) }))
+    )
+  );
 
-  const trends = rawItems.map((item, i) => {
-    const category = CATEGORIES.includes(categories[i])
-      ? categories[i]
-      : fallbackCategory(item.keyword);
-    const encodedKw = encodeURIComponent(item.keyword);
-    return {
-      rank:          i + 1,
-      keyword:       item.keyword,
-      category,
-      source:        "google",
-      volume_approx: item.volume,
-      trend:         "→0",
-      news:          item.news,
-      amazon_url:    `https://www.amazon.co.jp/s?k=${encodedKw}&tag=${CONFIG.ASSOCIATE_ID}`,
-      rakuten_url:   `https://search.rakuten.co.jp/search/mall/${encodedKw}/`,
-    };
-  });
+  const categories = {};
+  for (const result of categoryResults) {
+    if (result.status === "fulfilled") {
+      const { name, items } = result.value;
+      categories[name] = items;
+      console.log(`✅ ${name}: ${items.length}件`);
+    } else {
+      console.warn(`⚠️ 取得失敗: ${result.reason.message}`);
+    }
+  }
 
-  const data = { date: today, updated_at: updatedAt, trends };
+  // ── JSON保存 ──
+  const updatedAt = new Date(Date.now() + jstOffset).toISOString().replace("Z", "+09:00");
+  const data = { date: today, updated_at: updatedAt, trends: trendsItems, categories };
   const outPath = path.join(CONFIG.DATA_DIR, `${today}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), "utf8");
   console.log(`💾 保存: ${outPath}`);
@@ -280,7 +314,4 @@ async function main() {
   console.log("🎉 完了");
 }
 
-main().catch(err => {
-  console.error("予期せぬエラー:", err);
-  process.exit(1);
-});
+main().catch(err => { console.error("エラー:", err); process.exit(1); });
