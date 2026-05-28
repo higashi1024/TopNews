@@ -1,9 +1,69 @@
 {
   "date": "2026-05-28",
-  "updated_at": "2026-05-28T15:25:52.350+09:00",
+  "updated_at": "2026-05-28T15:34:08.097+09:00",
   "trends": [
     {
       "rank": 1,
+      "keyword": "イ・ダヘ",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
+          "snippet": "",
+          "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
+          "source": "スマートニュース"
+        },
+        {
+          "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
+          "snippet": "",
+          "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
+          "source": "매일경제"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
+    },
+    {
+      "rank": 2,
+      "keyword": "イスラム教",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
+          "snippet": "",
+          "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int",
+          "source": "時事ドットコム"
+        },
+        {
+          "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
+          "snippet": "",
+          "url": "https://www.nishinippon.co.jp/image/1043180/",
+          "source": "西日本新聞me"
+        },
+        {
+          "title": "メッカ大巡礼が最高潮",
+          "snippet": "",
+          "url": "https://toyota.keizai.biz/gpnews/1719015/",
+          "source": "豊田経済新聞"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
+    },
+    {
+      "rank": 3,
       "keyword": "芝田璃子",
       "category": "社会・ニュース",
       "source": "google",
@@ -33,11 +93,11 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "keyword": "すかいらーく",
       "category": "社会・ニュース",
       "source": "google",
-      "volume_approx": "100+",
+      "volume_approx": "200+",
       "trend": "→0",
       "news": [
         {
@@ -63,7 +123,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "keyword": "東海道線",
       "category": "社会・ニュース",
       "source": "google",
@@ -93,7 +153,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%9D%B1%E6%B5%B7%E9%81%93%E7%B7%9A/"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "keyword": "ワールド・ハイビジョン・チャンネル",
       "category": "社会・ニュース",
       "source": "google",
@@ -123,7 +183,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB/"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "keyword": "ガンダムアシュタロン",
       "category": "社会・ニュース",
       "source": "google",
@@ -153,7 +213,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A2%E3%82%B7%E3%83%A5%E3%82%BF%E3%83%AD%E3%83%B3/"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "keyword": "京浜東北線",
       "category": "社会・ニュース",
       "source": "google",
@@ -183,7 +243,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%BA%AC%E6%B5%9C%E6%9D%B1%E5%8C%97%E7%B7%9A/"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "keyword": "lミニマート",
       "category": "社会・ニュース",
       "source": "google",
@@ -213,7 +273,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/l%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88/"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "keyword": "ダービー 過去",
       "category": "社会・ニュース",
       "source": "google",
@@ -221,9 +281,15 @@
       "trend": "→0",
       "news": [
         {
-          "title": "ダービー出走馬＆枠順確定！皐月賞馬ロブチェン17番 2分の1の出走抽選はケントンが突破（スポニチアネックス）",
+          "title": "【ダービー】ロブチェンは８枠17番　リアライズシリウスは６枠11番　枠順確定",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/8615938b6ec45998a48bb4d66258d474891de437",
+          "url": "https://www.nikkansports.com/keiba/news/202605280000102.html",
+          "source": "日刊スポーツ"
+        },
+        {
+          "title": "ロブチェン8枠17番 競馬日本ダービー（時事通信）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/5e2c32f52f2b42c461f1752c321059244d55d1f7",
           "source": "Yahoo!ニュース"
         },
         {
@@ -231,57 +297,10 @@
           "snippet": "",
           "url": "https://www.sanspo.com/race/article/general/20260528-EJDRIKNVHVOO5BV3NHU5SFP73M/?outputType=theme_tokyo-yushun",
           "source": "サンスポ"
-        },
-        {
-          "title": "【競馬予想】日本ダービーの行方を占う「３歳牡馬ランキング」 ロブチェンを脅かす存在はいるか",
-          "snippet": "",
-          "url": "https://sportiva.shueisha.co.jp/clm/keiba/keiba/2026/05/28/post_74/",
-          "source": "webスポルティーバ"
         }
       ],
       "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%20%E9%81%8E%E5%8E%BB&tag=YOUR-ASSOCIATE-ID",
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%20%E9%81%8E%E5%8E%BB/"
-    },
-    {
-      "rank": 9,
-      "keyword": "文化祭",
-      "category": "社会・ニュース",
-      "source": "google",
-      "volume_approx": "200+",
-      "trend": "→0",
-      "news": [],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%87%E5%8C%96%E7%A5%AD&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%96%87%E5%8C%96%E7%A5%AD/"
-    },
-    {
-      "rank": 10,
-      "keyword": "ヨドバシ",
-      "category": "社会・ニュース",
-      "source": "google",
-      "volume_approx": "1000+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "名鉄、百貨店跡にヨドバシカメラ誘致検討 駅前「空きビル化」回避へ",
-          "snippet": "",
-          "url": "https://www.nikkei.com/article/DGXZQOFD281HN0Y6A520C2000000/",
-          "source": "日本経済新聞"
-        },
-        {
-          "title": "名古屋駅前の名鉄ビル群に「ヨドバシカメラ」 誘致の方向で最終調整 駅周辺のにぎわい維持に（CBCテレビ）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/f0f4b80e89296bee2e8d1b27c0e97a5e9d7c95a0",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "名駅再開発 官民2回目会合 名市大の伊藤名誉教授ら講演：ニュース",
-          "snippet": "",
-          "url": "https://biz.chunichi.co.jp/news/article/10/126003/",
-          "source": "中日BIZナビ"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7/"
     }
   ]
 }
