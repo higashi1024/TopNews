@@ -183,7 +183,7 @@
   @keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
   .ranking-item:hover{ background:var(--bg3); border-color:rgba(201,168,76,0.25); transform:translateX(3px); }
   .ranking-item.expanded{ border-color:rgba(201,168,76,0.4); }
-  .ranking-item.hidden{ display:none; }
+  /* .ranking-item.hidden は廃止（カテゴリ別再描画方式に変更） */
 
   .rank-num{
     font-family:'DM Serif Display',serif;
@@ -393,10 +393,15 @@ function catClass(cat) {
 // ================================================================
 // 本番用 — GitHub Actions が生成した JSON を読み込む
 // ================================================================
+// 日付ごとに1回だけ取得してキャッシュする
+const dataCache = {};
 async function fetchData(dateStr) {
+  if (dataCache[dateStr]) return dataCache[dateStr];
   const res = await fetch(`/data/${dateStr}.json`);
   if (!res.ok) throw new Error(`データなし (${res.status})`);
-  return await res.json();
+  const json = await res.json();
+  dataCache[dateStr] = json;
+  return json;
 }
 
 // ================================================================
@@ -455,7 +460,7 @@ function renderCategoryBar() {
     btn.className = 'cat-btn' + (cat === currentCat ? ' active' : '');
     btn.dataset.cat = cat;
     btn.textContent = cat;
-    btn.onclick = () => { currentCat = cat; renderCategoryBar(); applyFilter(); };
+    btn.onclick = () => { currentCat = cat; renderCategoryBar(); renderRanking(); };
     c.appendChild(btn);
   });
 }
@@ -508,9 +513,17 @@ async function renderRanking() {
 
   document.getElementById('update-time').textContent = `最終更新: ${data.updated_at ? data.updated_at.slice(0,16).replace('T',' ') : data.updated || '不明'}`;
 
+  // カテゴリ別データを取得
+  const items = (data.categories && data.categories[currentCat]) || [];
+  if (items.length === 0) {
+    list.innerHTML = '<div style="color:var(--text-muted);padding:24px;text-align:center">このカテゴリのデータはありません</div>';
+    updateCount(0);
+    return;
+  }
+
   list.innerHTML = '';
 
-  data.trends.forEach((item, idx) => {
+  items.forEach((item, idx) => {
     const div = document.createElement('div');
     div.className = 'ranking-item';
     div.dataset.category = item.category;
@@ -561,7 +574,7 @@ async function renderRanking() {
     list.appendChild(div);
   });
 
-  applyFilter();
+  updateCount(items.length);
 }
 
 // ================================================================
