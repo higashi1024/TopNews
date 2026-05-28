@@ -26,6 +26,9 @@ jobs:
 
       - name: トレンドデータを取得・保存
         run: node scripts/fetch-trends.js
+        env:
+          # GitHub Secrets に登録した APIキーを渡す
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: 変更をコミット & プッシュ
         run: |

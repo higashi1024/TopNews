@@ -3,16 +3,17 @@
  *
  * 役割:
  *   1. Google Trends RSS（日本）を取得
- *   2. キーワードからカテゴリを自動判定
+ *   2. Anthropic API でカテゴリを自動判定（10件まとめて1回のAPI呼び出し）
  *   3. data/YYYY-MM-DD.json に保存
  *   4. 5日より古いファイルを削除
  *
  * 動作環境: Node.js 18以上（fetch が標準搭載）
  * 外部ライブラリ: 不要（標準モジュールのみ使用）
+ * 必要な環境変数: ANTHROPIC_API_KEY
  */
 
-const fs   = require("fs");
-const path = require("path");
+const fs    = require("fs");
+const path  = require("path");
 const https = require("https");
 
 // ================================================================
@@ -25,63 +26,21 @@ const CONFIG = {
 
   // Google Trends RSS（日本）※2025年2月にURLが変更された
   GOOGLE_RSS_URL: "https://trends.google.co.jp/trending/rss?geo=JP",
+
+  // Anthropic API
+  ANTHROPIC_API_URL: "https://api.anthropic.com/v1/messages",
+  ANTHROPIC_MODEL:   "claude-haiku-4-5-20251001",  // 軽量・低コストモデルを使用
 };
 
-// ================================================================
-// カテゴリ自動判定
-// キーワードに含まれる語句でカテゴリを決定する
-// ================================================================
-const CATEGORY_RULES = [
-  {
-    category: "テクノロジー",
-    keywords: ["AI","スマホ","iPhone","Android","PC","パソコン","プログラミング",
-               "Python","アプリ","ソフトウェア","ゲーム","PS5","Switch","GPU",
-               "ChatGPT","Claude","Gemini","LINE","Twitter","X "],
-  },
-  {
-    category: "経済・投資",
-    keywords: ["NISA","株","投資","仮想通貨","Bitcoin","円","ドル","金融","銀行",
-               "ふるさと納税","確定申告","節税","副業","副収入","フリーランス"],
-  },
-  {
-    category: "エンタメ",
-    keywords: ["映画","ドラマ","アニメ","マンガ","漫画","音楽","ライブ","コンサート",
-               "Netflix","Disney","YouTube","歌手","俳優","アイドル","芸能"],
-  },
-  {
-    category: "スポーツ",
-    keywords: ["野球","サッカー","バスケ","テニス","ゴルフ","水泳","陸上","格闘技",
-               "MLB","NBA","Jリーグ","プロ野球","大谷","錦織","オリンピック"],
-  },
-  {
-    category: "グルメ",
-    keywords: ["レシピ","料理","ラーメン","寿司","焼肉","スイーツ","カフェ","コーヒー",
-               "レストラン","グルメ","食べ","飲み","お酒","ワイン","居酒屋"],
-  },
-  {
-    category: "ライフスタイル",
-    keywords: ["旅行","観光","ホテル","温泉","キャンプ","アウトドア","インテリア",
-               "ファッション","美容","スキンケア","ダイエット","筋トレ","ヨガ",
-               "プロテイン","サプリ","健康","医療"],
-  },
-];
-
-function detectCategory(keyword) {
-  for (const rule of CATEGORY_RULES) {
-    for (const kw of rule.keywords) {
-      if (keyword.includes(kw)) return rule.category;
-    }
-  }
-  return "ライフスタイル"; // デフォルト
-}
+// カテゴリの選択肢（AIへの指示にも使用）
+const CATEGORIES = ["テクノロジー", "経済・投資", "エンタメ", "ライフスタイル", "スポーツ", "グルメ", "社会・ニュース"];
 
 // ================================================================
-// HTTPSでURLを取得（Node.js 標準モジュール使用）
+// HTTPSでURLを取得
 // ================================================================
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
     https.get(url, { headers: { "User-Agent": "Mozilla/5.0 TrendBot/1.0" } }, (res) => {
-      // リダイレクト対応（最大3回）
       if (res.statusCode === 301 || res.statusCode === 302) {
         fetchUrl(res.headers.location).then(resolve).catch(reject);
         return;
@@ -102,7 +61,8 @@ function fetchUrl(url) {
 // CDATA または通常タグからテキストを抽出するヘルパー
 // ================================================================
 function extractText(block, tag) {
-  const re = new RegExp(`<${tag}><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\/${tag}>|<${tag}>([\\s\\S]*?)<\/${tag}>`);
+  const escaped = tag.replace(":", "\\:");
+  const re = new RegExp(`<${tag}><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>|<${tag}>([\\s\\S]*?)<\\/${tag}>`);
   const m = block.match(re);
   if (!m) return "";
   return (m[1] !== undefined ? m[1] : m[2] || "").trim();
@@ -119,15 +79,12 @@ function parseGoogleTrendsRSS(xml) {
   while ((match = itemPattern.exec(xml)) !== null) {
     const block = match[1];
 
-    // キーワード
     const keyword = extractText(block, "title");
     if (!keyword) continue;
 
-    // 検索ボリューム
     const trafficMatch = block.match(/<ht:approx_traffic>([\s\S]*?)<\/ht:approx_traffic>/);
     const volume = trafficMatch ? trafficMatch[1].trim() : "不明";
 
-    // 関連ニュース記事（ht:news_item ブロックを全て抽出）
     const newsItems = [];
     const newsPattern = /<ht:news_item>([\s\S]*?)<\/ht:news_item>/g;
     let nm;
@@ -147,29 +104,136 @@ function parseGoogleTrendsRSS(xml) {
 }
 
 // ================================================================
+// Anthropic API で 10キーワードをまとめてカテゴリ判定
+// ================================================================
+async function classifyWithAI(keywords) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) throw new Error("ANTHROPIC_API_KEY が設定されていません");
+
+  const categoryList = CATEGORIES.join("、");
+  const keywordList  = keywords.map((kw, i) => `${i + 1}. ${kw}`).join("\n");
+
+  const prompt = `以下の日本語キーワードをそれぞれ最も適切なカテゴリに分類してください。
+
+カテゴリの選択肢: ${categoryList}
+
+キーワード一覧:
+${keywordList}
+
+回答はJSON配列のみ返してください。配列の順番はキーワードの順番と同じにしてください。
+例: ["テクノロジー","スポーツ","経済・投資"]`;
+
+  const body = JSON.stringify({
+    model:      CONFIG.ANTHROPIC_MODEL,
+    max_tokens: 256,
+    messages:   [{ role: "user", content: prompt }],
+  });
+
+  return new Promise((resolve, reject) => {
+    const options = {
+      method:   "POST",
+      headers:  {
+        "Content-Type":      "application/json",
+        "x-api-key":         apiKey,
+        "anthropic-version": "2023-06-01",
+      },
+    };
+
+    const req = https.request(CONFIG.ANTHROPIC_API_URL, options, (res) => {
+      let data = "";
+      res.setEncoding("utf8");
+      res.on("data", chunk => (data += chunk));
+      res.on("end", () => {
+        if (res.statusCode !== 200) {
+          reject(new Error(`Anthropic API エラー: HTTP ${res.statusCode} - ${data}`));
+          return;
+        }
+        try {
+          const json     = JSON.parse(data);
+          const text     = json.content[0].text.trim();
+          // JSON配列部分だけ抽出（前後に余分な文字がある場合に対応）
+          const arrMatch = text.match(/\[[\s\S]*\]/);
+          if (!arrMatch) throw new Error("JSON配列が見つかりません: " + text);
+          const categories = JSON.parse(arrMatch[0]);
+          resolve(categories);
+        } catch (e) {
+          reject(new Error("レスポンス解析失敗: " + e.message));
+        }
+      });
+    });
+
+    req.on("error", reject);
+    req.write(body);
+    req.end();
+  });
+}
+
+// ================================================================
+// フォールバック: AIが失敗した場合のルールベース判定
+// ================================================================
+const FALLBACK_RULES = [
+  { category: "テクノロジー",   keywords: ["AI","スマホ","iPhone","Android","PC","アプリ","ゲーム","Switch","PS5","ChatGPT","Claude","プログラミング","GPU","IT"] },
+  { category: "経済・投資",     keywords: ["NISA","株","投資","Bitcoin","仮想通貨","円","ドル","銀行","ふるさと納税","確定申告","税"] },
+  { category: "エンタメ",       keywords: ["映画","ドラマ","アニメ","音楽","ライブ","Netflix","YouTube","アイドル","俳優","歌手","漫画"] },
+  { category: "スポーツ",       keywords: ["野球","サッカー","バスケ","テニス","ゴルフ","MLB","NBA","Jリーグ","大谷","オリンピック","選手","試合"] },
+  { category: "グルメ",         keywords: ["レシピ","料理","ラーメン","寿司","スイーツ","カフェ","レストラン","食べ","グルメ","居酒屋"] },
+  { category: "社会・ニュース", keywords: ["地震","台風","首相","大臣","選挙","事故","事件","裁判","政府","自民","立憲","国会","警察","火災"] },
+  { category: "ライフスタイル", keywords: ["旅行","観光","ホテル","キャンプ","ファッション","美容","スキンケア","ダイエット","健康","サプリ"] },
+];
+
+function fallbackCategory(keyword) {
+  for (const rule of FALLBACK_RULES) {
+    for (const kw of rule.keywords) {
+      if (keyword.includes(kw)) return rule.category;
+    }
+  }
+  return "社会・ニュース"; // デフォルトを社会・ニュースに変更
+}
+
+// ================================================================
 // トレンドデータを整形
 // ================================================================
-function buildTrendData(dateStr, rawItems) {
+async function buildTrendData(dateStr, rawItems) {
   const now = new Date();
   const jstOffset = 9 * 60 * 60 * 1000;
   const jst = new Date(now.getTime() + jstOffset);
   const updatedAt = jst.toISOString().replace("Z", "+09:00");
 
-  const trends = rawItems.slice(0, 10).map((item, i) => {
-    const keyword = item.keyword;
-    const category = detectCategory(keyword);
-    const encodedKw = encodeURIComponent(keyword);
+  const top10 = rawItems.slice(0, 10);
+  const keywords = top10.map(item => item.keyword);
+
+  // AI でカテゴリ判定（失敗したらフォールバック）
+  let categories;
+  try {
+    console.log("🤖 AI によるカテゴリ判定中...");
+    categories = await classifyWithAI(keywords);
+    // カテゴリ数がキーワード数と一致しない場合はフォールバック
+    if (!Array.isArray(categories) || categories.length !== keywords.length) {
+      throw new Error(`カテゴリ数不一致: ${categories.length} / ${keywords.length}`);
+    }
+    console.log("✅ AI カテゴリ判定完了");
+  } catch (err) {
+    console.warn(`⚠️ AI判定失敗 → ルールベースで代替: ${err.message}`);
+    categories = keywords.map(fallbackCategory);
+  }
+
+  const trends = top10.map((item, i) => {
+    const encodedKw = encodeURIComponent(item.keyword);
+    // CATEGORIES に含まれないカテゴリが返ってきた場合はフォールバック
+    const category = CATEGORIES.includes(categories[i])
+      ? categories[i]
+      : fallbackCategory(item.keyword);
 
     return {
-      rank: i + 1,
-      keyword,
+      rank:          i + 1,
+      keyword:       item.keyword,
       category,
-      source: "google",
+      source:        "google",
       volume_approx: item.volume,
-      trend: "→0",  // RSS には前日比がないため固定値
-      news: item.news || [],   // 関連ニュース記事（最大3件程度）
-      amazon_url:  `https://www.amazon.co.jp/s?k=${encodedKw}&tag=${CONFIG.ASSOCIATE_ID}`,
-      rakuten_url: `https://search.rakuten.co.jp/search/mall/${encodedKw}/`,
+      trend:         "→0",
+      news:          item.news || [],
+      amazon_url:    `https://www.amazon.co.jp/s?k=${encodedKw}&tag=${CONFIG.ASSOCIATE_ID}`,
+      rakuten_url:   `https://search.rakuten.co.jp/search/mall/${encodedKw}/`,
     };
   });
 
@@ -177,7 +241,7 @@ function buildTrendData(dateStr, rawItems) {
 }
 
 // ================================================================
-// 古いファイル削除（KEEP_DAYS 日より古いものを消す）
+// 古いファイル削除
 // ================================================================
 function deleteOldFiles() {
   if (!fs.existsSync(CONFIG.DATA_DIR)) return;
@@ -202,18 +266,15 @@ function deleteOldFiles() {
 // メイン処理
 // ================================================================
 async function main() {
-  // 今日の日付（JST）
   const jstOffset = 9 * 60 * 60 * 1000;
   const today = new Date(Date.now() + jstOffset).toISOString().slice(0, 10);
 
   console.log(`📅 対象日: ${today}`);
 
-  // data/ ディレクトリがなければ作成
   if (!fs.existsSync(CONFIG.DATA_DIR)) {
     fs.mkdirSync(CONFIG.DATA_DIR, { recursive: true });
   }
 
-  // Google Trends RSS を取得
   console.log("🔍 Google Trends RSS を取得中...");
   let xml;
   try {
@@ -223,7 +284,6 @@ async function main() {
     process.exit(1);
   }
 
-  // RSS を解析
   const rawItems = parseGoogleTrendsRSS(xml);
   if (rawItems.length === 0) {
     console.error("❌ トレンドデータが見つかりません");
@@ -231,17 +291,13 @@ async function main() {
   }
   console.log(`✅ ${rawItems.length} 件取得`);
 
-  // JSONデータを組み立て
-  const data = buildTrendData(today, rawItems);
+  const data = await buildTrendData(today, rawItems);
 
-  // ファイルに保存
   const outPath = path.join(CONFIG.DATA_DIR, `${today}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), "utf8");
   console.log(`💾 保存: ${outPath}`);
 
-  // 古いファイルを削除
   deleteOldFiles();
-
   console.log("🎉 完了");
 }
 
