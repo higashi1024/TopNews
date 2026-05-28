@@ -99,28 +99,48 @@ function fetchUrl(url) {
 }
 
 // ================================================================
-// Google Trends RSS を解析
+// CDATA または通常タグからテキストを抽出するヘルパー
+// ================================================================
+function extractText(block, tag) {
+  const re = new RegExp(`<${tag}><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\/${tag}>|<${tag}>([\\s\\S]*?)<\/${tag}>`);
+  const m = block.match(re);
+  if (!m) return "";
+  return (m[1] !== undefined ? m[1] : m[2] || "").trim();
+}
+
+// ================================================================
+// Google Trends RSS を解析（ニュース記事も取得）
 // ================================================================
 function parseGoogleTrendsRSS(xml) {
   const items = [];
-  // <item>〜</item> を全て抽出
   const itemPattern = /<item>([\s\S]*?)<\/item>/g;
   let match;
 
   while ((match = itemPattern.exec(xml)) !== null) {
     const block = match[1];
 
-    // タイトル（キーワード）
-    const titleMatch = block.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) ||
-                       block.match(/<title>(.*?)<\/title>/);
-    if (!titleMatch) continue;
-    const keyword = titleMatch[1].trim();
+    // キーワード
+    const keyword = extractText(block, "title");
+    if (!keyword) continue;
 
-    // 検索ボリューム（approx_traffic）
-    const trafficMatch = block.match(/<ht:approx_traffic>(.*?)<\/ht:approx_traffic>/);
+    // 検索ボリューム
+    const trafficMatch = block.match(/<ht:approx_traffic>([\s\S]*?)<\/ht:approx_traffic>/);
     const volume = trafficMatch ? trafficMatch[1].trim() : "不明";
 
-    items.push({ keyword, volume });
+    // 関連ニュース記事（ht:news_item ブロックを全て抽出）
+    const newsItems = [];
+    const newsPattern = /<ht:news_item>([\s\S]*?)<\/ht:news_item>/g;
+    let nm;
+    while ((nm = newsPattern.exec(block)) !== null) {
+      const nb = nm[1];
+      const title   = extractText(nb, "ht:news_item_title");
+      const snippet = extractText(nb, "ht:news_item_snippet");
+      const url     = extractText(nb, "ht:news_item_url");
+      const source  = extractText(nb, "ht:news_item_source");
+      if (title) newsItems.push({ title, snippet, url, source });
+    }
+
+    items.push({ keyword, volume, news: newsItems });
   }
 
   return items;
@@ -147,6 +167,7 @@ function buildTrendData(dateStr, rawItems) {
       source: "google",
       volume_approx: item.volume,
       trend: "→0",  // RSS には前日比がないため固定値
+      news: item.news || [],   // 関連ニュース記事（最大3件程度）
       amazon_url:  `https://www.amazon.co.jp/s?k=${encodedKw}&tag=${CONFIG.ASSOCIATE_ID}`,
       rakuten_url: `https://search.rakuten.co.jp/search/mall/${encodedKw}/`,
     };
