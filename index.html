@@ -342,54 +342,13 @@ function catClass(cat) {
 }
 
 // ================================================================
-// モックデータ（本番では /data/YYYY-MM-DD.json を読み込む）
+// 本番用 — GitHub Actions が生成した JSON を読み込む
 // ================================================================
-const ALL_KEYWORDS = [
-  { keyword:"新NISA 始め方",          source:"google",   trend:"↑12", volume:98000, category:"経済・投資"  },
-  { keyword:"Claude AI 使い方",        source:"google",   trend:"↑5",  volume:87000, category:"テクノロジー" },
-  { keyword:"ワイヤレスイヤホン 比較", source:"google",   trend:"↑3",  volume:76000, category:"テクノロジー" },
-  { keyword:"東京 観光スポット",       source:"yahoo",    trend:"↑8",  volume:65000, category:"ライフスタイル"},
-  { keyword:"プロテイン おすすめ",     source:"niconico", trend:"↓2",  volume:54000, category:"ライフスタイル"},
-  { keyword:"Switch 新作ゲーム",       source:"niconico", trend:"↑21", volume:48000, category:"エンタメ"     },
-  { keyword:"ふるさと納税 2025",       source:"google",   trend:"↑1",  volume:43000, category:"経済・投資"   },
-  { keyword:"スキンケア ルーティン",   source:"yahoo",    trend:"↓4",  volume:38000, category:"ライフスタイル"},
-  { keyword:"Python 入門",             source:"google",   trend:"→0",  volume:33000, category:"テクノロジー" },
-  { keyword:"キャンプ道具 セット",     source:"niconico", trend:"↑7",  volume:29000, category:"ライフスタイル"},
-  { keyword:"大谷翔平 最新情報",       source:"yahoo",    trend:"↑15", volume:91000, category:"スポーツ"     },
-  { keyword:"Jリーグ 速報",           source:"yahoo",    trend:"↑2",  volume:57000, category:"スポーツ"     },
-  { keyword:"ラーメン 人気店 東京",    source:"google",   trend:"↑9",  volume:72000, category:"グルメ"       },
-  { keyword:"韓国料理 レシピ",         source:"niconico", trend:"↑6",  volume:44000, category:"グルメ"       },
-  { keyword:"映画 おすすめ 2025",      source:"yahoo",    trend:"↑4",  volume:61000, category:"エンタメ"     },
-  { keyword:"Bitcoin 価格",            source:"google",   trend:"↑18", volume:84000, category:"経済・投資"   },
-  { keyword:"スマホ 比較 2025",        source:"google",   trend:"↑11", volume:79000, category:"テクノロジー" },
-  { keyword:"Netflix ドラマ 新作",     source:"niconico", trend:"↑3",  volume:52000, category:"エンタメ"     },
-  { keyword:"筋トレ メニュー 初心者",  source:"yahoo",    trend:"↓1",  volume:36000, category:"ライフスタイル"},
-  { keyword:"コーヒー 飲み比べ",       source:"niconico", trend:"↑5",  volume:27000, category:"グルメ"       },
-];
-
-function generateMockData(dateStr, seed) {
-  const shifted = [...ALL_KEYWORDS.slice(seed % ALL_KEYWORDS.length), ...ALL_KEYWORDS.slice(0, seed % ALL_KEYWORDS.length)];
-  const top10 = shifted.slice(0, 10);
-  return {
-    date: dateStr,
-    updated: dateStr + " 12:30",
-    trends: top10.map((k, i) => ({
-      rank: i + 1,
-      ...k,
-      amazon_url:  `https://www.amazon.co.jp/s?k=${encodeURIComponent(k.keyword)}&tag=YOUR-ASSOCIATE-ID`,
-      rakuten_url: `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(k.keyword)}/`,
-    }))
-  };
+async function fetchData(dateStr) {
+  const res = await fetch(`/data/${dateStr}.json`);
+  if (!res.ok) throw new Error(`データなし (${res.status})`);
+  return await res.json();
 }
-
-// ================================================================
-// 本番用（コメントアウト中） — GitHub Actions が生成したJSONを読む
-// ================================================================
-// async function fetchData(dateStr) {
-//   const res = await fetch(`/data/${dateStr}.json`);
-//   if (!res.ok) throw new Error("データなし");
-//   return await res.json();
-// }
 
 // ================================================================
 // 状態
@@ -482,16 +441,24 @@ function rankClass(r) { return r===1?'r1':r===2?'r2':r===3?'r3':''; }
 function trendClass(t) { return t.startsWith('↑')?'up':t.startsWith('↓')?'down':''; }
 function srcClass(s)  { return `src-${s}`; }
 function srcLabel(s)  { return {google:'Google',niconico:'NicoNico',yahoo:'Yahoo!'}[s]||s; }
-function fmtVol(v)    { return v>=10000?(v/10000).toFixed(0)+'万件':v.toLocaleString()+'件'; }
+function fmtVol(v)    { if (!v && v !== 0) return ''; if (typeof v === 'string') return v; return v>=10000?(v/10000).toFixed(0)+'万件':v.toLocaleString()+'件'; }
 
-function renderRanking() {
-  const seed = days.indexOf(currentDate);
-  const data = generateMockData(currentDate, seed);
-  // 本番: const data = await fetchData(currentDate);
-
-  document.getElementById('update-time').textContent = `最終更新: ${data.updated}`;
-
+async function renderRanking() {
   const list = document.getElementById('ranking-list');
+  list.innerHTML = '<div style="color:var(--text-muted);padding:24px;text-align:center">読み込み中...</div>';
+
+  let data;
+  try {
+    data = await fetchData(currentDate);
+  } catch (e) {
+    list.innerHTML = '<div style="color:var(--text-muted);padding:24px;text-align:center">この日のデータはまだありません</div>';
+    document.getElementById('update-time').textContent = 'データなし';
+    updateCount(0);
+    return;
+  }
+
+  document.getElementById('update-time').textContent = `最終更新: ${data.updated_at ? data.updated_at.slice(0,16).replace('T',' ') : data.updated || '不明'}`;
+
   list.innerHTML = '';
 
   data.trends.forEach((item, idx) => {
