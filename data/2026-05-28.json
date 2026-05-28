@@ -1,24 +1,114 @@
 {
   "date": "2026-05-28",
-  "updated_at": "2026-05-28T15:42:54.952+09:00",
+  "updated_at": "2026-05-28T15:52:09.976+09:00",
   "trends": [
     {
       "rank": 1,
+      "keyword": "中山 美穂",
+      "category": "エンタメ",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
+          "snippet": "",
+          "url": "https://dot.asahi.com/articles/-/283776",
+          "source": "AERA DIGITAL"
+        },
+        {
+          "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
+          "snippet": "",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135",
+          "source": "ｄメニューニュース"
+        },
+        {
+          "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
+          "snippet": "",
+          "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
+          "source": "プラメポータル"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
+    },
+    {
+      "rank": 2,
+      "keyword": "fender",
+      "category": "テクノロジー",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
+          "snippet": "",
+          "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
+          "source": "Guitar World"
+        },
+        {
+          "title": "Fender targets US builder in Stratocaster design crackdown",
+          "snippet": "",
+          "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
+          "source": "MSN"
+        },
+        {
+          "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
+          "snippet": "",
+          "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
+          "source": "Guitar.com"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
+    },
+    {
+      "rank": 3,
+      "keyword": "武蔵野線",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
+          "snippet": "",
+          "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
+          "source": "au Webポータル"
+        },
+        {
+          "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
+          "snippet": "",
+          "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
+          "source": "TBS NEWS DIG"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
+    },
+    {
+      "rank": 4,
       "keyword": "知事",
       "category": "社会・ニュース",
       "source": "google",
-      "volume_approx": "100+",
+      "volume_approx": "500+",
       "trend": "→0",
       "news": [],
       "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
     },
     {
-      "rank": 2,
+      "rank": 5,
       "keyword": "イ・ダヘ",
       "category": "スポーツ",
       "source": "google",
-      "volume_approx": "100+",
+      "volume_approx": "200+",
       "trend": "→0",
       "news": [
         {
@@ -44,7 +134,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
     },
     {
-      "rank": 3,
+      "rank": 6,
       "keyword": "イスラム教",
       "category": "社会・ニュース",
       "source": "google",
@@ -74,7 +164,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
     },
     {
-      "rank": 4,
+      "rank": 7,
       "keyword": "芝田璃子",
       "category": "スポーツ",
       "source": "google",
@@ -104,9 +194,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
     },
     {
-      "rank": 5,
+      "rank": 8,
       "keyword": "すかいらーく",
-      "category": "グルメ",
+      "category": "経済・投資",
       "source": "google",
       "volume_approx": "200+",
       "trend": "→0",
@@ -134,7 +224,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
     },
     {
-      "rank": 6,
+      "rank": 9,
       "keyword": "東海道線",
       "category": "社会・ニュース",
       "source": "google",
@@ -164,7 +254,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%9D%B1%E6%B5%B7%E9%81%93%E7%B7%9A/"
     },
     {
-      "rank": 7,
+      "rank": 10,
       "keyword": "ワールド・ハイビジョン・チャンネル",
       "category": "テクノロジー",
       "source": "google",
@@ -192,96 +282,6 @@
       ],
       "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB&tag=YOUR-ASSOCIATE-ID",
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB/"
-    },
-    {
-      "rank": 8,
-      "keyword": "ガンダムアシュタロン",
-      "category": "エンタメ",
-      "source": "google",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "『機動新世紀ガンダムX』ヴァサーゴとアシュタロンの「HG」、『機動戦士ガンダムSEED FREEDOM ASTRAY』リバティアストレイ レッドフレームの「MG」商品情報が公開！",
-          "snippet": "",
-          "url": "https://hobby.dengeki.com/news/3026074/",
-          "source": "電撃ホビーウェブ"
-        },
-        {
-          "title": "2026年10月～12月発売「HG ガンダムヴァサーゴ」「HG ガンダムアシュタロン」「MG ガンダムリバティアストレイ レッドフレーム」の情報公開！",
-          "snippet": "",
-          "url": "https://gundam-official.com/news/x2tsw4zqbj90xby1dg2rl4yd",
-          "source": "GUNDAM Official"
-        },
-        {
-          "title": "『機動新世紀ガンダムX』よりフロスト兄弟の「ガンダムヴァサーゴ」「ガンダムアシュタロン」HGガンプラ詳細発表！",
-          "snippet": "",
-          "url": "https://hobby.watch.impress.co.jp/docs/news/2112353.html",
-          "source": "hobby Watch"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A2%E3%82%B7%E3%83%A5%E3%82%BF%E3%83%AD%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A2%E3%82%B7%E3%83%A5%E3%82%BF%E3%83%AD%E3%83%B3/"
-    },
-    {
-      "rank": 9,
-      "keyword": "京浜東北線",
-      "category": "社会・ニュース",
-      "source": "google",
-      "volume_approx": "1000+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "京浜東北線が線路を「間借り」!? 3日間限定“日中の特別運行”で実現した貴重な光景（乗りものニュース）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/e545f7a68612cb099458ab83a15fcfef833abfe8",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "画像ギャラリー | 京浜東北線が線路を「間借り」!? 3日間限定“日中の特別運行”で実現した貴重な光景",
-          "snippet": "",
-          "url": "https://trafficnews.jp/photo/670138",
-          "source": "乗りものニュース"
-        },
-        {
-          "title": "JR東京駅4番線接近放送（京浜東北線 各駅停車東十条行）2026.05.21 Nap (URU5DsuZ2N)",
-          "snippet": "",
-          "url": "https://mshale.com/f0249199/0b09c807UfIwzAroIzw",
-          "source": "Mshale"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E4%BA%AC%E6%B5%9C%E6%9D%B1%E5%8C%97%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%BA%AC%E6%B5%9C%E6%9D%B1%E5%8C%97%E7%B7%9A/"
-    },
-    {
-      "rank": 10,
-      "keyword": "lミニマート",
-      "category": "ライフスタイル",
-      "source": "google",
-      "volume_approx": "200+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "ローソン、小型スーパー「Lミニマート」開業 生鮮・日配品を5割増",
-          "snippet": "",
-          "url": "https://www.nikkei.com/article/DGXZQOUC2767I0X20C26A5000000/",
-          "source": "日本経済新聞"
-        },
-        {
-          "title": "ローソン／「Lミニマート」にポンタを導入",
-          "snippet": "",
-          "url": "https://www.ryutsuu.biz/strategy/s052715.html",
-          "source": "流通ニュース"
-        },
-        {
-          "title": "ローソンが小型スーパー「Lミニマート」1号店をオープン 青果や精肉など日常使いの商品揃え都市型ニーズに対応",
-          "snippet": "",
-          "url": "https://www.fnn.jp/articles/-/1051236",
-          "source": "FNNプライムオンライン"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=l%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/l%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88/"
     }
   ]
 }
