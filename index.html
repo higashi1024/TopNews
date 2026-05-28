@@ -513,8 +513,18 @@ async function renderRanking() {
 
   document.getElementById('update-time').textContent = `最終更新: ${data.updated_at ? data.updated_at.slice(0,16).replace('T',' ') : data.updated || '不明'}`;
 
-  // カテゴリ別データを取得
-  const items = (data.categories && data.categories[currentCat]) || [];
+  // カテゴリ別にフィルタリング・再ランキング
+  const allTrends = data.trends || [];
+  let items;
+  if (currentCat === "すべて") {
+    // すべて: 全体TOP10
+    items = allTrends.slice(0, 10);
+  } else {
+    // カテゴリ別: 該当カテゴリを抽出して再ランキング
+    items = allTrends
+      .filter(item => item.category === currentCat)
+      .map((item, i) => ({ ...item, rank: i + 1 }));
+  }
   if (items.length === 0) {
     list.innerHTML = '<div style="color:var(--text-muted);padding:24px;text-align:center">このカテゴリのデータはありません</div>';
     updateCount(0);
