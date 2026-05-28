@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>トレンドランキング | 今日の話題TOP10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0b0d11;
+    --bg2:       #13151b;
+    --bg3:       #1c1f28;
+    --border:    rgba(255,255,255,0.07);
+    --gold:      #c9a84c;
+    --gold-lt:   #f0cc7a;
+    --text:      #e8e6e0;
+    --text-muted:#8a8880;
+    --rank1:     #c9a84c;
+    --rank2:     #9ba5b4;
+    --rank3:     #b47c4e;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Noto Sans JP',sans-serif;
+    font-weight:400;
+    line-height:1.6;
+    min-height:100vh;
+  }
+
+  /* ─── ヘッダー ─── */
+  header{
+    border-bottom:1px solid var(--border);
+    padding:0 24px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:64px;
+    position:sticky;top:0;z-index:100;
+    background:rgba(11,13,17,0.92);
+    backdrop-filter:blur(12px);
+  }
+  .logo{
+    font-family:'DM Serif Display',serif;
+    font-size:22px;
+    color:var(--gold-lt);
+    letter-spacing:0.02em;
+  }
+  .logo span{
+    font-family:'Noto Sans JP',sans-serif;
+    font-size:11px;
+    font-weight:300;
+    color:var(--text-muted);
+    display:block;
+    letter-spacing:0.12em;
+    margin-top:-4px;
+  }
+  .refresh-badge{
+    font-size:11px;
+    color:var(--text-muted);
+    display:flex;align-items:center;gap:6px;
+  }
+  .refresh-dot{
+    width:6px;height:6px;border-radius:50%;
+    background:#3ecf8e;
+    animation:pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+
+  /* ─── メインレイアウト ─── */
+  main{max-width:1000px;margin:0 auto;padding:32px 24px 80px;}
+
+  .section-title{
+    font-family:'DM Serif Display',serif;
+    font-size:28px;
+    color:var(--gold-lt);
+    margin-bottom:4px;
+  }
+  .section-subtitle{
+    font-size:12px;
+    color:var(--text-muted);
+    letter-spacing:0.1em;
+    margin-bottom:24px;
+  }
+
+  /* ─── 日付タブ ─── */
+  .date-tabs{
+    display:flex;gap:8px;flex-wrap:wrap;
+    margin-bottom:24px;
+  }
+  .date-tab{
+    padding:7px 16px;
+    border-radius:4px;
+    border:1px solid var(--border);
+    background:transparent;
+    color:var(--text-muted);
+    font-family:'Noto Sans JP',sans-serif;
+    font-size:12px;
+    cursor:pointer;
+    transition:all 0.18s;
+    white-space:nowrap;
+  }
+  .date-tab:hover{ border-color:rgba(201,168,76,0.4); color:var(--gold); }
+  .date-tab.active{
+    background:var(--gold);
+    border-color:var(--gold);
+    color:#0b0d11;
+    font-weight:700;
+  }
+
+  /* ─── カテゴリフィルター ─── */
+  .category-bar{
+    display:flex;gap:6px;flex-wrap:wrap;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid var(--border);
+  }
+  .cat-btn{
+    padding:5px 14px;
+    border-radius:20px;
+    border:1px solid var(--border);
+    background:transparent;
+    font-family:'Noto Sans JP',sans-serif;
+    font-size:12px;
+    font-weight:500;
+    cursor:pointer;
+    transition:all 0.15s;
+    white-space:nowrap;
+    color:var(--text-muted);
+  }
+  .cat-btn:hover{ border-color:rgba(255,255,255,0.2); color:var(--text); }
+  .cat-btn.active{
+    color:#0b0d11;
+    font-weight:700;
+    border-color:transparent;
+  }
+  /* カテゴリ別カラー */
+  .cat-btn[data-cat="すべて"].active        { background:#8a8880; }
+  .cat-btn[data-cat="テクノロジー"].active   { background:#4285f4; }
+  .cat-btn[data-cat="経済・投資"].active     { background:#3ecf8e; }
+  .cat-btn[data-cat="エンタメ"].active       { background:#a855f7; }
+  .cat-btn[data-cat="ライフスタイル"].active  { background:#f97316; }
+  .cat-btn[data-cat="スポーツ"].active       { background:#ef4444; }
+  .cat-btn[data-cat="グルメ"].active         { background:#eab308; }
+
+  /* カテゴリバッジ（アイテム内） */
+  .cat-badge{
+    font-size:10px;
+    font-weight:700;
+    padding:2px 8px;
+    border-radius:20px;
+    letter-spacing:0.04em;
+    flex-shrink:0;
+  }
+  .cat-テクノロジー  { background:rgba(66,133,244,0.18);  color:#7ab3ff; border:1px solid rgba(66,133,244,0.35); }
+  .cat-経済投資      { background:rgba(62,207,142,0.18);  color:#4ee0a0; border:1px solid rgba(62,207,142,0.35); }
+  .cat-エンタメ      { background:rgba(168,85,247,0.18);  color:#c084fc; border:1px solid rgba(168,85,247,0.35); }
+  .cat-ライフスタイル{ background:rgba(249,115,22,0.18);  color:#fb923c; border:1px solid rgba(249,115,22,0.35); }
+  .cat-スポーツ      { background:rgba(239,68,68,0.18);   color:#f87171; border:1px solid rgba(239,68,68,0.35); }
+  .cat-グルメ        { background:rgba(234,179,8,0.18);   color:#fbbf24; border:1px solid rgba(234,179,8,0.35); }
+
+  /* ─── ランキングリスト ─── */
+  .ranking-list{display:flex;flex-direction:column;gap:2px;}
+
+  .ranking-item{
+    display:grid;
+    grid-template-columns:56px 1fr auto;
+    align-items:start;
+    gap:16px;
+    padding:16px 20px;
+    background:var(--bg2);
+    border:1px solid var(--border);
+    border-radius:6px;
+    cursor:pointer;
+    transition:all 0.18s;
+    animation:fadeIn 0.3s ease both;
+  }
+  @keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+  .ranking-item:hover{ background:var(--bg3); border-color:rgba(201,168,76,0.25); transform:translateX(3px); }
+  .ranking-item.expanded{ border-color:rgba(201,168,76,0.4); }
+  .ranking-item.hidden{ display:none; }
+
+  .rank-num{
+    font-family:'DM Serif Display',serif;
+    font-size:32px;
+    line-height:1;
+    text-align:right;
+    color:var(--text-muted);
+    padding-top:4px;
+  }
+  .rank-num.r1{color:var(--rank1);}
+  .rank-num.r2{color:var(--rank2);}
+  .rank-num.r3{color:var(--rank3);}
+
+  .rank-info{ min-width:0; }
+  .rank-keyword{
+    font-size:17px;
+    font-weight:700;
+    color:var(--text);
+    margin-bottom:6px;
+    word-break:break-word;
+  }
+  .rank-meta{ display:flex;gap:7px;align-items:center;flex-wrap:wrap; }
+
+  .source-badge{
+    font-size:10px;font-weight:700;
+    padding:2px 8px;border-radius:2px;letter-spacing:0.06em;
+  }
+  .src-google  { background:rgba(66,133,244,0.15);color:#7ab3ff;border:1px solid rgba(66,133,244,0.3); }
+  .src-niconico{ background:rgba(235,87,87,0.15); color:#ff9a9a;border:1px solid rgba(235,87,87,0.3); }
+  .src-yahoo   { background:rgba(230,0,18,0.15);  color:#ff7a7a;border:1px solid rgba(230,0,18,0.3); }
+
+  .trend-arrow{ font-size:11px; color:var(--text-muted); }
+  .up  { color:#3ecf8e; }
+  .down{ color:#ff6b6b; }
+
+  /* アフィリ展開 */
+  .affiliate-panel{
+    display:none;
+    grid-column:1/-1;
+    margin-top:12px;
+    padding-top:14px;
+    border-top:1px solid var(--border);
+  }
+  .ranking-item.expanded .affiliate-panel{ display:block; }
+  .affiliate-label{
+    font-size:11px;color:var(--text-muted);
+    letter-spacing:0.1em;margin-bottom:10px;
+  }
+  .affiliate-links{ display:flex;gap:10px;flex-wrap:wrap; }
+  .aff-link{
+    display:inline-flex;align-items:center;gap:7px;
+    padding:8px 16px;border-radius:4px;
+    font-size:12px;font-weight:700;
+    text-decoration:none;transition:opacity 0.15s;letter-spacing:0.04em;
+  }
+  .aff-link:hover{opacity:0.8;}
+  .aff-amazon { background:rgba(255,153,0,0.12);border:1px solid rgba(255,153,0,0.35);color:#ffb84d; }
+  .aff-rakuten{ background:rgba(191,0,0,0.12);  border:1px solid rgba(191,0,0,0.35); color:#ff6b6b; }
+
+  .rank-right{
+    display:flex;flex-direction:column;align-items:flex-end;gap:4px;padding-top:6px;
+  }
+  .chevron{ color:var(--text-muted);font-size:12px;transition:transform 0.2s; }
+  .ranking-item.expanded .chevron{ transform:rotate(180deg); }
+  .count-badge{ font-size:10px;color:var(--text-muted);white-space:nowrap; }
+
+  /* 更新情報 */
+  .update-info{
+    margin-bottom:16px;font-size:12px;color:var(--text-muted);
+    display:flex;align-items:center;gap:12px;
+  }
+  .source-tags{ display:flex;gap:6px; }
+
+  /* 件数表示 */
+  .result-count{
+    font-size:11px;color:var(--text-muted);margin-bottom:12px;
+  }
+  .result-count strong{ color:var(--gold); }
+
+  /* フッター */
+  footer{
+    border-top:1px solid var(--border);padding:24px;
+    text-align:center;font-size:11px;color:var(--text-muted);line-height:2;
+  }
+  footer a{ color:var(--gold);text-decoration:none; }
+
+  /* ─── スマホ対応 ─── */
+  @media (max-width: 600px) {
+    header { padding: 0 16px; }
+    .logo  { font-size: 18px; }
+    main   { padding: 20px 14px 60px; }
+    .section-title { font-size: 22px; }
+    .ranking-item  { grid-template-columns: 44px 1fr auto; gap: 10px; padding: 12px 14px; }
+    .rank-num      { font-size: 24px; }
+    .rank-keyword  { font-size: 14px; }
+    .date-tabs     { gap: 6px; }
+    .date-tab      { padding: 5px 10px; font-size: 11px; }
+    .cat-btn       { padding: 4px 10px; font-size: 11px; }
+    .aff-link      { font-size: 11px; padding: 7px 12px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    TrendAff
+    <span>今日の話題 × アフィリエイト</span>
+  </div>
+  <div class="refresh-badge">
+    <div class="refresh-dot"></div>
+    <span id="next-update">次回更新: --:--後</span>
+  </div>
+</header>
+
+<main>
+  <div class="section-title">トレンドランキング</div>
+  <div class="section-subtitle">TRENDING KEYWORDS TOP 10 — クリックで関連商品を表示</div>
+
+  <!-- 日付タブ（5日分） -->
+  <div class="date-tabs" id="date-tabs"></div>
+
+  <!-- カテゴリフィルター -->
+  <div class="category-bar" id="category-bar"></div>
+
+  <!-- 更新情報 -->
+  <div class="update-info">
+    <span id="update-time">取得中...</span>
+    <div class="source-tags">
+      <span class="source-badge src-google">Google</span>
+      <span class="source-badge src-niconico">NicoNico</span>
+      <span class="source-badge src-yahoo">Yahoo!</span>
+    </div>
+  </div>
+
+  <!-- 件数 -->
+  <div class="result-count" id="result-count"></div>
+
+  <!-- ランキングリスト -->
+  <div class="ranking-list" id="ranking-list"></div>
+</main>
+
+<footer>
+  <p>本サイトはAmazon.co.jpアソシエイト・プログラム及び楽天アフィリエイトの参加者です。</p>
+  <p>掲載の商品リンクを経由してご購入いただいた場合、当サイトが報酬を受け取ることがあります。</p>
+  <p style="margin-top:8px;"><a href="#">プライバシーポリシー</a> · <a href="#">お問い合わせ</a></p>
+</footer>
+
+<script>
+// ================================================================
+// カテゴリ定義
+// ================================================================
+const CATEGORIES = ["すべて","テクノロジー","経済・投資","エンタメ","ライフスタイル","スポーツ","グルメ"];
+
+// カテゴリ → CSSクラス変換（特殊文字を除去）
+function catClass(cat) {
+  return 'cat-' + cat.replace(/[・]/g, '');
+}
+
+// ================================================================
+// モックデータ（本番では /data/YYYY-MM-DD.json を読み込む）
+// ================================================================
+const ALL_KEYWORDS = [
+  { keyword:"新NISA 始め方",          source:"google",   trend:"↑12", volume:98000, category:"経済・投資"  },
+  { keyword:"Claude AI 使い方",        source:"google",   trend:"↑5",  volume:87000, category:"テクノロジー" },
+  { keyword:"ワイヤレスイヤホン 比較", source:"google",   trend:"↑3",  volume:76000, category:"テクノロジー" },
+  { keyword:"東京 観光スポット",       source:"yahoo",    trend:"↑8",  volume:65000, category:"ライフスタイル"},
+  { keyword:"プロテイン おすすめ",     source:"niconico", trend:"↓2",  volume:54000, category:"ライフスタイル"},
+  { keyword:"Switch 新作ゲーム",       source:"niconico", trend:"↑21", volume:48000, category:"エンタメ"     },
+  { keyword:"ふるさと納税 2025",       source:"google",   trend:"↑1",  volume:43000, category:"経済・投資"   },
+  { keyword:"スキンケア ルーティン",   source:"yahoo",    trend:"↓4",  volume:38000, category:"ライフスタイル"},
+  { keyword:"Python 入門",             source:"google",   trend:"→0",  volume:33000, category:"テクノロジー" },
+  { keyword:"キャンプ道具 セット",     source:"niconico", trend:"↑7",  volume:29000, category:"ライフスタイル"},
+  { keyword:"大谷翔平 最新情報",       source:"yahoo",    trend:"↑15", volume:91000, category:"スポーツ"     },
+  { keyword:"Jリーグ 速報",           source:"yahoo",    trend:"↑2",  volume:57000, category:"スポーツ"     },
+  { keyword:"ラーメン 人気店 東京",    source:"google",   trend:"↑9",  volume:72000, category:"グルメ"       },
+  { keyword:"韓国料理 レシピ",         source:"niconico", trend:"↑6",  volume:44000, category:"グルメ"       },
+  { keyword:"映画 おすすめ 2025",      source:"yahoo",    trend:"↑4",  volume:61000, category:"エンタメ"     },
+  { keyword:"Bitcoin 価格",            source:"google",   trend:"↑18", volume:84000, category:"経済・投資"   },
+  { keyword:"スマホ 比較 2025",        source:"google",   trend:"↑11", volume:79000, category:"テクノロジー" },
+  { keyword:"Netflix ドラマ 新作",     source:"niconico", trend:"↑3",  volume:52000, category:"エンタメ"     },
+  { keyword:"筋トレ メニュー 初心者",  source:"yahoo",    trend:"↓1",  volume:36000, category:"ライフスタイル"},
+  { keyword:"コーヒー 飲み比べ",       source:"niconico", trend:"↑5",  volume:27000, category:"グルメ"       },
+];
+
+function generateMockData(dateStr, seed) {
+  const shifted = [...ALL_KEYWORDS.slice(seed % ALL_KEYWORDS.length), ...ALL_KEYWORDS.slice(0, seed % ALL_KEYWORDS.length)];
+  const top10 = shifted.slice(0, 10);
+  return {
+    date: dateStr,
+    updated: dateStr + " 12:30",
+    trends: top10.map((k, i) => ({
+      rank: i + 1,
+      ...k,
+      amazon_url:  `https://www.amazon.co.jp/s?k=${encodeURIComponent(k.keyword)}&tag=YOUR-ASSOCIATE-ID`,
+      rakuten_url: `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(k.keyword)}/`,
+    }))
+  };
+}
+
+// ================================================================
+// 本番用（コメントアウト中） — GitHub Actions が生成したJSONを読む
+// ================================================================
+// async function fetchData(dateStr) {
+//   const res = await fetch(`/data/${dateStr}.json`);
+//   if (!res.ok) throw new Error("データなし");
+//   return await res.json();
+// }
+
+// ================================================================
+// 状態
+// ================================================================
+function getLast5Days() {
+  const days = [];
+  const now = new Date();
+  for (let i = 0; i < 5; i++) {
+    const d = new Date(now);
+    d.setDate(d.getDate() - i);
+    days.push(d.toISOString().slice(0, 10));
+  }
+  return days;
+}
+
+const days = getLast5Days();
+let currentDate = days[0];
+let currentCat  = "すべて";
+
+// ================================================================
+// 日付ラベル
+// ================================================================
+function formatDateLabel(str) {
+  const d = new Date(str + "T00:00:00");
+  const m = d.getMonth() + 1, day = d.getDate();
+  const w = ["日","月","火","水","木","金","土"][d.getDay()];
+  if (str === days[0]) return `今日 (${m}/${day})`;
+  if (str === days[1]) return `昨日 (${m}/${day})`;
+  return `${m}/${day}(${w})`;
+}
+
+// ================================================================
+// 描画: 日付タブ
+// ================================================================
+function renderTabs() {
+  const c = document.getElementById('date-tabs');
+  c.innerHTML = '';
+  days.forEach(d => {
+    const btn = document.createElement('button');
+    btn.className = 'date-tab' + (d === currentDate ? ' active' : '');
+    btn.textContent = formatDateLabel(d);
+    btn.onclick = () => { currentDate = d; renderTabs(); renderRanking(); };
+    c.appendChild(btn);
+  });
+}
+
+// ================================================================
+// 描画: カテゴリボタン
+// ================================================================
+function renderCategoryBar() {
+  const c = document.getElementById('category-bar');
+  c.innerHTML = '';
+  CATEGORIES.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-btn' + (cat === currentCat ? ' active' : '');
+    btn.dataset.cat = cat;
+    btn.textContent = cat;
+    btn.onclick = () => { currentCat = cat; renderCategoryBar(); applyFilter(); };
+    c.appendChild(btn);
+  });
+}
+
+// ================================================================
+// フィルター適用（再描画なし・表示/非表示切り替え）
+// ================================================================
+function applyFilter() {
+  const items = document.querySelectorAll('.ranking-item[data-category]');
+  let visible = 0;
+  items.forEach(el => {
+    const match = (currentCat === "すべて" || el.dataset.category === currentCat);
+    el.classList.toggle('hidden', !match);
+    if (match) visible++;
+  });
+  updateCount(visible);
+}
+
+function updateCount(n) {
+  const el = document.getElementById('result-count');
+  if (currentCat === "すべて") {
+    el.innerHTML = `全 <strong>${n}</strong> 件`;
+  } else {
+    el.innerHTML = `「<strong>${currentCat}</strong>」 ${n} 件`;
+  }
+}
+
+// ================================================================
+// 描画: ランキング本体
+// ================================================================
+function rankClass(r) { return r===1?'r1':r===2?'r2':r===3?'r3':''; }
+function trendClass(t) { return t.startsWith('↑')?'up':t.startsWith('↓')?'down':''; }
+function srcClass(s)  { return `src-${s}`; }
+function srcLabel(s)  { return {google:'Google',niconico:'NicoNico',yahoo:'Yahoo!'}[s]||s; }
+function fmtVol(v)    { return v>=10000?(v/10000).toFixed(0)+'万件':v.toLocaleString()+'件'; }
+
+function renderRanking() {
+  const seed = days.indexOf(currentDate);
+  const data = generateMockData(currentDate, seed);
+  // 本番: const data = await fetchData(currentDate);
+
+  document.getElementById('update-time').textContent = `最終更新: ${data.updated}`;
+
+  const list = document.getElementById('ranking-list');
+  list.innerHTML = '';
+
+  data.trends.forEach((item, idx) => {
+    const div = document.createElement('div');
+    div.className = 'ranking-item';
+    div.dataset.category = item.category;
+    div.style.animationDelay = (idx * 0.04) + 's';
+
+    div.innerHTML = `
+      <div class="rank-num ${rankClass(item.rank)}">${item.rank}</div>
+      <div class="rank-info">
+        <div class="rank-keyword">${item.keyword}</div>
+        <div class="rank-meta">
+          <span class="cat-badge ${catClass(item.category)}">${item.category}</span>
+          <span class="source-badge ${srcClass(item.source)}">${srcLabel(item.source)}</span>
+          <span class="trend-arrow ${trendClass(item.trend)}">${item.trend}</span>
+          <span style="font-size:11px;color:var(--text-muted)">検索 ${fmtVol(item.volume)}</span>
+        </div>
+        <div class="affiliate-panel">
+          <div class="affiliate-label">▸ 関連商品を探す</div>
+          <div class="affiliate-links">
+            <a class="aff-link aff-amazon"
+               href="${item.amazon_url}" target="_blank" rel="noopener noreferrer">
+              📦 Amazon で探す
+            </a>
+            <a class="aff-link aff-rakuten"
+               href="${item.rakuten_url}" target="_blank" rel="noopener noreferrer">
+              🛍 楽天市場で探す
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="rank-right">
+        <span class="chevron">▼</span>
+        <span class="count-badge">${fmtVol(item.volume)}</span>
+      </div>
+    `;
+
+    div.addEventListener('click', () => div.classList.toggle('expanded'));
+    list.appendChild(div);
+  });
+
+  applyFilter();
+}
+
+// ================================================================
+// カウントダウン
+// ================================================================
+function startCountdown() {
+  function tick() {
+    const now = new Date();
+    const remain = 30 - (now.getMinutes() % 30);
+    const sec = 59 - now.getSeconds();
+    document.getElementById('next-update').textContent =
+      `次回更新: ${String(remain-1).padStart(2,'0')}:${String(sec).padStart(2,'0')}後`;
+  }
+  tick(); setInterval(tick, 1000);
+}
+
+// ================================================================
+// 初期化
+// ================================================================
+renderTabs();
+renderCategoryBar();
+renderRanking();
+startCountdown();
+</script>
+</body>
+</html>
