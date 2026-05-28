@@ -23,8 +23,8 @@ const CONFIG = {
   DATA_DIR:       path.join(__dirname, "../data"),
   ASSOCIATE_ID:   "YOUR-ASSOCIATE-ID",   // ← Amazonアソシエイト登録後に変更
 
-  // Google Trends RSS（日本）
-  GOOGLE_RSS_URL: "https://trends.google.com/trends/trendingsearches/daily/rss?geo=JP",
+  // Google Trends RSS（日本）※2025年2月にURLが変更された
+  GOOGLE_RSS_URL: "https://trends.google.co.jp/trending/rss?geo=JP",
 };
 
 // ================================================================
