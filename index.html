@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>トレンドランキング | 今日の話題TOP10</title>
+<title>トレンドランキング | 今日の話題</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <style>
@@ -145,6 +145,7 @@
   .cat-btn[data-cat="ライフスタイル"].active  { background:#f97316; }
   .cat-btn[data-cat="スポーツ"].active       { background:#ef4444; }
   .cat-btn[data-cat="グルメ"].active         { background:#eab308; }
+  .cat-btn[data-cat="社会・ニュース"].active  { background:#64748b; }
 
   /* カテゴリバッジ（アイテム内） */
   .cat-badge{
@@ -161,6 +162,7 @@
   .cat-ライフスタイル{ background:rgba(249,115,22,0.18);  color:#fb923c; border:1px solid rgba(249,115,22,0.35); }
   .cat-スポーツ      { background:rgba(239,68,68,0.18);   color:#f87171; border:1px solid rgba(239,68,68,0.35); }
   .cat-グルメ        { background:rgba(234,179,8,0.18);   color:#fbbf24; border:1px solid rgba(234,179,8,0.35); }
+  .cat-社会ニュース  { background:rgba(100,116,139,0.18); color:#94a3b8; border:1px solid rgba(100,116,139,0.35); }
 
   /* ─── ランキングリスト ─── */
   .ranking-list{display:flex;flex-direction:column;gap:2px;}
@@ -346,7 +348,7 @@
 
 <main>
   <div class="section-title">トレンドランキング</div>
-  <div class="section-subtitle">TRENDING KEYWORDS TOP 10 — クリックで関連商品を表示</div>
+  <div class="section-subtitle">TRENDING KEYWORDS — クリックで関連商品を表示</div>
 
   <!-- 日付タブ（5日分） -->
   <div class="date-tabs" id="date-tabs"></div>
@@ -381,7 +383,7 @@
 // ================================================================
 // カテゴリ定義
 // ================================================================
-const CATEGORIES = ["すべて","テクノロジー","経済・投資","エンタメ","ライフスタイル","スポーツ","グルメ"];
+const CATEGORIES = ["すべて","テクノロジー","経済・投資","エンタメ","ライフスタイル","スポーツ","グルメ","社会・ニュース"];
 
 // カテゴリ → CSSクラス変換（特殊文字を除去）
 function catClass(cat) {

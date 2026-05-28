@@ -125,7 +125,7 @@ ${keywordList}
 
   const body = JSON.stringify({
     model:      CONFIG.ANTHROPIC_MODEL,
-    max_tokens: 256,
+    max_tokens: 512,
     messages:   [{ role: "user", content: prompt }],
   });
 
@@ -199,8 +199,9 @@ async function buildTrendData(dateStr, rawItems) {
   const jst = new Date(now.getTime() + jstOffset);
   const updatedAt = jst.toISOString().replace("Z", "+09:00");
 
-  const top10 = rawItems.slice(0, 10);
-  const keywords = top10.map(item => item.keyword);
+  // RSSから取得できた全件を使用（通常20〜25件）
+  const allItems = rawItems;
+  const keywords = allItems.map(item => item.keyword);
 
   // AI でカテゴリ判定（失敗したらフォールバック）
   let categories;
@@ -217,7 +218,7 @@ async function buildTrendData(dateStr, rawItems) {
     categories = keywords.map(fallbackCategory);
   }
 
-  const trends = top10.map((item, i) => {
+  const trends = allItems.map((item, i) => {
     const encodedKw = encodeURIComponent(item.keyword);
     // CATEGORIES に含まれないカテゴリが返ってきた場合はフォールバック
     const category = CATEGORIES.includes(categories[i])
