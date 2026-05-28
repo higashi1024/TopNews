@@ -1,11 +1,22 @@
 {
   "date": "2026-05-28",
-  "updated_at": "2026-05-28T15:38:16.815+09:00",
+  "updated_at": "2026-05-28T15:42:54.952+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "イ・ダヘ",
+      "keyword": "知事",
       "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
+    },
+    {
+      "rank": 2,
+      "keyword": "イ・ダヘ",
+      "category": "スポーツ",
       "source": "google",
       "volume_approx": "100+",
       "trend": "→0",
@@ -33,7 +44,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "keyword": "イスラム教",
       "category": "社会・ニュース",
       "source": "google",
@@ -63,9 +74,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "keyword": "芝田璃子",
-      "category": "社会・ニュース",
+      "category": "スポーツ",
       "source": "google",
       "volume_approx": "200+",
       "trend": "→0",
@@ -93,9 +104,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "keyword": "すかいらーく",
-      "category": "社会・ニュース",
+      "category": "グルメ",
       "source": "google",
       "volume_approx": "200+",
       "trend": "→0",
@@ -123,7 +134,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "keyword": "東海道線",
       "category": "社会・ニュース",
       "source": "google",
@@ -153,9 +164,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%9D%B1%E6%B5%B7%E9%81%93%E7%B7%9A/"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "keyword": "ワールド・ハイビジョン・チャンネル",
-      "category": "社会・ニュース",
+      "category": "テクノロジー",
       "source": "google",
       "volume_approx": "100+",
       "trend": "→0",
@@ -183,9 +194,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB/"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "keyword": "ガンダムアシュタロン",
-      "category": "社会・ニュース",
+      "category": "エンタメ",
       "source": "google",
       "volume_approx": "100+",
       "trend": "→0",
@@ -213,7 +224,7 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A2%E3%82%B7%E3%83%A5%E3%82%BF%E3%83%AD%E3%83%B3/"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "keyword": "京浜東北線",
       "category": "社会・ニュース",
       "source": "google",
@@ -243,9 +254,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%BA%AC%E6%B5%9C%E6%9D%B1%E5%8C%97%E7%B7%9A/"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "keyword": "lミニマート",
-      "category": "社会・ニュース",
+      "category": "ライフスタイル",
       "source": "google",
       "volume_approx": "200+",
       "trend": "→0",
@@ -271,36 +282,6 @@
       ],
       "amazon_url": "https://www.amazon.co.jp/s?k=l%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88&tag=YOUR-ASSOCIATE-ID",
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/l%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88/"
-    },
-    {
-      "rank": 10,
-      "keyword": "ダービー 過去",
-      "category": "社会・ニュース",
-      "source": "google",
-      "volume_approx": "2000+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "【ダービー】17番枠の皐月賞馬ロブチェンに「ナリタブライアンかワグネリアンになって」（日刊スポーツ）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/0df82000b6c62a77447a3ff245614865603f46ae",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "【競馬予想】日本ダービーの行方を占う「３歳牡馬ランキング」 ロブチェンを脅かす存在はいるか",
-          "snippet": "",
-          "url": "https://sportiva.shueisha.co.jp/clm/keiba/keiba/2026/05/28/post_74/",
-          "source": "webスポルティーバ"
-        },
-        {
-          "title": "【日本ダービー】92年以降未勝利...リアライズシリウスは6枠11番も手塚久調教師「競馬を組み立てやすい」",
-          "snippet": "",
-          "url": "https://news.sp.netkeiba.com/?pid=news_view&amp;no=332563",
-          "source": "netkeiba"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%20%E9%81%8E%E5%8E%BB&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%20%E9%81%8E%E5%8E%BB/"
     }
   ]
 }
