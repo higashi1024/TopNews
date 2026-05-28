@@ -6,28 +6,27 @@ on:
     # GitHub Actions の cron は UTC 基準のため -9h
     - cron: "0 15,21,3,9 * * *"
   workflow_dispatch:
-    # 手動実行も可能（テスト用）
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # リポジトリへのコミット権限
+      contents: write
 
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v6
 
-      - name: Node.js をセットアップ
-        uses: actions/setup-node@v6
-        with:
-          node-version: "24"
+      # setup-node を削除 → ubuntu-latest に最初から入っている Node.js を使う
+      # （Node.js ダウンロードによる 2〜3分のロスを解消）
+      - name: Node.js バージョン確認
+        run: node --version
 
       - name: トレンドデータを取得・保存
         run: node scripts/fetch-trends.js
+        timeout-minutes: 3
         env:
-          # GitHub Secrets に登録した APIキーを渡す
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: 変更をコミット & プッシュ
@@ -35,6 +34,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          # 変更がある場合のみコミット
           git diff --cached --quiet || git commit -m "chore: update trends $(date +'%Y-%m-%d %H:%M JST')"
           git push
