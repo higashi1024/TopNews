@@ -1,11 +1,71 @@
 {
   "date": "2026-05-28",
-  "updated_at": "2026-05-28T15:09:50.000+09:00",
+  "updated_at": "2026-05-28T15:25:52.350+09:00",
   "trends": [
     {
       "rank": 1,
+      "keyword": "芝田璃子",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
+          "snippet": "",
+          "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
+          "source": "スポーツ報知"
+        },
+        {
+          "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
+          "snippet": "",
+          "url": "https://trilltrill.jp/articles/4737805",
+          "source": "TRILL"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
+    },
+    {
+      "rank": 2,
+      "keyword": "すかいらーく",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
+          "snippet": "",
+          "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
+          "source": "M&amp;A Online"
+        },
+        {
+          "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
+          "snippet": "",
+          "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
+          "source": "ｄメニューニュース"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
+    },
+    {
+      "rank": 3,
       "keyword": "東海道線",
-      "category": "ライフスタイル",
+      "category": "社会・ニュース",
       "source": "google",
       "volume_approx": "200+",
       "trend": "→0",
@@ -33,9 +93,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%9D%B1%E6%B5%B7%E9%81%93%E7%B7%9A/"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "keyword": "ワールド・ハイビジョン・チャンネル",
-      "category": "ライフスタイル",
+      "category": "社会・ニュース",
       "source": "google",
       "volume_approx": "100+",
       "trend": "→0",
@@ -63,9 +123,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB/"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "keyword": "ガンダムアシュタロン",
-      "category": "ライフスタイル",
+      "category": "社会・ニュース",
       "source": "google",
       "volume_approx": "100+",
       "trend": "→0",
@@ -93,11 +153,11 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A2%E3%82%B7%E3%83%A5%E3%82%BF%E3%83%AD%E3%83%B3/"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "keyword": "京浜東北線",
-      "category": "ライフスタイル",
+      "category": "社会・ニュース",
       "source": "google",
-      "volume_approx": "500+",
+      "volume_approx": "1000+",
       "trend": "→0",
       "news": [
         {
@@ -123,9 +183,9 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%BA%AC%E6%B5%9C%E6%9D%B1%E5%8C%97%E7%B7%9A/"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "keyword": "lミニマート",
-      "category": "ライフスタイル",
+      "category": "社会・ニュース",
       "source": "google",
       "volume_approx": "200+",
       "trend": "→0",
@@ -153,9 +213,50 @@
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/l%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88/"
     },
     {
-      "rank": 6,
+      "rank": 8,
+      "keyword": "ダービー 過去",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "2000+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "ダービー出走馬＆枠順確定！皐月賞馬ロブチェン17番 2分の1の出走抽選はケントンが突破（スポニチアネックス）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/8615938b6ec45998a48bb4d66258d474891de437",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "【牧場物語 東京優駿への蹄音②】ゴーイントゥスカイで悲願のV狙う千代田牧場 〝名誉挽回〟誓う飯田正剛代表「ぐっと価値を高めてほしい」",
+          "snippet": "",
+          "url": "https://www.sanspo.com/race/article/general/20260528-EJDRIKNVHVOO5BV3NHU5SFP73M/?outputType=theme_tokyo-yushun",
+          "source": "サンスポ"
+        },
+        {
+          "title": "【競馬予想】日本ダービーの行方を占う「３歳牡馬ランキング」 ロブチェンを脅かす存在はいるか",
+          "snippet": "",
+          "url": "https://sportiva.shueisha.co.jp/clm/keiba/keiba/2026/05/28/post_74/",
+          "source": "webスポルティーバ"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%20%E9%81%8E%E5%8E%BB&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%20%E9%81%8E%E5%8E%BB/"
+    },
+    {
+      "rank": 9,
+      "keyword": "文化祭",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%87%E5%8C%96%E7%A5%AD&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%96%87%E5%8C%96%E7%A5%AD/"
+    },
+    {
+      "rank": 10,
       "keyword": "ヨドバシ",
-      "category": "ライフスタイル",
+      "category": "社会・ニュース",
       "source": "google",
       "volume_approx": "1000+",
       "trend": "→0",
@@ -181,107 +282,6 @@
       ],
       "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7&tag=YOUR-ASSOCIATE-ID",
       "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7/"
-    },
-    {
-      "rank": 7,
-      "keyword": "文化祭",
-      "category": "ライフスタイル",
-      "source": "google",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%87%E5%8C%96%E7%A5%AD&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%96%87%E5%8C%96%E7%A5%AD/"
-    },
-    {
-      "rank": 8,
-      "keyword": "佳子内親王",
-      "category": "ライフスタイル",
-      "source": "google",
-      "volume_approx": "1000+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "「夢のまた夢だよ」旧宮家の親族男性が「皇室復帰の可能性はない」と断言する理由（文春オンライン）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/b53e21710053ed948ce18af8c6212b0c808a3908",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "「女性皇族の身分保持」「男系男子の養子」両案とも妥当、正副議長原案…６月前半めどに「立法府の総意」取りまとめ",
-          "snippet": "",
-          "url": "https://www.yomiuri.co.jp/politics/20260528-GYT1T00092/",
-          "source": "読売新聞"
-        },
-        {
-          "title": "皇位継承 衆参議長らが会談 6月上旬にかけて調整続く見通し",
-          "snippet": "",
-          "url": "https://news.web.nhk/newsweb/na/na-k10015133401000",
-          "source": "NHKニュース"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E4%BD%B3%E5%AD%90%E5%86%85%E8%A6%AA%E7%8E%8B&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%BD%B3%E5%AD%90%E5%86%85%E8%A6%AA%E7%8E%8B/"
-    },
-    {
-      "rank": 9,
-      "keyword": "大飯原発",
-      "category": "ライフスタイル",
-      "source": "google",
-      "volume_approx": "200+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "【速報】大飯原発「設置許可取り消し」訴訟 大阪高裁判決「設置許可」を維持 一審大阪地裁判決を取り消し判断覆す（読売テレビ）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/0c9111bc10b6ed037ae81c95692d50c6ede31f5d",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "大飯原発の“耐震性”めぐりきょう控訴審判決 福井県の住民らが国の設置許可取り消し求める 1審判決は「許可取り消し」も国側控訴",
-          "snippet": "",
-          "url": "https://newsdig.tbs.co.jp/articles/-/2690588",
-          "source": "TBS NEWS DIG"
-        },
-        {
-          "title": "大飯原発の設置許可取り消し認めず、国側が逆転勝訴 大阪高裁判決",
-          "snippet": "",
-          "url": "https://www.nikkei.com/article/DGXZQOUF242YH0U6A520C2000000/",
-          "source": "日本経済新聞"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A4%A7%E9%A3%AF%E5%8E%9F%E7%99%BA&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%A7%E9%A3%AF%E5%8E%9F%E7%99%BA/"
-    },
-    {
-      "rank": 10,
-      "keyword": "イ・ビョンホン",
-      "category": "ライフスタイル",
-      "source": "google",
-      "volume_approx": "200+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "【韓国俳優】55歳イ・ビョンホン、義理母を“顔出し”&amp;2歳長女が熱唱 “両親譲り”の「才能」を妻・イ・ミンジョンが公開",
-          "snippet": "",
-          "url": "https://www.oricon.co.jp/news/2457278/full/",
-          "source": "オリコンニュース"
-        },
-        {
-          "title": "イ・ミンジョン、愛娘の隠しきれない“スター性”を大公開！「15歳から芸能活動」の占いは当たるか？",
-          "snippet": "",
-          "url": "https://www.cinemacafe.net/article/2026/05/27/109645.html",
-          "source": "cinemacafe.net"
-        },
-        {
-          "title": "イ・ミンジョン、3歳の娘と初めて済州で育児地獄..「マウンザロより大きな効果」 [スター・イシュー]",
-          "snippet": "",
-          "url": "https://www.starnewskorea.com/ja/broadcast-show/2026/05/26/2026052618050070631",
-          "source": "스타뉴스"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%93%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%93%E3%83%A7%E3%83%B3%E3%83%9B%E3%83%B3/"
     }
   ]
 }
