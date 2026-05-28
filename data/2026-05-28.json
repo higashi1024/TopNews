@@ -1,2270 +1,287 @@
 {
   "date": "2026-05-28",
-  "updated_at": "2026-05-28T16:01:31.644+09:00",
-  "categories": {
-    "すべて": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135?utm_source=dnews&amp;utm_medium=article&amp;utm_campaign=contentsmatch4",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "すべて",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ],
-    "テクノロジー": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135?utm_source=dnews&amp;utm_medium=article&amp;utm_campaign=contentsmatch4",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "テクノロジー",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ],
-    "経済・投資": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "経済・投資",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ],
-    "エンタメ": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135?utm_source=dnews&amp;utm_medium=article&amp;utm_campaign=contentsmatch4",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "エンタメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ],
-    "ライフスタイル": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135?utm_source=dnews&amp;utm_medium=article&amp;utm_campaign=contentsmatch4",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "ライフスタイル",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ],
-    "スポーツ": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135?utm_source=dnews&amp;utm_medium=article&amp;utm_campaign=contentsmatch4",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "スポーツ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ],
-    "グルメ": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135?utm_source=dnews&amp;utm_medium=article&amp;utm_campaign=contentsmatch4",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "グルメ",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ],
-    "社会・ニュース": [
-      {
-        "rank": 1,
-        "keyword": "インフレーション",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
-            "snippet": "",
-            "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
-            "snippet": "",
-            "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
-            "source": "investingLive"
-          },
-          {
-            "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
-            "snippet": "",
-            "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
-            "source": "Nikkei Asia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
-      },
-      {
-        "rank": 2,
-        "keyword": "ゴゴスマ",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
-            "source": "TBS NEWS DIG"
-          },
-          {
-            "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
-            "source": "au Webポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
-      },
-      {
-        "rank": 3,
-        "keyword": "中山 美穂",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
-            "snippet": "",
-            "url": "https://dot.asahi.com/articles/-/283776",
-            "source": "AERA DIGITAL"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135?utm_source=dnews&amp;utm_medium=article&amp;utm_campaign=contentsmatch4",
-            "source": "ｄメニューニュース"
-          },
-          {
-            "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
-            "snippet": "",
-            "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
-            "source": "プラメポータル"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
-      },
-      {
-        "rank": 4,
-        "keyword": "fender",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
-            "snippet": "",
-            "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
-            "source": "Guitar World"
-          },
-          {
-            "title": "Fender targets US builder in Stratocaster design crackdown",
-            "snippet": "",
-            "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
-            "source": "MSN"
-          },
-          {
-            "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
-            "snippet": "",
-            "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
-            "source": "Guitar.com"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
-      },
-      {
-        "rank": 5,
-        "keyword": "武蔵野線",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
-            "source": "au Webポータル"
-          },
-          {
-            "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
-            "snippet": "",
-            "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
-            "source": "TBS NEWS DIG"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "知事",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
-      },
-      {
-        "rank": 7,
-        "keyword": "イ・ダヘ",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
-            "snippet": "",
-            "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
-            "source": "スマートニュース"
-          },
-          {
-            "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
-            "snippet": "",
-            "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
-            "source": "매일경제"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
-      },
-      {
-        "rank": 8,
-        "keyword": "イスラム教",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "100+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
-            "snippet": "",
-            "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
-            "source": "朝日新聞"
-          },
-          {
-            "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
-            "snippet": "",
-            "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
-            "source": "時事ドットコム"
-          },
-          {
-            "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
-            "snippet": "",
-            "url": "https://www.nishinippon.co.jp/image/1043180/",
-            "source": "西日本新聞me"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
-      },
-      {
-        "rank": 9,
-        "keyword": "芝田璃子",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
-            "snippet": "",
-            "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
-            "source": "スポーツ報知"
-          },
-          {
-            "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
-            "snippet": "",
-            "url": "https://trilltrill.jp/articles/4737805",
-            "source": "TRILL"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
-      },
-      {
-        "rank": 10,
-        "keyword": "すかいらーく",
-        "category": "社会・ニュース",
-        "source": "google",
-        "volume_approx": "200+",
-        "trend": "→0",
-        "news": [
-          {
-            "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
-            "snippet": "",
-            "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
-            "source": "Yahoo!ニュース"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
-            "source": "M&amp;A Online"
-          },
-          {
-            "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
-            "snippet": "",
-            "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
-            "source": "ｄメニューニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
-      }
-    ]
-  }
+  "updated_at": "2026-05-28T16:08:29.620+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "インフレーション",
+      "category": "経済・投資",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor market is &apos;in decent shape&apos;",
+          "snippet": "",
+          "url": "https://www.cnbc.com/2026/05/28/fed-reserve-neel-kashkari-inflation-job-market.html",
+          "source": "CNBC"
+        },
+        {
+          "title": "Fed&apos;s Kashkari: The Fed could embark on a series of hikes in response to inflation.",
+          "snippet": "",
+          "url": "https://investinglive.com/centralbank/feds-kashkari-the-fed-could-embark-on-a-series-of-hikes-in-response-to-inflation-20260526/",
+          "source": "investingLive"
+        },
+        {
+          "title": "Prolonged Iran war could spur &apos;series of&apos; US rate hikes: Fed&apos;s Kashkari",
+          "snippet": "",
+          "url": "https://asia.nikkei.com/editor-s-picks/interview/prolonged-iran-war-could-spur-series-of-us-rate-hikes-fed-s-kashkari",
+          "source": "Nikkei Asia"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/"
+    },
+    {
+      "rank": 2,
+      "keyword": "ゴゴスマ",
+      "category": "エンタメ",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "巨人・阿部監督辞任 本当に恐ろしいのはAI側ではなく『人間側の忖度の連鎖』 #エキスパートトピ（神田敏晶） - エキスパート",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/expert/articles/0ab64c032aad39dc2406906d10cf0ddf6e5ea089",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "｢“チャッピー”に聞いて児童相談所に通報｣などと話す子どもも…1.7%が子ども本人からの通報 愛知の児童相談所",
+          "snippet": "",
+          "url": "https://newsdig.tbs.co.jp/articles/cbc/2686595?display=1",
+          "source": "TBS NEWS DIG"
+        },
+        {
+          "title": "「絶対否定してこない」“優しい相談相手”のはずが… 生成AIに相談に潜む危険な“落とし穴” “自分の生き方”相談で「思いがけない結果になるケース」も",
+          "snippet": "",
+          "url": "https://article.auone.jp/detail/1/2/5/498_5_r_20260527_1779885376594142",
+          "source": "au Webポータル"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B4%E3%82%B4%E3%82%B9%E3%83%9E/"
+    },
+    {
+      "rank": 3,
+      "keyword": "中山 美穂",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "「中山美穂」相続問題が国会でも議論に…「息子が20億相続放棄」質疑でクローズアップされる“実母との確執”と“名曲のゆくえ”〈木曜スペシャル〉",
+          "snippet": "",
+          "url": "https://dot.asahi.com/articles/-/283776",
+          "source": "AERA DIGITAL"
+        },
+        {
+          "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
+          "snippet": "",
+          "url": "https://topics.smt.docomo.ne.jp/article/nikkangendai/entertainment/nikkangendai-1218135",
+          "source": "ｄメニューニュース"
+        },
+        {
+          "title": "「ミポリン」と名付けた敏腕プロデューサーが作った伝説のドラマ「ママはアイドル」【あの頃、テレビドラマは熱かった】",
+          "snippet": "",
+          "url": "https://plus-msg.auone.jp/detail/1/5/9/10402_9_r_20260527_1779873351968169",
+          "source": "プラメポータル"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%B1%B1%20%E7%BE%8E%E7%A9%82/"
+    },
+    {
+      "rank": 4,
+      "keyword": "fender",
+      "category": "テクノロジー",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "“The focus is on products that completely replicate the exact body design”: Fender is finally speaking out on its cease-and-desist strategy. We reveal the company’s endgame, how it plans to work with rivals and who it’s really going after",
+          "snippet": "",
+          "url": "https://www.guitarworld.com/gear/electric-guitars/fender-speaks-out-on-cease-and-desists",
+          "source": "Guitar World"
+        },
+        {
+          "title": "Fender targets US builder in Stratocaster design crackdown",
+          "snippet": "",
+          "url": "https://www.msn.com/en-gb/news/insight/fender-targets-us-builder-in-stratocaster-design-crackdown/gm-GM8BCEEAB5?gemSnapshotKey=GM8BCEEAB5-snapshot-3",
+          "source": "MSN"
+        },
+        {
+          "title": "Fender reportedly demands boutique builders stop making Stratocaster-style guitars: this is what it means for the industry",
+          "snippet": "",
+          "url": "https://guitar.com/news/industry-news/fender-reportedly-demands-boutique-builders-stop-making-stratocaster-style-guitars-this-is-what-it-means-for-the-industry/",
+          "source": "Guitar.com"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=fender&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/fender/"
+    },
+    {
+      "rank": 5,
+      "keyword": "武蔵野線",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "JR武蔵野線 運転見合わせ 乗務員急病のため（TBS NEWS DIG Powered by JNN）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/7b07bc46430e9de16735febc018313742acd807d",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
+          "snippet": "",
+          "url": "https://article.auone.jp/detail/1/2/2/333_2_r_20260528_1779949977030132",
+          "source": "au Webポータル"
+        },
+        {
+          "title": "JR武蔵野線 運転見合わせ 乗務員急病のため",
+          "snippet": "",
+          "url": "https://newsdig.tbs.co.jp/articles/-/2691420",
+          "source": "TBS NEWS DIG"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%A6%E8%94%B5%E9%87%8E%E7%B7%9A/"
+    },
+    {
+      "rank": 6,
+      "keyword": "知事",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E7%9F%A5%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%9F%A5%E4%BA%8B/"
+    },
+    {
+      "rank": 7,
+      "keyword": "イ・ダヘ",
+      "category": "エンタメ",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "42歳の女優イ・ダヘ、11月に出産予定…SE7ENと結婚3年で第1子妊娠（中央日報日本語版）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/73486125ffb30ae401b57cc49a4a6464c98084a6",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "8年間の交際を実らせた芸能人夫婦、赤ちゃんの靴で妊娠発表…「二人から三人へ」と祝福ムード広がる",
+          "snippet": "",
+          "url": "https://www.smartnews.com/news/article/4948082855113661675-8%E5%B9%B4%E9%96%93%E3%81%AE%E4%BA%A4%E9%9A%9B%E3%82%92%E5%AE%9F%E3%82%89%E3%81%9B%E3%81%9F%E8%8A%B8%E8%83%BD%E4%BA%BA%E5%A4%AB%E5%A9%A6%E3%80%81%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E9%9D%B4%E3%81%A7%E5%A6%8A%E5%A8%A0%E7%99%BA%E8%A1%A8%E2%80%A6%E3%80%8C%E4%BA%8C%E4%BA%BA%E3%81%8B%E3%82%89%E4%B8%89%E4%BA%BA%E3%81%B8%E3%80%8D%E3%81%A8%E7%A5%9D%E7%A6%8F%E3%83%A0%E3%83%BC%E3%83%89%E5%BA%83%E3%81%8C%E3%82%8B",
+          "source": "スマートニュース"
+        },
+        {
+          "title": "セブン・飯田夫婦、結婚3年ぶり妊娠... 「小さな奇跡を訪ねて」",
+          "snippet": "",
+          "url": "https://www.mk.co.kr/jp/hot-issues/12053629",
+          "source": "매일경제"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%83%BB%E3%83%80%E3%83%98/"
+    },
+    {
+      "rank": 8,
+      "keyword": "イスラム教",
+      "category": "社会・ニュース",
+      "source": "google",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "メッカ大巡礼が最高潮に 中東情勢緊迫も前年より多い170万人参加 [米・イスラエルのイラン攻撃 イラン情勢]",
+          "snippet": "",
+          "url": "https://www.asahi.com/articles/ASV5V6300V5VUHBI01ZM.html",
+          "source": "朝日新聞"
+        },
+        {
+          "title": "メッカ大巡礼が最高潮 イラン参加者は大幅減",
+          "snippet": "",
+          "url": "https://www.jiji.com/jc/article?k=2026052600844&amp;g=int&amp;p=20260526at67S&amp;rel=pv",
+          "source": "時事ドットコム"
+        },
+        {
+          "title": "26日、サウジアラビア西部メッカ郊外のアラファト山に集まった巡礼者たち（ゲッティ＝共同） - メッカ大巡礼、最高潮に 150万人超集結と報道 - 写真・画像(1/1)",
+          "snippet": "",
+          "url": "https://www.nishinippon.co.jp/image/1043180/",
+          "source": "西日本新聞me"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%A0%E6%95%99/"
+    },
+    {
+      "rank": 9,
+      "keyword": "芝田璃子",
+      "category": "エンタメ",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "３１歳差婚！ニコラス・ケイジの日本人妻 現在の姿に騒然「本当に…」「シンデレラガール」電撃婚から５年",
+          "snippet": "",
+          "url": "https://hochi.news/articles/20260528-OHT1T51046.html",
+          "source": "スポーツ報知"
+        },
+        {
+          "title": "ニコラス・ケイジの日本人女優妻 一時帰国を報告 その目的は？「涙の止まらない最高の時間でした」（スポニチアネックス）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/1fcb619dd16653d192c0bf7e2b83112b7d38f24e",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "ニコラス・ケイジの歳の差妻、シバタリコのファッション・クロニクル",
+          "snippet": "",
+          "url": "https://trilltrill.jp/articles/4737805",
+          "source": "TRILL"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8A%9D%E7%94%B0%E7%92%83%E5%AD%90/"
+    },
+    {
+      "rank": 10,
+      "keyword": "すかいらーく",
+      "category": "経済・投資",
+      "source": "google",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "しんぱちを超高値で買収したすかいらーくの味覚は確かか（森本紀行） - エキスパート",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/expert/articles/034f2d49bdc154bd13004a2620d0e33d557b5e7b",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
+          "snippet": "",
+          "url": "https://maonline.jp/articles/ma_growth_strategy_skylark20260520",
+          "source": "M&amp;A Online"
+        },
+        {
+          "title": "【M＆A﻿成長戦略を聞く②】「メリハリ消費」の外食市場で生き残る、すかいらーくのポートフォリオ戦略",
+          "snippet": "",
+          "url": "https://topics.smt.docomo.ne.jp/article/maonline/business/maonline-ma_growth_strategy_skylark20260520",
+          "source": "ｄメニューニュース"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F&tag=YOUR-ASSOCIATE-ID",
+      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%99%E3%81%8B%E3%81%84%E3%82%89%E3%83%BC%E3%81%8F/"
+    }
+  ]
 }
