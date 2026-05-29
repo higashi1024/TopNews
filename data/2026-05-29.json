@@ -1,10 +1,208 @@
 {
   "date": "2026-05-29",
-  "updated_at": "2026-05-29T07:24:30.273+09:00",
+  "updated_at": "2026-05-29T10:19:23.972+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "遠藤 航",
+      "keyword": "滝沢カレン",
+      "category": "エンタメ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "【実際の投稿】滝沢カレン、田中みな実＆松岡茉優とのプライベート写真：中日スポーツ・東京中日スポーツ",
+          "snippet": "",
+          "url": "https://www.chunichi.co.jp/article/1257568",
+          "source": "中日新聞Web"
+        },
+        {
+          "title": "「仕事をとっくに超えた仲良しに…」田中みな実＆松岡茉優からの誕プレがスゴすぎる！？ 1児のママ・34歳タレントが公開した豪華すぎる“中身”（中日スポーツ）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/0b1bfe113fdd858fdcf3d112b6b801613933d35c",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "滝沢カレン　仲良し女優と“おそろ”3S「落ちつきごはん」「大人になってから出会った大切なともだち」",
+          "snippet": "",
+          "url": "https://topics.smt.docomo.ne.jp/article/sponichi/entertainment/sponichi-spngoo-20260524-0367",
+          "source": "ｄメニューニュース"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%BB%9D%E6%B2%A2%E3%82%AB%E3%83%AC%E3%83%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%BB%9D%E6%B2%A2%E3%82%AB%E3%83%AC%E3%83%B3%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 2,
+      "keyword": "サラリーキャップ",
+      "category": "経済・投資",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "MLB:大リーグ、サラリーキャップ導入を提案 選手会は反発",
+          "snippet": "",
+          "url": "https://www.nikkei.com/article/DGXZQOKC290O90Z20C26A5000000/",
+          "source": "日本経済新聞"
+        },
+        {
+          "title": "サラリーキャップを提案 選手会は反発―米大リーグ（時事通信）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/f8cc3f7b569c0f186dc7fc25cf13a449aacab855",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "最低年俸引き上げなど要求 新労使協定締結に向け―米大リーグ選手会",
+          "snippet": "",
+          "url": "https://www.jiji.com/jc/article?k=2026052800362&amp;g=spo",
+          "source": "時事ドットコム"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%B5%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 3,
+      "keyword": "水不足",
+      "category": "社会・ニュース",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%B0%B4%E4%B8%8D%E8%B6%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%B0%B4%E4%B8%8D%E8%B6%B3%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 4,
+      "keyword": "沼津 火事",
+      "category": "社会・ニュース",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "【速報】沼津市の駅前で建物火災 消火活動続く＝静岡 | 静岡のニュース | SBSNEWS | 静岡放送",
+          "snippet": "",
+          "url": "https://newsdig.tbs.co.jp/articles/sbs/2693084",
+          "source": "TBS NEWS DIG"
+        },
+        {
+          "title": "【速報】沼津市の駅前で建物火災 消火活動続く=静岡（静岡放送（SBS））",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/5bf2fa02e2f21c44efaa69143699cea8370a2786",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "【速報】沼津駅前で建物火災　煙立ち込める　消火活動続く　静岡・沼津市",
+          "snippet": "",
+          "url": "https://topics.smt.docomo.ne.jp/article/look/region/look-88389?fm=latestnews",
+          "source": "ｄメニューニュース"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%B2%BC%E6%B4%A5%20%E7%81%AB%E4%BA%8B&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%B2%BC%E6%B4%A5%20%E7%81%AB%E4%BA%8B%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 5,
+      "keyword": "サンワサプライ",
+      "category": "テクノロジー",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "クランプ固定式で全7ポート、4方向に向きを変えられる電源タップをサンワサプライが発売",
+          "snippet": "",
+          "url": "https://internet.watch.impress.co.jp/docs/news/2112608.html",
+          "source": "INTERNET Watch"
+        },
+        {
+          "title": "雷ガードと強力マグネットを搭載した10個口電源タップ、サンワサプライが発売（INTERNET Watch）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/128dd6f776d49210b647f2311d410985f1726183",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "サンワサプライ、4方向に向きを変えられるPD65W対応クランプタップを発売",
+          "snippet": "",
+          "url": "https://www.nikkei.com/article/DGXZRSP707615_Y6A520C2000000/",
+          "source": "日本経済新聞"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 6,
+      "keyword": "現金",
+      "category": "経済・投資",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "500+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "「PayPay使えません」が増殖中 飲食店が「現金決済に戻す」背景と今後の展望は #エキスパートトピ（山路力也） - エキスパート",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/expert/articles/c117e5227bf1798c87bf213120918e5f46507e9e",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "現金を持たない人はどこまで増えたのか キャッシュレス比率58%時代へ",
+          "snippet": "",
+          "url": "https://dxmagazine.jp/column/in2620uk04-2/",
+          "source": "DXマガジン"
+        },
+        {
+          "title": "キャッシュレス化追い風､株式還元強化の期待高まる金融株",
+          "snippet": "",
+          "url": "https://shikiho.toyokeizai.net/news/0/945164",
+          "source": "会社四季報オンライン"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E7%8F%BE%E9%87%91&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%8F%BE%E9%87%91%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 7,
+      "keyword": "トラヴィススコット ナイキ",
+      "category": "エンタメ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "ヴィンテージライクなピンクを纏った「エア ジョーダン 1 LOW」 x トラヴィス スコットが登場！──GQ新着スニーカー",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/2fcc198c2f3466ee74e88dfaaaca6898225f50d0",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "Travis Scott × AJ1に待望の新色が登場！歴代コラボモデルも一挙プレイバック",
+          "snippet": "",
+          "url": "https://snkrdunk.com/articles/32375/",
+          "source": "SNKRDUNK"
+        },
+        {
+          "title": "トラヴィス×ジョーダン、新作発売",
+          "snippet": "",
+          "url": "https://www.asahi.com/and/entertainment/16596976",
+          "source": "朝日新聞"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%88%E3%83%A9%E3%83%B4%E3%82%A3%E3%82%B9%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%20%E3%83%8A%E3%82%A4%E3%82%AD&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%88%E3%83%A9%E3%83%B4%E3%82%A3%E3%82%B9%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%20%E3%83%8A%E3%82%A4%E3%82%AD%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 8,
+      "keyword": "spurs vs thunder",
       "category": "スポーツ",
       "source": "google",
       "type": "trend",
@@ -12,259 +210,61 @@
       "trend": "→0",
       "news": [
         {
-          "title": "日本代表・遠藤 間に合った！練習合流６・１５オランダ戦まで２週間 ２月に左足手術、３１日「アイスランド戦１００％で」",
+          "title": "NBA playoffs 2026: Live updates from Thunder-Spurs Game 6",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/71eadb54e66f47b8913f9005ab3093635218096d",
-          "source": "Yahoo!ニュース"
+          "url": "https://www.espn.com/nba/story/_/id/48895122/oklahoma-city-thunder-san-antonio-spurs-game-6-nba-playoffs-2026-live-updates",
+          "source": "ESPN"
         },
         {
-          "title": "【Ｗ杯】遠藤航主将、左足首手術を乗り越えて３１日のアイスランド戦で２月以来の実践復帰へ「１００％でやる。主将として挑むＷ杯は特別」",
+          "title": "Thunder-Spurs game 6 prediction, Victor Wembanyama rebounds from awful game 5",
           "snippet": "",
-          "url": "https://topics.smt.docomo.ne.jp/article/hochi/sports/hochi-20260528-OHT1T51383?fm=latestnews",
-          "source": "ｄメニューニュース"
+          "url": "https://sports.yahoo.com/articles/thunder-spurs-game-6-prediction-003645473.html",
+          "source": "Yahoo Sports"
         },
         {
-          "title": "主将・遠藤合流「過去２回より特別」 サッカーＷ杯北中米大会",
+          "title": "From The Sports Desk: The Thunder’s role players are playing like stars in West finals",
           "snippet": "",
-          "url": "https://www.asahi.com/articles/DA3S16472456.html",
-          "source": "朝日新聞"
+          "url": "https://www.nbcnews.com/sports/nba/sports-newsletter-thunders-role-players-are-playing-stars-west-finals-rcna347132",
+          "source": "NBC News"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E9%81%A0%E8%97%A4%20%E8%88%AA&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%81%A0%E8%97%A4%20%E8%88%AA/"
+      "amazon_url": "https://www.amazon.co.jp/s?k=spurs%20vs%20thunder&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fspurs%20vs%20thunder%2F&link_type=hybrid_url"
     },
     {
-      "rank": 2,
-      "keyword": "最後の約束",
-      "category": "エンタメ",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "嵐主演の「最後の約束」が初配信！ TVer「ARASHI Collection」Part3（TVガイドWeb）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/30c8a7b8e87981dbd4e8887a22ae85b1daf69c18",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "嵐の主演ドラマ「最後の約束」を初配信、TVer特集の第3弾で",
-          "snippet": "",
-          "url": "https://natalie.mu/music/news/673916",
-          "source": "ナタリー"
-        },
-        {
-          "title": "【TVer】嵐主演『最後の約束』をTVer独占初配信",
-          "snippet": "",
-          "url": "https://www.hokkaido-np.co.jp/article/1317935/",
-          "source": "北海道新聞デジタル"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%9C%80%E5%BE%8C%E3%81%AE%E7%B4%84%E6%9D%9F&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%9C%80%E5%BE%8C%E3%81%AE%E7%B4%84%E6%9D%9F/"
-    },
-    {
-      "rank": 3,
-      "keyword": "株主",
+      "rank": 9,
+      "keyword": "tdk 株価",
       "category": "経済・投資",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "「購入のきっかけはONE PIECE」52歳女性が15年間保有する買ってよかった株主優待(あるじゃん（All About マネー）)",
-          "snippet": "",
-          "url": "https://finance.yahoo.co.jp/news/detail/5669bf7315f8eda50a238e4959e7bfc594b9017c",
-          "source": "Yahoo!ファイナンス"
-        },
-        {
-          "title": "｢少額で買える株主優待株ランキング｣ベスト10！ カタログギフトがもらえるラオックス、PayPayマネーライトがもらえるソフトバンクも1万～2万円台で買える！",
-          "snippet": "",
-          "url": "https://diamond.jp/zai/articles/-/1067777",
-          "source": "ダイヤモンド・オンライン"
-        },
-        {
-          "title": "【特集】 生活密着の人気外食・小売が満載！物価高に勝つ「6月優待」お宝銘柄 ＜株探トップ特集＞",
-          "snippet": "",
-          "url": "https://kabutan.jp/news/marketnews/?b=n202605261093",
-          "source": "株探"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%A0%AA%E4%B8%BB&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%A0%AA%E4%B8%BB/"
-    },
-    {
-      "rank": 4,
-      "keyword": "配当予想の修正",
-      "category": "経済・投資",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "初穂商事【7425】、株式分割に伴い配当予想を修正 | 決算速報 - 株探ニュース",
-          "snippet": "",
-          "url": "https://kabutan.jp/news/?b=k202605280001",
-          "source": "株探"
-        },
-        {
-          "title": "【注目】 本日注目の【株式分割】銘柄 (28日大引け後 発表分)",
-          "snippet": "",
-          "url": "https://kabutan.jp/news/marketnews/?b=n202605290073",
-          "source": "株探"
-        },
-        {
-          "title": "本日の【株式分割】銘柄 (28日大引け後 発表分)(株探ニュース)",
-          "snippet": "",
-          "url": "https://finance.yahoo.co.jp/news/detail/b7ce65879316c3eff98b37d22674a02052381086",
-          "source": "Yahoo!ファイナンス"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E9%85%8D%E5%BD%93%E4%BA%88%E6%83%B3%E3%81%AE%E4%BF%AE%E6%AD%A3&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%85%8D%E5%BD%93%E4%BA%88%E6%83%B3%E3%81%AE%E4%BF%AE%E6%AD%A3/"
-    },
-    {
-      "rank": 5,
-      "keyword": "田中美久",
-      "category": "エンタメ",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "元HKT田中美久「幸せにしてくれる？」ウエディングドレス×結婚指輪披露「大切な人との…」",
-          "snippet": "",
-          "url": "https://topics.smt.docomo.ne.jp/article/nikkangeinou/entertainment/f-et-tp0-260528-202605280000294",
-          "source": "ｄメニューニュース"
-        },
-        {
-          "title": "田中美久、「幸せにしてくれる？」美しすぎるウェディングドレス姿を披露！ 10枚目の写真・画像",
-          "snippet": "",
-          "url": "https://www.rbbtoday.com/article/img/2026/05/28/248511/1014666.html",
-          "source": "RBB TODAY"
-        },
-        {
-          "title": "“令和のグラビアクイーン”、新婦姿で「ご報告」投稿 ファンひやり「マジで焦った」「びっくり」（ENCOUNT）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/7f800deefe806f7db759cb9e5efba23e2d41dc26",
-          "source": "Yahoo!ニュース"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E7%94%B0%E4%B8%AD%E7%BE%8E%E4%B9%85&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%94%B0%E4%B8%AD%E7%BE%8E%E4%B9%85/"
-    },
-    {
-      "rank": 6,
-      "keyword": "浜松市",
-      "category": "社会・ニュース",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "被害品はタバコ300箱 強盗致傷容疑で無職の女を逮捕 黙秘を貫く これまでに盗まれた商品は見つからず（テレビ静岡NEWS）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/801a87f725e5ff1a9985a3db8765647f84daafca",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "たばこ300箱盗み店員にけがさせた無職の女(33)を強盗致傷容疑で逮捕 防犯カメラなどの捜査から容疑者浮上（静岡・浜松市）",
-          "snippet": "",
-          "url": "https://news.ntv.co.jp/n/sdt/category/society/sd936d15f713134ff088d5a6a613f75583",
-          "source": "日テレNEWS NNN"
-        },
-        {
-          "title": "タバコ300箱強盗 無職の女を逮捕 犯行に気づいたオーナーにケガさせる 調べに対して黙秘 現在までに被害品は見つからず",
-          "snippet": "",
-          "url": "https://www.fnn.jp/articles/-/1051262",
-          "source": "FNNプライムオンライン"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%B5%9C%E6%9D%BE%E5%B8%82&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%B5%9C%E6%9D%BE%E5%B8%82/"
-    },
-    {
-      "rank": 7,
-      "keyword": "沢尻エリカ",
-      "category": "エンタメ",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "500+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "沢尻エリカ、約20年ぶり「写真集」自身初1位「30代最後に私の“今”そして“素”を刻んだ一冊」【オリコンランキング】",
-          "snippet": "",
-          "url": "https://www.oricon.co.jp/news/2457472/photo/2/",
-          "source": "オリコンニュース"
-        },
-        {
-          "title": "沢尻エリカ：真っ赤なキャミドレスでヘルシーに肌見せ ゴールドカラーの小物で華やかさプラス",
-          "snippet": "",
-          "url": "https://mainichikirei.jp/article/20260526dog00m100011000a.html",
-          "source": "毎日キレイ"
-        },
-        {
-          "title": "沢尻エリカ「私の“今”そして“素”を刻んだ一冊」 約20年ぶりの写真集で自身初の1位を獲得（日テレNEWS NNN）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/a5a558dfe7e67054592387df09afe74014014e08",
-          "source": "Yahoo!ニュース"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%B2%A2%E5%B0%BB%E3%82%A8%E3%83%AA%E3%82%AB&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%B2%A2%E5%B0%BB%E3%82%A8%E3%83%AA%E3%82%AB/"
-    },
-    {
-      "rank": 8,
-      "keyword": "足立花火大会",
-      "category": "ライフスタイル",
       "source": "google",
       "type": "trend",
       "volume_approx": "200+",
       "trend": "→0",
-      "news": [],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E8%B6%B3%E7%AB%8B%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%B6%B3%E7%AB%8B%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A/"
-    },
-    {
-      "rank": 9,
-      "keyword": "関水渚",
-      "category": "エンタメ",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
       "news": [
         {
-          "title": "【横山裕×関水渚】スペシャルインタビュー！",
+          "title": "レーティング日報【格下げ↓】 (5月26日)(株探ニュース)",
           "snippet": "",
-          "url": "https://tver.jp/episodes/epo7cxv8rc",
-          "source": "TVer"
+          "url": "https://finance.yahoo.co.jp/news/detail/2a0fc82a5c67d673eb709319198dc352d94a44c9",
+          "source": "Yahoo!ファイナンス"
         },
         {
-          "title": "横山裕 6作目の刑事役 7月フジ新設ドラマ枠第1弾「今夜もシリアルキラーと待ち合わせ」（スポニチアネックス）",
+          "title": "TDKの株価が本日下落している理由とは？ 執筆",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/67a4d37f91259e62953471912a8ed02fa2a8ff7c",
-          "source": "Yahoo!ニュース"
+          "url": "https://jp.investing.com/news/stock-market-news/article-93CH-1549296",
+          "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース"
         },
         {
-          "title": "SUPER EIGHT横山裕、フジテレビ系連ドラ初主演で6度目の刑事役 7月期新ドラマ枠で関水渚とバディに［コメントあり］",
+          "title": "【アナリスト評価】ＴＤＫ、レーティング強気を継続、目標株価4,100円に引上げ（米系大手証券）(アイフィス株予報)",
           "snippet": "",
-          "url": "https://mainichi.jp/articles/20260529/orc/00m/200/011000c",
-          "source": "毎日新聞"
+          "url": "https://finance.yahoo.co.jp/news/detail/36cf8c2d06dc60483a22d10d29adb857c4d8b3bc",
+          "source": "Yahoo!ファイナンス"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E9%96%A2%E6%B0%B4%E6%B8%9A&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%96%A2%E6%B0%B4%E6%B8%9A/"
+      "amazon_url": "https://www.amazon.co.jp/s?k=tdk%20%E6%A0%AA%E4%BE%A1&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Ftdk%20%E6%A0%AA%E4%BE%A1%2F&link_type=hybrid_url"
     },
     {
       "rank": 10,
-      "keyword": "不審者情報",
+      "keyword": "災害",
       "category": "社会・ニュース",
       "source": "google",
       "type": "trend",
@@ -272,32 +272,51 @@
       "trend": "→0",
       "news": [
         {
-          "title": "上三川町の公共施設に防犯カメラ増設 強盗殺人受け町が予算化、犯罪抑止などに期待",
+          "title": "【独自】未登記建物2割超、課税漏れも 災害復旧妨げに、法務省調査（共同通信）",
           "snippet": "",
-          "url": "https://www.shimotsuke.co.jp/articles/-/1354462",
-          "source": "下野新聞社"
-        },
-        {
-          "title": "上三川強殺前後で不審者情報3.5倍増 県警の無料防犯アプリも利用急増",
-          "snippet": "",
-          "url": "https://www.47news.jp/14376929.html",
-          "source": "47NEWS"
-        },
-        {
-          "title": "上三川町の強盗殺人事件に便乗した詐欺電話 複数件確認 栃木県警察が注意呼びかけ（とちぎテレビ）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/5c905d83e7aababa5c6354c0e086825fd8554169",
+          "url": "https://news.yahoo.co.jp/articles/09c1d0c2b89b3a9ccadc9206daab15a2dc9db47d",
           "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "未登記建物 全国に８００万 法務省調査 ２割超す 課税、災害復旧支障に",
+          "snippet": "",
+          "url": "https://www.fukuishimbun.co.jp/articles/-/2612473",
+          "source": "福井新聞社"
+        },
+        {
+          "title": "法務省 - 【独自】未登記建物2割超、課税漏れも 災害復旧妨げに、法務省調査 - 写真・画像(1/1)",
+          "snippet": "",
+          "url": "https://www.nishinippon.co.jp/image/1044033/",
+          "source": "西日本新聞me"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%8D%E5%AF%A9%E8%80%85%E6%83%85%E5%A0%B1&tag=YOUR-ASSOCIATE-ID",
-      "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%8D%E5%AF%A9%E8%80%85%E6%83%85%E5%A0%B1/"
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E7%81%BD%E5%AE%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%81%BD%E5%AE%B3%2F&link_type=hybrid_url"
     }
   ],
   "categories": {
     "テクノロジー": [
       {
         "rank": 1,
+        "keyword": "国産ＡＩ開発の新会社、東芝・日立など１５社も出資の意向…ファナックやＪＥＲＡなど続々参入へ（読売新聞オンライン） - Yahoo!ニュース",
+        "category": "テクノロジー",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "国産ＡＩ開発の新会社、東芝・日立など１５社も出資の意向…ファナックやＪＥＲＡなど続々参入へ（読売新聞オンライン） - Yahoo!ニュース",
+            "snippet": "国産ＡＩ開発の新会社、東芝・日立など１５社も出資の意向…ファナックやＪＥＲＡなど続々参入へ（読売新聞オンライン）&nbsp;&nbsp;Yahoo!ニュース",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qQmxpa0tIOFBwYm1Kdjg2b2N2ZTA0ekVQS3hDMDN3RTVSTGNXODdKWHRBTHo2ckZPSEFTN2cxbFJsbzR6TlVGb1IyOTQxeTZFUW81NHEtNjA2ZE50cEVjaFJiQ3ZSdXJhU2JZelE3Uy1iSUNtc1NJS3FqallDNkE?oc=5",
+            "source": "Yahoo!ニュース"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%9B%BD%E7%94%A3%EF%BC%A1%EF%BC%A9%E9%96%8B%E7%99%BA%E3%81%AE%E6%96%B0%E4%BC%9A%E7%A4%BE%E3%80%81%E6%9D%B1%E8%8A%9D%E3%83%BB%E6%97%A5%E7%AB%8B%E3%81%AA%E3%81%A9%EF%BC%91%EF%BC%95%E7%A4%BE%E3%82%82%E5%87%BA%E8%B3%87%E3%81%AE%E6%84%8F%E5%90%91%E2%80%A6%E3%83%95%E3%82%A1&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%9B%BD%E7%94%A3%EF%BC%A1%EF%BC%A9%E9%96%8B%E7%99%BA%E3%81%AE%E6%96%B0%E4%BC%9A%E7%A4%BE%E3%80%81%E6%9D%B1%E8%8A%9D%E3%83%BB%E6%97%A5%E7%AB%8B%E3%81%AA%E3%81%A9%EF%BC%91%EF%BC%95%E7%A4%BE%E3%82%82%E5%87%BA%E8%B3%87%E3%81%AE%E6%84%8F%E5%90%91%E2%80%A6%E3%83%95%E3%82%A1%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 2,
         "keyword": "悪質通信業者の公表検討 総務省、苦情高止まりで - Yahoo!ニュース",
         "category": "テクノロジー",
         "source": "google_news",
@@ -312,12 +331,12 @@
             "source": "Yahoo!ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%82%AA%E8%B3%AA%E9%80%9A%E4%BF%A1%E6%A5%AD%E8%80%85%E3%81%AE%E5%85%AC%E8%A1%A8%E6%A4%9C%E8%A8%8E%20%E7%B7%8F%E5%8B%99%E7%9C%81%E3%80%81%E8%8B%A6%E6%83%85%E9%AB%98%E6%AD%A2%E3%81%BE%E3%82%8A%E3%81%A7%20-%20Yaho&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%82%AA%E8%B3%AA%E9%80%9A%E4%BF%A1%E6%A5%AD%E8%80%85%E3%81%AE%E5%85%AC%E8%A1%A8%E6%A4%9C%E8%A8%8E%20%E7%B7%8F%E5%8B%99%E7%9C%81%E3%80%81%E8%8B%A6%E6%83%85%E9%AB%98%E6%AD%A2%E3%81%BE%E3%82%8A%E3%81%A7%20-%20Yaho/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%82%AA%E8%B3%AA%E9%80%9A%E4%BF%A1%E6%A5%AD%E8%80%85%E3%81%AE%E5%85%AC%E8%A1%A8%E6%A4%9C%E8%A8%8E%20%E7%B7%8F%E5%8B%99%E7%9C%81%E3%80%81%E8%8B%A6%E6%83%85%E9%AB%98%E6%AD%A2%E3%81%BE%E3%82%8A%E3%81%A7%20-%20Yaho&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%82%AA%E8%B3%AA%E9%80%9A%E4%BF%A1%E6%A5%AD%E8%80%85%E3%81%AE%E5%85%AC%E8%A1%A8%E6%A4%9C%E8%A8%8E%20%E7%B7%8F%E5%8B%99%E7%9C%81%E3%80%81%E8%8B%A6%E6%83%85%E9%AB%98%E6%AD%A2%E3%81%BE%E3%82%8A%E3%81%A7%20-%20Yaho%2F&link_type=hybrid_url"
       },
       {
-        "rank": 2,
-        "keyword": "ロシア軍の後方に「火星人」ドローンが来襲 前線への兵站を破壊 - Yahoo!ニュース",
+        "rank": 3,
+        "keyword": "3メガ銀、オープンAIの新型モデル活用へ アクセス確保、サイバー攻撃備え（時事通信） - Yahoo!ニュース",
         "category": "テクノロジー",
         "source": "google_news",
         "type": "news",
@@ -325,17 +344,17 @@
         "trend": "",
         "news": [
           {
-            "title": "ロシア軍の後方に「火星人」ドローンが来襲 前線への兵站を破壊 - Yahoo!ニュース",
-            "snippet": "ロシア軍の後方に「火星人」ドローンが来襲 前線への兵站を破壊&nbsp;&nbsp;Yahoo!ニュース",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ub1czeXEzcnhSUlMwcm44S21PcnpzemJhZ052dDZrMnhjQ19PYzMwUTM5Q3A0X203NjBnbDg2T3NReXZQWkhmcUpuZllENERGNFpFc1FVNGc1S2FubzIyaHpWZ1gxbVFTX1pRQzgxbGh1RGxFQWwwcmhXaEc1d2M?oc=5",
+            "title": "3メガ銀、オープンAIの新型モデル活用へ アクセス確保、サイバー攻撃備え（時事通信） - Yahoo!ニュース",
+            "snippet": "3メガ銀、オープンAIの新型モデル活用へ アクセス確保、サイバー攻撃備え（時事通信）&nbsp;&nbsp;Yahoo!ニュース",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UYkhOS1hINm40VWdVTldYc3VFR3lLQ2ZSVGo4LUZSTUdmZ0RQandWamRPRV9uVF9ncWFTZkNodG56WEdIbmIxTGlUTW55ZUVTUkVTSFpBVUVmZmkzamFIbENSLVR2MkU4TVh0NGhrZmJJeWpLWmtGZVFEaHhGRGs?oc=5",
             "source": "Yahoo!ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AD%E3%82%B7%E3%82%A2%E8%BB%8D%E3%81%AE%E5%BE%8C%E6%96%B9%E3%81%AB%E3%80%8C%E7%81%AB%E6%98%9F%E4%BA%BA%E3%80%8D%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%8C%E6%9D%A5%E8%A5%B2%20%E5%89%8D%E7%B7%9A%E3%81%B8%E3%81%AE%E5%85%B5%E7%AB%99%E3%82%92%E7%A0%B4%E5%A3%8A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%82%B7%E3%82%A2%E8%BB%8D%E3%81%AE%E5%BE%8C%E6%96%B9%E3%81%AB%E3%80%8C%E7%81%AB%E6%98%9F%E4%BA%BA%E3%80%8D%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%8C%E6%9D%A5%E8%A5%B2%20%E5%89%8D%E7%B7%9A%E3%81%B8%E3%81%AE%E5%85%B5%E7%AB%99%E3%82%92%E7%A0%B4%E5%A3%8A/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=3%E3%83%A1%E3%82%AC%E9%8A%80%E3%80%81%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3AI%E3%81%AE%E6%96%B0%E5%9E%8B%E3%83%A2%E3%83%87%E3%83%AB%E6%B4%BB%E7%94%A8%E3%81%B8%20%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E7%A2%BA%E4%BF%9D%E3%80%81%E3%82%B5%E3%82%A4&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F3%E3%83%A1%E3%82%AC%E9%8A%80%E3%80%81%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3AI%E3%81%AE%E6%96%B0%E5%9E%8B%E3%83%A2%E3%83%87%E3%83%AB%E6%B4%BB%E7%94%A8%E3%81%B8%20%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E7%A2%BA%E4%BF%9D%E3%80%81%E3%82%B5%E3%82%A4%2F&link_type=hybrid_url"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "keyword": "米国で広がる「AI嫌悪」 スペースX、巨大IPO前に難題 - 日本経済新聞",
         "category": "テクノロジー",
         "source": "google_news",
@@ -350,11 +369,68 @@
             "source": "日本経済新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B1%B3%E5%9B%BD%E3%81%A7%E5%BA%83%E3%81%8C%E3%82%8B%E3%80%8CAI%E5%AB%8C%E6%82%AA%E3%80%8D%20%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9X%E3%80%81%E5%B7%A8%E5%A4%A7IPO%E5%89%8D%E3%81%AB%E9%9B%A3%E9%A1%8C%20-&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%B1%B3%E5%9B%BD%E3%81%A7%E5%BA%83%E3%81%8C%E3%82%8B%E3%80%8CAI%E5%AB%8C%E6%82%AA%E3%80%8D%20%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9X%E3%80%81%E5%B7%A8%E5%A4%A7IPO%E5%89%8D%E3%81%AB%E9%9B%A3%E9%A1%8C%20-/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B1%B3%E5%9B%BD%E3%81%A7%E5%BA%83%E3%81%8C%E3%82%8B%E3%80%8CAI%E5%AB%8C%E6%82%AA%E3%80%8D%20%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9X%E3%80%81%E5%B7%A8%E5%A4%A7IPO%E5%89%8D%E3%81%AB%E9%9B%A3%E9%A1%8C%20-&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%B1%B3%E5%9B%BD%E3%81%A7%E5%BA%83%E3%81%8C%E3%82%8B%E3%80%8CAI%E5%AB%8C%E6%82%AA%E3%80%8D%20%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9X%E3%80%81%E5%B7%A8%E5%A4%A7IPO%E5%89%8D%E3%81%AB%E9%9B%A3%E9%A1%8C%20-%2F&link_type=hybrid_url"
       },
       {
-        "rank": 4,
+        "rank": 5,
+        "keyword": "“くら寿司のテーブル”にスマホを置いたら……「完璧な変装だ」 180万表示の驚きの光景に「違和感ない」（ねとらぼ） - Yahoo!ニュース",
+        "category": "テクノロジー",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "“くら寿司のテーブル”にスマホを置いたら……「完璧な変装だ」 180万表示の驚きの光景に「違和感ない」（ねとらぼ） - Yahoo!ニュース",
+            "snippet": "“くら寿司のテーブル”にスマホを置いたら……「完璧な変装だ」 180万表示の驚きの光景に「違和感ない」（ねとらぼ）&nbsp;&nbsp;Yahoo!ニュース",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42TzUxRl84c0FtQVpfSkVnN0pNRktic0tnaVgyaEJ4eWZzcEJJVTRiOEp3MU5INUZrbjBFQmhyTl8tQTB0UzhVUFVjWE1OSVYxRDVTLXpPcnRKdWZEX1J0UGZnVlo5eERWenVoQi10aTl5ejN4WDJENlF6a1d5a0U?oc=5",
+            "source": "Yahoo!ニュース"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E2%80%9C%E3%81%8F%E3%82%89%E5%AF%BF%E5%8F%B8%E3%81%AE%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E2%80%9D%E3%81%AB%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%92%E7%BD%AE%E3%81%84%E3%81%9F%E3%82%89%E2%80%A6%E2%80%A6%E3%80%8C%E5%AE%8C%E7%92%A7%E3%81%AA%E5%A4%89%E8%A3%85%E3%81%A0%E3%80%8D&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E2%80%9C%E3%81%8F%E3%82%89%E5%AF%BF%E5%8F%B8%E3%81%AE%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E2%80%9D%E3%81%AB%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%92%E7%BD%AE%E3%81%84%E3%81%9F%E3%82%89%E2%80%A6%E2%80%A6%E3%80%8C%E5%AE%8C%E7%92%A7%E3%81%AA%E5%A4%89%E8%A3%85%E3%81%A0%E3%80%8D%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 6,
+        "keyword": "ピザハットのAI導入で「159億円の損害」と加盟店が提訴。効率化のはずが「冷え切ったピザの量産」に陥った理由（海外） - Yahoo!ニュース",
+        "category": "テクノロジー",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "ピザハットのAI導入で「159億円の損害」と加盟店が提訴。効率化のはずが「冷え切ったピザの量産」に陥った理由（海外） - Yahoo!ニュース",
+            "snippet": "ピザハットのAI導入で「159億円の損害」と加盟店が提訴。効率化のはずが「冷え切ったピザの量産」に陥った理由（海外）&nbsp;&nbsp;Yahoo!ニュース",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jamNmOEdac3A2RVlUNHBnM0VmMl9Kc1lma2FQWl9sOFdaQWp5SlM4eHlOdVhPcTBneUpuVTFZV1FhVWVWX2E2V0ZLU3ptVDdkNDdXOWhMUjN4WGlIWDRfQkJMU3AxX0JWVHB2UU9ESFZ3ajJpVWlRQ0JPZVI0ZVk?oc=5",
+            "source": "Yahoo!ニュース"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%94%E3%82%B6%E3%83%8F%E3%83%83%E3%83%88%E3%81%AEAI%E5%B0%8E%E5%85%A5%E3%81%A7%E3%80%8C159%E5%84%84%E5%86%86%E3%81%AE%E6%90%8D%E5%AE%B3%E3%80%8D%E3%81%A8%E5%8A%A0%E7%9B%9F%E5%BA%97%E3%81%8C%E6%8F%90%E8%A8%B4%E3%80%82%E5%8A%B9&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%94%E3%82%B6%E3%83%8F%E3%83%83%E3%83%88%E3%81%AEAI%E5%B0%8E%E5%85%A5%E3%81%A7%E3%80%8C159%E5%84%84%E5%86%86%E3%81%AE%E6%90%8D%E5%AE%B3%E3%80%8D%E3%81%A8%E5%8A%A0%E7%9B%9F%E5%BA%97%E3%81%8C%E6%8F%90%E8%A8%B4%E3%80%82%E5%8A%B9%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 7,
+        "keyword": "新型「bZ4X」の走行距離が伸びた理由、デンソーの「世界初」と「世界最高」が貢献：人とくるまのテクノロジー展2026 - MONOist",
+        "category": "テクノロジー",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "新型「bZ4X」の走行距離が伸びた理由、デンソーの「世界初」と「世界最高」が貢献：人とくるまのテクノロジー展2026 - MONOist",
+            "snippet": "新型「bZ4X」の走行距離が伸びた理由、デンソーの「世界初」と「世界最高」が貢献：人とくるまのテクノロジー展2026&nbsp;&nbsp;MONOist",
+            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aX1VSOUJSbnQ5eW5yeVh3RHE3WXhjc1VUUThUdDFTU1d0UzBsNE5RZnlzM3NNdU55aF9vWmpZd2pVcWtreXg1c0tWUTk0em5WRlJ2MjU5TC1vcUJlNzUwX3ZjQXVMVXlLVDgzeDF1UQ?oc=5",
+            "source": "MONOist"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%B0%E5%9E%8B%E3%80%8CbZ4X%E3%80%8D%E3%81%AE%E8%B5%B0%E8%A1%8C%E8%B7%9D%E9%9B%A2%E3%81%8C%E4%BC%B8%E3%81%B3%E3%81%9F%E7%90%86%E7%94%B1%E3%80%81%E3%83%87%E3%83%B3%E3%82%BD%E3%83%BC%E3%81%AE%E3%80%8C%E4%B8%96%E7%95%8C%E5%88%9D%E3%80%8D&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%96%B0%E5%9E%8B%E3%80%8CbZ4X%E3%80%8D%E3%81%AE%E8%B5%B0%E8%A1%8C%E8%B7%9D%E9%9B%A2%E3%81%8C%E4%BC%B8%E3%81%B3%E3%81%9F%E7%90%86%E7%94%B1%E3%80%81%E3%83%87%E3%83%B3%E3%82%BD%E3%83%BC%E3%81%AE%E3%80%8C%E4%B8%96%E7%95%8C%E5%88%9D%E3%80%8D%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 8,
         "keyword": "実家の引き出しから昔使っていた「ガラケー」が5台も出てきました！ 処分するつもりでしたが、まとめて売ればお金になるでしょうか？（ファイナンシャルフィールド） - Yahoo!ニュース",
         "category": "テクノロジー",
         "source": "google_news",
@@ -369,12 +445,12 @@
             "source": "Yahoo!ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%AE%9F%E5%AE%B6%E3%81%AE%E5%BC%95%E3%81%8D%E5%87%BA%E3%81%97%E3%81%8B%E3%82%89%E6%98%94%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%80%8C%E3%82%AC%E3%83%A9%E3%82%B1%E3%83%BC%E3%80%8D%E3%81%8C5%E5%8F%B0%E3%82%82%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%AE%9F%E5%AE%B6%E3%81%AE%E5%BC%95%E3%81%8D%E5%87%BA%E3%81%97%E3%81%8B%E3%82%89%E6%98%94%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%80%8C%E3%82%AC%E3%83%A9%E3%82%B1%E3%83%BC%E3%80%8D%E3%81%8C5%E5%8F%B0%E3%82%82%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%AE%9F%E5%AE%B6%E3%81%AE%E5%BC%95%E3%81%8D%E5%87%BA%E3%81%97%E3%81%8B%E3%82%89%E6%98%94%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%80%8C%E3%82%AC%E3%83%A9%E3%82%B1%E3%83%BC%E3%80%8D%E3%81%8C5%E5%8F%B0%E3%82%82%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%AE%9F%E5%AE%B6%E3%81%AE%E5%BC%95%E3%81%8D%E5%87%BA%E3%81%97%E3%81%8B%E3%82%89%E6%98%94%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%80%8C%E3%82%AC%E3%83%A9%E3%82%B1%E3%83%BC%E3%80%8D%E3%81%8C5%E5%8F%B0%E3%82%82%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%BE%E3%81%97%2F&link_type=hybrid_url"
       },
       {
-        "rank": 5,
-        "keyword": "国産AI開発に3社出資へ 新会社、旭化成や富士通（共同通信） - Yahoo!ニュース",
+        "rank": 9,
+        "keyword": "米アンソロピック、「ミュトス級」のAIを数週間内に一般公開へ - 日本経済新聞",
         "category": "テクノロジー",
         "source": "google_news",
         "type": "news",
@@ -382,36 +458,17 @@
         "trend": "",
         "news": [
           {
-            "title": "国産AI開発に3社出資へ 新会社、旭化成や富士通（共同通信） - Yahoo!ニュース",
-            "snippet": "国産AI開発に3社出資へ 新会社、旭化成や富士通（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EbElNb1JlV29WRzQ5SnJ3WmZpLUtkTnV6bkRtdnU2Z0piWEt1X1dLcm9yaEUxVlN5eVd0aG1lOWl1UmdROThKTmhFc2dGRjNmVVcxYUkyVWpCUGkxS1BiOVlLTmdsUFZQaEhQVV9XczZ0VGp6aVk4ZUo5cjVDamM?oc=5",
-            "source": "Yahoo!ニュース"
+            "title": "米アンソロピック、「ミュトス級」のAIを数週間内に一般公開へ - 日本経済新聞",
+            "snippet": "米アンソロピック、「ミュトス級」のAIを数週間内に一般公開へ&nbsp;&nbsp;日本経済新聞",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpaGRpdk9ydzB3N0hEQ0pOWEJGSGYzZ05rRmRSZ3pJUDZYSkVGaVVVNlFBd01Kd0cyc2k0c0xCSUQ2WGVYZlc2R3FLRUZtdWhRaTZvMzhERHlZLXpjWVo3OTB2RVl3a0FOV1o0NQ?oc=5",
+            "source": "日本経済新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%9B%BD%E7%94%A3AI%E9%96%8B%E7%99%BA%E3%81%AB3%E7%A4%BE%E5%87%BA%E8%B3%87%E3%81%B8%20%E6%96%B0%E4%BC%9A%E7%A4%BE%E3%80%81%E6%97%AD%E5%8C%96%E6%88%90%E3%82%84%E5%AF%8C%E5%A3%AB%E9%80%9A%EF%BC%88%E5%85%B1%E5%90%8C%E9%80%9A%E4%BF%A1%EF%BC%89&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%9B%BD%E7%94%A3AI%E9%96%8B%E7%99%BA%E3%81%AB3%E7%A4%BE%E5%87%BA%E8%B3%87%E3%81%B8%20%E6%96%B0%E4%BC%9A%E7%A4%BE%E3%80%81%E6%97%AD%E5%8C%96%E6%88%90%E3%82%84%E5%AF%8C%E5%A3%AB%E9%80%9A%EF%BC%88%E5%85%B1%E5%90%8C%E9%80%9A%E4%BF%A1%EF%BC%89/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B1%B3%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%AD%E3%83%94%E3%83%83%E3%82%AF%E3%80%81%E3%80%8C%E3%83%9F%E3%83%A5%E3%83%88%E3%82%B9%E7%B4%9A%E3%80%8D%E3%81%AEAI%E3%82%92%E6%95%B0%E9%80%B1%E9%96%93%E5%86%85%E3%81%AB%E4%B8%80%E8%88%AC%E5%85%AC%E9%96%8B%E3%81%B8&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%B1%B3%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%AD%E3%83%94%E3%83%83%E3%82%AF%E3%80%81%E3%80%8C%E3%83%9F%E3%83%A5%E3%83%88%E3%82%B9%E7%B4%9A%E3%80%8D%E3%81%AEAI%E3%82%92%E6%95%B0%E9%80%B1%E9%96%93%E5%86%85%E3%81%AB%E4%B8%80%E8%88%AC%E5%85%AC%E9%96%8B%E3%81%B8%2F&link_type=hybrid_url"
       },
       {
-        "rank": 6,
-        "keyword": "ガバメントAI「源内」、全府省庁で実証開始 既に約10万人が利用可能（ITmedia NEWS） - Yahoo!ニュース",
-        "category": "テクノロジー",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "ガバメントAI「源内」、全府省庁で実証開始 既に約10万人が利用可能（ITmedia NEWS） - Yahoo!ニュース",
-            "snippet": "ガバメントAI「源内」、全府省庁で実証開始 既に約10万人が利用可能（ITmedia NEWS）&nbsp;&nbsp;Yahoo!ニュース",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvbGtDcFhKTDVESV80SmJobXlvUkRrbXZJdzJVUEZGLUlqREdDQUFjVjExc2hMTlR6eWFRWTFRTnRsX2pHZy1oaGJYWEJLQUFFUTNwTGVwYlA1RlMxMjBzV2tJUWdfejh5aTFnUVI0MThYU0VlZWJjWWlfX3dEWFU?oc=5",
-            "source": "Yahoo!ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%AC%E3%83%90%E3%83%A1%E3%83%B3%E3%83%88AI%E3%80%8C%E6%BA%90%E5%86%85%E3%80%8D%E3%80%81%E5%85%A8%E5%BA%9C%E7%9C%81%E5%BA%81%E3%81%A7%E5%AE%9F%E8%A8%BC%E9%96%8B%E5%A7%8B%20%E6%97%A2%E3%81%AB%E7%B4%8410%E4%B8%87%E4%BA%BA%E3%81%8C&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%AC%E3%83%90%E3%83%A1%E3%83%B3%E3%83%88AI%E3%80%8C%E6%BA%90%E5%86%85%E3%80%8D%E3%80%81%E5%85%A8%E5%BA%9C%E7%9C%81%E5%BA%81%E3%81%A7%E5%AE%9F%E8%A8%BC%E9%96%8B%E5%A7%8B%20%E6%97%A2%E3%81%AB%E7%B4%8410%E4%B8%87%E4%BA%BA%E3%81%8C/"
-      },
-      {
-        "rank": 7,
+        "rank": 10,
         "keyword": "駅でのカスハラ、ゼロ件に 小田急の装着型カメラ導入1カ月 現場は歓迎「安心感高い」 - 産経ニュース",
         "category": "テクノロジー",
         "source": "google_news",
@@ -426,71 +483,14 @@
             "source": "産経ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%A7%85%E3%81%A7%E3%81%AE%E3%82%AB%E3%82%B9%E3%83%8F%E3%83%A9%E3%80%81%E3%82%BC%E3%83%AD%E4%BB%B6%E3%81%AB%20%E5%B0%8F%E7%94%B0%E6%80%A5%E3%81%AE%E8%A3%85%E7%9D%80%E5%9E%8B%E3%82%AB%E3%83%A1%E3%83%A9%E5%B0%8E%E5%85%A51%E3%82%AB%E6%9C%88%20%E7%8F%BE&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%A7%85%E3%81%A7%E3%81%AE%E3%82%AB%E3%82%B9%E3%83%8F%E3%83%A9%E3%80%81%E3%82%BC%E3%83%AD%E4%BB%B6%E3%81%AB%20%E5%B0%8F%E7%94%B0%E6%80%A5%E3%81%AE%E8%A3%85%E7%9D%80%E5%9E%8B%E3%82%AB%E3%83%A1%E3%83%A9%E5%B0%8E%E5%85%A51%E3%82%AB%E6%9C%88%20%E7%8F%BE/"
-      },
-      {
-        "rank": 8,
-        "keyword": "ソニーのNCイヤフォン「WF-1000XM6」もう値下げ SNSに「驚いた」「少しショックだ」の声 4万4550円→3万9600円に - Yahoo!ニュース",
-        "category": "テクノロジー",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "ソニーのNCイヤフォン「WF-1000XM6」もう値下げ SNSに「驚いた」「少しショックだ」の声 4万4550円→3万9600円に - Yahoo!ニュース",
-            "snippet": "ソニーのNCイヤフォン「WF-1000XM6」もう値下げ SNSに「驚いた」「少しショックだ」の声 4万4550円→3万9600円に&nbsp;&nbsp;Yahoo!ニュース",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Td0VwNWFhUjJVTWx6Vzl4WEhWejVJXzZxV0gyS0FlX0VOcG1FdDdGOGZIZ0ZnMk9MR2pjdXpscGtqQ0hnSC1rSzlZZjExaUxGQU5CRlBMLWY1X0t0VXV4WUhvSWRhQ2dzcGQ1Z1hhNDJ2Q0tvTDJSVnRqbkloSUU?oc=5",
-            "source": "Yahoo!ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%BD%E3%83%8B%E3%83%BC%E3%81%AENC%E3%82%A4%E3%83%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%80%8CWF-1000XM6%E3%80%8D%E3%82%82%E3%81%86%E5%80%A4%E4%B8%8B%E3%81%92%20S&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%BD%E3%83%8B%E3%83%BC%E3%81%AENC%E3%82%A4%E3%83%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%80%8CWF-1000XM6%E3%80%8D%E3%82%82%E3%81%86%E5%80%A4%E4%B8%8B%E3%81%92%20S/"
-      },
-      {
-        "rank": 9,
-        "keyword": "もう手遅れとわかっていても…最新の調査で分かった、加速する「AI」に対するアメリカ人の微妙な反応 - 現代ビジネス",
-        "category": "テクノロジー",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "もう手遅れとわかっていても…最新の調査で分かった、加速する「AI」に対するアメリカ人の微妙な反応 - 現代ビジネス",
-            "snippet": "もう手遅れとわかっていても…最新の調査で分かった、加速する「AI」に対するアメリカ人の微妙な反応&nbsp;&nbsp;現代ビジネス",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSa1B1R29Ua21acVVyTHR2bTFxMzZWVUQyUHcxZFROZVZnNTF4MGtlUUhPYnNySXJ6azkxMnByR1BRN3VKN29zQk5LY0NGS0l5MU81T1BSUkE?oc=5",
-            "source": "現代ビジネス"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%82%E3%81%86%E6%89%8B%E9%81%85%E3%82%8C%E3%81%A8%E3%82%8F%E3%81%8B%E3%81%A3%E3%81%A6%E3%81%84%E3%81%A6%E3%82%82%E2%80%A6%E6%9C%80%E6%96%B0%E3%81%AE%E8%AA%BF%E6%9F%BB%E3%81%A7%E5%88%86%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%81%E5%8A%A0%E9%80%9F%E3%81%99%E3%82%8B%E3%80%8C&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%82%E3%81%86%E6%89%8B%E9%81%85%E3%82%8C%E3%81%A8%E3%82%8F%E3%81%8B%E3%81%A3%E3%81%A6%E3%81%84%E3%81%A6%E3%82%82%E2%80%A6%E6%9C%80%E6%96%B0%E3%81%AE%E8%AA%BF%E6%9F%BB%E3%81%A7%E5%88%86%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%81%E5%8A%A0%E9%80%9F%E3%81%99%E3%82%8B%E3%80%8C/"
-      },
-      {
-        "rank": 10,
-        "keyword": "ヤマハ、ネットワーク機器値上げ 20万円アップの製品も - ITmedia",
-        "category": "テクノロジー",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "ヤマハ、ネットワーク機器値上げ 20万円アップの製品も - ITmedia",
-            "snippet": "ヤマハ、ネットワーク機器値上げ 20万円アップの製品も&nbsp;&nbsp;ITmedia",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zUFotWDc4OElNZ0RQRjhjT0FBRlBOS1RabG1UU0JzcDVDSnh6YktTZzlnS2UxUHBfeEp6X3J6SC1NNkc2MUt3M2ktelZPU05uZTdPZjVRSzFjZXdWQ0hpNFR3dHdwMlhCeVhiMQ?oc=5",
-            "source": "ITmedia"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%A4%E3%83%9E%E3%83%8F%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A9%9F%E5%99%A8%E5%80%A4%E4%B8%8A%E3%81%92%2020%E4%B8%87%E5%86%86%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E8%A3%BD%E5%93%81%E3%82%82%20-%20&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%A4%E3%83%9E%E3%83%8F%E3%80%81%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%A9%9F%E5%99%A8%E5%80%A4%E4%B8%8A%E3%81%92%2020%E4%B8%87%E5%86%86%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E8%A3%BD%E5%93%81%E3%82%82%20-%20/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%A7%85%E3%81%A7%E3%81%AE%E3%82%AB%E3%82%B9%E3%83%8F%E3%83%A9%E3%80%81%E3%82%BC%E3%83%AD%E4%BB%B6%E3%81%AB%20%E5%B0%8F%E7%94%B0%E6%80%A5%E3%81%AE%E8%A3%85%E7%9D%80%E5%9E%8B%E3%82%AB%E3%83%A1%E3%83%A9%E5%B0%8E%E5%85%A51%E3%82%AB%E6%9C%88%20%E7%8F%BE&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E9%A7%85%E3%81%A7%E3%81%AE%E3%82%AB%E3%82%B9%E3%83%8F%E3%83%A9%E3%80%81%E3%82%BC%E3%83%AD%E4%BB%B6%E3%81%AB%20%E5%B0%8F%E7%94%B0%E6%80%A5%E3%81%AE%E8%A3%85%E7%9D%80%E5%9E%8B%E3%82%AB%E3%83%A1%E3%83%A9%E5%B0%8E%E5%85%A51%E3%82%AB%E6%9C%88%20%E7%8F%BE%2F&link_type=hybrid_url"
       }
     ],
     "経済・投資": [
       {
         "rank": 1,
-        "keyword": "米国株式市場＝主要3指数、連日の最高値 米イラン停戦延長巡る報道を好感 - Reuters",
+        "keyword": "日本の人口1億2304万人、5年間で309万人減 2025年国勢調査速報値 - 日本経済新聞",
         "category": "経済・投資",
         "source": "google_news",
         "type": "news",
@@ -498,36 +498,55 @@
         "trend": "",
         "news": [
           {
-            "title": "米国株式市場＝主要3指数、連日の最高値 米イラン停戦延長巡る報道を好感 - Reuters",
-            "snippet": "米国株式市場＝主要3指数、連日の最高値 米イラン停戦延長巡る報道を好感&nbsp;&nbsp;Reuters28日の米国市場ダイジェスト：米国株式市場は続伸、ハイテク株が急伸(フィスコ)&nbsp;&nbsp;Yahoo!ファイナンスNYダ",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPclhhckVvTUl2WGVGT2xDVU1CMTNrZ0pQVzVBc05mSGJfTnhuVkNxMEI3SmxGT2NfNXQ5Nml5RkVxQzNweXJnX1MyUHVnb0dNLWtad3N3ejhJUFRhYV95cXppOG5YVGc1ZDFheDlPSzYxVUdrdkwwaXFmVlM2TWdSQw?oc=5",
-            "source": "Reuters"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B1%B3%E5%9B%BD%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4%EF%BC%9D%E4%B8%BB%E8%A6%813%E6%8C%87%E6%95%B0%E3%80%81%E9%80%A3%E6%97%A5%E3%81%AE%E6%9C%80%E9%AB%98%E5%80%A4%20%E7%B1%B3%E3%82%A4%E3%83%A9%E3%83%B3%E5%81%9C%E6%88%A6%E5%BB%B6%E9%95%B7%E5%B7%A1%E3%82%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%B1%B3%E5%9B%BD%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4%EF%BC%9D%E4%B8%BB%E8%A6%813%E6%8C%87%E6%95%B0%E3%80%81%E9%80%A3%E6%97%A5%E3%81%AE%E6%9C%80%E9%AB%98%E5%80%A4%20%E7%B1%B3%E3%82%A4%E3%83%A9%E3%83%B3%E5%81%9C%E6%88%A6%E5%BB%B6%E9%95%B7%E5%B7%A1%E3%82%8B/"
-      },
-      {
-        "rank": 2,
-        "keyword": "日本の原油輸入5割減、主要国で突出 イラン攻撃3カ月で中東依存鮮明 - 日本経済新聞",
-        "category": "経済・投資",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "日本の原油輸入5割減、主要国で突出 イラン攻撃3カ月で中東依存鮮明 - 日本経済新聞",
-            "snippet": "日本の原油輸入5割減、主要国で突出 イラン攻撃3カ月で中東依存鮮明&nbsp;&nbsp;日本経済新聞石油・天然ガスの消費削減が必要になる可能性＝米ダラス連銀総裁&nbsp;&nbsp;Reuters燃料高の波、漁出られない イラン攻撃３カ",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TUGdaa0VCQXJDSnMtNTNxMS04emt2bzlmQjl1ZUZxdFQ2bUQ5YVJCdWJ1LTRXVDFwcDhHOF9EQ2xNS1huckw4NU1OcWRvbWlTZFhvOFpFb09mNDBSRTMwLU8zSGp0SU41Z05oaA?oc=5",
+            "title": "日本の人口1億2304万人、5年間で309万人減 2025年国勢調査速報値 - 日本経済新聞",
+            "snippet": "日本の人口1億2304万人、5年間で309万人減 2025年国勢調査速報値&nbsp;&nbsp;日本経済新聞日本の人口309万人減 減少幅が過去最大、東京近郊も軒並み減（毎日新聞）&nbsp;&nbsp;Yahoo!ニュース総人口1億23",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UUnZvYjFWejcxRHYwWU1xSGFicXdZUW9XNk52N1hhbXlKdkJzbUN3Qi13VVZJelVtSTZJbWNhZGdhMHBuMFJyeVdiRVpzd0dJZEkxWjlPNXZEVk5VdlZpTDZVY2hHZjFuMVotcw?oc=5",
             "source": "日本経済新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%81%AE%E5%8E%9F%E6%B2%B9%E8%BC%B8%E5%85%A55%E5%89%B2%E6%B8%9B%E3%80%81%E4%B8%BB%E8%A6%81%E5%9B%BD%E3%81%A7%E7%AA%81%E5%87%BA%20%E3%82%A4%E3%83%A9%E3%83%B3%E6%94%BB%E6%92%833%E3%82%AB%E6%9C%88%E3%81%A7%E4%B8%AD%E6%9D%B1%E4%BE%9D&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%8E%9F%E6%B2%B9%E8%BC%B8%E5%85%A55%E5%89%B2%E6%B8%9B%E3%80%81%E4%B8%BB%E8%A6%81%E5%9B%BD%E3%81%A7%E7%AA%81%E5%87%BA%20%E3%82%A4%E3%83%A9%E3%83%B3%E6%94%BB%E6%92%833%E3%82%AB%E6%9C%88%E3%81%A7%E4%B8%AD%E6%9D%B1%E4%BE%9D/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%81%AE%E4%BA%BA%E5%8F%A31%E5%84%842304%E4%B8%87%E4%BA%BA%E3%80%815%E5%B9%B4%E9%96%93%E3%81%A7309%E4%B8%87%E4%BA%BA%E6%B8%9B%202025%E5%B9%B4&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E6%9C%AC%E3%81%AE%E4%BA%BA%E5%8F%A31%E5%84%842304%E4%B8%87%E4%BA%BA%E3%80%815%E5%B9%B4%E9%96%93%E3%81%A7309%E4%B8%87%E4%BA%BA%E6%B8%9B%202025%E5%B9%B4%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 2,
+        "keyword": "２９日の東京株式市場見通し＝反発後に上値を試す場面も 速報 - kabushiki.jp",
+        "category": "経済・投資",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "２９日の東京株式市場見通し＝反発後に上値を試す場面も 速報 - kabushiki.jp",
+            "snippet": "２９日の東京株式市場見通し＝反発後に上値を試す場面も 速報&nbsp;&nbsp;kabushiki.jp【市況】 前場に注目すべき3つのポイント～半導体やAI関連株の動向をにらみながらの相場展開～&nbsp;&nbsp;かぶたん日経平均は",
+            "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9lS1FhdExKVG5kdXVvdFp2N244c21udmNmemJ0OEZhbmx1cXZReGFJdDJ4V3RYMkVUR3d4RzV2VkZLNy1DTllz?oc=5",
+            "source": "kabushiki.jp"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92%EF%BC%99%E6%97%A5%E3%81%AE%E6%9D%B1%E4%BA%AC%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4%E8%A6%8B%E9%80%9A%E3%81%97%EF%BC%9D%E5%8F%8D%E7%99%BA%E5%BE%8C%E3%81%AB%E4%B8%8A%E5%80%A4%E3%82%92%E8%A9%A6%E3%81%99%E5%A0%B4%E9%9D%A2%E3%82%82%20%E9%80%9F%E5%A0%B1%20&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%EF%BC%92%EF%BC%99%E6%97%A5%E3%81%AE%E6%9D%B1%E4%BA%AC%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4%E8%A6%8B%E9%80%9A%E3%81%97%EF%BC%9D%E5%8F%8D%E7%99%BA%E5%BE%8C%E3%81%AB%E4%B8%8A%E5%80%A4%E3%82%92%E8%A9%A6%E3%81%99%E5%A0%B4%E9%9D%A2%E3%82%82%20%E9%80%9F%E5%A0%B1%20%2F&link_type=hybrid_url"
       },
       {
         "rank": 3,
+        "keyword": "米アンソロピックの企業価値154兆円に、3カ月で2.5倍 OpenAI超え - 日本経済新聞",
+        "category": "経済・投資",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "米アンソロピックの企業価値154兆円に、3カ月で2.5倍 OpenAI超え - 日本経済新聞",
+            "snippet": "米アンソロピックの企業価値154兆円に、3カ月で2.5倍 OpenAI超え&nbsp;&nbsp;日本経済新聞アンソロピック、企業価値9000億ドルに到達──OpenAIを抜き世界最高額のAIスタートアップに&nbsp;&nbsp;Forb",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zTVNaVnZ6LVBXZGRtaWdCRnVEcUZweHRYUjFNZWZxRGhfQ3NZNzNrWnhCNzQtT0VCbmg2SF9fc0dFVU16cExlVHpTYURReUh1N0tENjFBbzU5QUxzNWhSeDZ2Zll2dFBzUFhxSA?oc=5",
+            "source": "日本経済新聞"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B1%B3%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%AD%E3%83%94%E3%83%83%E3%82%AF%E3%81%AE%E4%BC%81%E6%A5%AD%E4%BE%A1%E5%80%A4154%E5%85%86%E5%86%86%E3%81%AB%E3%80%813%E3%82%AB%E6%9C%88%E3%81%A72.5%E5%80%8D%20O&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%B1%B3%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%AD%E3%83%94%E3%83%83%E3%82%AF%E3%81%AE%E4%BC%81%E6%A5%AD%E4%BE%A1%E5%80%A4154%E5%85%86%E5%86%86%E3%81%AB%E3%80%813%E3%82%AB%E6%9C%88%E3%81%A72.5%E5%80%8D%20O%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 4,
         "keyword": "ローソン新業態「Ｌミニマート」オープン…都市部の住宅密集地に各社出店、低価格で勝負 - 読売新聞",
         "category": "経済・投資",
         "source": "google_news",
@@ -537,36 +556,17 @@
         "news": [
           {
             "title": "ローソン新業態「Ｌミニマート」オープン…都市部の住宅密集地に各社出店、低価格で勝負 - 読売新聞",
-            "snippet": "ローソン新業態「Ｌミニマート」オープン…都市部の住宅密集地に各社出店、低価格で勝負&nbsp;&nbsp;読売新聞都市部で存在感増すミニスーパー…ローソンも参入 割安な弁当・総菜、徒歩圏内で脚光&nbsp;&nbsp;産経ニュース2026年",
+            "snippet": "ローソン新業態「Ｌミニマート」オープン…都市部の住宅密集地に各社出店、低価格で勝負&nbsp;&nbsp;読売新聞2026年5月29日 生活・建設・運輸・医療１&nbsp;&nbsp;日刊工業新聞「Lミニマート」で販売している豆腐＝28日午",
             "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MakZzb3U5NG5NQkRDNnNjdDZGMU1ENGd4RmpQakRBQS1EeFhVNnFKQkpwY2lZdTcwMy10VER0Tm84Sll5aWE5b2kxaXhKRjd4WUd0N3k0M0ZsbFBrQ1VmelJWSG4?oc=5",
             "source": "読売新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%E6%96%B0%E6%A5%AD%E6%85%8B%E3%80%8C%EF%BC%AC%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88%E3%80%8D%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E2%80%A6%E9%83%BD%E5%B8%82%E9%83%A8%E3%81%AE%E4%BD%8F%E5%AE%85%E5%AF%86%E9%9B%86%E5%9C%B0%E3%81%AB&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%E6%96%B0%E6%A5%AD%E6%85%8B%E3%80%8C%EF%BC%AC%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88%E3%80%8D%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E2%80%A6%E9%83%BD%E5%B8%82%E9%83%A8%E3%81%AE%E4%BD%8F%E5%AE%85%E5%AF%86%E9%9B%86%E5%9C%B0%E3%81%AB/"
-      },
-      {
-        "rank": 4,
-        "keyword": "「10兆円為替介入」効果は1円 再び迫る160円、高まる追加介入観測 - 日本経済新聞",
-        "category": "経済・投資",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "「10兆円為替介入」効果は1円 再び迫る160円、高まる追加介入観測 - 日本経済新聞",
-            "snippet": "「10兆円為替介入」効果は1円 再び迫る160円、高まる追加介入観測&nbsp;&nbsp;日本経済新聞Google ニュースで見出しと意見をもっと見る",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3dENaWHA1T2ZycjBQamdJcFJCTHp2UHZKLUt6RGdmZW1Qc2x1TGxZN2tJNFltV3V2WjV2MnNva0hLU19yMWxLc3pyTGNhd3VUM21FM1hxTk9sWHJHQ2pnV3RsTTdDYmlNQUhmSQ?oc=5",
-            "source": "日本経済新聞"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C10%E5%85%86%E5%86%86%E7%82%BA%E6%9B%BF%E4%BB%8B%E5%85%A5%E3%80%8D%E5%8A%B9%E6%9E%9C%E3%81%AF1%E5%86%86%20%E5%86%8D%E3%81%B3%E8%BF%AB%E3%82%8B160%E5%86%86%E3%80%81%E9%AB%98%E3%81%BE%E3%82%8B%E8%BF%BD%E5%8A%A0&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8C10%E5%85%86%E5%86%86%E7%82%BA%E6%9B%BF%E4%BB%8B%E5%85%A5%E3%80%8D%E5%8A%B9%E6%9E%9C%E3%81%AF1%E5%86%86%20%E5%86%8D%E3%81%B3%E8%BF%AB%E3%82%8B160%E5%86%86%E3%80%81%E9%AB%98%E3%81%BE%E3%82%8B%E8%BF%BD%E5%8A%A0/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%E6%96%B0%E6%A5%AD%E6%85%8B%E3%80%8C%EF%BC%AC%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88%E3%80%8D%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E2%80%A6%E9%83%BD%E5%B8%82%E9%83%A8%E3%81%AE%E4%BD%8F%E5%AE%85%E5%AF%86%E9%9B%86%E5%9C%B0%E3%81%AB&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%E6%96%B0%E6%A5%AD%E6%85%8B%E3%80%8C%EF%BC%AC%E3%83%9F%E3%83%8B%E3%83%9E%E3%83%BC%E3%83%88%E3%80%8D%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E2%80%A6%E9%83%BD%E5%B8%82%E9%83%A8%E3%81%AE%E4%BD%8F%E5%AE%85%E5%AF%86%E9%9B%86%E5%9C%B0%E3%81%AB%2F&link_type=hybrid_url"
       },
       {
         "rank": 5,
-        "keyword": "神戸市「指定ごみ袋以外も回収します」 ナフサ供給不安、一部で品切れ 市長「全体量は足りている」|社会 - 神戸新聞NEXT",
+        "keyword": "〔米株式〕ダウ小幅続伸、最高値更新＝米・イランの交渉進展を期待（28日）(時事通信) - Yahoo!ファイナンス",
         "category": "経済・投資",
         "source": "google_news",
         "type": "news",
@@ -574,18 +574,18 @@
         "trend": "",
         "news": [
           {
-            "title": "神戸市「指定ごみ袋以外も回収します」 ナフサ供給不安、一部で品切れ 市長「全体量は足りている」|社会 - 神戸新聞NEXT",
-            "snippet": "神戸市「指定ごみ袋以外も回収します」 ナフサ供給不安、一部で品切れ 市長「全体量は足りている」|社会&nbsp;&nbsp;神戸新聞NEXT家庭ごみの指定袋に関する臨時的措置&nbsp;&nbsp;city.kobe.lg.jp無地の袋にシ",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzS2hDaDJOdHlXTDZJX1d2cHB4NTlnNmZ6NmljWmlyZjM1b19ZSUlsZ1JYLXJWajdKeEtieVQ1STQ5WENsOHg0M1Npa1hNSG9yXzFfX3FLYktPb0ZKY1ExV0RaanV6X2pJbkNXZ3JsUQ?oc=5",
-            "source": "神戸新聞NEXT"
+            "title": "〔米株式〕ダウ小幅続伸、最高値更新＝米・イランの交渉進展を期待（28日）(時事通信) - Yahoo!ファイナンス",
+            "snippet": "〔米株式〕ダウ小幅続伸、最高値更新＝米・イランの交渉進展を期待（28日）(時事通信)&nbsp;&nbsp;Yahoo!ファイナンス【市況】 米イランの停戦延長暫定合意報道を背景に買い戻し優勢へ／日経225・本日の想定レンジ&nbsp;&n",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRXBHMnBLZkc5NFlfeF9hTE5qZDBPNlpjbVNSVmJhYUNXLWZDWDFhQ3lJVW9yQ0tuZF90VjZ3SjRvU0FOVGN1NWl2SksxTGNMcExzbFhYUi1HMmdZWENpNHJqYkRZdENhRThWc1ZZYnJNdzZCY3psbE82RVkyNno3OElCekM4Q3c?oc=5",
+            "source": "Yahoo!ファイナンス"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%A5%9E%E6%88%B8%E5%B8%82%E3%80%8C%E6%8C%87%E5%AE%9A%E3%81%94%E3%81%BF%E8%A2%8B%E4%BB%A5%E5%A4%96%E3%82%82%E5%9B%9E%E5%8F%8E%E3%81%97%E3%81%BE%E3%81%99%E3%80%8D%20%E3%83%8A%E3%83%95%E3%82%B5%E4%BE%9B%E7%B5%A6%E4%B8%8D%E5%AE%89%E3%80%81%E4%B8%80%E9%83%A8%E3%81%A7&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%A5%9E%E6%88%B8%E5%B8%82%E3%80%8C%E6%8C%87%E5%AE%9A%E3%81%94%E3%81%BF%E8%A2%8B%E4%BB%A5%E5%A4%96%E3%82%82%E5%9B%9E%E5%8F%8E%E3%81%97%E3%81%BE%E3%81%99%E3%80%8D%20%E3%83%8A%E3%83%95%E3%82%B5%E4%BE%9B%E7%B5%A6%E4%B8%8D%E5%AE%89%E3%80%81%E4%B8%80%E9%83%A8%E3%81%A7/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%94%E7%B1%B3%E6%A0%AA%E5%BC%8F%E3%80%95%E3%83%80%E3%82%A6%E5%B0%8F%E5%B9%85%E7%B6%9A%E4%BC%B8%E3%80%81%E6%9C%80%E9%AB%98%E5%80%A4%E6%9B%B4%E6%96%B0%EF%BC%9D%E7%B1%B3%E3%83%BB%E3%82%A4%E3%83%A9%E3%83%B3%E3%81%AE%E4%BA%A4%E6%B8%89%E9%80%B2%E5%B1%95%E3%82%92%E6%9C%9F&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%94%E7%B1%B3%E6%A0%AA%E5%BC%8F%E3%80%95%E3%83%80%E3%82%A6%E5%B0%8F%E5%B9%85%E7%B6%9A%E4%BC%B8%E3%80%81%E6%9C%80%E9%AB%98%E5%80%A4%E6%9B%B4%E6%96%B0%EF%BC%9D%E7%B1%B3%E3%83%BB%E3%82%A4%E3%83%A9%E3%83%B3%E3%81%AE%E4%BA%A4%E6%B8%89%E9%80%B2%E5%B1%95%E3%82%92%E6%9C%9F%2F&link_type=hybrid_url"
       },
       {
         "rank": 6,
-        "keyword": "ECB、4月利上げでも反対しなかったと複数の委員が表明－議事要旨 - Bloomberg.com",
+        "keyword": "【NY為替オープニング】米インフレ圧力を意識｜FX・為替ニュース - ザイFX！",
         "category": "経済・投資",
         "source": "google_news",
         "type": "news",
@@ -593,55 +593,17 @@
         "trend": "",
         "news": [
           {
-            "title": "ECB、4月利上げでも反対しなかったと複数の委員が表明－議事要旨 - Bloomberg.com",
-            "snippet": "ECB、4月利上げでも反対しなかったと複数の委員が表明－議事要旨&nbsp;&nbsp;Bloomberg.comＥＣＢ、4月据え置き「僅差」 インフレに警戒＝議事要旨&nbsp;&nbsp;ReutersECB、4月利上げでも反対しなかっ",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5udHBRMFBiMndMZFMwSGNmdERhSXVRR2ZpZlRIRkk4eWZIanhDWnhJMkNLWUVwV21PMGlDZnpYY0JOWkM4UGhwVDcyUmw3c1R3VjBZUTNXQnlPZ0tydmk2aTZvU0FnOWVxdGdPVDUtMzdqN3FIS2hJ?oc=5",
-            "source": "Bloomberg.com"
+            "title": "【NY為替オープニング】米インフレ圧力を意識｜FX・為替ニュース - ザイFX！",
+            "snippet": "【NY為替オープニング】米インフレ圧力を意識｜FX・為替ニュース&nbsp;&nbsp;ザイFX！「10兆円為替介入」効果は1円 再び迫る160円、高まる追加介入観測&nbsp;&nbsp;日本経済新聞〔東京外為〕ドル、159円台前半＝米イ",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaWEtUNTBVVTRpdDc5QlNUVnFaOUdzRGV3LWNzZ3IzZERlSFJ3bFFBdkxmclk1QmNEWUJRUWhWdklEYlhwQ0U5WTdRVFc2b0NPZWc?oc=5",
+            "source": "ザイFX！"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=ECB%E3%80%814%E6%9C%88%E5%88%A9%E4%B8%8A%E3%81%92%E3%81%A7%E3%82%82%E5%8F%8D%E5%AF%BE%E3%81%97%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A8%E8%A4%87%E6%95%B0%E3%81%AE%E5%A7%94%E5%93%A1%E3%81%8C%E8%A1%A8%E6%98%8E%EF%BC%8D%E8%AD%B0%E4%BA%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/ECB%E3%80%814%E6%9C%88%E5%88%A9%E4%B8%8A%E3%81%92%E3%81%A7%E3%82%82%E5%8F%8D%E5%AF%BE%E3%81%97%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%A8%E8%A4%87%E6%95%B0%E3%81%AE%E5%A7%94%E5%93%A1%E3%81%8C%E8%A1%A8%E6%98%8E%EF%BC%8D%E8%AD%B0%E4%BA%8B/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90NY%E7%82%BA%E6%9B%BF%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%80%91%E7%B1%B3%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E5%9C%A7%E5%8A%9B%E3%82%92%E6%84%8F%E8%AD%98%EF%BD%9CFX%E3%83%BB%E7%82%BA%E6%9B%BF%E3%83%8B%E3%83%A5&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90NY%E7%82%BA%E6%9B%BF%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%80%91%E7%B1%B3%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AC%E5%9C%A7%E5%8A%9B%E3%82%92%E6%84%8F%E8%AD%98%EF%BD%9CFX%E3%83%BB%E7%82%BA%E6%9B%BF%E3%83%8B%E3%83%A5%2F&link_type=hybrid_url"
       },
       {
         "rank": 7,
-        "keyword": "トヨタ、２０２７年半ば発売予定だった次世代ＥＶの開発を中止へ…全固体電池など先端技術の開発は継続（読売新聞オンライン） - Yahoo!ニュース",
-        "category": "経済・投資",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "トヨタ、２０２７年半ば発売予定だった次世代ＥＶの開発を中止へ…全固体電池など先端技術の開発は継続（読売新聞オンライン） - Yahoo!ニュース",
-            "snippet": "トヨタ、２０２７年半ば発売予定だった次世代ＥＶの開発を中止へ…全固体電池など先端技術の開発は継続（読売新聞オンライン）&nbsp;&nbsp;Yahoo!ニューストヨタ、次世代EVセダンの開発中止 SUV型などに資源集中&nbsp;&nbs",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yZTBab3Rla3pFaVBwUlZwV3ByS09DZXVfVU9naFNYekJ0TDdjUjF0YVhVVmRnbzdReXhHNjlxNXNkdkJXOExJLUdtMU1PM0tMRUxZLU1PdXJVVVFBelE5T2p3ejJId0VmVUgwYzVLVUZPM0dOWVNxMU1oRm1Sd2c?oc=5",
-            "source": "Yahoo!ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%88%E3%83%A8%E3%82%BF%E3%80%81%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%97%E5%B9%B4%E5%8D%8A%E3%81%B0%E7%99%BA%E5%A3%B2%E4%BA%88%E5%AE%9A%E3%81%A0%E3%81%A3%E3%81%9F%E6%AC%A1%E4%B8%96%E4%BB%A3%EF%BC%A5%EF%BC%B6%E3%81%AE%E9%96%8B%E7%99%BA%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%B8&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%88%E3%83%A8%E3%82%BF%E3%80%81%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%97%E5%B9%B4%E5%8D%8A%E3%81%B0%E7%99%BA%E5%A3%B2%E4%BA%88%E5%AE%9A%E3%81%A0%E3%81%A3%E3%81%9F%E6%AC%A1%E4%B8%96%E4%BB%A3%EF%BC%A5%EF%BC%B6%E3%81%AE%E9%96%8B%E7%99%BA%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%B8/"
-      },
-      {
-        "rank": 8,
-        "keyword": "NY商品、原油小反発 米イランの暫定合意は重荷 金反発 - 日本経済新聞",
-        "category": "経済・投資",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "NY商品、原油小反発 米イランの暫定合意は重荷 金反発 - 日本経済新聞",
-            "snippet": "NY商品、原油小反発 米イランの暫定合意は重荷 金反発&nbsp;&nbsp;日本経済新聞NY原油小幅反発、88ドル台 停戦延長観測も方向感欠く（共同通信）&nbsp;&nbsp;Yahoo!ニュースNY原油小幅反発、88ドル台 停戦延長観",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YdTRKVEdDc3NsbU9vSXdFTzJyeVlnem0wM2VBbEc4ajZkaC1WYUlMZ3NSR2l4MU1wMTJyWHJTTXV4N19ENHJzUGdCcFFxOUNDQ2FpR0M5aHZ6Z1NLZWpsWTFwVFQwVWMxZGptWg?oc=5",
-            "source": "日本経済新聞"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=NY%E5%95%86%E5%93%81%E3%80%81%E5%8E%9F%E6%B2%B9%E5%B0%8F%E5%8F%8D%E7%99%BA%20%E7%B1%B3%E3%82%A4%E3%83%A9%E3%83%B3%E3%81%AE%E6%9A%AB%E5%AE%9A%E5%90%88%E6%84%8F%E3%81%AF%E9%87%8D%E8%8D%B7%20%E9%87%91%E5%8F%8D%E7%99%BA%20-%20&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/NY%E5%95%86%E5%93%81%E3%80%81%E5%8E%9F%E6%B2%B9%E5%B0%8F%E5%8F%8D%E7%99%BA%20%E7%B1%B3%E3%82%A4%E3%83%A9%E3%83%B3%E3%81%AE%E6%9A%AB%E5%AE%9A%E5%90%88%E6%84%8F%E3%81%AF%E9%87%8D%E8%8D%B7%20%E9%87%91%E5%8F%8D%E7%99%BA%20-%20/"
-      },
-      {
-        "rank": 9,
         "keyword": "イオン、世界初・完全養殖ウナギ蒲焼を試験販売 天然資源に頼らない - Impress Watch",
         "category": "経済・投資",
         "source": "google_news",
@@ -651,17 +613,17 @@
         "news": [
           {
             "title": "イオン、世界初・完全養殖ウナギ蒲焼を試験販売 天然資源に頼らない - Impress Watch",
-            "snippet": "イオン、世界初・完全養殖ウナギ蒲焼を試験販売 天然資源に頼らない&nbsp;&nbsp;Impress Watchイオン、完全養殖ウナギを試験販売 ネットで、1尾4860円（時事通信）&nbsp;&nbsp;Yahoo!ニュース完全養殖ウナ",
+            "snippet": "イオン、世界初・完全養殖ウナギ蒲焼を試験販売 天然資源に頼らない&nbsp;&nbsp;Impress Watch卵から育てた完全養殖ウナギ、きょうから「世界初」販売…イオンのＥＣサイトで４５００円から&nbsp;&nbsp;読売新聞イオン",
             "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92ME5kZlVCVEhwaTFIcVJFQ002clpXZ2dTRjl4b2Z1dDdiQndVSFptY3h4Z3cwMnk3eUJ0cEUyWUoxcHU0XzQwYk16WTdjT0Yzcm16ZjZ0d2pFWGxyUHRTU1dYa1Y?oc=5",
             "source": "Impress Watch"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%AA%E3%83%B3%E3%80%81%E4%B8%96%E7%95%8C%E5%88%9D%E3%83%BB%E5%AE%8C%E5%85%A8%E9%A4%8A%E6%AE%96%E3%82%A6%E3%83%8A%E3%82%AE%E8%92%B2%E7%84%BC%E3%82%92%E8%A9%A6%E9%A8%93%E8%B2%A9%E5%A3%B2%20%E5%A4%A9%E7%84%B6%E8%B3%87%E6%BA%90%E3%81%AB%E9%A0%BC%E3%82%89&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A4%E3%82%AA%E3%83%B3%E3%80%81%E4%B8%96%E7%95%8C%E5%88%9D%E3%83%BB%E5%AE%8C%E5%85%A8%E9%A4%8A%E6%AE%96%E3%82%A6%E3%83%8A%E3%82%AE%E8%92%B2%E7%84%BC%E3%82%92%E8%A9%A6%E9%A8%93%E8%B2%A9%E5%A3%B2%20%E5%A4%A9%E7%84%B6%E8%B3%87%E6%BA%90%E3%81%AB%E9%A0%BC%E3%82%89/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%82%AA%E3%83%B3%E3%80%81%E4%B8%96%E7%95%8C%E5%88%9D%E3%83%BB%E5%AE%8C%E5%85%A8%E9%A4%8A%E6%AE%96%E3%82%A6%E3%83%8A%E3%82%AE%E8%92%B2%E7%84%BC%E3%82%92%E8%A9%A6%E9%A8%93%E8%B2%A9%E5%A3%B2%20%E5%A4%A9%E7%84%B6%E8%B3%87%E6%BA%90%E3%81%AB%E9%A0%BC%E3%82%89&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%A4%E3%82%AA%E3%83%B3%E3%80%81%E4%B8%96%E7%95%8C%E5%88%9D%E3%83%BB%E5%AE%8C%E5%85%A8%E9%A4%8A%E6%AE%96%E3%82%A6%E3%83%8A%E3%82%AE%E8%92%B2%E7%84%BC%E3%82%92%E8%A9%A6%E9%A8%93%E8%B2%A9%E5%A3%B2%20%E5%A4%A9%E7%84%B6%E8%B3%87%E6%BA%90%E3%81%AB%E9%A0%BC%E3%82%89%2F&link_type=hybrid_url"
       },
       {
-        "rank": 10,
-        "keyword": "「犯罪インフラ」の一端断ちトクリュウの動き鈍化狙う 先行の京都府警は一定成果 - 産経ニュース",
+        "rank": 8,
+        "keyword": "トヨタ、２０２７年半ば発売予定だった次世代ＥＶの開発を中止へ…全固体電池など先端技術の開発は継続 - 読売新聞",
         "category": "経済・投資",
         "source": "google_news",
         "type": "news",
@@ -669,20 +631,58 @@
         "trend": "",
         "news": [
           {
-            "title": "「犯罪インフラ」の一端断ちトクリュウの動き鈍化狙う 先行の京都府警は一定成果 - 産経ニュース",
-            "snippet": "「犯罪インフラ」の一端断ちトクリュウの動き鈍化狙う 先行の京都府警は一定成果&nbsp;&nbsp;産経ニュース詐欺被害金の追跡 警察と銀行協定&nbsp;&nbsp;Yahoo!ニュース警察がオンライン口座照会、大手9銀行に 特殊詐欺対策",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTOUw3OHZkSXFnODRJbmFiYXgtalJicDJoY0FZSklyczBsY2tFR1lwZkxoak5YVXRUc1lSd2I2bEdMOHNCaGQxSkRGQU1xMU96MXdoRnNFR3M4SEU2bzE5X3JYcDFpeGswcXdXTHYyM3RabkJFZHc?oc=5",
-            "source": "産経ニュース"
+            "title": "トヨタ、２０２７年半ば発売予定だった次世代ＥＶの開発を中止へ…全固体電池など先端技術の開発は継続 - 読売新聞",
+            "snippet": "トヨタ、２０２７年半ば発売予定だった次世代ＥＶの開発を中止へ…全固体電池など先端技術の開発は継続&nbsp;&nbsp;読売新聞Google ニュースで見出しと意見をもっと見る",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PQ3IySE53M3Z3bjR0cDZqejRpY2JaTExHcTFTM01tN1pHUTM5U053TVNQR01sR0VxaXk1VjhzbnNXdUQ3Q2p6RW1VNlVPTlR5ZnZidS1HTjA4Z0h6MFZicXZMU3o?oc=5",
+            "source": "読売新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E7%8A%AF%E7%BD%AA%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%80%8D%E3%81%AE%E4%B8%80%E7%AB%AF%E6%96%AD%E3%81%A1%E3%83%88%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%81%AE%E5%8B%95%E3%81%8D%E9%88%8D%E5%8C%96%E7%8B%99%E3%81%86%20%E5%85%88%E8%A1%8C%E3%81%AE%E4%BA%AC&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8C%E7%8A%AF%E7%BD%AA%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%80%8D%E3%81%AE%E4%B8%80%E7%AB%AF%E6%96%AD%E3%81%A1%E3%83%88%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%81%AE%E5%8B%95%E3%81%8D%E9%88%8D%E5%8C%96%E7%8B%99%E3%81%86%20%E5%85%88%E8%A1%8C%E3%81%AE%E4%BA%AC/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%88%E3%83%A8%E3%82%BF%E3%80%81%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%97%E5%B9%B4%E5%8D%8A%E3%81%B0%E7%99%BA%E5%A3%B2%E4%BA%88%E5%AE%9A%E3%81%A0%E3%81%A3%E3%81%9F%E6%AC%A1%E4%B8%96%E4%BB%A3%EF%BC%A5%EF%BC%B6%E3%81%AE%E9%96%8B%E7%99%BA%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%B8&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%88%E3%83%A8%E3%82%BF%E3%80%81%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%97%E5%B9%B4%E5%8D%8A%E3%81%B0%E7%99%BA%E5%A3%B2%E4%BA%88%E5%AE%9A%E3%81%A0%E3%81%A3%E3%81%9F%E6%AC%A1%E4%B8%96%E4%BB%A3%EF%BC%A5%EF%BC%B6%E3%81%AE%E9%96%8B%E7%99%BA%E3%82%92%E4%B8%AD%E6%AD%A2%E3%81%B8%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 9,
+        "keyword": "Anthropic、「ミトス級AI」を数週間以内に一般公開へ 「Claude Opus 4.8」も発表 - CNET Japan",
+        "category": "経済・投資",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "Anthropic、「ミトス級AI」を数週間以内に一般公開へ 「Claude Opus 4.8」も発表 - CNET Japan",
+            "snippet": "Anthropic、「ミトス級AI」を数週間以内に一般公開へ 「Claude Opus 4.8」も発表&nbsp;&nbsp;CNET Japan米アンソロピック、「ミュトス級」のAIを数週間内に一般公開へ&nbsp;&nbsp;日本経済新",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ieFFkYUxTaDU1djVTZF9zejN3RzZNTWJFdjQwNUp0ZUZxeWVnVXIzQXhpUGVkNWY2T1ZJTGlKbnR2VFl2QTQyV29sU3JhcUtmeUE?oc=5",
+            "source": "CNET Japan"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=Anthropic%E3%80%81%E3%80%8C%E3%83%9F%E3%83%88%E3%82%B9%E7%B4%9AAI%E3%80%8D%E3%82%92%E6%95%B0%E9%80%B1%E9%96%93%E4%BB%A5%E5%86%85%E3%81%AB%E4%B8%80%E8%88%AC%E5%85%AC%E9%96%8B%E3%81%B8&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FAnthropic%E3%80%81%E3%80%8C%E3%83%9F%E3%83%88%E3%82%B9%E7%B4%9AAI%E3%80%8D%E3%82%92%E6%95%B0%E9%80%B1%E9%96%93%E4%BB%A5%E5%86%85%E3%81%AB%E4%B8%80%E8%88%AC%E5%85%AC%E9%96%8B%E3%81%B8%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 10,
+        "keyword": "「会員制クラブで一夜で1000万円消費、28歳で3拠点生活…」在留資格の厳格化で、“潤日”のヒトと資金はどこに向かうのか？ - Yahoo!ニュース",
+        "category": "経済・投資",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "「会員制クラブで一夜で1000万円消費、28歳で3拠点生活…」在留資格の厳格化で、“潤日”のヒトと資金はどこに向かうのか？ - Yahoo!ニュース",
+            "snippet": "「会員制クラブで一夜で1000万円消費、28歳で3拠点生活…」在留資格の厳格化で、“潤日”のヒトと資金はどこに向かうのか？&nbsp;&nbsp;Yahoo!ニュース大阪市「特区民泊」駆け込み申請4倍 やまぬ苦情、新設停止で指導専念&nbs",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1UW41MlVaYTlXcWVlVVk1M0t4d1llUEx5NDFObUJXbFBnZ2VGSjFGMWprZ3RkUVRIblJsUFFDYS10YWo5NXZCR0NKSk95SXY0NFM0WlE2c1hVSHhiRXQ3a3JQNU5nYk5xUEwybFlwQ2xLTlJNZ3RXdEVLMmNtMFU?oc=5",
+            "source": "Yahoo!ニュース"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E4%BC%9A%E5%93%A1%E5%88%B6%E3%82%AF%E3%83%A9%E3%83%96%E3%81%A7%E4%B8%80%E5%A4%9C%E3%81%A71000%E4%B8%87%E5%86%86%E6%B6%88%E8%B2%BB%E3%80%8128%E6%AD%B3%E3%81%A73%E6%8B%A0%E7%82%B9%E7%94%9F%E6%B4%BB%E2%80%A6&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E4%BC%9A%E5%93%A1%E5%88%B6%E3%82%AF%E3%83%A9%E3%83%96%E3%81%A7%E4%B8%80%E5%A4%9C%E3%81%A71000%E4%B8%87%E5%86%86%E6%B6%88%E8%B2%BB%E3%80%8128%E6%AD%B3%E3%81%A73%E6%8B%A0%E7%82%B9%E7%94%9F%E6%B4%BB%E2%80%A6%2F&link_type=hybrid_url"
       }
     ],
     "エンタメ": [
       {
         "rank": 1,
-        "keyword": "テレ朝「あのちゃんねる」放送終了へ 6月15日最終回「社内や関係者と協議の結果」 - 産経ニュース",
+        "keyword": "「あのちゃん」炎上が示す殺伐としたバラエティ番組の現状 明石家さんまの「ええやないか」精神を伝説のテレビマンたちが語り合った（デイリー新潮） - Yahoo!ニュース",
         "category": "エンタメ",
         "source": "google_news",
         "type": "news",
@@ -690,18 +690,18 @@
         "trend": "",
         "news": [
           {
-            "title": "テレ朝「あのちゃんねる」放送終了へ 6月15日最終回「社内や関係者と協議の結果」 - 産経ニュース",
-            "snippet": "テレ朝「あのちゃんねる」放送終了へ 6月15日最終回「社内や関係者と協議の結果」&nbsp;&nbsp;産経ニュース過去の放送｜あのちゃんねる&nbsp;&nbsp;テレビ朝日「あのちゃん」炎上が示す殺伐としたバラエティ番組の現状 明石家さ",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zY3BoWEFoNThXcHp6QjBtZU9RVnJFa1hsSmNvWXRYQnk0aVpxNmM1aVF6bjUtSktMMTItMDBQZXVrREdZczdYcHVyXzBjTW1vZ1ZYOUpCUlItdzRCR2JyLXJPSTh1WHBxck4td2lLa0RnTndkNFE?oc=5",
-            "source": "産経ニュース"
+            "title": "「あのちゃん」炎上が示す殺伐としたバラエティ番組の現状 明石家さんまの「ええやないか」精神を伝説のテレビマンたちが語り合った（デイリー新潮） - Yahoo!ニュース",
+            "snippet": "「あのちゃん」炎上が示す殺伐としたバラエティ番組の現状 明石家さんまの「ええやないか」精神を伝説のテレビマンたちが語り合った（デイリー新潮）&nbsp;&nbsp;Yahoo!ニュース過去の放送｜あのちゃんねる&nbsp;&nbsp;テレビ",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaNXc1THV0eW4wZFU1ZktPbFh6VFdlV01KRzF0bnJkVE9LQ0xDeXRIWTI3MG1lQ2Q5cHpoMENXdTJoVXlNSFZfQ3kwb2RxVVM3cE52UUl0M2lHTEhDWlBpUW1WdS05bnEybHozTk53TXM2ckk5X01yS3dTNWpkWnc?oc=5",
+            "source": "Yahoo!ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%86%E3%83%AC%E6%9C%9D%E3%80%8C%E3%81%82%E3%81%AE%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E3%80%8D%E6%94%BE%E9%80%81%E7%B5%82%E4%BA%86%E3%81%B8%206%E6%9C%8815%E6%97%A5%E6%9C%80%E7%B5%82%E5%9B%9E%E3%80%8C%E7%A4%BE%E5%86%85%E3%82%84&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%86%E3%83%AC%E6%9C%9D%E3%80%8C%E3%81%82%E3%81%AE%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B%E3%80%8D%E6%94%BE%E9%80%81%E7%B5%82%E4%BA%86%E3%81%B8%206%E6%9C%8815%E6%97%A5%E6%9C%80%E7%B5%82%E5%9B%9E%E3%80%8C%E7%A4%BE%E5%86%85%E3%82%84/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E3%81%82%E3%81%AE%E3%81%A1%E3%82%83%E3%82%93%E3%80%8D%E7%82%8E%E4%B8%8A%E3%81%8C%E7%A4%BA%E3%81%99%E6%AE%BA%E4%BC%90%E3%81%A8%E3%81%97%E3%81%9F%E3%83%90%E3%83%A9%E3%82%A8%E3%83%86%E3%82%A3%E7%95%AA%E7%B5%84%E3%81%AE%E7%8F%BE%E7%8A%B6%20%E6%98%8E%E7%9F%B3&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E3%81%82%E3%81%AE%E3%81%A1%E3%82%83%E3%82%93%E3%80%8D%E7%82%8E%E4%B8%8A%E3%81%8C%E7%A4%BA%E3%81%99%E6%AE%BA%E4%BC%90%E3%81%A8%E3%81%97%E3%81%9F%E3%83%90%E3%83%A9%E3%82%A8%E3%83%86%E3%82%A3%E7%95%AA%E7%B5%84%E3%81%AE%E7%8F%BE%E7%8A%B6%20%E6%98%8E%E7%9F%B3%2F&link_type=hybrid_url"
       },
       {
         "rank": 2,
-        "keyword": "【新婚さんいらっしゃい！】同じ病院で生まれた赤ちゃん→27年後に結婚　生後まもなく音信不通に……　初キスは東京駅の八重洲口（1/3） | テレビ ねとらぼ - ねとらぼ",
+        "keyword": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー - スクリーンオンライン",
         "category": "エンタメ",
         "source": "google_news",
         "type": "news",
@@ -709,14 +709,14 @@
         "trend": "",
         "news": [
           {
-            "title": "【新婚さんいらっしゃい！】同じ病院で生まれた赤ちゃん→27年後に結婚　生後まもなく音信不通に……　初キスは東京駅の八重洲口（1/3） | テレビ ねとらぼ - ねとらぼ",
-            "snippet": "【新婚さんいらっしゃい！】同じ病院で生まれた赤ちゃん→27年後に結婚　生後まもなく音信不通に……　初キスは東京駅の八重洲口（1/3） | テレビ ねとらぼ&nbsp;&nbsp;ねとらぼ同じ病院で同じタイミングで生まれて出会っていた2人 2",
-            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xWUhpREhkdFJyYjE3a3dJbE5nYXpfckVVbU9icEVhT2NLS1hvZnlLbzdNaTV0eDJaVGpDZk5naGVjeWIzWjRnQmNHTWg2YzU0THpuS1doRUpmbzJEN0HSAWNBVV95cUxPeXJRN24wQVV3SE92OVZEQjNFcW84QmFoTGlqTXY1MnEwcEtZSFRZazVKUmQwTVFpRndxY2laOUdrWGxOejJDRWt2TlFBNEVNamZOa3NaTTFfa05uRldnX3ZSS1U?oc=5",
-            "source": "ねとらぼ"
+            "title": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー - スクリーンオンライン",
+            "snippet": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー&nbsp;&nbsp;スクリーンオンラインアルタ前で本物の現金800万円をばらまく！ 『TOKYO BURST-犯罪都市-』驚きの撮影風景が",
+            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WMnJDTTVIZk1PRGJaaTBsbnRaLVJyM29CRWpZbEVRTEdSM2pDNWxNY3gyY1VRVGRpYWVUZG5jS0hzOEZKamZ1VWE2S3k?oc=5",
+            "source": "スクリーンオンライン"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E6%96%B0%E5%A9%9A%E3%81%95%E3%82%93%E3%81%84%E3%82%89%E3%81%A3%E3%81%97%E3%82%83%E3%81%84%EF%BC%81%E3%80%91%E5%90%8C%E3%81%98%E7%97%85%E9%99%A2%E3%81%A7%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%9F%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E2%86%9227%E5%B9%B4&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E6%96%B0%E5%A9%9A%E3%81%95%E3%82%93%E3%81%84%E3%82%89%E3%81%A3%E3%81%97%E3%82%83%E3%81%84%EF%BC%81%E3%80%91%E5%90%8C%E3%81%98%E7%97%85%E9%99%A2%E3%81%A7%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%9F%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E2%86%9227%E5%B9%B4/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%86%E3%81%9A%E3%82%8C%E3%81%AA%E3%81%84%E6%AD%A3%E7%BE%A9%E3%81%A8%E7%B5%86%E3%80%8ETOKYO%20BURST-%E7%8A%AF%E7%BD%AA%E9%83%BD%E5%B8%82-%E3%80%8F%E6%B0%B4%E4%B8%8A&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%86%E3%81%9A%E3%82%8C%E3%81%AA%E3%81%84%E6%AD%A3%E7%BE%A9%E3%81%A8%E7%B5%86%E3%80%8ETOKYO%20BURST-%E7%8A%AF%E7%BD%AA%E9%83%BD%E5%B8%82-%E3%80%8F%E6%B0%B4%E4%B8%8A%2F&link_type=hybrid_url"
       },
       {
         "rank": 3,
@@ -729,17 +729,17 @@
         "news": [
           {
             "title": "「日プ新世界」JO1川尻蓮、ファイナル歌唱曲を作詞作曲 次回予告登場で反響相次ぐ「待ち遠しい」「素敵なメロディ」 - モデルプレス",
-            "snippet": "「日プ新世界」JO1川尻蓮、ファイナル歌唱曲を作詞作曲 次回予告登場で反響相次ぐ「待ち遠しい」「素敵なメロディ」&nbsp;&nbsp;モデルプレス「日プ新世界」第3回順位発表式 22人のファイナリスト決定 12人脱落へ【順位一覧】&nbs",
+            "snippet": "「日プ新世界」JO1川尻蓮、ファイナル歌唱曲を作詞作曲 次回予告登場で反響相次ぐ「待ち遠しい」「素敵なメロディ」&nbsp;&nbsp;モデルプレスファイナルに進む練習生は果たして…第3回順位発表式『PRODUCE 101 JAPAN 新世",
             "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE43cms5TUxHN0Q2S3h1OU4tWTlUYjY0OHh0RjAxRUlLaEIycDJrNDJZSXF4VWxhTWtXb2F6TkJiT1k2Ti13VDIwd3hPT07SAUhBVV95cUxPWE9rTzZJeS00NnUwclZuUmF1SmZadHZiUmlCNmIxdS1EOTRCRWkycjFqaUZUenNPTG1CM0t3ZWYxMElSNFVpd28?oc=5",
             "source": "モデルプレス"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%97%A5%E3%83%97%E6%96%B0%E4%B8%96%E7%95%8C%E3%80%8DJO1%E5%B7%9D%E5%B0%BB%E8%93%AE%E3%80%81%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E6%AD%8C%E5%94%B1%E6%9B%B2%E3%82%92%E4%BD%9C%E8%A9%9E%E4%BD%9C%E6%9B%B2%20%E6%AC%A1%E5%9B%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8C%E6%97%A5%E3%83%97%E6%96%B0%E4%B8%96%E7%95%8C%E3%80%8DJO1%E5%B7%9D%E5%B0%BB%E8%93%AE%E3%80%81%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E6%AD%8C%E5%94%B1%E6%9B%B2%E3%82%92%E4%BD%9C%E8%A9%9E%E4%BD%9C%E6%9B%B2%20%E6%AC%A1%E5%9B%9E/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%97%A5%E3%83%97%E6%96%B0%E4%B8%96%E7%95%8C%E3%80%8DJO1%E5%B7%9D%E5%B0%BB%E8%93%AE%E3%80%81%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E6%AD%8C%E5%94%B1%E6%9B%B2%E3%82%92%E4%BD%9C%E8%A9%9E%E4%BD%9C%E6%9B%B2%20%E6%AC%A1%E5%9B%9E&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E6%97%A5%E3%83%97%E6%96%B0%E4%B8%96%E7%95%8C%E3%80%8DJO1%E5%B7%9D%E5%B0%BB%E8%93%AE%E3%80%81%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E6%AD%8C%E5%94%B1%E6%9B%B2%E3%82%92%E4%BD%9C%E8%A9%9E%E4%BD%9C%E6%9B%B2%20%E6%AC%A1%E5%9B%9E%2F&link_type=hybrid_url"
       },
       {
         "rank": 4,
-        "keyword": "日向坂46×ベイスターズ、聖地ハマスタでの藤嶌果歩セレモニアルピッチは「460点！」 - ナタリー",
+        "keyword": "「箱の中の羊」SF超えた是枝裕和作品の問い 映画評8本 - 日本経済新聞",
         "category": "エンタメ",
         "source": "google_news",
         "type": "news",
@@ -747,17 +747,93 @@
         "trend": "",
         "news": [
           {
-            "title": "日向坂46×ベイスターズ、聖地ハマスタでの藤嶌果歩セレモニアルピッチは「460点！」 - ナタリー",
-            "snippet": "日向坂46×ベイスターズ、聖地ハマスタでの藤嶌果歩セレモニアルピッチは「460点！」&nbsp;&nbsp;ナタリー横浜に舞い降りた天使が「あまりにも可愛い」 ユニ＆ポニテ＆リボンに虜「完璧すぎ」（Full-Count）&nbsp;&nbs",
-            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wTGJzZlhSTXpwZjJwYXpxR2tMOFBFTG5YVktXWEZkNVhHUFZlYzVOUEY0aGQ0cXphM2l2ZUI4Ty1rUEI0UWljSVZrR1E?oc=5",
-            "source": "ナタリー"
+            "title": "「箱の中の羊」SF超えた是枝裕和作品の問い 映画評8本 - 日本経済新聞",
+            "snippet": "「箱の中の羊」SF超えた是枝裕和作品の問い 映画評8本&nbsp;&nbsp;日本経済新聞「微妙にミリが違うんです…それをキープされていた」…綾瀬はるか、「めざましテレビ」で初共演した大悟「すごいところ」を明かす&nbsp;&nbsp;Ya",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zWGJvSnRWdkU0MF9PMEM3cktvaW1iWmY0UXh0dHhoRjUzaXZ5N0huVWtwR1dsbzlGaEdzcHdTVGx6RVVRSXZWM2dUbUNIREYzNFRBNWUybHNmd3FadDdQUHRaZnVKYldURUp3Mw?oc=5",
+            "source": "日本経済新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E5%90%91%E5%9D%8246%C3%97%E3%83%99%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA%E3%80%81%E8%81%96%E5%9C%B0%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E3%81%A7%E3%81%AE%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%E3%82%BB%E3%83%AC%E3%83%A2%E3%83%8B%E3%82%A2&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%97%A5%E5%90%91%E5%9D%8246%C3%97%E3%83%99%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA%E3%80%81%E8%81%96%E5%9C%B0%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E3%81%A7%E3%81%AE%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%E3%82%BB%E3%83%AC%E3%83%A2%E3%83%8B%E3%82%A2/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E7%AE%B1%E3%81%AE%E4%B8%AD%E3%81%AE%E7%BE%8A%E3%80%8DSF%E8%B6%85%E3%81%88%E3%81%9F%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E4%BD%9C%E5%93%81%E3%81%AE%E5%95%8F%E3%81%84%20%E6%98%A0%E7%94%BB%E8%A9%958%E6%9C%AC%20-%20&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E7%AE%B1%E3%81%AE%E4%B8%AD%E3%81%AE%E7%BE%8A%E3%80%8DSF%E8%B6%85%E3%81%88%E3%81%9F%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E4%BD%9C%E5%93%81%E3%81%AE%E5%95%8F%E3%81%84%20%E6%98%A0%E7%94%BB%E8%A9%958%E6%9C%AC%20-%20%2F&link_type=hybrid_url"
       },
       {
         "rank": 5,
+        "keyword": "横山裕が刑事役で主演「今夜もシリアルキラーと待ち合わせ」7月に実写ドラマ化、バディ役は関水渚 - ナタリー",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "横山裕が刑事役で主演「今夜もシリアルキラーと待ち合わせ」7月に実写ドラマ化、バディ役は関水渚 - ナタリー",
+            "snippet": "横山裕が刑事役で主演「今夜もシリアルキラーと待ち合わせ」7月に実写ドラマ化、バディ役は関水渚&nbsp;&nbsp;ナタリー横山裕と関水渚が〝秘密のバディ〟結成　人気漫画「今夜もシリアルキラーと待ち合わせ」実写化　フジ新枠ドラマで放送&nb",
+            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBvSGlxX2lqZ2xVTXNzS3VWcmRtcHdCWGlVVVhmZzF6bEVSYjhIa1RzREV1QnR4WXpRaUFaeUhfd2t4VVpobXR6b1ZjdlU?oc=5",
+            "source": "ナタリー"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%A8%AA%E5%B1%B1%E8%A3%95%E3%81%8C%E5%88%91%E4%BA%8B%E5%BD%B9%E3%81%A7%E4%B8%BB%E6%BC%94%E3%80%8C%E4%BB%8A%E5%A4%9C%E3%82%82%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%AD%E3%83%A9%E3%83%BC%E3%81%A8%E5%BE%85%E3%81%A1%E5%90%88%E3%82%8F%E3%81%9B%E3%80%8D7%E6%9C%88&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%A8%AA%E5%B1%B1%E8%A3%95%E3%81%8C%E5%88%91%E4%BA%8B%E5%BD%B9%E3%81%A7%E4%B8%BB%E6%BC%94%E3%80%8C%E4%BB%8A%E5%A4%9C%E3%82%82%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%AD%E3%83%A9%E3%83%BC%E3%81%A8%E5%BE%85%E3%81%A1%E5%90%88%E3%82%8F%E3%81%9B%E3%80%8D7%E6%9C%88%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 6,
+        "keyword": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！ - デイリースポーツ",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！ - デイリースポーツ",
+            "snippet": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！&nbsp;&nbsp;デイリースポーツ5/26(火) 『推せ推せ！YOKOHAMA☆IDOL SERIES 2026』グッズや、パ・リーグ3球団マスコットとのコラボグッズ登場！&nbsp",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81cmw2ZHdocjA5bFFmcGtCVFFnaWJobGRRVVNOZjd4RnVBT0R6X241LVppN1BtZU1FQlBiZ1dTeTBHRnlSaHZTMnJxX2pPMDdfQkx1MU9ka3dQMWUwYTVXR3RrYUUxU1dUSUEwaQ?oc=5",
+            "source": "デイリースポーツ"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E5%90%91%E5%9D%82%EF%BC%94%EF%BC%96%E3%83%BB%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%20%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E5%A7%8B%E7%90%83%E5%BC%8F%E3%81%A7%E8%B1%AA%E5%BF%AB%E3%83%8E%E3%83%BC%E3%83%90%E3%83%B3%EF%BC%81%20-%20%E3%83%87&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E5%90%91%E5%9D%82%EF%BC%94%EF%BC%96%E3%83%BB%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%20%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E5%A7%8B%E7%90%83%E5%BC%8F%E3%81%A7%E8%B1%AA%E5%BF%AB%E3%83%8E%E3%83%BC%E3%83%90%E3%83%B3%EF%BC%81%20-%20%E3%83%87%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 7,
+        "keyword": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント - デイリースポーツ",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント - デイリースポーツ",
+            "snippet": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント&nbsp;&nbsp;デイリースポーツ【実際の投稿】香音、生まれてはじめてのショートヘア姿&nbsp;&nbs",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKWGx0YktMQ3ZyVVpHMTh0M3pfYzBzOGlwUm5zei1neFBscE9xU3ZLLWpsNTNYSWNkUWtLcGFHQWxlSnJVT1dDVzRZYWRQT254MlR0WmRRUm50WFVMMFRfa1FxTVhlUExRdlE?oc=5",
+            "source": "デイリースポーツ"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%98%87%E5%A4%A9%E3%81%97%E3%81%A1%E3%82%83%E3%81%84%E3%81%9D%E3%81%86%E3%80%8D%E9%A6%99%E9%9F%B3%E3%82%A4%E3%83%A1%E3%83%81%E3%82%A7%E3%83%B3%E3%80%81%E9%80%8F%E3%81%8D%E3%81%A8%E3%81%8A%E3%82%8B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E9%AB%AA%E3%81%AE%E7%BE%8E&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E6%98%87%E5%A4%A9%E3%81%97%E3%81%A1%E3%82%83%E3%81%84%E3%81%9D%E3%81%86%E3%80%8D%E9%A6%99%E9%9F%B3%E3%82%A4%E3%83%A1%E3%83%81%E3%82%A7%E3%83%B3%E3%80%81%E9%80%8F%E3%81%8D%E3%81%A8%E3%81%8A%E3%82%8B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E9%AB%AA%E3%81%AE%E7%BE%8E%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 8,
+        "keyword": "高橋文哉、蒼井優主演TBS金曜ドラマ「Tシャツが乾くまで」出演 さらなるキャスト2人の顔隠れた新ビジュアルも解禁 - モデルプレス",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "高橋文哉、蒼井優主演TBS金曜ドラマ「Tシャツが乾くまで」出演 さらなるキャスト2人の顔隠れた新ビジュアルも解禁 - モデルプレス",
+            "snippet": "高橋文哉、蒼井優主演TBS金曜ドラマ「Tシャツが乾くまで」出演 さらなるキャスト2人の顔隠れた新ビジュアルも解禁&nbsp;&nbsp;モデルプレス高橋文哉が蒼井優主演ドラマに出演決定 「直人という役は自分の中で新しい扉が開きそうな予感」＜",
+            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ZaGhQUXJQblBHa0VqcHRILXdRdDk1Z3RCWWV3MmJ4ZGp1UFVmeVYtRlhiUVAyTXlobjJ3VjhHYXlkM2FGUC01cXFvcUTSAUhBVV95cUxNNnhFWk1TZ1VIdnE4MUNLVGlEdS15MkJVWjBXVlgxdkNxcFlzUV9nQ09ScksyUjV3RjJQWXdBY3FiY0NwZkVmdHg?oc=5",
+            "source": "モデルプレス"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%AB%98%E6%A9%8B%E6%96%87%E5%93%89%E3%80%81%E8%92%BC%E4%BA%95%E5%84%AA%E4%B8%BB%E6%BC%94TBS%E9%87%91%E6%9B%9C%E3%83%89%E3%83%A9%E3%83%9E%E3%80%8CT%E3%82%B7%E3%83%A3%E3%83%84%E3%81%8C%E4%B9%BE%E3%81%8F%E3%81%BE%E3%81%A7%E3%80%8D%E5%87%BA&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E9%AB%98%E6%A9%8B%E6%96%87%E5%93%89%E3%80%81%E8%92%BC%E4%BA%95%E5%84%AA%E4%B8%BB%E6%BC%94TBS%E9%87%91%E6%9B%9C%E3%83%89%E3%83%A9%E3%83%9E%E3%80%8CT%E3%82%B7%E3%83%A3%E3%83%84%E3%81%8C%E4%B9%BE%E3%81%8F%E3%81%BE%E3%81%A7%E3%80%8D%E5%87%BA%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 9,
         "keyword": "羽生善治九段、タイトル１００期への挑戦逃す…王位戦挑戦者決定戦で伊藤匠二冠に競り負ける - 読売新聞",
         "category": "エンタメ",
         "source": "google_news",
@@ -767,93 +843,17 @@
         "news": [
           {
             "title": "羽生善治九段、タイトル１００期への挑戦逃す…王位戦挑戦者決定戦で伊藤匠二冠に競り負ける - 読売新聞",
-            "snippet": "羽生善治九段、タイトル１００期への挑戦逃す…王位戦挑戦者決定戦で伊藤匠二冠に競り負ける&nbsp;&nbsp;読売新聞将棋 羽生九段敗れタイトル通算100期挑戦ならず&nbsp;&nbsp;NHKニュース伊藤匠叡王が藤井王位に挑戦 3冠狙い",
+            "snippet": "羽生善治九段、タイトル１００期への挑戦逃す…王位戦挑戦者決定戦で伊藤匠二冠に競り負ける&nbsp;&nbsp;読売新聞将棋 羽生九段敗れタイトル通算100期挑戦ならず | NHKニュース | 囲碁・将棋、東京都&nbsp;&nbsp;NHK",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJdWFfYlQ4Y2E0eEFJclh0QWVoUnR2RHVMc2hvYU52RzhBU2JPQnFxN3BkNTFfNkdGOWsweTFnRnNCckozUEd4X3otd1VDYnV4RDQ1bW8xeFJsbHpkVWRNbmRaeHh2cDA?oc=5",
             "source": "読売新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%BE%BD%E7%94%9F%E5%96%84%E6%B2%BB%E4%B9%9D%E6%AE%B5%E3%80%81%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91%EF%BC%90%EF%BC%90%E6%9C%9F%E3%81%B8%E3%81%AE%E6%8C%91%E6%88%A6%E9%80%83%E3%81%99%E2%80%A6%E7%8E%8B%E4%BD%8D%E6%88%A6%E6%8C%91%E6%88%A6%E8%80%85%E6%B1%BA%E5%AE%9A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%BE%BD%E7%94%9F%E5%96%84%E6%B2%BB%E4%B9%9D%E6%AE%B5%E3%80%81%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91%EF%BC%90%EF%BC%90%E6%9C%9F%E3%81%B8%E3%81%AE%E6%8C%91%E6%88%A6%E9%80%83%E3%81%99%E2%80%A6%E7%8E%8B%E4%BD%8D%E6%88%A6%E6%8C%91%E6%88%A6%E8%80%85%E6%B1%BA%E5%AE%9A/"
-      },
-      {
-        "rank": 6,
-        "keyword": "「ABCお笑いグランプリ」今年も開催決定 ヨネダ、めぞん、ダウ、こたけ、例えば炎、イチゴらエントリー - ナタリー",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "「ABCお笑いグランプリ」今年も開催決定 ヨネダ、めぞん、ダウ、こたけ、例えば炎、イチゴらエントリー - ナタリー",
-            "snippet": "「ABCお笑いグランプリ」今年も開催決定 ヨネダ、めぞん、ダウ、こたけ、例えば炎、イチゴらエントリー&nbsp;&nbsp;ナタリーダウンタウン、ナイナイ…令和ロマン、エバースに続く王者へ…伝統の“若手芸人日本一決定戦”『ABCお笑いグラン",
-            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBtejZzTW1qQUFjcEJEbFBvZm1pMDhSek93S3c2TU5OQ2tpV0w2YWZQS0pEWkNBZG5QdmpwMlNzM3JzTXVBNGZTNHZudFJPZw?oc=5",
-            "source": "ナタリー"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8CABC%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA%E3%80%8D%E4%BB%8A%E5%B9%B4%E3%82%82%E9%96%8B%E5%82%AC%E6%B1%BA%E5%AE%9A%20%E3%83%A8%E3%83%8D%E3%83%80%E3%80%81%E3%82%81%E3%81%9E%E3%82%93%E3%80%81%E3%83%80&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8CABC%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA%E3%80%8D%E4%BB%8A%E5%B9%B4%E3%82%82%E9%96%8B%E5%82%AC%E6%B1%BA%E5%AE%9A%20%E3%83%A8%E3%83%8D%E3%83%80%E3%80%81%E3%82%81%E3%81%9E%E3%82%93%E3%80%81%E3%83%80/"
-      },
-      {
-        "rank": 7,
-        "keyword": "劇場版『名探偵コナン ハイウェイの堕天使』 蓮井隆弘監督インタビュー① - febri.jp",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "劇場版『名探偵コナン ハイウェイの堕天使』 蓮井隆弘監督インタビュー① - febri.jp",
-            "snippet": "劇場版『名探偵コナン ハイウェイの堕天使』 蓮井隆弘監督インタビュー①&nbsp;&nbsp;febri.jp劇場版『名探偵コナン ハイウェイの堕天使』 脚本：大倉崇裕さんインタビュー②&nbsp;&nbsp;febri.jp「コナン映画で",
-            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSZm5iZTV2LW5mSVNLaENCTU1rRGFtUGNsUUhaNUJnc1M2SlByVXcza21ldG54cGRFSGZqYk85bnp3V003MVdXV2hYQmpmeFFtcmJNRklBZw?oc=5",
-            "source": "febri.jp"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%8A%87%E5%A0%B4%E7%89%88%E3%80%8E%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3%20%E3%83%8F%E3%82%A4%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E5%A0%95%E5%A4%A9%E4%BD%BF%E3%80%8F%20%E8%93%AE%E4%BA%95%E9%9A%86%E5%BC%98%E7%9B%A3%E7%9D%A3%E3%82%A4%E3%83%B3&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%8A%87%E5%A0%B4%E7%89%88%E3%80%8E%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3%20%E3%83%8F%E3%82%A4%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E5%A0%95%E5%A4%A9%E4%BD%BF%E3%80%8F%20%E8%93%AE%E4%BA%95%E9%9A%86%E5%BC%98%E7%9B%A3%E7%9D%A3%E3%82%A4%E3%83%B3/"
-      },
-      {
-        "rank": 8,
-        "keyword": "「月夜行路」バブリーちゃん役の「俳優さん」正体にネット驚き「本当に」「調べたら…」「あまりにお綺麗」真田怜臣に反響 - スポーツ報知",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "「月夜行路」バブリーちゃん役の「俳優さん」正体にネット驚き「本当に」「調べたら…」「あまりにお綺麗」真田怜臣に反響 - スポーツ報知",
-            "snippet": "「月夜行路」バブリーちゃん役の「俳優さん」正体にネット驚き「本当に」「調べたら…」「あまりにお綺麗」真田怜臣に反響&nbsp;&nbsp;スポーツ報知「月夜行路」キャッチーな主人公をさらに“ドラマティック”にする“背景”【第8話レビュー】&",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00aW45eW8tNk9PUHhnMk44WWVVMXJGdlY0OU1XLTl1by12dWdzVEtHWHJiUEMzRUJuODlScXZBdTNpd1pwSTRhTDlyTFdzY243blJOUnA0MUJTaTJmbkt5MFhR?oc=5",
-            "source": "スポーツ報知"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%9C%88%E5%A4%9C%E8%A1%8C%E8%B7%AF%E3%80%8D%E3%83%90%E3%83%96%E3%83%AA%E3%83%BC%E3%81%A1%E3%82%83%E3%82%93%E5%BD%B9%E3%81%AE%E3%80%8C%E4%BF%B3%E5%84%AA%E3%81%95%E3%82%93%E3%80%8D%E6%AD%A3%E4%BD%93%E3%81%AB%E3%83%8D%E3%83%83%E3%83%88%E9%A9%9A%E3%81%8D%E3%80%8C&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8C%E6%9C%88%E5%A4%9C%E8%A1%8C%E8%B7%AF%E3%80%8D%E3%83%90%E3%83%96%E3%83%AA%E3%83%BC%E3%81%A1%E3%82%83%E3%82%93%E5%BD%B9%E3%81%AE%E3%80%8C%E4%BF%B3%E5%84%AA%E3%81%95%E3%82%93%E3%80%8D%E6%AD%A3%E4%BD%93%E3%81%AB%E3%83%8D%E3%83%83%E3%83%88%E9%A9%9A%E3%81%8D%E3%80%8C/"
-      },
-      {
-        "rank": 9,
-        "keyword": "腰の高さが凄すぎ！ カンヌ受賞の岡本多緒 １７７ｃｍ舞台挨拶が圧倒的 モデル名は超有名「あの人か！」「見たことあると思った」「背が高い！」 - デイリースポーツ",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "腰の高さが凄すぎ！ カンヌ受賞の岡本多緒 １７７ｃｍ舞台挨拶が圧倒的 モデル名は超有名「あの人か！」「見たことあると思った」「背が高い！」 - デイリースポーツ",
-            "snippet": "腰の高さが凄すぎ！ カンヌ受賞の岡本多緒 １７７ｃｍ舞台挨拶が圧倒的 モデル名は超有名「あの人か！」「見たことあると思った」「背が高い！」&nbsp;&nbsp;デイリースポーツカンヌ映画祭で日本人初女優賞の岡本多緒「五輪でメダルを取った人",
-            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uTW9KRkhWRFBZQ2NPM09sb2V6cUtRdXJnUVFzV3JDVEZBYkJTLWRCS2VGUDdwX1pveGN6MjV2bEt5QWlfc1pFOFRhLXY2OFNvWVpmWnZ6NGJvRERoVlhYQVpPdF9sWER2UkE?oc=5",
-            "source": "デイリースポーツ"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%85%B0%E3%81%AE%E9%AB%98%E3%81%95%E3%81%8C%E5%87%84%E3%81%99%E3%81%8E%EF%BC%81%20%E3%82%AB%E3%83%B3%E3%83%8C%E5%8F%97%E8%B3%9E%E3%81%AE%E5%B2%A1%E6%9C%AC%E5%A4%9A%E7%B7%92%20%EF%BC%91%EF%BC%97%EF%BC%97%EF%BD%83%EF%BD%8D%E8%88%9E%E5%8F%B0%E6%8C%A8%E6%8B%B6&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%85%B0%E3%81%AE%E9%AB%98%E3%81%95%E3%81%8C%E5%87%84%E3%81%99%E3%81%8E%EF%BC%81%20%E3%82%AB%E3%83%B3%E3%83%8C%E5%8F%97%E8%B3%9E%E3%81%AE%E5%B2%A1%E6%9C%AC%E5%A4%9A%E7%B7%92%20%EF%BC%91%EF%BC%97%EF%BC%97%EF%BD%83%EF%BD%8D%E8%88%9E%E5%8F%B0%E6%8C%A8%E6%8B%B6/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%BE%BD%E7%94%9F%E5%96%84%E6%B2%BB%E4%B9%9D%E6%AE%B5%E3%80%81%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91%EF%BC%90%EF%BC%90%E6%9C%9F%E3%81%B8%E3%81%AE%E6%8C%91%E6%88%A6%E9%80%83%E3%81%99%E2%80%A6%E7%8E%8B%E4%BD%8D%E6%88%A6%E6%8C%91%E6%88%A6%E8%80%85%E6%B1%BA%E5%AE%9A&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%BE%BD%E7%94%9F%E5%96%84%E6%B2%BB%E4%B9%9D%E6%AE%B5%E3%80%81%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91%EF%BC%90%EF%BC%90%E6%9C%9F%E3%81%B8%E3%81%AE%E6%8C%91%E6%88%A6%E9%80%83%E3%81%99%E2%80%A6%E7%8E%8B%E4%BD%8D%E6%88%A6%E6%8C%91%E6%88%A6%E8%80%85%E6%B1%BA%E5%AE%9A%2F&link_type=hybrid_url"
       },
       {
         "rank": 10,
-        "keyword": "【ブレイキングダウン20】プロデューサーが謝罪　田中雄士への〝格下げ演出〟は「ご厚意を履き違え、思慮に欠けた対応」 - サンスポ",
+        "keyword": "明日の「風、薫る」第45回 寛太と会う直美 りんにフユ「教えてもいい」＜5月29日＞ - 産経ニュース",
         "category": "エンタメ",
         "source": "google_news",
         "type": "news",
@@ -861,19 +861,57 @@
         "trend": "",
         "news": [
           {
-            "title": "【ブレイキングダウン20】プロデューサーが謝罪　田中雄士への〝格下げ演出〟は「ご厚意を履き違え、思慮に欠けた対応」 - サンスポ",
-            "snippet": "【ブレイキングダウン20】プロデューサーが謝罪　田中雄士への〝格下げ演出〟は「ご厚意を履き違え、思慮に欠けた対応」&nbsp;&nbsp;サンスポ瓜田純士が不意打ち頭突き→大乱闘 格闘技界のレジェンドはあ然「これをエンタメとして楽しめる層が",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS3haWDZWUkJoMWZGbk1QQXljN1ZpRzIyVnBuS0dLOS1SSVc4azh2T3N6TUc2bXRyZjhpYWxuQ0IzX0lLSkhtb0djb3FSZEQ2SXVyc1FkWDJvb1RzaVlFWXVSWldnSzAzbS00SnhSMTR3Tzkxclg2bGU5WGNhTU9SZEdMOENzYm9ueWs2QmtOUEdGZWNR0gGKAUFVX3lxTE5QRVdubVdJelFUSlB6dndNRHhBY253TXRhT09WMktMRWllVnI1TlJDRmpuNU00NWZ5Y1NqcWtaUmdtVHdZcG1YcXdoM0I1YjBobHBaSHI4dDY1UEFsNnNkXzRQTEtFdkQ2RWlqMVphai15WGNDSWg0NEZHdFlGcHN5Q2Q2VzQ2RkhRQQ?oc=5",
-            "source": "サンスポ"
+            "title": "明日の「風、薫る」第45回 寛太と会う直美 りんにフユ「教えてもいい」＜5月29日＞ - 産経ニュース",
+            "snippet": "明日の「風、薫る」第45回 寛太と会う直美 りんにフユ「教えてもいい」＜5月29日＞&nbsp;&nbsp;産経ニュース猫背椿がすごい…“フユ”がXでトレンド入り！『風、薫る』“デレた表情”で空気感を変えた演技力（映画チャンネル）&nbsp",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN1M0amw5UXpRRHNiNl9FemNjUTV6dUNRTFhabENBS3VHeWhWQVlCVlNqNDBQYmY2RHVvaWVmTFZmTkc3UmxoYzdiUzVwb1hVMzYwRzBveVh4ODk4cjVlZjhqczJnRlQtMXp1TE1LeVZ4SVlpZzI2dkMzUWFoNHFvWWhPdkhsNEtVWGFDaUszWmY1LWNIMEE?oc=5",
+            "source": "産経ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%82%A6%E3%83%B320%E3%80%91%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%81%8C%E8%AC%9D%E7%BD%AA%E3%80%80%E7%94%B0%E4%B8%AD%E9%9B%84%E5%A3%AB%E3%81%B8%E3%81%AE&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%82%A6%E3%83%B320%E3%80%91%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%81%8C%E8%AC%9D%E7%BD%AA%E3%80%80%E7%94%B0%E4%B8%AD%E9%9B%84%E5%A3%AB%E3%81%B8%E3%81%AE/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%98%8E%E6%97%A5%E3%81%AE%E3%80%8C%E9%A2%A8%E3%80%81%E8%96%AB%E3%82%8B%E3%80%8D%E7%AC%AC45%E5%9B%9E%20%E5%AF%9B%E5%A4%AA%E3%81%A8%E4%BC%9A%E3%81%86%E7%9B%B4%E7%BE%8E%20%E3%82%8A%E3%82%93%E3%81%AB%E3%83%95%E3%83%A6%E3%80%8C%E6%95%99%E3%81%88&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%98%8E%E6%97%A5%E3%81%AE%E3%80%8C%E9%A2%A8%E3%80%81%E8%96%AB%E3%82%8B%E3%80%8D%E7%AC%AC45%E5%9B%9E%20%E5%AF%9B%E5%A4%AA%E3%81%A8%E4%BC%9A%E3%81%86%E7%9B%B4%E7%BE%8E%20%E3%82%8A%E3%82%93%E3%81%AB%E3%83%95%E3%83%A6%E3%80%8C%E6%95%99%E3%81%88%2F&link_type=hybrid_url"
       }
     ],
     "ライフスタイル": [
       {
         "rank": 1,
+        "keyword": "社説：はしか流行 昔の病気の認識捨てよ - 秋田魁新報電子版",
+        "category": "ライフスタイル",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "社説：はしか流行 昔の病気の認識捨てよ - 秋田魁新報電子版",
+            "snippet": "社説：はしか流行 昔の病気の認識捨てよ&nbsp;&nbsp;秋田魁新報電子版Google ニュースで見出しと意見をもっと見る",
+            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtVW5jZ0lrTk1UNHdMSVAzdHh0bGpYLUt1Zy04ckdTWTFXSmRWT2NwMXU5RkxIei15Nkhra0FyOHZqc2YwSlZhU1JTX003STNOb3pxbGd1RVF1aVZNclZ6VU9R?oc=5",
+            "source": "秋田魁新報電子版"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%A4%BE%E8%AA%AC%EF%BC%9A%E3%81%AF%E3%81%97%E3%81%8B%E6%B5%81%E8%A1%8C%20%E6%98%94%E3%81%AE%E7%97%85%E6%B0%97%E3%81%AE%E8%AA%8D%E8%AD%98%E6%8D%A8%E3%81%A6%E3%82%88%20-%20%E7%A7%8B%E7%94%B0%E9%AD%81%E6%96%B0%E5%A0%B1%E9%9B%BB%E5%AD%90%E7%89%88&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%A4%BE%E8%AA%AC%EF%BC%9A%E3%81%AF%E3%81%97%E3%81%8B%E6%B5%81%E8%A1%8C%20%E6%98%94%E3%81%AE%E7%97%85%E6%B0%97%E3%81%AE%E8%AA%8D%E8%AD%98%E6%8D%A8%E3%81%A6%E3%82%88%20-%20%E7%A7%8B%E7%94%B0%E9%AD%81%E6%96%B0%E5%A0%B1%E9%9B%BB%E5%AD%90%E7%89%88%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 2,
+        "keyword": "「謎の風邪」県内でも流行？　ＳＮＳで話題　喉の痛みや鼻水、熱はなく　ヒトメタニューモが関係か　医師「適切な受診を」｜四国新聞WEB朝刊 - 四国新聞",
+        "category": "ライフスタイル",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "「謎の風邪」県内でも流行？　ＳＮＳで話題　喉の痛みや鼻水、熱はなく　ヒトメタニューモが関係か　医師「適切な受診を」｜四国新聞WEB朝刊 - 四国新聞",
+            "snippet": "「謎の風邪」県内でも流行？　ＳＮＳで話題　喉の痛みや鼻水、熱はなく　ヒトメタニューモが関係か　医師「適切な受診を」｜四国新聞WEB朝刊&nbsp;&nbsp;四国新聞【“謎の風邪”医師の見解は】福岡で流行し北海道でも？SNS中心に話題の“謎",
+            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9La1JERUJPRFp1dmNYclZYdUI2VnlmUXpDeUs4THU4RFpocWtyVE9Kaktxdk1WN3Y5THVub3Y0bkI4eUNEQVVqeVR2WDNrYUpwS1ZVTThERGlXOGVIR0htZFItd1hwWWZrcXkwUFlFR3RpZy03dXNn?oc=5",
+            "source": "四国新聞"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E8%AC%8E%E3%81%AE%E9%A2%A8%E9%82%AA%E3%80%8D%E7%9C%8C%E5%86%85%E3%81%A7%E3%82%82%E6%B5%81%E8%A1%8C%EF%BC%9F%E3%80%80%EF%BC%B3%EF%BC%AE%EF%BC%B3%E3%81%A7%E8%A9%B1%E9%A1%8C%E3%80%80%E5%96%89%E3%81%AE%E7%97%9B%E3%81%BF%E3%82%84%E9%BC%BB%E6%B0%B4%E3%80%81%E7%86%B1&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E8%AC%8E%E3%81%AE%E9%A2%A8%E9%82%AA%E3%80%8D%E7%9C%8C%E5%86%85%E3%81%A7%E3%82%82%E6%B5%81%E8%A1%8C%EF%BC%9F%E3%80%80%EF%BC%B3%EF%BC%AE%EF%BC%B3%E3%81%A7%E8%A9%B1%E9%A1%8C%E3%80%80%E5%96%89%E3%81%AE%E7%97%9B%E3%81%BF%E3%82%84%E9%BC%BB%E6%B0%B4%E3%80%81%E7%86%B1%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 3,
         "keyword": "患者に最も好まれる第1選択抗精神病薬は？｜CareNet.com - CareNet.com",
         "category": "ライフスタイル",
         "source": "google_news",
@@ -888,11 +926,11 @@
             "source": "CareNet.com"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%82%A3%E8%80%85%E3%81%AB%E6%9C%80%E3%82%82%E5%A5%BD%E3%81%BE%E3%82%8C%E3%82%8B%E7%AC%AC1%E9%81%B8%E6%8A%9E%E6%8A%97%E7%B2%BE%E7%A5%9E%E7%97%85%E8%96%AC%E3%81%AF%EF%BC%9F%EF%BD%9CCareNet.c&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%82%A3%E8%80%85%E3%81%AB%E6%9C%80%E3%82%82%E5%A5%BD%E3%81%BE%E3%82%8C%E3%82%8B%E7%AC%AC1%E9%81%B8%E6%8A%9E%E6%8A%97%E7%B2%BE%E7%A5%9E%E7%97%85%E8%96%AC%E3%81%AF%EF%BC%9F%EF%BD%9CCareNet.c/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%82%A3%E8%80%85%E3%81%AB%E6%9C%80%E3%82%82%E5%A5%BD%E3%81%BE%E3%82%8C%E3%82%8B%E7%AC%AC1%E9%81%B8%E6%8A%9E%E6%8A%97%E7%B2%BE%E7%A5%9E%E7%97%85%E8%96%AC%E3%81%AF%EF%BC%9F%EF%BD%9CCareNet.c&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%82%A3%E8%80%85%E3%81%AB%E6%9C%80%E3%82%82%E5%A5%BD%E3%81%BE%E3%82%8C%E3%82%8B%E7%AC%AC1%E9%81%B8%E6%8A%9E%E6%8A%97%E7%B2%BE%E7%A5%9E%E7%97%85%E8%96%AC%E3%81%AF%EF%BC%9F%EF%BD%9CCareNet.c%2F&link_type=hybrid_url"
       },
       {
-        "rank": 2,
+        "rank": 4,
         "keyword": "「トイレでのスマホ」が痔の悪化の一因に｜CareNet.com - CareNet.com",
         "category": "ライフスタイル",
         "source": "google_news",
@@ -907,11 +945,11 @@
             "source": "CareNet.com"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E3%83%88%E3%82%A4%E3%83%AC%E3%81%A7%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E3%80%8D%E3%81%8C%E7%97%94%E3%81%AE%E6%82%AA%E5%8C%96%E3%81%AE%E4%B8%80%E5%9B%A0%E3%81%AB%EF%BD%9CCareNet.co&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8C%E3%83%88%E3%82%A4%E3%83%AC%E3%81%A7%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E3%80%8D%E3%81%8C%E7%97%94%E3%81%AE%E6%82%AA%E5%8C%96%E3%81%AE%E4%B8%80%E5%9B%A0%E3%81%AB%EF%BD%9CCareNet.co/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E3%83%88%E3%82%A4%E3%83%AC%E3%81%A7%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E3%80%8D%E3%81%8C%E7%97%94%E3%81%AE%E6%82%AA%E5%8C%96%E3%81%AE%E4%B8%80%E5%9B%A0%E3%81%AB%EF%BD%9CCareNet.co&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E3%83%88%E3%82%A4%E3%83%AC%E3%81%A7%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E3%80%8D%E3%81%8C%E7%97%94%E3%81%AE%E6%82%AA%E5%8C%96%E3%81%AE%E4%B8%80%E5%9B%A0%E3%81%AB%EF%BD%9CCareNet.co%2F&link_type=hybrid_url"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "keyword": "市中肺炎で検出された肺炎球菌、ワクチンカバー率は？／感染症学会・化学療法学会｜CareNet.com - CareNet.com",
         "category": "ライフスタイル",
         "source": "google_news",
@@ -926,30 +964,11 @@
             "source": "CareNet.com"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%B8%82%E4%B8%AD%E8%82%BA%E7%82%8E%E3%81%A7%E6%A4%9C%E5%87%BA%E3%81%95%E3%82%8C%E3%81%9F%E8%82%BA%E7%82%8E%E7%90%83%E8%8F%8C%E3%80%81%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E7%8E%87%E3%81%AF%EF%BC%9F%EF%BC%8F%E6%84%9F%E6%9F%93%E7%97%87%E5%AD%A6&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%B8%82%E4%B8%AD%E8%82%BA%E7%82%8E%E3%81%A7%E6%A4%9C%E5%87%BA%E3%81%95%E3%82%8C%E3%81%9F%E8%82%BA%E7%82%8E%E7%90%83%E8%8F%8C%E3%80%81%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E7%8E%87%E3%81%AF%EF%BC%9F%EF%BC%8F%E6%84%9F%E6%9F%93%E7%97%87%E5%AD%A6/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%B8%82%E4%B8%AD%E8%82%BA%E7%82%8E%E3%81%A7%E6%A4%9C%E5%87%BA%E3%81%95%E3%82%8C%E3%81%9F%E8%82%BA%E7%82%8E%E7%90%83%E8%8F%8C%E3%80%81%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E7%8E%87%E3%81%AF%EF%BC%9F%EF%BC%8F%E6%84%9F%E6%9F%93%E7%97%87%E5%AD%A6&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%B8%82%E4%B8%AD%E8%82%BA%E7%82%8E%E3%81%A7%E6%A4%9C%E5%87%BA%E3%81%95%E3%82%8C%E3%81%9F%E8%82%BA%E7%82%8E%E7%90%83%E8%8F%8C%E3%80%81%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E7%8E%87%E3%81%AF%EF%BC%9F%EF%BC%8F%E6%84%9F%E6%9F%93%E7%97%87%E5%AD%A6%2F&link_type=hybrid_url"
       },
       {
-        "rank": 4,
-        "keyword": "【患者急増】「麻しん（はしか）ワクチン」の”緊急接種”都内で開始―72時間以内の接種で予防可能？ - メディカルドック",
-        "category": "ライフスタイル",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "【患者急増】「麻しん（はしか）ワクチン」の”緊急接種”都内で開始―72時間以内の接種で予防可能？ - メディカルドック",
-            "snippet": "【患者急増】「麻しん（はしか）ワクチン」の”緊急接種”都内で開始―72時間以内の接種で予防可能？&nbsp;&nbsp;メディカルドックGoogle ニュースで見出しと意見をもっと見る",
-            "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53TnFfeXBVMVM5eGJ2cGxoTmNsTHV1eGdRMG5oSm0xd0tScDRSZEpfZWNFVXd0d2JEQ0luODR2SV94WVdtSVN0Nm9jWEQ5RWJ4QVlrOUhsMA?oc=5",
-            "source": "メディカルドック"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E6%82%A3%E8%80%85%E6%80%A5%E5%A2%97%E3%80%91%E3%80%8C%E9%BA%BB%E3%81%97%E3%82%93%EF%BC%88%E3%81%AF%E3%81%97%E3%81%8B%EF%BC%89%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%80%8D%E3%81%AE%E2%80%9D%E7%B7%8A%E6%80%A5%E6%8E%A5%E7%A8%AE%E2%80%9D%E9%83%BD%E5%86%85%E3%81%A7&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E6%82%A3%E8%80%85%E6%80%A5%E5%A2%97%E3%80%91%E3%80%8C%E9%BA%BB%E3%81%97%E3%82%93%EF%BC%88%E3%81%AF%E3%81%97%E3%81%8B%EF%BC%89%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%80%8D%E3%81%AE%E2%80%9D%E7%B7%8A%E6%80%A5%E6%8E%A5%E7%A8%AE%E2%80%9D%E9%83%BD%E5%86%85%E3%81%A7/"
-      },
-      {
-        "rank": 5,
+        "rank": 6,
         "keyword": "心血管疾患2次予防、LDL-C 55mg/dL未満の達成後も高Lp(a)は強力な残余リスクに／EAS2026｜CareNet.com - CareNet.com",
         "category": "ライフスタイル",
         "source": "google_news",
@@ -964,11 +983,11 @@
             "source": "CareNet.com"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E6%82%A32%E6%AC%A1%E4%BA%88%E9%98%B2%E3%80%81LDL-C%2055mg%2FdL%E6%9C%AA%E6%BA%80%E3%81%AE%E9%81%94%E6%88%90%E5%BE%8C%E3%82%82&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E6%82%A32%E6%AC%A1%E4%BA%88%E9%98%B2%E3%80%81LDL-C%2055mg%2FdL%E6%9C%AA%E6%BA%80%E3%81%AE%E9%81%94%E6%88%90%E5%BE%8C%E3%82%82/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E6%82%A32%E6%AC%A1%E4%BA%88%E9%98%B2%E3%80%81LDL-C%2055mg%2FdL%E6%9C%AA%E6%BA%80%E3%81%AE%E9%81%94%E6%88%90%E5%BE%8C%E3%82%82&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%BF%83%E8%A1%80%E7%AE%A1%E7%96%BE%E6%82%A32%E6%AC%A1%E4%BA%88%E9%98%B2%E3%80%81LDL-C%2055mg%2FdL%E6%9C%AA%E6%BA%80%E3%81%AE%E9%81%94%E6%88%90%E5%BE%8C%E3%82%82%2F&link_type=hybrid_url"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "keyword": "大久保佳代子「歩道の10cmの縁石で〈下駄ばき骨折〉し、松葉杖に。更年期で不安が増し、部屋も汚れて悲しくなったけれど」 - au Webポータル",
         "category": "ライフスタイル",
         "source": "google_news",
@@ -983,12 +1002,12 @@
             "source": "au Webポータル"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A4%A7%E4%B9%85%E4%BF%9D%E4%BD%B3%E4%BB%A3%E5%AD%90%E3%80%8C%E6%AD%A9%E9%81%93%E3%81%AE10cm%E3%81%AE%E7%B8%81%E7%9F%B3%E3%81%A7%E3%80%88%E4%B8%8B%E9%A7%84%E3%81%B0%E3%81%8D%E9%AA%A8%E6%8A%98%E3%80%89%E3%81%97%E3%80%81%E6%9D%BE%E8%91%89&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%A7%E4%B9%85%E4%BF%9D%E4%BD%B3%E4%BB%A3%E5%AD%90%E3%80%8C%E6%AD%A9%E9%81%93%E3%81%AE10cm%E3%81%AE%E7%B8%81%E7%9F%B3%E3%81%A7%E3%80%88%E4%B8%8B%E9%A7%84%E3%81%B0%E3%81%8D%E9%AA%A8%E6%8A%98%E3%80%89%E3%81%97%E3%80%81%E6%9D%BE%E8%91%89/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A4%A7%E4%B9%85%E4%BF%9D%E4%BD%B3%E4%BB%A3%E5%AD%90%E3%80%8C%E6%AD%A9%E9%81%93%E3%81%AE10cm%E3%81%AE%E7%B8%81%E7%9F%B3%E3%81%A7%E3%80%88%E4%B8%8B%E9%A7%84%E3%81%B0%E3%81%8D%E9%AA%A8%E6%8A%98%E3%80%89%E3%81%97%E3%80%81%E6%9D%BE%E8%91%89&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%A4%A7%E4%B9%85%E4%BF%9D%E4%BD%B3%E4%BB%A3%E5%AD%90%E3%80%8C%E6%AD%A9%E9%81%93%E3%81%AE10cm%E3%81%AE%E7%B8%81%E7%9F%B3%E3%81%A7%E3%80%88%E4%B8%8B%E9%A7%84%E3%81%B0%E3%81%8D%E9%AA%A8%E6%8A%98%E3%80%89%E3%81%97%E3%80%81%E6%9D%BE%E8%91%89%2F&link_type=hybrid_url"
       },
       {
-        "rank": 7,
-        "keyword": "生理の回数が10倍に激増 「卵巣がん」の原因に“多すぎる生理”が 「低用量ピル」で予防可能【医師監修】 (2026年5月28日掲載) - ライブドアニュース",
+        "rank": 8,
+        "keyword": "生理の回数が10倍に激増 「卵巣がん」の原因に“多すぎる生理”が 「低用量ピル」で予防可能【医師監修】 - ｄメニューニュース",
         "category": "ライフスタイル",
         "source": "google_news",
         "type": "news",
@@ -996,17 +1015,17 @@
         "trend": "",
         "news": [
           {
-            "title": "生理の回数が10倍に激増 「卵巣がん」の原因に“多すぎる生理”が 「低用量ピル」で予防可能【医師監修】 (2026年5月28日掲載) - ライブドアニュース",
-            "snippet": "生理の回数が10倍に激増 「卵巣がん」の原因に“多すぎる生理”が 「低用量ピル」で予防可能【医師監修】 (2026年5月28日掲載)&nbsp;&nbsp;ライブドアニュースGoogle ニュースで見出しと意見をもっと見る",
-            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GWWFfVjlMc3FnaDl4QmNOd041MlN1LXJPdVBYWndkWU9ndFNfMmNSSlRRbXRwWXRMc29UaV9zeFR2Y2l6VnQyWUZHclVwMkJVM3FFUXM0Z0t1NGxTcFE?oc=5",
-            "source": "ライブドアニュース"
+            "title": "生理の回数が10倍に激増 「卵巣がん」の原因に“多すぎる生理”が 「低用量ピル」で予防可能【医師監修】 - ｄメニューニュース",
+            "snippet": "生理の回数が10倍に激増 「卵巣がん」の原因に“多すぎる生理”が 「低用量ピル」で予防可能【医師監修】&nbsp;&nbsp;ｄメニューニュースGoogle ニュースで見出しと意見をもっと見る",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWVUtWeUNpd3VtTHhELWs2NmtSdDZRdXdLYkdGeXBMZEozMFk0aEFtMXJKUUUyOUZPVk5vdm5zYWVobmNhd256bzF3NW5QRGhsSDlGT3BrS1dPOFg3V1Q5RnR6MVZ2Z3FoY2E3Yw?oc=5",
+            "source": "ｄメニューニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%94%9F%E7%90%86%E3%81%AE%E5%9B%9E%E6%95%B0%E3%81%8C10%E5%80%8D%E3%81%AB%E6%BF%80%E5%A2%97%20%E3%80%8C%E5%8D%B5%E5%B7%A3%E3%81%8C%E3%82%93%E3%80%8D%E3%81%AE%E5%8E%9F%E5%9B%A0%E3%81%AB%E2%80%9C%E5%A4%9A%E3%81%99%E3%81%8E%E3%82%8B%E7%94%9F%E7%90%86&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%94%9F%E7%90%86%E3%81%AE%E5%9B%9E%E6%95%B0%E3%81%8C10%E5%80%8D%E3%81%AB%E6%BF%80%E5%A2%97%20%E3%80%8C%E5%8D%B5%E5%B7%A3%E3%81%8C%E3%82%93%E3%80%8D%E3%81%AE%E5%8E%9F%E5%9B%A0%E3%81%AB%E2%80%9C%E5%A4%9A%E3%81%99%E3%81%8E%E3%82%8B%E7%94%9F%E7%90%86/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%94%9F%E7%90%86%E3%81%AE%E5%9B%9E%E6%95%B0%E3%81%8C10%E5%80%8D%E3%81%AB%E6%BF%80%E5%A2%97%20%E3%80%8C%E5%8D%B5%E5%B7%A3%E3%81%8C%E3%82%93%E3%80%8D%E3%81%AE%E5%8E%9F%E5%9B%A0%E3%81%AB%E2%80%9C%E5%A4%9A%E3%81%99%E3%81%8E%E3%82%8B%E7%94%9F%E7%90%86&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%94%9F%E7%90%86%E3%81%AE%E5%9B%9E%E6%95%B0%E3%81%8C10%E5%80%8D%E3%81%AB%E6%BF%80%E5%A2%97%20%E3%80%8C%E5%8D%B5%E5%B7%A3%E3%81%8C%E3%82%93%E3%80%8D%E3%81%AE%E5%8E%9F%E5%9B%A0%E3%81%AB%E2%80%9C%E5%A4%9A%E3%81%99%E3%81%8E%E3%82%8B%E7%94%9F%E7%90%86%2F&link_type=hybrid_url"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "keyword": "若年層の大腸がん罹患率は本当に上昇しているのか？ - ライブドアニュース",
         "category": "ライフスタイル",
         "source": "google_news",
@@ -1021,27 +1040,8 @@
             "source": "ライブドアニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8B%A5%E5%B9%B4%E5%B1%A4%E3%81%AE%E5%A4%A7%E8%85%B8%E3%81%8C%E3%82%93%E7%BD%B9%E6%82%A3%E7%8E%87%E3%81%AF%E6%9C%AC%E5%BD%93%E3%81%AB%E4%B8%8A%E6%98%87%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F%20-%20%E3%83%A9%E3%82%A4%E3%83%96&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8B%A5%E5%B9%B4%E5%B1%A4%E3%81%AE%E5%A4%A7%E8%85%B8%E3%81%8C%E3%82%93%E7%BD%B9%E6%82%A3%E7%8E%87%E3%81%AF%E6%9C%AC%E5%BD%93%E3%81%AB%E4%B8%8A%E6%98%87%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F%20-%20%E3%83%A9%E3%82%A4%E3%83%96/"
-      },
-      {
-        "rank": 9,
-        "keyword": "ムコ多糖症関連国際シンポジウム2026でライソゾーム病治療薬「JR-171」の有効性など発表 ＪＣＲファーマ - 医薬通信社",
-        "category": "ライフスタイル",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "ムコ多糖症関連国際シンポジウム2026でライソゾーム病治療薬「JR-171」の有効性など発表 ＪＣＲファーマ - 医薬通信社",
-            "snippet": "ムコ多糖症関連国際シンポジウム2026でライソゾーム病治療薬「JR-171」の有効性など発表 ＪＣＲファーマ&nbsp;&nbsp;医薬通信社",
-            "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQeUVWTnVVdk1KSUo1d2NIaU5VZ09JcHM4a0M2a1ZvcUR0aGFjNjZua1FlbVdjWjY4eGdSRkZINnRTbUtmbmRDQ0Z5dWl0VHY0cFJlcTJna0stdXJJcXRTOUp0UDJUTXp0a2h5UUdpNnEyc203MmdOUGdHdzRYUUJKVUo5MFktcXJSbms0OHVDRE9jSUVMNmxlOE9HQ3E2MVYyOE9LaXRwYnRBdV9PbGQ4bVFtMm9FQU5HczlyYkoxVmllTElvdVNJTkw2LW5BZ3VCelZycGxnRnlVd0hIdXo2WEtMYUp0T3JTaVVzeEYwbGF3WGFaN0NiYTlMbXcwQ1ZPdVBCZXBEVXNRV1NZYVV0OGNvekdCYWtOZVRDRWp2ZkdYX2VKbGV6OERBVzRYX3NLc0d0UkJxMHg5SHUxQk9TdmZwQTZ5YzNycDNfcC1OYkpyelE?oc=5",
-            "source": "医薬通信社"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%A0%E3%82%B3%E5%A4%9A%E7%B3%96%E7%97%87%E9%96%A2%E9%80%A3%E5%9B%BD%E9%9A%9B%E3%82%B7%E3%83%B3%E3%83%9D%E3%82%B8%E3%82%A6%E3%83%A02026%E3%81%A7%E3%83%A9%E3%82%A4%E3%82%BD%E3%82%BE%E3%83%BC%E3%83%A0%E7%97%85%E6%B2%BB%E7%99%82%E8%96%AC&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%A0%E3%82%B3%E5%A4%9A%E7%B3%96%E7%97%87%E9%96%A2%E9%80%A3%E5%9B%BD%E9%9A%9B%E3%82%B7%E3%83%B3%E3%83%9D%E3%82%B8%E3%82%A6%E3%83%A02026%E3%81%A7%E3%83%A9%E3%82%A4%E3%82%BD%E3%82%BE%E3%83%BC%E3%83%A0%E7%97%85%E6%B2%BB%E7%99%82%E8%96%AC/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8B%A5%E5%B9%B4%E5%B1%A4%E3%81%AE%E5%A4%A7%E8%85%B8%E3%81%8C%E3%82%93%E7%BD%B9%E6%82%A3%E7%8E%87%E3%81%AF%E6%9C%AC%E5%BD%93%E3%81%AB%E4%B8%8A%E6%98%87%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F%20-%20%E3%83%A9%E3%82%A4%E3%83%96&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E8%8B%A5%E5%B9%B4%E5%B1%A4%E3%81%AE%E5%A4%A7%E8%85%B8%E3%81%8C%E3%82%93%E7%BD%B9%E6%82%A3%E7%8E%87%E3%81%AF%E6%9C%AC%E5%BD%93%E3%81%AB%E4%B8%8A%E6%98%87%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F%20-%20%E3%83%A9%E3%82%A4%E3%83%96%2F&link_type=hybrid_url"
       },
       {
         "rank": 10,
@@ -1059,14 +1059,14 @@
             "source": "ニコニコニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%83%95%E3%83%BC%E3%83%89%E3%80%81%E8%84%B3%E3%81%AB%E5%BD%B1%E9%9F%BF%E6%AE%8B%E3%82%8B%EF%BC%9F%20%E5%A4%A7%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82%E9%81%8E%E9%A3%9F%E3%82%B0&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%83%95%E3%83%BC%E3%83%89%E3%80%81%E8%84%B3%E3%81%AB%E5%BD%B1%E9%9F%BF%E6%AE%8B%E3%82%8B%EF%BC%9F%20%E5%A4%A7%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82%E9%81%8E%E9%A3%9F%E3%82%B0/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%83%95%E3%83%BC%E3%83%89%E3%80%81%E8%84%B3%E3%81%AB%E5%BD%B1%E9%9F%BF%E6%AE%8B%E3%82%8B%EF%BC%9F%20%E5%A4%A7%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82%E9%81%8E%E9%A3%9F%E3%82%B0&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%AD%90%E3%81%A9%E3%82%82%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%83%95%E3%83%BC%E3%83%89%E3%80%81%E8%84%B3%E3%81%AB%E5%BD%B1%E9%9F%BF%E6%AE%8B%E3%82%8B%EF%BC%9F%20%E5%A4%A7%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82%E9%81%8E%E9%A3%9F%E3%82%B0%2F&link_type=hybrid_url"
       }
     ],
     "スポーツ": [
       {
         "rank": 1,
-        "keyword": "阿部慎之助･巨人監督逮捕、迅速な対応に長女戸惑い「意向聞かれなかった」…被害者の安全確保優先か - 新潟日報",
+        "keyword": "阿部慎之助辞任で光った巨人“危機管理”の凄まじさ、前代未聞の現役監督逮捕から世論反転へ導いた「12時間決着」 - JBpress",
         "category": "スポーツ",
         "source": "google_news",
         "type": "news",
@@ -1074,150 +1074,17 @@
         "trend": "",
         "news": [
           {
-            "title": "阿部慎之助･巨人監督逮捕、迅速な対応に長女戸惑い「意向聞かれなかった」…被害者の安全確保優先か - 新潟日報",
-            "snippet": "阿部慎之助･巨人監督逮捕、迅速な対応に長女戸惑い「意向聞かれなかった」…被害者の安全確保優先か&nbsp;&nbsp;新潟日報「思い通りにならないと怒る」阿部前監督 二岡コーチが退団、ゴルフでは誰もチームを組みたがらず…球団周辺でも疎まれた",
-            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KWktVSTgzdVcyNjJ6ZWc2ZXpUX1Vsa29kS25ERFNlTEpPMHUyUGhRUERiOVZhbW1icURHSHV1ZzRhbGJjeEdBNUJwTDZuU3VVS2FPNlp0YmFYVEFwWVE?oc=5",
-            "source": "新潟日報"
+            "title": "阿部慎之助辞任で光った巨人“危機管理”の凄まじさ、前代未聞の現役監督逮捕から世論反転へ導いた「12時間決着」 - JBpress",
+            "snippet": "阿部慎之助辞任で光った巨人“危機管理”の凄まじさ、前代未聞の現役監督逮捕から世論反転へ導いた「12時間決着」&nbsp;&nbsp;JBpress巨人・阿部慎之助前監督の涙の辞任から一夜、波紋広がる 子育て中の親などからさまざまな声&nbs",
+            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFVmpfM1Nkbk91RGdDVFd3V2ozR3pJbXE4dE5ZXzhtd1B6NmhDUndkTkwxQmdac3BnOEk4UzZ4M3p1WkVmRWV0WHlqSUxQN1B6WlgtaEtn?oc=5",
+            "source": "JBpress"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%98%BF%E9%83%A8%E6%85%8E%E4%B9%8B%E5%8A%A9%EF%BD%A5%E5%B7%A8%E4%BA%BA%E7%9B%A3%E7%9D%A3%E9%80%AE%E6%8D%95%E3%80%81%E8%BF%85%E9%80%9F%E3%81%AA%E5%AF%BE%E5%BF%9C%E3%81%AB%E9%95%B7%E5%A5%B3%E6%88%B8%E6%83%91%E3%81%84%E3%80%8C%E6%84%8F%E5%90%91%E8%81%9E%E3%81%8B%E3%82%8C&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%98%BF%E9%83%A8%E6%85%8E%E4%B9%8B%E5%8A%A9%EF%BD%A5%E5%B7%A8%E4%BA%BA%E7%9B%A3%E7%9D%A3%E9%80%AE%E6%8D%95%E3%80%81%E8%BF%85%E9%80%9F%E3%81%AA%E5%AF%BE%E5%BF%9C%E3%81%AB%E9%95%B7%E5%A5%B3%E6%88%B8%E6%83%91%E3%81%84%E3%80%8C%E6%84%8F%E5%90%91%E8%81%9E%E3%81%8B%E3%82%8C/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%98%BF%E9%83%A8%E6%85%8E%E4%B9%8B%E5%8A%A9%E8%BE%9E%E4%BB%BB%E3%81%A7%E5%85%89%E3%81%A3%E3%81%9F%E5%B7%A8%E4%BA%BA%E2%80%9C%E5%8D%B1%E6%A9%9F%E7%AE%A1%E7%90%86%E2%80%9D%E3%81%AE%E5%87%84%E3%81%BE%E3%81%98%E3%81%95%E3%80%81%E5%89%8D%E4%BB%A3%E6%9C%AA%E8%81%9E%E3%81%AE&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E9%98%BF%E9%83%A8%E6%85%8E%E4%B9%8B%E5%8A%A9%E8%BE%9E%E4%BB%BB%E3%81%A7%E5%85%89%E3%81%A3%E3%81%9F%E5%B7%A8%E4%BA%BA%E2%80%9C%E5%8D%B1%E6%A9%9F%E7%AE%A1%E7%90%86%E2%80%9D%E3%81%AE%E5%87%84%E3%81%BE%E3%81%98%E3%81%95%E3%80%81%E5%89%8D%E4%BB%A3%E6%9C%AA%E8%81%9E%E3%81%AE%2F&link_type=hybrid_url"
       },
       {
         "rank": 2,
-        "keyword": "“ゾンビタバコ”有罪の元広島の羽月氏がTikTokで爆弾暴露「私を含め6人が購入」「飲んで寝ている間にライターで炙ったフォークを首に当てられた」…SNSではガーシー化への賛否飛び交う（RONSPO） - Yahoo!ニュース",
-        "category": "スポーツ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "“ゾンビタバコ”有罪の元広島の羽月氏がTikTokで爆弾暴露「私を含め6人が購入」「飲んで寝ている間にライターで炙ったフォークを首に当てられた」…SNSではガーシー化への賛否飛び交う（RONSPO） - Yahoo!ニュース",
-            "snippet": "“ゾンビタバコ”有罪の元広島の羽月氏がTikTokで爆弾暴露「私を含め6人が購入」「飲んで寝ている間にライターで炙ったフォークを首に当てられた」…SNSではガーシー化への賛否飛び交う（RONSPO）&nbsp;&nbsp;Yahoo!ニュー",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4NTVRb0J1OFdIdXFoZS1fTmhydFJhdzdVcWNCZl9VaDVxb29PT0pSSHBqUmZjUkhoMGdCLVZfQUEyOXZKazRBTVNMUjRJMGtzN0dLOEZMQ0hBU1hOMXFFN01yY1NOMldHWno3N2hSWkFaYnpiWVlJc0wwb3FmSjQ?oc=5",
-            "source": "Yahoo!ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E2%80%9C%E3%82%BE%E3%83%B3%E3%83%93%E3%82%BF%E3%83%90%E3%82%B3%E2%80%9D%E6%9C%89%E7%BD%AA%E3%81%AE%E5%85%83%E5%BA%83%E5%B3%B6%E3%81%AE%E7%BE%BD%E6%9C%88%E6%B0%8F%E3%81%8CTikTok%E3%81%A7%E7%88%86%E5%BC%BE%E6%9A%B4%E9%9C%B2&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E2%80%9C%E3%82%BE%E3%83%B3%E3%83%93%E3%82%BF%E3%83%90%E3%82%B3%E2%80%9D%E6%9C%89%E7%BD%AA%E3%81%AE%E5%85%83%E5%BA%83%E5%B3%B6%E3%81%AE%E7%BE%BD%E6%9C%88%E6%B0%8F%E3%81%8CTikTok%E3%81%A7%E7%88%86%E5%BC%BE%E6%9A%B4%E9%9C%B2/"
-      },
-      {
-        "rank": 3,
-        "keyword": "【東京優駿(日本ダービー)2026枠順発表】全18頭 皐月賞馬ロブチェン8枠17番・武豊ゴーイントゥスカイ7枠14番・リアライズシリウス6枠11番など最新情報【5月31日(日)15時40分】 | 競馬まとめ - netkeiba - netkeiba",
-        "category": "スポーツ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "【東京優駿(日本ダービー)2026枠順発表】全18頭 皐月賞馬ロブチェン8枠17番・武豊ゴーイントゥスカイ7枠14番・リアライズシリウス6枠11番など最新情報【5月31日(日)15時40分】 | 競馬まとめ - netkeiba - netkeiba",
-            "snippet": "【東京優駿(日本ダービー)2026枠順発表】全18頭 皐月賞馬ロブチェン8枠17番・武豊ゴーイントゥスカイ7枠14番・リアライズシリウス6枠11番など最新情報【5月31日(日)15時40分】 | 競馬まとめ - netkeiba&nbsp;",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6eEYzd3pNdWUxdmxwVVZic04ySGJPNHRES3RGakRReEdFNnhPV3hpWklKVnFHT1JyR2MyT015Wm1GYkFGcElaS1oxSkNDVENCclBaZElBdnZXNmNaRUFjazNxRjVQTlnSAWxBVV95cUxNVWwwZGJiYWlUckxrOWF0aXZPc1U0QUhIczV2LW53STJZQTgxVlRIczVYblVaM01jSDJ5dm5HVlQ4WlQ1VUsydVFFOXAzd0hXYWtOcENfdmtXZmkwZFFlWFpscmxBdWotaHhZVmc?oc=5",
-            "source": "netkeiba"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E6%9D%B1%E4%BA%AC%E5%84%AA%E9%A7%BF(%E6%97%A5%E6%9C%AC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC)2026%E6%9E%A0%E9%A0%86%E7%99%BA%E8%A1%A8%E3%80%91%E5%85%A818%E9%A0%AD%20%E7%9A%90%E6%9C%88%E8%B3%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E6%9D%B1%E4%BA%AC%E5%84%AA%E9%A7%BF(%E6%97%A5%E6%9C%AC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC)2026%E6%9E%A0%E9%A0%86%E7%99%BA%E8%A1%A8%E3%80%91%E5%85%A818%E9%A0%AD%20%E7%9A%90%E6%9C%88%E8%B3%9E/"
-      },
-      {
-        "rank": 4,
-        "keyword": "腰痛に悩まされたW杯イヤー…“相棒”冨安と共に間に合った板倉滉「彼の実力は横で見ていて分かっている」 - gekisaka.jp",
-        "category": "スポーツ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "腰痛に悩まされたW杯イヤー…“相棒”冨安と共に間に合った板倉滉「彼の実力は横で見ていて分かっている」 - gekisaka.jp",
-            "snippet": "腰痛に悩まされたW杯イヤー…“相棒”冨安と共に間に合った板倉滉「彼の実力は横で見ていて分かっている」&nbsp;&nbsp;gekisaka.jp過酷だった716日「いい面も悪い面も」 冨安健洋の苦悩…覚悟の2度目W杯「何も考えず無の状態で",
-            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vcklTR2syX0I3MklQZFE4UWN5MVJjTzB2S1JBNEN1UlN1U3ptdlJsMVJKS0txazJXMGhVdFI1WTVwenlGSy1PelR6cWJiRmRfYnRjNzVvUzRWZU9hSll3T3VycWl1ZmdUazFN?oc=5",
-            "source": "gekisaka.jp"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%85%B0%E7%97%9B%E3%81%AB%E6%82%A9%E3%81%BE%E3%81%95%E3%82%8C%E3%81%9FW%E6%9D%AF%E3%82%A4%E3%83%A4%E3%83%BC%E2%80%A6%E2%80%9C%E7%9B%B8%E6%A3%92%E2%80%9D%E5%86%A8%E5%AE%89%E3%81%A8%E5%85%B1%E3%81%AB%E9%96%93%E3%81%AB%E5%90%88%E3%81%A3%E3%81%9F%E6%9D%BF%E5%80%89&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%85%B0%E7%97%9B%E3%81%AB%E6%82%A9%E3%81%BE%E3%81%95%E3%82%8C%E3%81%9FW%E6%9D%AF%E3%82%A4%E3%83%A4%E3%83%BC%E2%80%A6%E2%80%9C%E7%9B%B8%E6%A3%92%E2%80%9D%E5%86%A8%E5%AE%89%E3%81%A8%E5%85%B1%E3%81%AB%E9%96%93%E3%81%AB%E5%90%88%E3%81%A3%E3%81%9F%E6%9D%BF%E5%80%89/"
-      },
-      {
-        "rank": 5,
-        "keyword": "【●虎将トーク】阪神・藤川監督、14打席無安打の立石「イライラせずに前向きに挑戦」本人には「何打席かで心の揺れ動きは必要ない」新庄野球とは？「それは言うべきではない」 - サンスポ",
-        "category": "スポーツ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "【●虎将トーク】阪神・藤川監督、14打席無安打の立石「イライラせずに前向きに挑戦」本人には「何打席かで心の揺れ動きは必要ない」新庄野球とは？「それは言うべきではない」 - サンスポ",
-            "snippet": "【●虎将トーク】阪神・藤川監督、14打席無安打の立石「イライラせずに前向きに挑戦」本人には「何打席かで心の揺れ動きは必要ない」新庄野球とは？「それは言うべきではない」&nbsp;&nbsp;サンスポ阪神・藤川監督が“火の玉アドバイス”14打",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd0VYNTZXcWNpZ2txVXVDVDVDWTFSWHZmbGQ3RWdpYV8xLTRoQjVPUGI2YzlIajZOMDdQN3JZbC1rSXdyQVRrSS1nbVBKclI4dmxueFNUSFV0dWVrUFZKeWkyRk5mT2YzZFRYYVVKZ0J3ZmNZSHhnalI1MGlZMzNNeEt4eFhsQnB1cXZka1NnWVFibnR1dHfSAYoBQVVfeXFMTTI2ZGd1YnlNXzFIVXp2NU1GWUxoc0FRMTc5eTh5RHpQWUtlTUR5WDdRTUI1SHZSUno1emVQYXpoSXBPYjRjSnhnRWFMTUdMWV9QQ2lPMUhrYUdjaWpnZHBxRk5yTUlJQ3VXN1EyZWgzeWpMUUJmQUQwcFdVZXBGV2FEY3FSeHZSaWR3?oc=5",
-            "source": "サンスポ"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E2%97%8F%E8%99%8E%E5%B0%86%E3%83%88%E3%83%BC%E3%82%AF%E3%80%91%E9%98%AA%E7%A5%9E%E3%83%BB%E8%97%A4%E5%B7%9D%E7%9B%A3%E7%9D%A3%E3%80%8114%E6%89%93%E5%B8%AD%E7%84%A1%E5%AE%89%E6%89%93%E3%81%AE%E7%AB%8B%E7%9F%B3%E3%80%8C%E3%82%A4%E3%83%A9%E3%82%A4&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E2%97%8F%E8%99%8E%E5%B0%86%E3%83%88%E3%83%BC%E3%82%AF%E3%80%91%E9%98%AA%E7%A5%9E%E3%83%BB%E8%97%A4%E5%B7%9D%E7%9B%A3%E7%9D%A3%E3%80%8114%E6%89%93%E5%B8%AD%E7%84%A1%E5%AE%89%E6%89%93%E3%81%AE%E7%AB%8B%E7%9F%B3%E3%80%8C%E3%82%A4%E3%83%A9%E3%82%A4/"
-      },
-      {
-        "rank": 6,
-        "keyword": "日本ハム ヒーローインタビューで異例の光景 島本浩也が３６０度に一礼→負けた古巣ファンが拍手＆歓声に「幸せです」清原氏も「これが阪神ファンのいいところ」 - デイリースポーツ",
-        "category": "スポーツ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "日本ハム ヒーローインタビューで異例の光景 島本浩也が３６０度に一礼→負けた古巣ファンが拍手＆歓声に「幸せです」清原氏も「これが阪神ファンのいいところ」 - デイリースポーツ",
-            "snippet": "日本ハム ヒーローインタビューで異例の光景 島本浩也が３６０度に一礼→負けた古巣ファンが拍手＆歓声に「幸せです」清原氏も「これが阪神ファンのいいところ」&nbsp;&nbsp;デイリースポーツGoogle ニュースで見出しと意見をもっと見る",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nOGhtUmlJczFleEZGVlZtNmFlWm9wa0lEU3oyNXNpdDJWUkppYzZuU01qNF9BSWQzb3NiZFhJdEdUSmk3N3phOU5nZExLb2QxY1g5T0l4S0ZjMTdIbFN5cnNPd1h4X0ZCWS12Ng?oc=5",
-            "source": "デイリースポーツ"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%83%8F%E3%83%A0%20%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E3%81%A7%E7%95%B0%E4%BE%8B%E3%81%AE%E5%85%89%E6%99%AF%20%E5%B3%B6%E6%9C%AC%E6%B5%A9%E4%B9%9F%E3%81%8C%EF%BC%93%EF%BC%96%EF%BC%90&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%97%A5%E6%9C%AC%E3%83%8F%E3%83%A0%20%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E3%81%A7%E7%95%B0%E4%BE%8B%E3%81%AE%E5%85%89%E6%99%AF%20%E5%B3%B6%E6%9C%AC%E6%B5%A9%E4%B9%9F%E3%81%8C%EF%BC%93%EF%BC%96%EF%BC%90/"
-      },
-      {
-        "rank": 7,
-        "keyword": "ホワイトソックスの村上宗隆がメジャー1年目20号 大谷翔平に続き日本選手2人目 - 産経ニュース",
-        "category": "スポーツ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "ホワイトソックスの村上宗隆がメジャー1年目20号 大谷翔平に続き日本選手2人目 - 産経ニュース",
-            "snippet": "ホワイトソックスの村上宗隆がメジャー1年目20号 大谷翔平に続き日本選手2人目&nbsp;&nbsp;産経ニュース村上宗隆“2冠”浮上! 2打数1安打1打点で41打点 20本塁打とともにリーグトップタイと抜群存在感（スポニチアネックス）&n",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xdTBUclZDSXhmOEhQRHQwczVJYmNrOWFmMTlnX3Rkc19CdUNPM0w2YzZOOHBKbVFzcGh5S1ZrZG1vTHVrT3FVbE5lck44d19ZdWMtX3lPaFh2dktpelQ4UzV6cGZnblh5cjR4dWtDdjV3Qmw1T0E?oc=5",
-            "source": "産経ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%BD%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E6%9D%91%E4%B8%8A%E5%AE%97%E9%9A%86%E3%81%8C%E3%83%A1%E3%82%B8%E3%83%A3%E3%83%BC1%E5%B9%B4%E7%9B%AE20%E5%8F%B7%20%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3%E3%81%AB&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%BD%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E6%9D%91%E4%B8%8A%E5%AE%97%E9%9A%86%E3%81%8C%E3%83%A1%E3%82%B8%E3%83%A3%E3%83%BC1%E5%B9%B4%E7%9B%AE20%E5%8F%B7%20%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3%E3%81%AB/"
-      },
-      {
-        "rank": 8,
-        "keyword": "佐藤駿一郎逮捕「重く受け止める」 全選手の所持品を検査―バレーボール男子 - 時事ドットコム",
-        "category": "スポーツ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "佐藤駿一郎逮捕「重く受け止める」 全選手の所持品を検査―バレーボール男子 - 時事ドットコム",
-            "snippet": "佐藤駿一郎逮捕「重く受け止める」 全選手の所持品を検査―バレーボール男子&nbsp;&nbsp;時事ドットコムバレー界に激震「日本代表に相応しくない」 監督、選手の反応は…逮捕の一報で「精神的に参っている」協会サポート約束&nbsp;&nb",
-            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiekw1dDFkb1BQd2t0cV9xWDBoQ2tvSHg0VUZiZVNfVGhQbVpCYm5seXZial8wMnZjOGZjdkw3Mjg4S20tNlptRUo2YUhaSkJDY2pTRzQ0dnBiUmJ3anozdVNlWQ?oc=5",
-            "source": "時事ドットコム"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%BD%90%E8%97%A4%E9%A7%BF%E4%B8%80%E9%83%8E%E9%80%AE%E6%8D%95%E3%80%8C%E9%87%8D%E3%81%8F%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%82%8B%E3%80%8D%20%E5%85%A8%E9%81%B8%E6%89%8B%E3%81%AE%E6%89%80%E6%8C%81%E5%93%81%E3%82%92%E6%A4%9C%E6%9F%BB%E2%80%95%E3%83%90%E3%83%AC&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%BD%90%E8%97%A4%E9%A7%BF%E4%B8%80%E9%83%8E%E9%80%AE%E6%8D%95%E3%80%8C%E9%87%8D%E3%81%8F%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%82%8B%E3%80%8D%20%E5%85%A8%E9%81%B8%E6%89%8B%E3%81%AE%E6%89%80%E6%8C%81%E5%93%81%E3%82%92%E6%A4%9C%E6%9F%BB%E2%80%95%E3%83%90%E3%83%AC/"
-      },
-      {
-        "rank": 9,
         "keyword": "【一問一答】細川凌平 執念のセーフティースクイズ成功「ベンチ、選手を含めて全員で取りに行った１点」 - 道新スポーツ",
         "category": "スポーツ",
         "source": "google_news",
@@ -1227,17 +1094,17 @@
         "news": [
           {
             "title": "【一問一答】細川凌平 執念のセーフティースクイズ成功「ベンチ、選手を含めて全員で取りに行った１点」 - 道新スポーツ",
-            "snippet": "【一問一答】細川凌平 執念のセーフティースクイズ成功「ベンチ、選手を含めて全員で取りに行った１点」&nbsp;&nbsp;道新スポーツ《SHINJOの信条》きのうの（走塁）ミス。故障ではないです。やれることをやれない選手は…&nbsp;&n",
+            "snippet": "【一問一答】細川凌平 執念のセーフティースクイズ成功「ベンチ、選手を含めて全員で取りに行った１点」&nbsp;&nbsp;道新スポーツ甲子園で悪夢3連敗の阪神、シフトが裏目「マジでやめて」…リード守れず「采配で負けた」（スポーティングニュー",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mSEFURzVVcVpuZk5VYVZBcU5BdWF0am1OR1g2VHIzM2JPalpUUEpvbGZkMldIeWxHd29GT21BcVFiaGstblZJRTZXNVdKSDNzX0dDOEpXRmhtenA2M1hmZ19B?oc=5",
             "source": "道新スポーツ"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E4%B8%80%E5%95%8F%E4%B8%80%E7%AD%94%E3%80%91%E7%B4%B0%E5%B7%9D%E5%87%8C%E5%B9%B3%20%E5%9F%B7%E5%BF%B5%E3%81%AE%E3%82%BB%E3%83%BC%E3%83%95%E3%83%86%E3%82%A3%E3%83%BC%E3%82%B9%E3%82%AF%E3%82%A4%E3%82%BA%E6%88%90%E5%8A%9F%E3%80%8C%E3%83%99%E3%83%B3%E3%83%81&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E4%B8%80%E5%95%8F%E4%B8%80%E7%AD%94%E3%80%91%E7%B4%B0%E5%B7%9D%E5%87%8C%E5%B9%B3%20%E5%9F%B7%E5%BF%B5%E3%81%AE%E3%82%BB%E3%83%BC%E3%83%95%E3%83%86%E3%82%A3%E3%83%BC%E3%82%B9%E3%82%AF%E3%82%A4%E3%82%BA%E6%88%90%E5%8A%9F%E3%80%8C%E3%83%99%E3%83%B3%E3%83%81/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E4%B8%80%E5%95%8F%E4%B8%80%E7%AD%94%E3%80%91%E7%B4%B0%E5%B7%9D%E5%87%8C%E5%B9%B3%20%E5%9F%B7%E5%BF%B5%E3%81%AE%E3%82%BB%E3%83%BC%E3%83%95%E3%83%86%E3%82%A3%E3%83%BC%E3%82%B9%E3%82%AF%E3%82%A4%E3%82%BA%E6%88%90%E5%8A%9F%E3%80%8C%E3%83%99%E3%83%B3%E3%83%81&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90%E4%B8%80%E5%95%8F%E4%B8%80%E7%AD%94%E3%80%91%E7%B4%B0%E5%B7%9D%E5%87%8C%E5%B9%B3%20%E5%9F%B7%E5%BF%B5%E3%81%AE%E3%82%BB%E3%83%BC%E3%83%95%E3%83%86%E3%82%A3%E3%83%BC%E3%82%B9%E3%82%AF%E3%82%A4%E3%82%BA%E6%88%90%E5%8A%9F%E3%80%8C%E3%83%99%E3%83%B3%E3%83%81%2F&link_type=hybrid_url"
       },
       {
-        "rank": 10,
-        "keyword": "小久保監督が称えた2つの好守 正木智也の「あのプレーは大きかった」…スチュワートの初安打は「野球は不思議」 - 鷹フル",
+        "rank": 3,
+        "keyword": "ドジャースモデル崩壊の危機、ML Bオーナー側「サラリーキャップ」提案…悪夢のストライキ以来32年ぶり、選手会は猛反発「何世代も戦ってきた」…米メディア「来季中止の可能性も」（中日スポーツ） - Yahoo!ニュース",
         "category": "スポーツ",
         "source": "google_news",
         "type": "news",
@@ -1245,14 +1112,147 @@
         "trend": "",
         "news": [
           {
-            "title": "小久保監督が称えた2つの好守 正木智也の「あのプレーは大きかった」…スチュワートの初安打は「野球は不思議」 - 鷹フル",
-            "snippet": "小久保監督が称えた2つの好守 正木智也の「あのプレーは大きかった」…スチュワートの初安打は「野球は不思議」&nbsp;&nbsp;鷹フルGoogle ニュースで見出しと意見をもっと見る",
-            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44MXZMZDlmZ21yQURLZHdwV04xMExaal9DM1kwb244elpPSXN5Z0F1WlZrbXBZdG5yeFh1WlNNcG5DVm5rYktBR0dKMjJZeW5aYTJQa1pNRHBVaTdzalJZ?oc=5",
-            "source": "鷹フル"
+            "title": "ドジャースモデル崩壊の危機、ML Bオーナー側「サラリーキャップ」提案…悪夢のストライキ以来32年ぶり、選手会は猛反発「何世代も戦ってきた」…米メディア「来季中止の可能性も」（中日スポーツ） - Yahoo!ニュース",
+            "snippet": "ドジャースモデル崩壊の危機、ML Bオーナー側「サラリーキャップ」提案…悪夢のストライキ以来32年ぶり、選手会は猛反発「何世代も戦ってきた」…米メディア「来季中止の可能性も」（中日スポーツ）&nbsp;&nbsp;Yahoo!ニュースMLB",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WWUhMS0NMTlN5NWUybzRxNDQwMlEyQmNZYTY2OXUtSFB1aXRNQmV6ZFJKbzdtVDNtSHItTWV5Y0J6MGFzamZHeE9BWTdidGlzN2xUeEI2ZkppZmh0VTZISW1yelR5SC1PR3p2ODVGN1BST21QbVppVmV2TTFCZHM?oc=5",
+            "source": "Yahoo!ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%B0%8F%E4%B9%85%E4%BF%9D%E7%9B%A3%E7%9D%A3%E3%81%8C%E7%A7%B0%E3%81%88%E3%81%9F2%E3%81%A4%E3%81%AE%E5%A5%BD%E5%AE%88%20%E6%AD%A3%E6%9C%A8%E6%99%BA%E4%B9%9F%E3%81%AE%E3%80%8C%E3%81%82%E3%81%AE%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AF%E5%A4%A7%E3%81%8D%E3%81%8B&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%B0%8F%E4%B9%85%E4%BF%9D%E7%9B%A3%E7%9D%A3%E3%81%8C%E7%A7%B0%E3%81%88%E3%81%9F2%E3%81%A4%E3%81%AE%E5%A5%BD%E5%AE%88%20%E6%AD%A3%E6%9C%A8%E6%99%BA%E4%B9%9F%E3%81%AE%E3%80%8C%E3%81%82%E3%81%AE%E3%83%97%E3%83%AC%E3%83%BC%E3%81%AF%E5%A4%A7%E3%81%8D%E3%81%8B/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%89%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B9%E3%83%A2%E3%83%87%E3%83%AB%E5%B4%A9%E5%A3%8A%E3%81%AE%E5%8D%B1%E6%A9%9F%E3%80%81ML%20B%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC%E5%81%B4%E3%80%8C%E3%82%B5%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%AD%E3%83%A3&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%89%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B9%E3%83%A2%E3%83%87%E3%83%AB%E5%B4%A9%E5%A3%8A%E3%81%AE%E5%8D%B1%E6%A9%9F%E3%80%81ML%20B%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC%E5%81%B4%E3%80%8C%E3%82%B5%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%AD%E3%83%A3%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 4,
+        "keyword": "元広島カープ・羽月隆太郎氏、ゾンビたばこは「選手6人が購入」 球団は昭和的な空気とも暴露［プロ野球］ - 新潟日報",
+        "category": "スポーツ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "元広島カープ・羽月隆太郎氏、ゾンビたばこは「選手6人が購入」 球団は昭和的な空気とも暴露［プロ野球］ - 新潟日報",
+            "snippet": "元広島カープ・羽月隆太郎氏、ゾンビたばこは「選手6人が購入」 球団は昭和的な空気とも暴露［プロ野球］&nbsp;&nbsp;新潟日報広島・鈴木球団本部長「ネットの発信に対して一つ一つこちらが反応することはない」羽月隆太郎氏の配信受け&nbs",
+            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XUnVqQmxHb2E3VTB0aF8xVDdQczN5Z294TUJJWE1BN3ZvbU9ZSWtLYUg2YlNYSGY3YWJHQUxjeVU0Ykl2MXNuMTdHME5iMVQ4Q1d4LXV0dG1DaGFvZ1E?oc=5",
+            "source": "新潟日報"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%85%83%E5%BA%83%E5%B3%B6%E3%82%AB%E3%83%BC%E3%83%97%E3%83%BB%E7%BE%BD%E6%9C%88%E9%9A%86%E5%A4%AA%E9%83%8E%E6%B0%8F%E3%80%81%E3%82%BE%E3%83%B3%E3%83%93%E3%81%9F%E3%81%B0%E3%81%93%E3%81%AF%E3%80%8C%E9%81%B8%E6%89%8B6%E4%BA%BA%E3%81%8C%E8%B3%BC%E5%85%A5%E3%80%8D&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%85%83%E5%BA%83%E5%B3%B6%E3%82%AB%E3%83%BC%E3%83%97%E3%83%BB%E7%BE%BD%E6%9C%88%E9%9A%86%E5%A4%AA%E9%83%8E%E6%B0%8F%E3%80%81%E3%82%BE%E3%83%B3%E3%83%93%E3%81%9F%E3%81%B0%E3%81%93%E3%81%AF%E3%80%8C%E9%81%B8%E6%89%8B6%E4%BA%BA%E3%81%8C%E8%B3%BC%E5%85%A5%E3%80%8D%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 5,
+        "keyword": "今季で契約満了のMF鎌田大地、クリスタル・パレスが契約更新を希望か…一転して“ロンドン残留”の可能性 - サッカーキング",
+        "category": "スポーツ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "今季で契約満了のMF鎌田大地、クリスタル・パレスが契約更新を希望か…一転して“ロンドン残留”の可能性 - サッカーキング",
+            "snippet": "今季で契約満了のMF鎌田大地、クリスタル・パレスが契約更新を希望か…一転して“ロンドン残留”の可能性&nbsp;&nbsp;サッカーキング「モドリッチの得難いレッスンを」英記者ズバリ…MF鎌田大地の新天地候補に“あのACミラン”が「自分に結",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KSkJuRzRvSUxNN0NmQTRva1Z3d21OU2JGbVRMZ2piLWUxejVfRjVoNG9MUTlPSGJXcGp1azA1aVVETEg2bTV3MWxkWnljdFRvQkVQUFN6UE5QUE5ROUVkRnNEeDNFT05XTEdQcVRqVjQ?oc=5",
+            "source": "サッカーキング"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%BB%8A%E5%AD%A3%E3%81%A7%E5%A5%91%E7%B4%84%E6%BA%80%E4%BA%86%E3%81%AEMF%E9%8E%8C%E7%94%B0%E5%A4%A7%E5%9C%B0%E3%80%81%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%AC%E3%82%B9%E3%81%8C%E5%A5%91%E7%B4%84%E6%9B%B4%E6%96%B0%E3%82%92&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E4%BB%8A%E5%AD%A3%E3%81%A7%E5%A5%91%E7%B4%84%E6%BA%80%E4%BA%86%E3%81%AEMF%E9%8E%8C%E7%94%B0%E5%A4%A7%E5%9C%B0%E3%80%81%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%83%BB%E3%83%91%E3%83%AC%E3%82%B9%E3%81%8C%E5%A5%91%E7%B4%84%E6%9B%B4%E6%96%B0%E3%82%92%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 6,
+        "keyword": "ホワイトソックスの村上宗隆がメジャー1年目20号 大谷翔平に続き日本選手2人目 - 産経ニュース",
+        "category": "スポーツ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "ホワイトソックスの村上宗隆がメジャー1年目20号 大谷翔平に続き日本選手2人目 - 産経ニュース",
+            "snippet": "ホワイトソックスの村上宗隆がメジャー1年目20号 大谷翔平に続き日本選手2人目&nbsp;&nbsp;産経ニュース村上宗隆　4回第3打席“左前”二塁打で打点1　通算41打点で現状本塁打とともにリーグ“2冠”に&nbsp;&nbsp;ｄメニュ",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xdTBUclZDSXhmOEhQRHQwczVJYmNrOWFmMTlnX3Rkc19CdUNPM0w2YzZOOHBKbVFzcGh5S1ZrZG1vTHVrT3FVbE5lck44d19ZdWMtX3lPaFh2dktpelQ4UzV6cGZnblh5cjR4dWtDdjV3Qmw1T0E?oc=5",
+            "source": "産経ニュース"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%BD%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E6%9D%91%E4%B8%8A%E5%AE%97%E9%9A%86%E3%81%8C%E3%83%A1%E3%82%B8%E3%83%A3%E3%83%BC1%E5%B9%B4%E7%9B%AE20%E5%8F%B7%20%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3%E3%81%AB&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%BD%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E6%9D%91%E4%B8%8A%E5%AE%97%E9%9A%86%E3%81%8C%E3%83%A1%E3%82%B8%E3%83%A3%E3%83%BC1%E5%B9%B4%E7%9B%AE20%E5%8F%B7%20%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3%E3%81%AB%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 7,
+        "keyword": "「悪くないプレーでした」 松山英樹は1Wのシャフト＆パター変更で好発進 - GDOゴルフニュース",
+        "category": "スポーツ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "「悪くないプレーでした」 松山英樹は1Wのシャフト＆パター変更で好発進 - GDOゴルフニュース",
+            "snippet": "「悪くないプレーでした」 松山英樹は1Wのシャフト＆パター変更で好発進&nbsp;&nbsp;GDOゴルフニュース「悪くないプレーでした」 松山英樹は1Wのシャフト＆パター変更で好発進（ゴルフダイジェスト・オンライン（GDO））&nbsp;",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NTjdiMFVwMWVGSkFlOWIwQzB2MnhCSzBOS09BMGR1c1F5WkxEQ0JvZGNaM3F4dm9wSDd3OGtFMHZGc2lndnd4N2tWdmFIRHRfZzg2cGpRSVAxbkNyUGJPdEZyRHFPZHPSAXtBVV95cUxNaVpydjd3d1VlNFNBVkJtUlRiY0Y1RDBLR0pYWUdMMVNON0s3NURDRzdHMG85SUdfdEtnaXQxSFJ3Wkk4MDd5SHZzWjVoUlZ1RG1PQjE2bGg0ZVZKU2YyUWFWeThDdDJvUXM3ZHIyQzE2UE0zUGpxNDRQZ2M?oc=5",
+            "source": "GDOゴルフニュース"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%82%AA%E3%81%8F%E3%81%AA%E3%81%84%E3%83%97%E3%83%AC%E3%83%BC%E3%81%A7%E3%81%97%E3%81%9F%E3%80%8D%20%E6%9D%BE%E5%B1%B1%E8%8B%B1%E6%A8%B9%E3%81%AF1W%E3%81%AE%E3%82%B7%E3%83%A3%E3%83%95%E3%83%88%EF%BC%86%E3%83%91%E3%82%BF%E3%83%BC%E5%A4%89&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E6%82%AA%E3%81%8F%E3%81%AA%E3%81%84%E3%83%97%E3%83%AC%E3%83%BC%E3%81%A7%E3%81%97%E3%81%9F%E3%80%8D%20%E6%9D%BE%E5%B1%B1%E8%8B%B1%E6%A8%B9%E3%81%AF1W%E3%81%AE%E3%82%B7%E3%83%A3%E3%83%95%E3%83%88%EF%BC%86%E3%83%91%E3%82%BF%E3%83%BC%E5%A4%89%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 8,
+        "keyword": "【ダービー・枠順確定】「並びがいい。すぐ隣で良かった」アスクエジンバラの福永師が騎手視線で - 日刊スポーツ",
+        "category": "スポーツ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "【ダービー・枠順確定】「並びがいい。すぐ隣で良かった」アスクエジンバラの福永師が騎手視線で - 日刊スポーツ",
+            "snippet": "【ダービー・枠順確定】「並びがいい。すぐ隣で良かった」アスクエジンバラの福永師が騎手視線で&nbsp;&nbsp;日刊スポーツ【日本ダービー／枠順】アウダーシアは“馬券内率5％”の不振枠 「2.0.3.3」該当で穴は内枠にあり&nbsp;&",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FdDdTcDhvYWh0YjRkX2J5S0Y1aWpXRUlzRW5tOUhSaDlXSG9vT2c1dVJ5aGFVM25xOHVkQ2p6aUR5WVFRNkozb1RjaDRyM0pBWlVidWVLRzAtSEU5dWxLZ2o2dDVLV29GZHBLV9IBdEFVX3lxTE9UTWRvZ0dFM3lLejgyNy1Vbm50dFUyRDF3dm1Ub1BxcWhZSlo2MjRiZlFNSW1Eajc0b01OTHlCakVyUHhOXzNEV29SVktkWHBUYkw4U041OUk1LXlWUURVSU9ZTDdHQ2daNjI4ZDhZUVVTS2Fn?oc=5",
+            "source": "日刊スポーツ"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%E3%83%BB%E6%9E%A0%E9%A0%86%E7%A2%BA%E5%AE%9A%E3%80%91%E3%80%8C%E4%B8%A6%E3%81%B3%E3%81%8C%E3%81%84%E3%81%84%E3%80%82%E3%81%99%E3%81%90%E9%9A%A3%E3%81%A7%E8%89%AF%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%8D%E3%82%A2%E3%82%B9%E3%82%AF&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%E3%83%BB%E6%9E%A0%E9%A0%86%E7%A2%BA%E5%AE%9A%E3%80%91%E3%80%8C%E4%B8%A6%E3%81%B3%E3%81%8C%E3%81%84%E3%81%84%E3%80%82%E3%81%99%E3%81%90%E9%9A%A3%E3%81%A7%E8%89%AF%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%8D%E3%82%A2%E3%82%B9%E3%82%AF%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 9,
+        "keyword": "腰痛に悩まされたW杯イヤー…“相棒”冨安と共に間に合った板倉滉「彼の実力は横で見ていて分かっている」 - gekisaka.jp",
+        "category": "スポーツ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "腰痛に悩まされたW杯イヤー…“相棒”冨安と共に間に合った板倉滉「彼の実力は横で見ていて分かっている」 - gekisaka.jp",
+            "snippet": "腰痛に悩まされたW杯イヤー…“相棒”冨安と共に間に合った板倉滉「彼の実力は横で見ていて分かっている」&nbsp;&nbsp;gekisaka.jp【日本代表】ＤＦ冨安健洋をベテラン勢が大絶賛「精神的な厚みを感じる」「心配はしていない」（東ス",
+            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vcklTR2syX0I3MklQZFE4UWN5MVJjTzB2S1JBNEN1UlN1U3ptdlJsMVJKS0txazJXMGhVdFI1WTVwenlGSy1PelR6cWJiRmRfYnRjNzVvUzRWZU9hSll3T3VycWl1ZmdUazFN?oc=5",
+            "source": "gekisaka.jp"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%85%B0%E7%97%9B%E3%81%AB%E6%82%A9%E3%81%BE%E3%81%95%E3%82%8C%E3%81%9FW%E6%9D%AF%E3%82%A4%E3%83%A4%E3%83%BC%E2%80%A6%E2%80%9C%E7%9B%B8%E6%A3%92%E2%80%9D%E5%86%A8%E5%AE%89%E3%81%A8%E5%85%B1%E3%81%AB%E9%96%93%E3%81%AB%E5%90%88%E3%81%A3%E3%81%9F%E6%9D%BF%E5%80%89&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E8%85%B0%E7%97%9B%E3%81%AB%E6%82%A9%E3%81%BE%E3%81%95%E3%82%8C%E3%81%9FW%E6%9D%AF%E3%82%A4%E3%83%A4%E3%83%BC%E2%80%A6%E2%80%9C%E7%9B%B8%E6%A3%92%E2%80%9D%E5%86%A8%E5%AE%89%E3%81%A8%E5%85%B1%E3%81%AB%E9%96%93%E3%81%AB%E5%90%88%E3%81%A3%E3%81%9F%E6%9D%BF%E5%80%89%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 10,
+        "keyword": "契約延長交渉が決裂し、イブラヒマ・コナテは今夏リヴァプールを退団する見込み。 - Goal.com",
+        "category": "スポーツ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "契約延長交渉が決裂し、イブラヒマ・コナテは今夏リヴァプールを退団する見込み。 - Goal.com",
+            "snippet": "契約延長交渉が決裂し、イブラヒマ・コナテは今夏リヴァプールを退団する見込み。&nbsp;&nbsp;Goal.comコナテはやはりリヴァプールを去る模様 新契約に合意できず、CB補強は急務に（theWORLD（ザ・ワールドWeb））&nbs",
+            "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxPVkIwTnNvalQ1T1lrZk8wOVpFWHBwWVJtSzhrMXlGWHVqMXVvODMzc0JlTEVpdFlaenVWd05sZTI2cGZnZWQ5QlRYaTMyMDZFd3I5dkNPb1d1N3NNeUNSTjhzdUVBSHhGeGJmaHlVa2dlQTc4WFZPSS1rZTN5ZUZTNDhmMmdtTmdBaVdKVGtMUW1oMXR3eUFKbThoVHZZbVFncm1VZzU2NUdfZkt6TV8yeDFXamRWOE1OWnEzblhaaS1Bb05WQkJ4cTNkR2pzSUFVVW8yUkFNRHZNWmgxSEhCYlRLTGU0b2xGSjktNHljSVE3cHRoWnk1Zlp5NGN6NERMbzBPTi1ZVXFYZE4yV1c5OXM5MTQ1Y3FaeEhjVTdfbnJmWERVN0k3Ni1OYXRSclVobFZNcWtENjZZUHoxLXJGNVI1cVR3Q2g1R29yZ2I2VEF3alg5ODkzRTBIMzFpeVM0MXBUY1U3YVZPd2dlMk1ueWwyelBwU3YxbkRyT3dLUnVCcEhWOEdMMS1BeWdEOFBXZ3Q5MFFkWVlHMjVmSzhOYnRoMnktc0Jxb3VtVGM4SlB3ZklMNl9YLU9wTzZxUUsxbldCMF82ZURrcThCblpKNWF3UjJPemZIa0ZxMHF5emVEM3o1UDhkd3cyUjZIbkt4NEJVSDN5SGJ2WXMyMVhiME1BRy1INThLZU5mTFVjMXk4UE9EVlMwT0xMdnRJYTVXZUtvYV9tMmZkTkM5VnpWakZrWEhrbjUwZGw5UzJZMDdmTWRXSUVzUjJza2RDem0xby1R?oc=5",
+            "source": "Goal.com"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A5%91%E7%B4%84%E5%BB%B6%E9%95%B7%E4%BA%A4%E6%B8%89%E3%81%8C%E6%B1%BA%E8%A3%82%E3%81%97%E3%80%81%E3%82%A4%E3%83%96%E3%83%A9%E3%83%92%E3%83%9E%E3%83%BB%E3%82%B3%E3%83%8A%E3%83%86%E3%81%AF%E4%BB%8A%E5%A4%8F%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%97%E3%83%BC%E3%83%AB%E3%82%92&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%A5%91%E7%B4%84%E5%BB%B6%E9%95%B7%E4%BA%A4%E6%B8%89%E3%81%8C%E6%B1%BA%E8%A3%82%E3%81%97%E3%80%81%E3%82%A4%E3%83%96%E3%83%A9%E3%83%92%E3%83%9E%E3%83%BB%E3%82%B3%E3%83%8A%E3%83%86%E3%81%AF%E4%BB%8A%E5%A4%8F%E3%83%AA%E3%83%B4%E3%82%A1%E3%83%97%E3%83%BC%E3%83%AB%E3%82%92%2F&link_type=hybrid_url"
       }
     ],
     "グルメ": [
@@ -1272,8 +1272,8 @@
             "source": "PR TIMES"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%87%BA%E5%BA%97%E8%80%85%E7%99%BA%E8%A1%A8%EF%BC%81%E3%80%8C%E5%A4%A7%E4%BD%BF%E9%A4%A8%E3%82%B7%E3%82%A7%E3%83%95%E3%81%AE%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%83%AC%E3%82%B7%E3%83%94%E3%80%8Dpresents&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%87%BA%E5%BA%97%E8%80%85%E7%99%BA%E8%A1%A8%EF%BC%81%E3%80%8C%E5%A4%A7%E4%BD%BF%E9%A4%A8%E3%82%B7%E3%82%A7%E3%83%95%E3%81%AE%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%83%AC%E3%82%B7%E3%83%94%E3%80%8Dpresents/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%87%BA%E5%BA%97%E8%80%85%E7%99%BA%E8%A1%A8%EF%BC%81%E3%80%8C%E5%A4%A7%E4%BD%BF%E9%A4%A8%E3%82%B7%E3%82%A7%E3%83%95%E3%81%AE%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%83%AC%E3%82%B7%E3%83%94%E3%80%8Dpresents&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%87%BA%E5%BA%97%E8%80%85%E7%99%BA%E8%A1%A8%EF%BC%81%E3%80%8C%E5%A4%A7%E4%BD%BF%E9%A4%A8%E3%82%B7%E3%82%A7%E3%83%95%E3%81%AE%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%83%AC%E3%82%B7%E3%83%94%E3%80%8Dpresents%2F&link_type=hybrid_url"
       },
       {
         "rank": 2,
@@ -1291,11 +1291,30 @@
             "source": "女性セブンプラス"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8A%E5%90%8D%E5%BA%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%81%8B%E3%82%89%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E8%8F%93%E5%AD%90%E3%81%BE%E3%81%A7%E3%80%8B%E7%84%A1%E9%99%90%E3%81%AB%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%81%A8%E8%A9%B1%E9%A1%8C%E3%81%AE%E6%96%B0%E3%83%88&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8A%E5%90%8D%E5%BA%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%81%8B%E3%82%89%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E8%8F%93%E5%AD%90%E3%81%BE%E3%81%A7%E3%80%8B%E7%84%A1%E9%99%90%E3%81%AB%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%81%A8%E8%A9%B1%E9%A1%8C%E3%81%AE%E6%96%B0%E3%83%88/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8A%E5%90%8D%E5%BA%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%81%8B%E3%82%89%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E8%8F%93%E5%AD%90%E3%81%BE%E3%81%A7%E3%80%8B%E7%84%A1%E9%99%90%E3%81%AB%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%81%A8%E8%A9%B1%E9%A1%8C%E3%81%AE%E6%96%B0%E3%83%88&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8A%E5%90%8D%E5%BA%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%81%8B%E3%82%89%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E8%8F%93%E5%AD%90%E3%81%BE%E3%81%A7%E3%80%8B%E7%84%A1%E9%99%90%E3%81%AB%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%81%A8%E8%A9%B1%E9%A1%8C%E3%81%AE%E6%96%B0%E3%83%88%2F&link_type=hybrid_url"
       },
       {
         "rank": 3,
+        "keyword": "【四国グルメ】おうちで旅気分♪簡単に作れるおすすめ郷土料理レシピ7選 - ライブドアニュース",
+        "category": "グルメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "【四国グルメ】おうちで旅気分♪簡単に作れるおすすめ郷土料理レシピ7選 - ライブドアニュース",
+            "snippet": "【四国グルメ】おうちで旅気分♪簡単に作れるおすすめ郷土料理レシピ7選&nbsp;&nbsp;ライブドアニュース",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tOUs5MVZHaG1FemZJUGdzWGZ0NEp1MFJCRGFCM201bUZET0xNdUYzMVE5Q25jT1BSaG9BdGVZUDdVcGRYcnY0SnlZU1JQeWdhTGtCdXdRT1gxS1A2czkw?oc=5",
+            "source": "ライブドアニュース"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E5%9B%9B%E5%9B%BD%E3%82%B0%E3%83%AB%E3%83%A1%E3%80%91%E3%81%8A%E3%81%86%E3%81%A1%E3%81%A7%E6%97%85%E6%B0%97%E5%88%86%E2%99%AA%E7%B0%A1%E5%8D%98%E3%81%AB%E4%BD%9C%E3%82%8C%E3%82%8B%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E9%83%B7%E5%9C%9F%E6%96%99%E7%90%86%E3%83%AC&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90%E5%9B%9B%E5%9B%BD%E3%82%B0%E3%83%AB%E3%83%A1%E3%80%91%E3%81%8A%E3%81%86%E3%81%A1%E3%81%A7%E6%97%85%E6%B0%97%E5%88%86%E2%99%AA%E7%B0%A1%E5%8D%98%E3%81%AB%E4%BD%9C%E3%82%8C%E3%82%8B%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E9%83%B7%E5%9C%9F%E6%96%99%E7%90%86%E3%83%AC%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 4,
         "keyword": "これだけは押さえておけ。2025年『メシ通』ブクマ数トップ10レシピ - ホットペッパーグルメ",
         "category": "グルメ",
         "source": "google_news",
@@ -1310,11 +1329,11 @@
             "source": "ホットペッパーグルメ"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%93%E3%82%8C%E3%81%A0%E3%81%91%E3%81%AF%E6%8A%BC%E3%81%95%E3%81%88%E3%81%A6%E3%81%8A%E3%81%91%E3%80%822025%E5%B9%B4%E3%80%8E%E3%83%A1%E3%82%B7%E9%80%9A%E3%80%8F%E3%83%96%E3%82%AF%E3%83%9E%E6%95%B0%E3%83%88%E3%83%83%E3%83%971&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%93%E3%82%8C%E3%81%A0%E3%81%91%E3%81%AF%E6%8A%BC%E3%81%95%E3%81%88%E3%81%A6%E3%81%8A%E3%81%91%E3%80%822025%E5%B9%B4%E3%80%8E%E3%83%A1%E3%82%B7%E9%80%9A%E3%80%8F%E3%83%96%E3%82%AF%E3%83%9E%E6%95%B0%E3%83%88%E3%83%83%E3%83%971/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%93%E3%82%8C%E3%81%A0%E3%81%91%E3%81%AF%E6%8A%BC%E3%81%95%E3%81%88%E3%81%A6%E3%81%8A%E3%81%91%E3%80%822025%E5%B9%B4%E3%80%8E%E3%83%A1%E3%82%B7%E9%80%9A%E3%80%8F%E3%83%96%E3%82%AF%E3%83%9E%E6%95%B0%E3%83%88%E3%83%83%E3%83%971&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%81%93%E3%82%8C%E3%81%A0%E3%81%91%E3%81%AF%E6%8A%BC%E3%81%95%E3%81%88%E3%81%A6%E3%81%8A%E3%81%91%E3%80%822025%E5%B9%B4%E3%80%8E%E3%83%A1%E3%82%B7%E9%80%9A%E3%80%8F%E3%83%96%E3%82%AF%E3%83%9E%E6%95%B0%E3%83%88%E3%83%83%E3%83%971%2F&link_type=hybrid_url"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "keyword": "【画像】いつもの料理にかけるだけ！簡単「お酢」レシピ - おとなの週末Web",
         "category": "グルメ",
         "source": "google_news",
@@ -1329,11 +1348,11 @@
             "source": "おとなの週末Web"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E7%94%BB%E5%83%8F%E3%80%91%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE%E6%96%99%E7%90%86%E3%81%AB%E3%81%8B%E3%81%91%E3%82%8B%E3%81%A0%E3%81%91%EF%BC%81%E7%B0%A1%E5%8D%98%E3%80%8C%E3%81%8A%E9%85%A2%E3%80%8D%E3%83%AC%E3%82%B7%E3%83%94%20-%20%E3%81%8A&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E7%94%BB%E5%83%8F%E3%80%91%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE%E6%96%99%E7%90%86%E3%81%AB%E3%81%8B%E3%81%91%E3%82%8B%E3%81%A0%E3%81%91%EF%BC%81%E7%B0%A1%E5%8D%98%E3%80%8C%E3%81%8A%E9%85%A2%E3%80%8D%E3%83%AC%E3%82%B7%E3%83%94%20-%20%E3%81%8A/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E7%94%BB%E5%83%8F%E3%80%91%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE%E6%96%99%E7%90%86%E3%81%AB%E3%81%8B%E3%81%91%E3%82%8B%E3%81%A0%E3%81%91%EF%BC%81%E7%B0%A1%E5%8D%98%E3%80%8C%E3%81%8A%E9%85%A2%E3%80%8D%E3%83%AC%E3%82%B7%E3%83%94%20-%20%E3%81%8A&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90%E7%94%BB%E5%83%8F%E3%80%91%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE%E6%96%99%E7%90%86%E3%81%AB%E3%81%8B%E3%81%91%E3%82%8B%E3%81%A0%E3%81%91%EF%BC%81%E7%B0%A1%E5%8D%98%E3%80%8C%E3%81%8A%E9%85%A2%E3%80%8D%E3%83%AC%E3%82%B7%E3%83%94%20-%20%E3%81%8A%2F&link_type=hybrid_url"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "keyword": "究極のふわふわ感の玉子焼き！ 人気グルメドラマに出てきたレシピを再現した結果 - grapee.jp",
         "category": "グルメ",
         "source": "google_news",
@@ -1348,11 +1367,11 @@
             "source": "grapee.jp"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%A9%B6%E6%A5%B5%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E6%84%9F%E3%81%AE%E7%8E%89%E5%AD%90%E7%84%BC%E3%81%8D%EF%BC%81%20%E4%BA%BA%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%89%E3%83%A9%E3%83%9E%E3%81%AB%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%9F%E3%83%AC%E3%82%B7&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%A9%B6%E6%A5%B5%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E6%84%9F%E3%81%AE%E7%8E%89%E5%AD%90%E7%84%BC%E3%81%8D%EF%BC%81%20%E4%BA%BA%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%89%E3%83%A9%E3%83%9E%E3%81%AB%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%9F%E3%83%AC%E3%82%B7/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%A9%B6%E6%A5%B5%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E6%84%9F%E3%81%AE%E7%8E%89%E5%AD%90%E7%84%BC%E3%81%8D%EF%BC%81%20%E4%BA%BA%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%89%E3%83%A9%E3%83%9E%E3%81%AB%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%9F%E3%83%AC%E3%82%B7&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%A9%B6%E6%A5%B5%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E6%84%9F%E3%81%AE%E7%8E%89%E5%AD%90%E7%84%BC%E3%81%8D%EF%BC%81%20%E4%BA%BA%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%89%E3%83%A9%E3%83%9E%E3%81%AB%E5%87%BA%E3%81%A6%E3%81%8D%E3%81%9F%E3%83%AC%E3%82%B7%2F&link_type=hybrid_url"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "keyword": "【近刊】テレビ東京「孤独のグルメ」にも登場。 中国東北地方を中心に「現地の家庭の味」を再現し 熱狂的人気を誇る味坊集団が、 ついに初のレシピ本『味坊の味』を12月に刊行！ - Newscast.jp",
         "category": "グルメ",
         "source": "google_news",
@@ -1367,11 +1386,30 @@
             "source": "Newscast.jp"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E8%BF%91%E5%88%8A%E3%80%91%E3%83%86%E3%83%AC%E3%83%93%E6%9D%B1%E4%BA%AC%E3%80%8C%E5%AD%A4%E7%8B%AC%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1%E3%80%8D%E3%81%AB%E3%82%82%E7%99%BB%E5%A0%B4%E3%80%82%20%E4%B8%AD%E5%9B%BD%E6%9D%B1%E5%8C%97%E5%9C%B0%E6%96%B9%E3%82%92&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E8%BF%91%E5%88%8A%E3%80%91%E3%83%86%E3%83%AC%E3%83%93%E6%9D%B1%E4%BA%AC%E3%80%8C%E5%AD%A4%E7%8B%AC%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1%E3%80%8D%E3%81%AB%E3%82%82%E7%99%BB%E5%A0%B4%E3%80%82%20%E4%B8%AD%E5%9B%BD%E6%9D%B1%E5%8C%97%E5%9C%B0%E6%96%B9%E3%82%92/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E8%BF%91%E5%88%8A%E3%80%91%E3%83%86%E3%83%AC%E3%83%93%E6%9D%B1%E4%BA%AC%E3%80%8C%E5%AD%A4%E7%8B%AC%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1%E3%80%8D%E3%81%AB%E3%82%82%E7%99%BB%E5%A0%B4%E3%80%82%20%E4%B8%AD%E5%9B%BD%E6%9D%B1%E5%8C%97%E5%9C%B0%E6%96%B9%E3%82%92&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90%E8%BF%91%E5%88%8A%E3%80%91%E3%83%86%E3%83%AC%E3%83%93%E6%9D%B1%E4%BA%AC%E3%80%8C%E5%AD%A4%E7%8B%AC%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1%E3%80%8D%E3%81%AB%E3%82%82%E7%99%BB%E5%A0%B4%E3%80%82%20%E4%B8%AD%E5%9B%BD%E6%9D%B1%E5%8C%97%E5%9C%B0%E6%96%B9%E3%82%92%2F&link_type=hybrid_url"
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "keyword": "【週刊秋田書店 ラジオ編集部】新春☆まんがグルメ特集レシピ紹介！ - 文化放送",
+        "category": "グルメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "【週刊秋田書店 ラジオ編集部】新春☆まんがグルメ特集レシピ紹介！ - 文化放送",
+            "snippet": "【週刊秋田書店 ラジオ編集部】新春☆まんがグルメ特集レシピ紹介！&nbsp;&nbsp;文化放送",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LNzJ5c2E3b3V5TGlBdEZqbGhUYXpsV2FsVjZOSTVJTGhFRUlUN0pSZjViTmpRaUozRUVoOUFpdnVBNE5VVkluVzlyTTJwTUl3MEsw?oc=5",
+            "source": "文化放送"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E9%80%B1%E5%88%8A%E7%A7%8B%E7%94%B0%E6%9B%B8%E5%BA%97%20%E3%83%A9%E3%82%B8%E3%82%AA%E7%B7%A8%E9%9B%86%E9%83%A8%E3%80%91%E6%96%B0%E6%98%A5%E2%98%86%E3%81%BE%E3%82%93%E3%81%8C%E3%82%B0%E3%83%AB%E3%83%A1%E7%89%B9%E9%9B%86%E3%83%AC%E3%82%B7%E3%83%94%E7%B4%B9&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90%E9%80%B1%E5%88%8A%E7%A7%8B%E7%94%B0%E6%9B%B8%E5%BA%97%20%E3%83%A9%E3%82%B8%E3%82%AA%E7%B7%A8%E9%9B%86%E9%83%A8%E3%80%91%E6%96%B0%E6%98%A5%E2%98%86%E3%81%BE%E3%82%93%E3%81%8C%E3%82%B0%E3%83%AB%E3%83%A1%E7%89%B9%E9%9B%86%E3%83%AC%E3%82%B7%E3%83%94%E7%B4%B9%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 9,
         "keyword": "料理研究家・リュウジ氏の“弁当”レシピ本、ジャンル別「料理・グルメ」で2週連続1位【オリコンランキング】 - 山形新聞",
         "category": "グルメ",
         "source": "google_news",
@@ -1386,50 +1424,12 @@
             "source": "山形新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%99%E7%90%86%E7%A0%94%E7%A9%B6%E5%AE%B6%E3%83%BB%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%B8%E6%B0%8F%E3%81%AE%E2%80%9C%E5%BC%81%E5%BD%93%E2%80%9D%E3%83%AC%E3%82%B7%E3%83%94%E6%9C%AC%E3%80%81%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E5%88%A5%E3%80%8C%E6%96%99%E7%90%86%E3%83%BB&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%96%99%E7%90%86%E7%A0%94%E7%A9%B6%E5%AE%B6%E3%83%BB%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%B8%E6%B0%8F%E3%81%AE%E2%80%9C%E5%BC%81%E5%BD%93%E2%80%9D%E3%83%AC%E3%82%B7%E3%83%94%E6%9C%AC%E3%80%81%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E5%88%A5%E3%80%8C%E6%96%99%E7%90%86%E3%83%BB/"
-      },
-      {
-        "rank": 8,
-        "keyword": "人気レストランのシェフ＆料理家の“夏の神レシピ”が満載！『エル・グルメNO.46』をチェック - ELLE",
-        "category": "グルメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "人気レストランのシェフ＆料理家の“夏の神レシピ”が満載！『エル・グルメNO.46』をチェック - ELLE",
-            "snippet": "人気レストランのシェフ＆料理家の“夏の神レシピ”が満載！『エル・グルメNO.46』をチェック&nbsp;&nbsp;ELLE",
-            "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xdV9pX1RwdnZPbG9nTzR1WkFHblBFLWJQV0lWLU9uUUNiNVdMWGE0Z0RzdS1qU1RCd0plbDZsaE52MWFaZVM2NnhkWExQcHhIYUJHbzZJUTNneGZDWnVWOGNB?oc=5",
-            "source": "ELLE"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%BA%BA%E6%B0%97%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%81%AE%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%86%E6%96%99%E7%90%86%E5%AE%B6%E3%81%AE%E2%80%9C%E5%A4%8F%E3%81%AE%E7%A5%9E%E3%83%AC%E3%82%B7%E3%83%94%E2%80%9D%E3%81%8C%E6%BA%80%E8%BC%89%EF%BC%81%E3%80%8E%E3%82%A8&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%BA%BA%E6%B0%97%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%81%AE%E3%82%B7%E3%82%A7%E3%83%95%EF%BC%86%E6%96%99%E7%90%86%E5%AE%B6%E3%81%AE%E2%80%9C%E5%A4%8F%E3%81%AE%E7%A5%9E%E3%83%AC%E3%82%B7%E3%83%94%E2%80%9D%E3%81%8C%E6%BA%80%E8%BC%89%EF%BC%81%E3%80%8E%E3%82%A8/"
-      },
-      {
-        "rank": 9,
-        "keyword": "#254 真夏の空論グルメフェス＜若手芸人なら激安節約レシピ知ってる！…ハズ 500円アイデア料理対決＞ - TVer",
-        "category": "グルメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "#254 真夏の空論グルメフェス＜若手芸人なら激安節約レシピ知ってる！…ハズ 500円アイデア料理対決＞ - TVer",
-            "snippet": "#254 真夏の空論グルメフェス＜若手芸人なら激安節約レシピ知ってる！…ハズ 500円アイデア料理対決＞&nbsp;&nbsp;TVer",
-            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FdEpKcVBIUkpvWG14Q1YxakpGeVB0TmtIQ1JwUEs4eTYzQjRmdkhBRldDS2tTWkRmOEk3NGFEWHZabDlHWWwtcG9mQQ?oc=5",
-            "source": "TVer"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%23254%20%E7%9C%9F%E5%A4%8F%E3%81%AE%E7%A9%BA%E8%AB%96%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%95%E3%82%A7%E3%82%B9%EF%BC%9C%E8%8B%A5%E6%89%8B%E8%8A%B8%E4%BA%BA%E3%81%AA%E3%82%89%E6%BF%80%E5%AE%89%E7%AF%80%E7%B4%84%E3%83%AC%E3%82%B7%E3%83%94&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%23254%20%E7%9C%9F%E5%A4%8F%E3%81%AE%E7%A9%BA%E8%AB%96%E3%82%B0%E3%83%AB%E3%83%A1%E3%83%95%E3%82%A7%E3%82%B9%EF%BC%9C%E8%8B%A5%E6%89%8B%E8%8A%B8%E4%BA%BA%E3%81%AA%E3%82%89%E6%BF%80%E5%AE%89%E7%AF%80%E7%B4%84%E3%83%AC%E3%82%B7%E3%83%94/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%99%E7%90%86%E7%A0%94%E7%A9%B6%E5%AE%B6%E3%83%BB%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%B8%E6%B0%8F%E3%81%AE%E2%80%9C%E5%BC%81%E5%BD%93%E2%80%9D%E3%83%AC%E3%82%B7%E3%83%94%E6%9C%AC%E3%80%81%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E5%88%A5%E3%80%8C%E6%96%99%E7%90%86%E3%83%BB&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%96%99%E7%90%86%E7%A0%94%E7%A9%B6%E5%AE%B6%E3%83%BB%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%B8%E6%B0%8F%E3%81%AE%E2%80%9C%E5%BC%81%E5%BD%93%E2%80%9D%E3%83%AC%E3%82%B7%E3%83%94%E6%9C%AC%E3%80%81%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E5%88%A5%E3%80%8C%E6%96%99%E7%90%86%E3%83%BB%2F&link_type=hybrid_url"
       },
       {
         "rank": 10,
-        "keyword": "【山下美月の自炊メシ⑨】あまったひき肉の消費テクを公開！ - CanCam.jp",
+        "keyword": "せいろ蒸し!ヘルシーおいしいレシピ - web.nhk",
         "category": "グルメ",
         "source": "google_news",
         "type": "news",
@@ -1437,38 +1437,19 @@
         "trend": "",
         "news": [
           {
-            "title": "【山下美月の自炊メシ⑨】あまったひき肉の消費テクを公開！ - CanCam.jp",
-            "snippet": "【山下美月の自炊メシ⑨】あまったひき肉の消費テクを公開！&nbsp;&nbsp;CanCam.jp",
-            "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9mYnBRbU9BTFo0N0FaUFBrdGVSakhBS05QV3RFbFVNY1dSRHhtamNsVHAtb3QtZk1uQjJiZG4teDBUcjNWWW42Nm9B?oc=5",
-            "source": "CanCam.jp"
+            "title": "せいろ蒸し!ヘルシーおいしいレシピ - web.nhk",
+            "snippet": "せいろ蒸し!ヘルシーおいしいレシピ&nbsp;&nbsp;web.nhk",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQZGN2SVdDTEltMnpfTUpfc3Z2UVd1OGRWRGpZbTBUcExyNHNqTlJvNEJlZ0QtTTByLTF3bnVMX2FJdlE5VTllT0JMcjFraUpYbWFNNWlIakE3c3g0UDgxelI4eFlsUDFaelRHa1NVWTVTUnYtZktUNWpTc083Qmc?oc=5",
+            "source": "web.nhk"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E5%B1%B1%E4%B8%8B%E7%BE%8E%E6%9C%88%E3%81%AE%E8%87%AA%E7%82%8A%E3%83%A1%E3%82%B7%E2%91%A8%E3%80%91%E3%81%82%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%B2%E3%81%8D%E8%82%89%E3%81%AE%E6%B6%88%E8%B2%BB%E3%83%86%E3%82%AF%E3%82%92%E5%85%AC%E9%96%8B%EF%BC%81%20-&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E5%B1%B1%E4%B8%8B%E7%BE%8E%E6%9C%88%E3%81%AE%E8%87%AA%E7%82%8A%E3%83%A1%E3%82%B7%E2%91%A8%E3%80%91%E3%81%82%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%B2%E3%81%8D%E8%82%89%E3%81%AE%E6%B6%88%E8%B2%BB%E3%83%86%E3%82%AF%E3%82%92%E5%85%AC%E9%96%8B%EF%BC%81%20-/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%9B%E3%81%84%E3%82%8D%E8%92%B8%E3%81%97!%E3%83%98%E3%83%AB%E3%82%B7%E3%83%BC%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%83%AC%E3%82%B7%E3%83%94%20-%20web.nhk&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%81%9B%E3%81%84%E3%82%8D%E8%92%B8%E3%81%97!%E3%83%98%E3%83%AB%E3%82%B7%E3%83%BC%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E3%83%AC%E3%82%B7%E3%83%94%20-%20web.nhk%2F&link_type=hybrid_url"
       }
     ],
     "社会・ニュース": [
       {
         "rank": 1,
-        "keyword": "逮捕状の40代男を公開手配へ 事件後に出国、通信アプリで犯行指示か 栃木強殺事件 - 産経ニュース",
-        "category": "社会・ニュース",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "逮捕状の40代男を公開手配へ 事件後に出国、通信アプリで犯行指示か 栃木強殺事件 - 産経ニュース",
-            "snippet": "逮捕状の40代男を公開手配へ 事件後に出国、通信アプリで犯行指示か 栃木強殺事件&nbsp;&nbsp;産経ニュース栃木強盗殺人 海外出国の逮捕状出された容疑者を公開手配へ&nbsp;&nbsp;NHKニュース少年側が目出し帽準備か 犯罪行",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80QjlsZU5HSkllTEZqNllEQmdUX0V1N1IxLTZ5UVppMW4wc1hLX2l3OVZpQmZfdXZHNnJrMnI2cUNHVUNZSkRqS09sQ3VFNzVwdGJfRzZVd1BsNlRBVWYzaU9QUGZzZGc3UV9tUThPRUxTTVpUN3c?oc=5",
-            "source": "産経ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%80%AE%E6%8D%95%E7%8A%B6%E3%81%AE40%E4%BB%A3%E7%94%B7%E3%82%92%E5%85%AC%E9%96%8B%E6%89%8B%E9%85%8D%E3%81%B8%20%E4%BA%8B%E4%BB%B6%E5%BE%8C%E3%81%AB%E5%87%BA%E5%9B%BD%E3%80%81%E9%80%9A%E4%BF%A1%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%8A%AF%E8%A1%8C&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%80%AE%E6%8D%95%E7%8A%B6%E3%81%AE40%E4%BB%A3%E7%94%B7%E3%82%92%E5%85%AC%E9%96%8B%E6%89%8B%E9%85%8D%E3%81%B8%20%E4%BA%8B%E4%BB%B6%E5%BE%8C%E3%81%AB%E5%87%BA%E5%9B%BD%E3%80%81%E9%80%9A%E4%BF%A1%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%8A%AF%E8%A1%8C/"
-      },
-      {
-        "rank": 2,
         "keyword": "台風6号(チャンミー) 西日本・東日本も大雨のおそれ 沖縄や奄美は荒天に警戒 - ウェザーニュース",
         "category": "社会・ニュース",
         "source": "google_news",
@@ -1478,17 +1459,36 @@
         "news": [
           {
             "title": "台風6号(チャンミー) 西日本・東日本も大雨のおそれ 沖縄や奄美は荒天に警戒 - ウェザーニュース",
-            "snippet": "台風6号(チャンミー) 西日本・東日本も大雨のおそれ 沖縄や奄美は荒天に警戒&nbsp;&nbsp;ウェザーニュース【台風情報】台風6号 沖縄直撃、九州上陸もうかがうルート 沖縄最接近時は最大瞬間風速50メートルの予想 気象庁（29日午前3",
+            "snippet": "台風6号(チャンミー) 西日本・東日本も大雨のおそれ 沖縄や奄美は荒天に警戒&nbsp;&nbsp;ウェザーニュース【台風情報】台風6号は沖縄直撃か “強い勢力”へ発達しながら北上 最大瞬間風速60m予想 今後の進路は？【雨と風の最新シミュ",
             "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZTFBMTkNUNW50VjBLNURieUhlaUxGeEJGU2g5VEEzVzh5OEs2Z1FZNDNhZkpaaWQ5SG5BdkM2MEpIWU5KQUNleHQ5ZFlCMThxSlBfbQ?oc=5",
             "source": "ウェザーニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%8F%B0%E9%A2%A86%E5%8F%B7(%E3%83%81%E3%83%A3%E3%83%B3%E3%83%9F%E3%83%BC)%20%E8%A5%BF%E6%97%A5%E6%9C%AC%E3%83%BB%E6%9D%B1%E6%97%A5%E6%9C%AC%E3%82%82%E5%A4%A7%E9%9B%A8%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%20%E6%B2%96%E7%B8%84%E3%82%84&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%8F%B0%E9%A2%A86%E5%8F%B7(%E3%83%81%E3%83%A3%E3%83%B3%E3%83%9F%E3%83%BC)%20%E8%A5%BF%E6%97%A5%E6%9C%AC%E3%83%BB%E6%9D%B1%E6%97%A5%E6%9C%AC%E3%82%82%E5%A4%A7%E9%9B%A8%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%20%E6%B2%96%E7%B8%84%E3%82%84/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%8F%B0%E9%A2%A86%E5%8F%B7(%E3%83%81%E3%83%A3%E3%83%B3%E3%83%9F%E3%83%BC)%20%E8%A5%BF%E6%97%A5%E6%9C%AC%E3%83%BB%E6%9D%B1%E6%97%A5%E6%9C%AC%E3%82%82%E5%A4%A7%E9%9B%A8%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%20%E6%B2%96%E7%B8%84%E3%82%84&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%8F%B0%E9%A2%A86%E5%8F%B7(%E3%83%81%E3%83%A3%E3%83%B3%E3%83%9F%E3%83%BC)%20%E8%A5%BF%E6%97%A5%E6%9C%AC%E3%83%BB%E6%9D%B1%E6%97%A5%E6%9C%AC%E3%82%82%E5%A4%A7%E9%9B%A8%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%20%E6%B2%96%E7%B8%84%E3%82%84%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 2,
+        "keyword": "日本の人口309万人減 減少幅が過去最大、東京近郊も軒並み減 - 毎日新聞",
+        "category": "社会・ニュース",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "日本の人口309万人減 減少幅が過去最大、東京近郊も軒並み減 - 毎日新聞",
+            "snippet": "日本の人口309万人減 減少幅が過去最大、東京近郊も軒並み減&nbsp;&nbsp;毎日新聞日本の人口309万人減 減少幅が過去最大、東京近郊も軒並み減（毎日新聞）&nbsp;&nbsp;Yahoo!ニュース総人口1億2304万人 減り幅最",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94dWRuOXlEcks1azg0WS03ZGhZdVhrVS1QemowZVVyVGlFcjNJZV9vaE5sRHJTZjN2QTc5UlkyWDl3M25VTzh3RzFIVkthdGhUdFp4V0E5c2xoOTFXbUpNUDhHQWF2WnpM?oc=5",
+            "source": "毎日新聞"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%81%AE%E4%BA%BA%E5%8F%A3309%E4%B8%87%E4%BA%BA%E6%B8%9B%20%E6%B8%9B%E5%B0%91%E5%B9%85%E3%81%8C%E9%81%8E%E5%8E%BB%E6%9C%80%E5%A4%A7%E3%80%81%E6%9D%B1%E4%BA%AC%E8%BF%91%E9%83%8A%E3%82%82%E8%BB%92%E4%B8%A6%E3%81%BF%E6%B8%9B&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E6%9C%AC%E3%81%AE%E4%BA%BA%E5%8F%A3309%E4%B8%87%E4%BA%BA%E6%B8%9B%20%E6%B8%9B%E5%B0%91%E5%B9%85%E3%81%8C%E9%81%8E%E5%8E%BB%E6%9C%80%E5%A4%A7%E3%80%81%E6%9D%B1%E4%BA%AC%E8%BF%91%E9%83%8A%E3%82%82%E8%BB%92%E4%B8%A6%E3%81%BF%E6%B8%9B%2F&link_type=hybrid_url"
       },
       {
         "rank": 3,
-        "keyword": "日本・フィリピン首脳会談、「準同盟国」関係に深化へ…ＧＳＯＭＩＡの正式交渉開始で合意 - 読売新聞",
+        "keyword": "栃木強盗殺人、カズ名乗る出国の男「ルパンやる？」…高額報酬示し隠語で現場指示役を勧誘か - 読売新聞",
         "category": "社会・ニュース",
         "source": "google_news",
         "type": "news",
@@ -1496,18 +1496,18 @@
         "trend": "",
         "news": [
           {
-            "title": "日本・フィリピン首脳会談、「準同盟国」関係に深化へ…ＧＳＯＭＩＡの正式交渉開始で合意 - 読売新聞",
-            "snippet": "日本・フィリピン首脳会談、「準同盟国」関係に深化へ…ＧＳＯＭＩＡの正式交渉開始で合意&nbsp;&nbsp;読売新聞高市首相、フィリピンのマルコス大統領と会談 「包括的・戦略的パートナーシップ」に格上げ&nbsp;&nbsp;日テレNEWS",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mc0lOZlJWZzNQdS1VekdXcmFSTUlfTmtaSGh3VTFCU3N2ekJudGhWT0pCM2RYZzV0ZGhkNU1OT20zajVNM3d1YVNWbnMzdEJuTFZ4Ul8wTEczZEtkNV9fQnd5RnBqQQ?oc=5",
+            "title": "栃木強盗殺人、カズ名乗る出国の男「ルパンやる？」…高額報酬示し隠語で現場指示役を勧誘か - 読売新聞",
+            "snippet": "栃木強盗殺人、カズ名乗る出国の男「ルパンやる？」…高額報酬示し隠語で現場指示役を勧誘か&nbsp;&nbsp;読売新聞実行役の少年側が目出し帽準備か 不審車両の男を送検 上三川強盗殺人事件&nbsp;&nbsp;下野新聞社栃木強盗殺人 海外",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XbF9veFpZbkYtdE5fUFVRaGhwRXFUWjZPMlZjSFJlY0pjMTUxN1FpOGVRMkE0VHJEc2x6WDR1eFdTcm5sYi1LWmMtQzUwa1ExWnJGRkgySHpMamxxQ3hEellzVnlxUQ?oc=5",
             "source": "読売新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%83%BB%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%E9%A6%96%E8%84%B3%E4%BC%9A%E8%AB%87%E3%80%81%E3%80%8C%E6%BA%96%E5%90%8C%E7%9B%9F%E5%9B%BD%E3%80%8D%E9%96%A2%E4%BF%82%E3%81%AB%E6%B7%B1%E5%8C%96%E3%81%B8%E2%80%A6%EF%BC%A7%EF%BC%B3%EF%BC%AF%EF%BC%AD&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%97%A5%E6%9C%AC%E3%83%BB%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3%E9%A6%96%E8%84%B3%E4%BC%9A%E8%AB%87%E3%80%81%E3%80%8C%E6%BA%96%E5%90%8C%E7%9B%9F%E5%9B%BD%E3%80%8D%E9%96%A2%E4%BF%82%E3%81%AB%E6%B7%B1%E5%8C%96%E3%81%B8%E2%80%A6%EF%BC%A7%EF%BC%B3%EF%BC%AF%EF%BC%AD/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%A0%83%E6%9C%A8%E5%BC%B7%E7%9B%97%E6%AE%BA%E4%BA%BA%E3%80%81%E3%82%AB%E3%82%BA%E5%90%8D%E4%B9%97%E3%82%8B%E5%87%BA%E5%9B%BD%E3%81%AE%E7%94%B7%E3%80%8C%E3%83%AB%E3%83%91%E3%83%B3%E3%82%84%E3%82%8B%EF%BC%9F%E3%80%8D%E2%80%A6%E9%AB%98%E9%A1%8D%E5%A0%B1%E9%85%AC%E7%A4%BA&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%A0%83%E6%9C%A8%E5%BC%B7%E7%9B%97%E6%AE%BA%E4%BA%BA%E3%80%81%E3%82%AB%E3%82%BA%E5%90%8D%E4%B9%97%E3%82%8B%E5%87%BA%E5%9B%BD%E3%81%AE%E7%94%B7%E3%80%8C%E3%83%AB%E3%83%91%E3%83%B3%E3%82%84%E3%82%8B%EF%BC%9F%E3%80%8D%E2%80%A6%E9%AB%98%E9%A1%8D%E5%A0%B1%E9%85%AC%E7%A4%BA%2F&link_type=hybrid_url"
       },
       {
         "rank": 4,
-        "keyword": "「用水路を西へ行く熊を見た」仙台・幸町の小学校近くで目撃情報 - 河北新報オンライン",
+        "keyword": "中古護衛艦の次は対艦ミサイルか 日比の装備協力が急速に進化 中国の脅威に対応 - 産経ニュース",
         "category": "社会・ニュース",
         "source": "google_news",
         "type": "news",
@@ -1515,18 +1515,18 @@
         "trend": "",
         "news": [
           {
-            "title": "「用水路を西へ行く熊を見た」仙台・幸町の小学校近くで目撃情報 - 河北新報オンライン",
-            "snippet": "「用水路を西へ行く熊を見た」仙台・幸町の小学校近くで目撃情報&nbsp;&nbsp;河北新報オンライン夜の用水路を歩くクマを目撃 付近には小学校も 仙台市宮城野区（khb東日本放送）&nbsp;&nbsp;Yahoo!ニュース仙台 大学や高",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WQlNPMkIzZE5PQmJaaWVLdFBwcHVQUDdoc3NqRXNMV0Y3OGpjemtWM0hqU2MzTl9WdWZZaXZRQlpLWjlYWnBoTUVQaWNXWDBlek41VTZfVFBWTzhzRGttdg?oc=5",
-            "source": "河北新報オンライン"
+            "title": "中古護衛艦の次は対艦ミサイルか 日比の装備協力が急速に進化 中国の脅威に対応 - 産経ニュース",
+            "snippet": "中古護衛艦の次は対艦ミサイルか 日比の装備協力が急速に進化 中国の脅威に対応&nbsp;&nbsp;産経ニュース中国対抗「準同盟」鮮明に 日比首脳、米つなぎ留め課題&nbsp;&nbsp;時事ドットコム日フィリピン首脳 武器輸出など協力加速",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tOXBMOVhzdU5uYW5SbmpQa0UwbUlRMFM2RlYwX29hVkpKZFl5QVlweGxINUN0eXgtVVM4Z2RuMGd0enBoQjJ5c0xGNWxuTmp0S2VacktYLW82cHF1STVwS2VXVldidGJVZHhWQmUxekNaMXJHd0E?oc=5",
+            "source": "産経ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E7%94%A8%E6%B0%B4%E8%B7%AF%E3%82%92%E8%A5%BF%E3%81%B8%E8%A1%8C%E3%81%8F%E7%86%8A%E3%82%92%E8%A6%8B%E3%81%9F%E3%80%8D%E4%BB%99%E5%8F%B0%E3%83%BB%E5%B9%B8%E7%94%BA%E3%81%AE%E5%B0%8F%E5%AD%A6%E6%A0%A1%E8%BF%91%E3%81%8F%E3%81%A7%E7%9B%AE%E6%92%83%E6%83%85%E5%A0%B1&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8C%E7%94%A8%E6%B0%B4%E8%B7%AF%E3%82%92%E8%A5%BF%E3%81%B8%E8%A1%8C%E3%81%8F%E7%86%8A%E3%82%92%E8%A6%8B%E3%81%9F%E3%80%8D%E4%BB%99%E5%8F%B0%E3%83%BB%E5%B9%B8%E7%94%BA%E3%81%AE%E5%B0%8F%E5%AD%A6%E6%A0%A1%E8%BF%91%E3%81%8F%E3%81%A7%E7%9B%AE%E6%92%83%E6%83%85%E5%A0%B1/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%8F%A4%E8%AD%B7%E8%A1%9B%E8%89%A6%E3%81%AE%E6%AC%A1%E3%81%AF%E5%AF%BE%E8%89%A6%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB%E3%81%8B%20%E6%97%A5%E6%AF%94%E3%81%AE%E8%A3%85%E5%82%99%E5%8D%94%E5%8A%9B%E3%81%8C%E6%80%A5%E9%80%9F%E3%81%AB%E9%80%B2%E5%8C%96%20&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E4%B8%AD%E5%8F%A4%E8%AD%B7%E8%A1%9B%E8%89%A6%E3%81%AE%E6%AC%A1%E3%81%AF%E5%AF%BE%E8%89%A6%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB%E3%81%8B%20%E6%97%A5%E6%AF%94%E3%81%AE%E8%A3%85%E5%82%99%E5%8D%94%E5%8A%9B%E3%81%8C%E6%80%A5%E9%80%9F%E3%81%AB%E9%80%B2%E5%8C%96%20%2F&link_type=hybrid_url"
       },
       {
         "rank": 5,
-        "keyword": "「あまりに拙速で、踏み込みすぎ」共産・田村氏が文科省による同志社国際高の「政治的中立」違反認定を批判 辺野古事故「抗議活動の説明は自己紹介で、参加させる意図はない」（ABEMA TIMES） - Yahoo!ニュース",
+        "keyword": "「撤回すべき」辺野古転覆事故の文科省調査結果巡りれいわ奥田氏 参政は政治的中立性重視（産経新聞） - Yahoo!ニュース",
         "category": "社会・ニュース",
         "source": "google_news",
         "type": "news",
@@ -1534,17 +1534,74 @@
         "trend": "",
         "news": [
           {
-            "title": "「あまりに拙速で、踏み込みすぎ」共産・田村氏が文科省による同志社国際高の「政治的中立」違反認定を批判 辺野古事故「抗議活動の説明は自己紹介で、参加させる意図はない」（ABEMA TIMES） - Yahoo!ニュース",
-            "snippet": "「あまりに拙速で、踏み込みすぎ」共産・田村氏が文科省による同志社国際高の「政治的中立」違反認定を批判 辺野古事故「抗議活動の説明は自己紹介で、参加させる意図はない」（ABEMA TIMES）&nbsp;&nbsp;Yahoo!ニュース船転覆",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YT2V4MGhHaWxUWUc0aEhJOXFLeENGZ1R1ZERUOU1jU1QzOTZXZzB0NW50UWcySjNLaGFVU2xqWjU0SFB3dlBNNUxicHIxdWdBMmY4d3hfclkyZkV4a0tRZlZaWmFsLXUxYUIzLVlpRGZHM184OWs0eVBJRU9qakE?oc=5",
+            "title": "「撤回すべき」辺野古転覆事故の文科省調査結果巡りれいわ奥田氏 参政は政治的中立性重視（産経新聞） - Yahoo!ニュース",
+            "snippet": "「撤回すべき」辺野古転覆事故の文科省調査結果巡りれいわ奥田氏 参政は政治的中立性重視（産経新聞）&nbsp;&nbsp;Yahoo!ニュース【視標】辺野古沖事故で文科省指導 安全と中立、分けて議論を（愛知工業大教授 中嶋哲彦氏）&nbsp;",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YMjZ5QVdXa1VCTGRzRUNOYkdqdjVPVVZIR3NNOXhqYWtSOVh5R0RfYnE0Wkk4OHlJUUJRSTB3SXkwSEdTMjBhaFRTdmxzNkd2Snkta2gwRXptUUlLWndjVHpkcjVQNHFXcTNxdlNFSjhfbkxZdGdZTnhzdGpEdDA?oc=5",
             "source": "Yahoo!ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E3%81%82%E3%81%BE%E3%82%8A%E3%81%AB%E6%8B%99%E9%80%9F%E3%81%A7%E3%80%81%E8%B8%8F%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%99%E3%81%8E%E3%80%8D%E5%85%B1%E7%94%A3%E3%83%BB%E7%94%B0%E6%9D%91%E6%B0%8F%E3%81%8C%E6%96%87%E7%A7%91%E7%9C%81%E3%81%AB%E3%82%88%E3%82%8B%E5%90%8C&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%8C%E3%81%82%E3%81%BE%E3%82%8A%E3%81%AB%E6%8B%99%E9%80%9F%E3%81%A7%E3%80%81%E8%B8%8F%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%99%E3%81%8E%E3%80%8D%E5%85%B1%E7%94%A3%E3%83%BB%E7%94%B0%E6%9D%91%E6%B0%8F%E3%81%8C%E6%96%87%E7%A7%91%E7%9C%81%E3%81%AB%E3%82%88%E3%82%8B%E5%90%8C/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%92%A4%E5%9B%9E%E3%81%99%E3%81%B9%E3%81%8D%E3%80%8D%E8%BE%BA%E9%87%8E%E5%8F%A4%E8%BB%A2%E8%A6%86%E4%BA%8B%E6%95%85%E3%81%AE%E6%96%87%E7%A7%91%E7%9C%81%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E5%B7%A1%E3%82%8A%E3%82%8C%E3%81%84%E3%82%8F%E5%A5%A5%E7%94%B0%E6%B0%8F&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E6%92%A4%E5%9B%9E%E3%81%99%E3%81%B9%E3%81%8D%E3%80%8D%E8%BE%BA%E9%87%8E%E5%8F%A4%E8%BB%A2%E8%A6%86%E4%BA%8B%E6%95%85%E3%81%AE%E6%96%87%E7%A7%91%E7%9C%81%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E5%B7%A1%E3%82%8A%E3%82%8C%E3%81%84%E3%82%8F%E5%A5%A5%E7%94%B0%E6%B0%8F%2F&link_type=hybrid_url"
       },
       {
         "rank": 6,
+        "keyword": "日本、再軍備とのロシア批判「ばかげている」 国連で反論 - Reuters",
+        "category": "社会・ニュース",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "日本、再軍備とのロシア批判「ばかげている」 国連で反論 - Reuters",
+            "snippet": "日本、再軍備とのロシア批判「ばかげている」 国連で反論&nbsp;&nbsp;Reuters露の批判「ばかげている」日本&nbsp;&nbsp;Yahoo!ニュース国連安保理 ロシア「日本の再軍備は危険」批判 日本が強く反論&nbsp;&n",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNb1MxdWhreVgxNzBsLXE2WlpmZDVFRHRfZnF2ZFNfbnVxajE2N2lzendMSUN4QmNoU3haeGtJSTBFN2xMZW54dzg2Njh6V3VsYUJLY2hUbkZtcDRRMUdaZTVPOU5paDBQWDJnaGZ5Rm93TTNrSFNzM1pVdjc2Y0l5NQ?oc=5",
+            "source": "Reuters"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%80%81%E5%86%8D%E8%BB%8D%E5%82%99%E3%81%A8%E3%81%AE%E3%83%AD%E3%82%B7%E3%82%A2%E6%89%B9%E5%88%A4%E3%80%8C%E3%81%B0%E3%81%8B%E3%81%92%E3%81%A6%E3%81%84%E3%82%8B%E3%80%8D%20%E5%9B%BD%E9%80%A3%E3%81%A7%E5%8F%8D%E8%AB%96%20-%20&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E6%9C%AC%E3%80%81%E5%86%8D%E8%BB%8D%E5%82%99%E3%81%A8%E3%81%AE%E3%83%AD%E3%82%B7%E3%82%A2%E6%89%B9%E5%88%A4%E3%80%8C%E3%81%B0%E3%81%8B%E3%81%92%E3%81%A6%E3%81%84%E3%82%8B%E3%80%8D%20%E5%9B%BD%E9%80%A3%E3%81%A7%E5%8F%8D%E8%AB%96%20-%20%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 7,
+        "keyword": "大飯原発の設置許可巡る訴訟、国側が逆転勝訴 大阪高裁判決 - 日本経済新聞",
+        "category": "社会・ニュース",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "大飯原発の設置許可巡る訴訟、国側が逆転勝訴 大阪高裁判決 - 日本経済新聞",
+            "snippet": "大飯原発の設置許可巡る訴訟、国側が逆転勝訴 大阪高裁判決&nbsp;&nbsp;日本経済新聞「国語の問題だ」 1審判決に原子力規制委が猛反論 高裁は追認&nbsp;&nbsp;毎日新聞大飯原発訴訟、浮き彫りとなった地裁の〝異質〟解釈 高裁判",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeGJEMmxZaFUzRkNTU2Njc2RuY0tKMUFjRXZKVG5XeXZueU1FTzV4M2lGZVJ2ZEM3QmxOUzg1M3I1NHZLNWRXSHhhTkxSdk16VTZpOG1LZ1FkcXBzNWFVWHJIdElMV3ZhLWgwYQ?oc=5",
+            "source": "日本経済新聞"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A4%A7%E9%A3%AF%E5%8E%9F%E7%99%BA%E3%81%AE%E8%A8%AD%E7%BD%AE%E8%A8%B1%E5%8F%AF%E5%B7%A1%E3%82%8B%E8%A8%B4%E8%A8%9F%E3%80%81%E5%9B%BD%E5%81%B4%E3%81%8C%E9%80%86%E8%BB%A2%E5%8B%9D%E8%A8%B4%20%E5%A4%A7%E9%98%AA%E9%AB%98%E8%A3%81%E5%88%A4%E6%B1%BA%20-&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%A4%A7%E9%A3%AF%E5%8E%9F%E7%99%BA%E3%81%AE%E8%A8%AD%E7%BD%AE%E8%A8%B1%E5%8F%AF%E5%B7%A1%E3%82%8B%E8%A8%B4%E8%A8%9F%E3%80%81%E5%9B%BD%E5%81%B4%E3%81%8C%E9%80%86%E8%BB%A2%E5%8B%9D%E8%A8%B4%20%E5%A4%A7%E9%98%AA%E9%AB%98%E8%A3%81%E5%88%A4%E6%B1%BA%20-%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 8,
+        "keyword": "熊本・八代市庁舎建設汚職＞外国船客を案内中に同行求められ… 八代市の外郭団体職員の男 賄賂の資金洗浄に関与か 組織犯罪処罰法違反容疑 - 熊本日日新聞社",
+        "category": "社会・ニュース",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "熊本・八代市庁舎建設汚職＞外国船客を案内中に同行求められ… 八代市の外郭団体職員の男 賄賂の資金洗浄に関与か 組織犯罪処罰法違反容疑 - 熊本日日新聞社",
+            "snippet": "熊本・八代市庁舎建設汚職＞外国船客を案内中に同行求められ… 八代市の外郭団体職員の男 賄賂の資金洗浄に関与か 組織犯罪処罰法違反容疑&nbsp;&nbsp;熊本日日新聞社熊本 八代新庁舎汚職事件 ジャーナリスト名乗り職員に接触か&nbsp;",
+            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1waFNUdWpKTnBDQlpOZFMxRXpSMmpPZTRUNEZzMTdZNURYZUM4UTRFMExEemZEUWlXSHJ4QmMtTFpFOUthUkdVcW96UDhnbUk?oc=5",
+            "source": "熊本日日新聞社"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%86%8A%E6%9C%AC%E3%83%BB%E5%85%AB%E4%BB%A3%E5%B8%82%E5%BA%81%E8%88%8E%E5%BB%BA%E8%A8%AD%E6%B1%9A%E8%81%B7%EF%BC%9E%E5%A4%96%E5%9B%BD%E8%88%B9%E5%AE%A2%E3%82%92%E6%A1%88%E5%86%85%E4%B8%AD%E3%81%AB%E5%90%8C%E8%A1%8C%E6%B1%82%E3%82%81%E3%82%89%E3%82%8C%E2%80%A6%20&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%86%8A%E6%9C%AC%E3%83%BB%E5%85%AB%E4%BB%A3%E5%B8%82%E5%BA%81%E8%88%8E%E5%BB%BA%E8%A8%AD%E6%B1%9A%E8%81%B7%EF%BC%9E%E5%A4%96%E5%9B%BD%E8%88%B9%E5%AE%A2%E3%82%92%E6%A1%88%E5%86%85%E4%B8%AD%E3%81%AB%E5%90%8C%E8%A1%8C%E6%B1%82%E3%82%81%E3%82%89%E3%82%8C%E2%80%A6%20%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 9,
         "keyword": "経済プラス：ちぐはぐ情報発信で迷走「ロシア訪問団」 政府主導、嘆いた企業 - 毎日新聞",
         "category": "社会・ニュース",
         "source": "google_news",
@@ -1559,69 +1616,12 @@
             "source": "毎日新聞"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B5%8C%E6%B8%88%E3%83%97%E3%83%A9%E3%82%B9%EF%BC%9A%E3%81%A1%E3%81%90%E3%81%AF%E3%81%90%E6%83%85%E5%A0%B1%E7%99%BA%E4%BF%A1%E3%81%A7%E8%BF%B7%E8%B5%B0%E3%80%8C%E3%83%AD%E3%82%B7%E3%82%A2%E8%A8%AA%E5%95%8F%E5%9B%A3%E3%80%8D%20%E6%94%BF%E5%BA%9C%E4%B8%BB%E5%B0%8E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%B5%8C%E6%B8%88%E3%83%97%E3%83%A9%E3%82%B9%EF%BC%9A%E3%81%A1%E3%81%90%E3%81%AF%E3%81%90%E6%83%85%E5%A0%B1%E7%99%BA%E4%BF%A1%E3%81%A7%E8%BF%B7%E8%B5%B0%E3%80%8C%E3%83%AD%E3%82%B7%E3%82%A2%E8%A8%AA%E5%95%8F%E5%9B%A3%E3%80%8D%20%E6%94%BF%E5%BA%9C%E4%B8%BB%E5%B0%8E/"
-      },
-      {
-        "rank": 7,
-        "keyword": "中国、国家情報会議法に「懸念」表明 「日本の情報機関は軍国主義の道を開いた」と牽制 - 産経ニュース",
-        "category": "社会・ニュース",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "中国、国家情報会議法に「懸念」表明 「日本の情報機関は軍国主義の道を開いた」と牽制 - 産経ニュース",
-            "snippet": "中国、国家情報会議法に「懸念」表明 「日本の情報機関は軍国主義の道を開いた」と牽制&nbsp;&nbsp;産経ニュース日本の情報会議法に懸念、中国 「多くの論争と疑問」（共同通信）&nbsp;&nbsp;Yahoo!ニュース毎小ニュース：政",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBESUNnT1ZWVThOdGFSQ29XRUZMWjJqWEI1WmJGYzloU0ViUkNUOGNFTjRGN0ZWWmtiZ3R6Wm41eW94b25OSkdfcDhBTDRuQ1dhdDBCNmpNQVY4RWpFcWs4dWgxYUF1OW5GLU5yTGVJcTVjV016VGc?oc=5",
-            "source": "産経ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%AD%E5%9B%BD%E3%80%81%E5%9B%BD%E5%AE%B6%E6%83%85%E5%A0%B1%E4%BC%9A%E8%AD%B0%E6%B3%95%E3%81%AB%E3%80%8C%E6%87%B8%E5%BF%B5%E3%80%8D%E8%A1%A8%E6%98%8E%20%E3%80%8C%E6%97%A5%E6%9C%AC%E3%81%AE%E6%83%85%E5%A0%B1%E6%A9%9F%E9%96%A2%E3%81%AF%E8%BB%8D%E5%9B%BD%E4%B8%BB&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%AD%E5%9B%BD%E3%80%81%E5%9B%BD%E5%AE%B6%E6%83%85%E5%A0%B1%E4%BC%9A%E8%AD%B0%E6%B3%95%E3%81%AB%E3%80%8C%E6%87%B8%E5%BF%B5%E3%80%8D%E8%A1%A8%E6%98%8E%20%E3%80%8C%E6%97%A5%E6%9C%AC%E3%81%AE%E6%83%85%E5%A0%B1%E6%A9%9F%E9%96%A2%E3%81%AF%E8%BB%8D%E5%9B%BD%E4%B8%BB/"
-      },
-      {
-        "rank": 8,
-        "keyword": "大飯原発の設置許可巡る訴訟、国側が逆転勝訴 大阪高裁判決 - 日本経済新聞",
-        "category": "社会・ニュース",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "大飯原発の設置許可巡る訴訟、国側が逆転勝訴 大阪高裁判決 - 日本経済新聞",
-            "snippet": "大飯原発の設置許可巡る訴訟、国側が逆転勝訴 大阪高裁判決&nbsp;&nbsp;日本経済新聞「国語の問題だ」 1審判決に原子力規制委が猛反論 高裁は追認&nbsp;&nbsp;毎日新聞専門家の意見重視 規制委審査手法を容認 大阪高裁（時事通",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeGJEMmxZaFUzRkNTU2Njc2RuY0tKMUFjRXZKVG5XeXZueU1FTzV4M2lGZVJ2ZEM3QmxOUzg1M3I1NHZLNWRXSHhhTkxSdk16VTZpOG1LZ1FkcXBzNWFVWHJIdElMV3ZhLWgwYQ?oc=5",
-            "source": "日本経済新聞"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A4%A7%E9%A3%AF%E5%8E%9F%E7%99%BA%E3%81%AE%E8%A8%AD%E7%BD%AE%E8%A8%B1%E5%8F%AF%E5%B7%A1%E3%82%8B%E8%A8%B4%E8%A8%9F%E3%80%81%E5%9B%BD%E5%81%B4%E3%81%8C%E9%80%86%E8%BB%A2%E5%8B%9D%E8%A8%B4%20%E5%A4%A7%E9%98%AA%E9%AB%98%E8%A3%81%E5%88%A4%E6%B1%BA%20-&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%A4%A7%E9%A3%AF%E5%8E%9F%E7%99%BA%E3%81%AE%E8%A8%AD%E7%BD%AE%E8%A8%B1%E5%8F%AF%E5%B7%A1%E3%82%8B%E8%A8%B4%E8%A8%9F%E3%80%81%E5%9B%BD%E5%81%B4%E3%81%8C%E9%80%86%E8%BB%A2%E5%8B%9D%E8%A8%B4%20%E5%A4%A7%E9%98%AA%E9%AB%98%E8%A3%81%E5%88%A4%E6%B1%BA%20-/"
-      },
-      {
-        "rank": 9,
-        "keyword": "逮捕前、市議は2千万円抱え東京へ 深夜のコンビニで入金40回か [熊本県] - 朝日新聞",
-        "category": "社会・ニュース",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "逮捕前、市議は2千万円抱え東京へ 深夜のコンビニで入金40回か [熊本県] - 朝日新聞",
-            "snippet": "逮捕前、市議は2千万円抱え東京へ 深夜のコンビニで入金40回か [熊本県]&nbsp;&nbsp;朝日新聞熊本 八代新庁舎汚職事件 ジャーナリスト名乗り職員に接触か&nbsp;&nbsp;NHKニュース真夜中に約40回 コンビニATMで振り",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9keVhYb2QxM0I5TTgwMC04d2g4UUQyNDItbkhRa0VQaWtFdTBxSUc1eThKMC0wbXJjMnRTUHpsMlBDdFFlTEFrWXhNTnVzY1hJOU5qS2VDcWZJckMzTmx0eFgtYVp1aUk?oc=5",
-            "source": "朝日新聞"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%80%AE%E6%8D%95%E5%89%8D%E3%80%81%E5%B8%82%E8%AD%B0%E3%81%AF2%E5%8D%83%E4%B8%87%E5%86%86%E6%8A%B1%E3%81%88%E6%9D%B1%E4%BA%AC%E3%81%B8%20%E6%B7%B1%E5%A4%9C%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%81%A7%E5%85%A5%E9%87%9140%E5%9B%9E&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%80%AE%E6%8D%95%E5%89%8D%E3%80%81%E5%B8%82%E8%AD%B0%E3%81%AF2%E5%8D%83%E4%B8%87%E5%86%86%E6%8A%B1%E3%81%88%E6%9D%B1%E4%BA%AC%E3%81%B8%20%E6%B7%B1%E5%A4%9C%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%81%A7%E5%85%A5%E9%87%9140%E5%9B%9E/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B5%8C%E6%B8%88%E3%83%97%E3%83%A9%E3%82%B9%EF%BC%9A%E3%81%A1%E3%81%90%E3%81%AF%E3%81%90%E6%83%85%E5%A0%B1%E7%99%BA%E4%BF%A1%E3%81%A7%E8%BF%B7%E8%B5%B0%E3%80%8C%E3%83%AD%E3%82%B7%E3%82%A2%E8%A8%AA%E5%95%8F%E5%9B%A3%E3%80%8D%20%E6%94%BF%E5%BA%9C%E4%B8%BB%E5%B0%8E&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%B5%8C%E6%B8%88%E3%83%97%E3%83%A9%E3%82%B9%EF%BC%9A%E3%81%A1%E3%81%90%E3%81%AF%E3%81%90%E6%83%85%E5%A0%B1%E7%99%BA%E4%BF%A1%E3%81%A7%E8%BF%B7%E8%B5%B0%E3%80%8C%E3%83%AD%E3%82%B7%E3%82%A2%E8%A8%AA%E5%95%8F%E5%9B%A3%E3%80%8D%20%E6%94%BF%E5%BA%9C%E4%B8%BB%E5%B0%8E%2F&link_type=hybrid_url"
       },
       {
         "rank": 10,
-        "keyword": "【更新】医療施設の女子トイレに小型カメラ 盗撮容疑で医療法人理事長逮捕 104人被害、余罪追及 茨城県警 - 茨城新聞クロスアイ",
+        "keyword": "「用水路を西へ行く熊を見た」仙台・幸町の小学校近くで目撃情報 - 河北新報オンライン",
         "category": "社会・ニュース",
         "source": "google_news",
         "type": "news",
@@ -1629,14 +1629,14 @@
         "trend": "",
         "news": [
           {
-            "title": "【更新】医療施設の女子トイレに小型カメラ 盗撮容疑で医療法人理事長逮捕 104人被害、余罪追及 茨城県警 - 茨城新聞クロスアイ",
-            "snippet": "【更新】医療施設の女子トイレに小型カメラ 盗撮容疑で医療法人理事長逮捕 104人被害、余罪追及 茨城県警&nbsp;&nbsp;茨城新聞クロスアイ水戸 医療法人理事長逮捕 延べ１００人超を盗撮か 容疑否認&nbsp;&nbsp;NHKニュー",
-            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWExtNHRaLVVuZ3pTWXdPLWVDcV9MNU5uVDJCR3g0bjh0Ni1ZV3BoRGR4clV0SHVQWFUzV095Y1VBWTI0YU42cm54Q0N2SnFid01xc2VrSjRTa1BlTEFqYk12eVcybVZHcU5GSmNjb1BkRFU?oc=5",
-            "source": "茨城新聞クロスアイ"
+            "title": "「用水路を西へ行く熊を見た」仙台・幸町の小学校近くで目撃情報 - 河北新報オンライン",
+            "snippet": "「用水路を西へ行く熊を見た」仙台・幸町の小学校近くで目撃情報&nbsp;&nbsp;河北新報オンライン八木山で登校中の中学生がクマを目撃 仙台・太白区（tbc東北放送）&nbsp;&nbsp;Yahoo!ニュースツキノワグマ出没について、現",
+            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WQlNPMkIzZE5PQmJaaWVLdFBwcHVQUDdoc3NqRXNMV0Y3OGpjemtWM0hqU2MzTl9WdWZZaXZRQlpLWjlYWnBoTUVQaWNXWDBlek41VTZfVFBWTzhzRGttdg?oc=5",
+            "source": "河北新報オンライン"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E5%8C%BB%E7%99%82%E6%96%BD%E8%A8%AD%E3%81%AE%E5%A5%B3%E5%AD%90%E3%83%88%E3%82%A4%E3%83%AC%E3%81%AB%E5%B0%8F%E5%9E%8B%E3%82%AB%E3%83%A1%E3%83%A9%20%E7%9B%97%E6%92%AE%E5%AE%B9%E7%96%91%E3%81%A7%E5%8C%BB%E7%99%82%E6%B3%95%E4%BA%BA&tag=YOUR-ASSOCIATE-ID",
-        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E5%8C%BB%E7%99%82%E6%96%BD%E8%A8%AD%E3%81%AE%E5%A5%B3%E5%AD%90%E3%83%88%E3%82%A4%E3%83%AC%E3%81%AB%E5%B0%8F%E5%9E%8B%E3%82%AB%E3%83%A1%E3%83%A9%20%E7%9B%97%E6%92%AE%E5%AE%B9%E7%96%91%E3%81%A7%E5%8C%BB%E7%99%82%E6%B3%95%E4%BA%BA/"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E7%94%A8%E6%B0%B4%E8%B7%AF%E3%82%92%E8%A5%BF%E3%81%B8%E8%A1%8C%E3%81%8F%E7%86%8A%E3%82%92%E8%A6%8B%E3%81%9F%E3%80%8D%E4%BB%99%E5%8F%B0%E3%83%BB%E5%B9%B8%E7%94%BA%E3%81%AE%E5%B0%8F%E5%AD%A6%E6%A0%A1%E8%BF%91%E3%81%8F%E3%81%A7%E7%9B%AE%E6%92%83%E6%83%85%E5%A0%B1&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E7%94%A8%E6%B0%B4%E8%B7%AF%E3%82%92%E8%A5%BF%E3%81%B8%E8%A1%8C%E3%81%8F%E7%86%8A%E3%82%92%E8%A6%8B%E3%81%9F%E3%80%8D%E4%BB%99%E5%8F%B0%E3%83%BB%E5%B9%B8%E7%94%BA%E3%81%AE%E5%B0%8F%E5%AD%A6%E6%A0%A1%E8%BF%91%E3%81%8F%E3%81%A7%E7%9B%AE%E6%92%83%E6%83%85%E5%A0%B1%2F&link_type=hybrid_url"
       }
     ]
   }
