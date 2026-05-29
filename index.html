@@ -317,11 +317,92 @@
     padding:8px 0;
   }
 
+  /* ─── ページレイアウト（3カラム） ─── */
+  .page-layout{
+    display:grid;
+    grid-template-columns:200px 1fr 200px;
+    gap:24px;
+    max-width:1280px;
+    margin:0 auto;
+    padding:32px 16px 80px;
+    align-items:start;
+  }
+  main{
+    min-width:0;
+    max-width:100%;
+    padding:0;        /* page-layoutがpaddingを持つため0に */
+  }
+
+  /* ─── サイドバー ─── */
+  .sidebar{
+    position:sticky;
+    top:80px;
+  }
+  .sidebar-label{
+    font-size:10px;
+    color:var(--text-muted);
+    letter-spacing:0.12em;
+    margin-bottom:6px;
+    text-align:center;
+  }
+  .sidebar-aff{
+    display:flex;flex-direction:column;align-items:center;
+    padding:20px 12px;
+    border-radius:10px;
+    text-decoration:none;
+    text-align:center;
+    gap:8px;
+    transition:opacity 0.18s, transform 0.18s;
+  }
+  .sidebar-aff:hover{ opacity:0.85; transform:translateY(-2px); }
+  .sidebar-aff.aff-amazon{
+    background:rgba(255,153,0,0.1);
+    border:1px solid rgba(255,153,0,0.3);
+  }
+  .sidebar-aff.aff-rakuten{
+    background:rgba(191,0,0,0.1);
+    border:1px solid rgba(191,0,0,0.3);
+  }
+  .sidebar-aff-icon{ font-size:28px; }
+  .sidebar-aff-name{
+    font-size:14px;font-weight:700;letter-spacing:0.06em;
+  }
+  .aff-amazon .sidebar-aff-name{ color:#ffb84d; }
+  .aff-rakuten .sidebar-aff-name{ color:#ff6b6b; }
+  .sidebar-aff-desc{
+    font-size:11px;color:var(--text-muted);
+    line-height:1.5;word-break:break-all;
+  }
+  .sidebar-aff-cta{
+    font-size:11px;font-weight:700;
+    padding:5px 12px;border-radius:4px;margin-top:4px;
+  }
+  .aff-amazon  .sidebar-aff-cta{ background:rgba(255,153,0,0.2); color:#ffb84d; }
+  .aff-rakuten .sidebar-aff-cta{ background:rgba(191,0,0,0.2);   color:#ff6b6b; }
+
+  /* ─── モバイル用インラインアフィリエイトバナー ─── */
+  .inline-aff-row{
+    display:none;   /* PC では非表示 */
+    gap:8px;
+    margin:8px 0;
+  }
+  .inline-aff-link{
+    flex:1;display:flex;align-items:center;justify-content:center;gap:6px;
+    padding:10px 8px;border-radius:6px;
+    font-size:12px;font-weight:700;text-decoration:none;
+    transition:opacity 0.15s;
+  }
+  .inline-aff-link:hover{opacity:0.8;}
+  .inline-aff-link.aff-amazon { background:rgba(255,153,0,0.12);border:1px solid rgba(255,153,0,0.35);color:#ffb84d; }
+  .inline-aff-link.aff-rakuten{ background:rgba(191,0,0,0.12);  border:1px solid rgba(191,0,0,0.35); color:#ff6b6b; }
+
   /* ─── スマホ対応 ─── */
-  @media (max-width: 600px) {
-    header { padding: 0 16px; }
-    .logo  { font-size: 18px; }
-    main   { padding: 20px 14px 60px; }
+  @media (max-width: 768px) {
+    .page-layout   { grid-template-columns: 1fr; padding: 16px 14px 60px; gap: 0; }
+    .sidebar       { display: none; }         /* サイドバーを非表示 */
+    .inline-aff-row{ display: flex; }         /* インラインバナーを表示 */
+    header         { padding: 0 16px; }
+    .logo          { font-size: 18px; }
     .section-title { font-size: 22px; }
     .ranking-item  { grid-template-columns: 44px 1fr auto; gap: 10px; padding: 12px 14px; }
     .rank-num      { font-size: 24px; }
@@ -329,7 +410,6 @@
     .date-tabs     { gap: 6px; }
     .date-tab      { padding: 5px 10px; font-size: 11px; }
     .cat-btn       { padding: 4px 10px; font-size: 11px; }
-    .aff-link      { font-size: 11px; padding: 7px 12px; }
   }
 </style>
 </head>
@@ -346,32 +426,59 @@
   </div>
 </header>
 
-<main>
-  <div class="section-title">トレンドランキング</div>
-  <div class="section-subtitle">TRENDING KEYWORDS — クリックで関連商品を表示</div>
+<div class="page-layout">
 
-  <!-- 日付タブ（5日分） -->
-  <div class="date-tabs" id="date-tabs"></div>
+  <!-- 左サイドバー：Amazon -->
+  <aside class="sidebar sidebar-left">
+    <div class="sidebar-label">PR</div>
+    <a class="sidebar-aff aff-amazon" id="sidebar-amazon" href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer">
+      <div class="sidebar-aff-icon">📦</div>
+      <div class="sidebar-aff-name">Amazon</div>
+      <div class="sidebar-aff-desc" id="sidebar-amazon-kw">トレンド商品を探す</div>
+      <div class="sidebar-aff-cta">今すぐチェック →</div>
+    </a>
+  </aside>
 
-  <!-- カテゴリフィルター -->
-  <div class="category-bar" id="category-bar"></div>
+  <!-- メインコンテンツ -->
+  <main>
+    <div class="section-title">トレンドランキング</div>
+    <div class="section-subtitle">TRENDING KEYWORDS — クリックでニュースを表示</div>
 
-  <!-- 更新情報 -->
-  <div class="update-info">
-    <span id="update-time">取得中...</span>
-    <div class="source-tags">
-      <span class="source-badge src-google">Google</span>
-      <span class="source-badge src-niconico">NicoNico</span>
-      <span class="source-badge src-yahoo">Yahoo!</span>
+    <!-- 日付タブ（5日分） -->
+    <div class="date-tabs" id="date-tabs"></div>
+
+    <!-- カテゴリフィルター -->
+    <div class="category-bar" id="category-bar"></div>
+
+    <!-- 更新情報 -->
+    <div class="update-info">
+      <span id="update-time">取得中...</span>
+      <div class="source-tags">
+        <span class="source-badge src-google">Google</span>
+        <span class="source-badge src-niconico">NicoNico</span>
+        <span class="source-badge src-yahoo">Yahoo!</span>
+      </div>
     </div>
-  </div>
 
-  <!-- 件数 -->
-  <div class="result-count" id="result-count"></div>
+    <!-- 件数 -->
+    <div class="result-count" id="result-count"></div>
 
-  <!-- ランキングリスト -->
-  <div class="ranking-list" id="ranking-list"></div>
-</main>
+    <!-- ランキングリスト -->
+    <div class="ranking-list" id="ranking-list"></div>
+  </main>
+
+  <!-- 右サイドバー：楽天 -->
+  <aside class="sidebar sidebar-right">
+    <div class="sidebar-label">PR</div>
+    <a class="sidebar-aff aff-rakuten" id="sidebar-rakuten" href="https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fwww.rakuten.co.jp%2F&link_type=hybrid_url" target="_blank" rel="noopener noreferrer">
+      <div class="sidebar-aff-icon">🛍</div>
+      <div class="sidebar-aff-name">楽天市場</div>
+      <div class="sidebar-aff-desc" id="sidebar-rakuten-kw">トレンド商品を探す</div>
+      <div class="sidebar-aff-cta">今すぐチェック →</div>
+    </a>
+  </aside>
+
+</div>
 
 <footer>
   <p>本サイトはAmazon.co.jpアソシエイト・プログラム及び楽天アフィリエイトの参加者です。</p>
@@ -380,6 +487,11 @@
 </footer>
 
 <script>
+// ================================================================
+// 定数
+// ================================================================
+const ASSOCIATE_ID = "topnews22-22"; // ← Amazonアソシエイト登録後に変更
+
 // ================================================================
 // カテゴリ定義
 // ================================================================
@@ -557,17 +669,6 @@ async function renderRanking() {
               : '<div class="news-empty">ニュース記事はありません</div>'
             }
           </div>
-          <div class="affiliate-label">▸ 関連商品を探す</div>
-          <div class="affiliate-links">
-            <a class="aff-link aff-amazon"
-               href="${item.amazon_url}" target="_blank" rel="noopener noreferrer">
-              📦 Amazon で探す
-            </a>
-            <a class="aff-link aff-rakuten"
-               href="${item.rakuten_url}" target="_blank" rel="noopener noreferrer">
-              🛍 楽天市場で探す
-            </a>
-          </div>
         </div>
       </div>
       <div class="rank-right">
@@ -577,7 +678,43 @@ async function renderRanking() {
 
     div.addEventListener('click', () => div.classList.toggle('expanded'));
     list.appendChild(div);
+
+    // モバイル用: 5件ごとにアフィリエイトバナーを挿入
+    if ((idx + 1) % 5 === 0 && idx + 1 < items.length) {
+      const kw  = items[idx].keyword;
+      const enc = encodeURIComponent(kw.slice(0, 20));
+      const row = document.createElement('div');
+      row.className = 'inline-aff-row';
+      row.innerHTML = `
+        <a class="inline-aff-link aff-amazon"
+           href="https://www.amazon.co.jp/s?k=${enc}&tag=${ASSOCIATE_ID}"
+           target="_blank" rel="noopener noreferrer">
+          📦 Amazon で探す
+        </a>
+        <a class="inline-aff-link aff-rakuten"
+           href="https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${enc}%2F&link_type=hybrid_url"
+           target="_blank" rel="noopener noreferrer">
+          🛍 楽天市場
+        </a>`;
+      list.appendChild(row);
+    }
   });
+
+  // サイドバーのリンクとキーワードを先頭アイテムで更新
+  if (items.length > 0) {
+    const topKw  = items[0].keyword;
+    const topEnc = encodeURIComponent(topKw.slice(0, 30));
+    const amazonEl  = document.getElementById('sidebar-amazon');
+    const rakutenEl = document.getElementById('sidebar-rakuten');
+    if (amazonEl) {
+      amazonEl.href = `https://www.amazon.co.jp/s?k=${topEnc}&tag=${ASSOCIATE_ID}`;
+      document.getElementById('sidebar-amazon-kw').textContent = `「${topKw.slice(0,16)}」を探す`;
+    }
+    if (rakutenEl) {
+      rakutenEl.href = `https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${topEnc}%2F&link_type=hybrid_url`;
+      document.getElementById('sidebar-rakuten-kw').textContent = `「${topKw.slice(0,16)}」を探す`;
+    }
+  }
 
   updateCount(items.length);
 }
