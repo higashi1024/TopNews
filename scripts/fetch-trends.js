@@ -359,7 +359,6 @@ async function main() {
     // アクセスキーはAuthorizationヘッダーで渡す（パラメータより優先される）
     const rakutenParams = new URLSearchParams({
       applicationId: CONFIG.RAKUTEN_APP_ID,
-      affiliateId:   CONFIG.RAKUTEN_AFF_ID,
       keyword:       "ガジェット",
       hits:          "30",
       format:        "json",
@@ -371,6 +370,7 @@ async function main() {
     const rakutenRes  = await fetchUrlWithHeaders(rakutenApiUrl, {
       "Authorization": `Bearer ${CONFIG.RAKUTEN_ACCESS_KEY}`,
     });
+    console.log("楽天APIレスポンス先頭200文字:", rakutenRes.slice(0, 200));
     const rakutenJson = JSON.parse(rakutenRes);
 
     // formatVersion=2: Items配列が items[i].itemName 形式
