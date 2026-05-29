@@ -60,14 +60,17 @@ function fetchUrlWithHeaders(url, extraHeaders = {}) {
         fetchUrlWithHeaders(res.headers.location, extraHeaders).then(resolve).catch(reject);
         return;
       }
-      if (res.statusCode !== 200) {
-        reject(new Error(`HTTP ${res.statusCode}: ${url}`));
-        return;
-      }
       let data = "";
       res.setEncoding("utf8");
       res.on("data", chunk => (data += chunk));
-      res.on("end", () => resolve(data));
+      res.on("end", () => {
+        if (res.statusCode !== 200) {
+          // エラー本文を含めてreject（デバッグ用）
+          reject(new Error(`HTTP ${res.statusCode}: ${data.slice(0, 300)}`));
+          return;
+        }
+        resolve(data);
+      });
     });
     req.on("error", reject);
     req.setTimeout(FETCH_TIMEOUT_MS, () => {
