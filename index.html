@@ -392,7 +392,13 @@
     color:#ff6b6b;
   }
   /* 商品リストアイテム */
-  .gadget-list{ display:flex;flex-direction:column;gap:12px; }
+  .gadget-list{
+    display:flex;flex-direction:column;gap:12px;
+    max-height:calc(100vh - 200px);
+    overflow-y:auto;
+    scrollbar-width:thin;
+    scrollbar-color:var(--border) transparent;
+  }
   .gadget-item{
     padding-bottom:12px;
     border-bottom:1px solid var(--border);
@@ -521,9 +527,7 @@
       </div>
       <div class="gadget-body">
         <div class="gadget-list" id="gadget-list">読み込み中...</div>
-        <div class="gadget-shuffle">
-          <button class="gadget-shuffle-btn" onclick="shuffleGadget()">🔀 他の商品を見る</button>
-        </div>
+
       </div>
     </div>
   </aside>
@@ -550,8 +554,6 @@ const RAKUTEN_AFF   = "0ec9c427.aa5cd21c.0ec9c428.b5bedaac";
 // 楽天ランキングAPI（ガジェット・リアルタイム人気順）
 // ================================================================
 let gadgetItems = [];   // APIから取得した商品リスト
-let gadgetPage  = 0;    // 表示ページ（5件ずつ）
-const GADGET_PAGE_SIZE = 5;
 
 // 楽天ランキングAPIで「ガジェット・家電」カテゴリを取得
 // JSONファイルからガジェットを読み込む（サーバー側で楽天API取得済み）
@@ -582,23 +584,20 @@ const GADGET_FALLBACK = [
 ];
 function renderGadgetFallback() {
   gadgetItems = GADGET_FALLBACK;
-  gadgetPage  = 0;
   renderGadget();
 }
 
-// サイドバーに商品を描画（5件ずつ・画像付き）
+// サイドバーに商品を全件描画（スクロール表示）
 function renderGadget() {
   const container = document.getElementById('gadget-list');
   if (!container) return;
 
-  const start = gadgetPage * GADGET_PAGE_SIZE;
-  const items = gadgetItems.slice(start, start + GADGET_PAGE_SIZE);
-
-  if (items.length === 0) { gadgetPage = 0; fetchRakutenRanking(); return; }
+  const items = gadgetItems;
+  if (items.length === 0) return;
 
   container.innerHTML = '';
   items.forEach((g, i) => {
-    const rank = start + i + 1;
+    const rank = i + 1;
     const el   = document.createElement('div');
     el.className = 'gadget-item';
     el.innerHTML = `
@@ -625,11 +624,7 @@ function renderGadget() {
   });
 }
 
-function shuffleGadget() {
-  const maxPage = Math.ceil(gadgetItems.length / GADGET_PAGE_SIZE) - 1;
-  gadgetPage = gadgetPage >= maxPage ? 0 : gadgetPage + 1;
-  fetchRakutenRanking();
-}
+function shuffleGadget() { /* 全件表示のため不使用 */ }
 
 // ================================================================
 // カテゴリ定義
