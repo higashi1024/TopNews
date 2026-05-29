@@ -315,17 +315,21 @@ async function main() {
     }
   }
 
-  // ── 楽天ランキングAPI ──
-  console.log("🛍 楽天ランキングを取得中...");
+  // ── 楽天商品検索API（レビュー数順）──
+  // ランキングAPIの代わりに商品検索APIで人気ガジェットを取得
+  console.log("🛍 楽天人気ガジェットを取得中...");
   let gadgets = [];
   try {
-    // 新バージョンのランキングAPIエンドポイント（2022-06-01）
-    const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibaranking/api/IchibaItem/Ranking/20220601"
+    // genreId=216131: スマートフォン・タブレット周辺機器
+    // sort=-reviewCount: レビュー数の多い順（人気順の代替）
+    const rakutenApiUrl = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706"
       + `?applicationId=${CONFIG.RAKUTEN_APP_ID}`
-      + `&accessKey=${CONFIG.RAKUTEN_ACCESS_KEY}`
       + `&affiliateId=${CONFIG.RAKUTEN_AFF_ID}`
+      + "&genreId=216131"
+      + "&sort=-reviewCount"
       + "&hits=30"
       + "&imageFlag=1"
+      + "&availability=1"
       + "&format=json";
 
     const rakutenRes  = await fetchUrl(rakutenApiUrl);
@@ -333,20 +337,20 @@ async function main() {
 
     if (rakutenJson.Items && rakutenJson.Items.length > 0) {
       gadgets = rakutenJson.Items.map((it, i) => {
-        const item = it.Item;
+        const item = it.Item || it;
         return {
           rank:       i + 1,
-          name:       item.itemName.slice(0, 40),
-          price:      `¥${Number(item.itemPrice).toLocaleString()}`,
+          name:       (item.itemName || "").slice(0, 40),
+          price:      item.itemPrice ? `¥${Number(item.itemPrice).toLocaleString()}` : "",
           image:      item.mediumImageUrls?.[0]?.imageUrl || "",
-          rakutenUrl: item.affiliateUrl || item.itemUrl,
-          amazonUrl:  `https://www.amazon.co.jp/s?k=${encodeURIComponent(item.itemName.slice(0, 20))}&tag=${CONFIG.ASSOCIATE_ID}`,
+          rakutenUrl: item.affiliateUrl || item.itemUrl || "",
+          amazonUrl:  `https://www.amazon.co.jp/s?k=${encodeURIComponent((item.itemName || "").slice(0, 20))}&tag=${CONFIG.ASSOCIATE_ID}`,
         };
       });
-      console.log(`✅ 楽天ランキング: ${gadgets.length}件`);
+      console.log(`✅ 楽天人気ガジェット: ${gadgets.length}件`);
     }
   } catch (err) {
-    console.warn(`⚠️ 楽天ランキング取得失敗: ${err.message}`);
+    console.warn(`⚠️ 楽天ガジェット取得失敗: ${err.message}`);
   }
 
   // ── JSON保存 ──
