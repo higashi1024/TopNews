@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "updated_at": "2026-05-29T10:45:26.959+09:00",
+  "updated_at": "2026-05-29T10:48:21.445+09:00",
   "trends": [
     {
       "rank": 1,
@@ -246,7 +246,7 @@
     {
       "rank": 10,
       "keyword": "トラヴィススコット ナイキ",
-      "category": "エンタメ",
+      "category": "ライフスタイル",
       "source": "google",
       "type": "trend",
       "volume_approx": "100+",
@@ -471,7 +471,7 @@
     "経済・投資": [
       {
         "rank": 1,
-        "keyword": "日本の人口1億2304万人、5年間で309万人減 2025年国勢調査速報値 - 日本経済新聞",
+        "keyword": "総人口1億2304万人 減り幅最大309万人 首都圏に集中、初の30％超 国勢調査 - 産経ニュース",
         "category": "経済・投資",
         "source": "google_news",
         "type": "news",
@@ -479,14 +479,14 @@
         "trend": "",
         "news": [
           {
-            "title": "日本の人口1億2304万人、5年間で309万人減 2025年国勢調査速報値 - 日本経済新聞",
-            "snippet": "日本の人口1億2304万人、5年間で309万人減 2025年国勢調査速報値&nbsp;&nbsp;日本経済新聞日本の人口309万人減 減少幅が過去最大、東京近郊も軒並み減&nbsp;&nbsp;Yahoo!ニュース【速報】北海道の総人口が5",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UUnZvYjFWejcxRHYwWU1xSGFicXdZUW9XNk52N1hhbXlKdkJzbUN3Qi13VVZJelVtSTZJbWNhZGdhMHBuMFJyeVdiRVpzd0dJZEkxWjlPNXZEVk5VdlZpTDZVY2hHZjFuMVotcw?oc=5",
-            "source": "日本経済新聞"
+            "title": "総人口1億2304万人 減り幅最大309万人 首都圏に集中、初の30％超 国勢調査 - 産経ニュース",
+            "snippet": "総人口1億2304万人 減り幅最大309万人 首都圏に集中、初の30％超 国勢調査&nbsp;&nbsp;産経ニュース日本の人口309万人減 減少幅が過去最大、東京近郊も軒並み減&nbsp;&nbsp;Yahoo!ニュース【速報】北海道の総",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SYVZBcF9fQl9XblZiVnI5eHpTbjhFTjljMzBmRDA0aXhuUl9ZbTd5Rko5YWJDMDRYVVNkdENCTzVySlpRMmVMTnplbk5hTE9hRzhfbS1ZTUVDQ0I4ZHk5YkdqZE1sWUJZbzQ1eXA2eWJpbkNlN0E?oc=5",
+            "source": "産経ニュース"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%81%AE%E4%BA%BA%E5%8F%A31%E5%84%842304%E4%B8%87%E4%BA%BA%E3%80%815%E5%B9%B4%E9%96%93%E3%81%A7309%E4%B8%87%E4%BA%BA%E6%B8%9B%202025%E5%B9%B4&tag=topnews22-22",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E6%9C%AC%E3%81%AE%E4%BA%BA%E5%8F%A31%E5%84%842304%E4%B8%87%E4%BA%BA%E3%80%815%E5%B9%B4%E9%96%93%E3%81%A7309%E4%B8%87%E4%BA%BA%E6%B8%9B%202025%E5%B9%B4%2F&link_type=hybrid_url"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%B7%8F%E4%BA%BA%E5%8F%A31%E5%84%842304%E4%B8%87%E4%BA%BA%20%E6%B8%9B%E3%82%8A%E5%B9%85%E6%9C%80%E5%A4%A7309%E4%B8%87%E4%BA%BA%20%E9%A6%96%E9%83%BD%E5%9C%8F%E3%81%AB%E9%9B%86%E4%B8%AD%E3%80%81&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%B7%8F%E4%BA%BA%E5%8F%A31%E5%84%842304%E4%B8%87%E4%BA%BA%20%E6%B8%9B%E3%82%8A%E5%B9%85%E6%9C%80%E5%A4%A7309%E4%B8%87%E4%BA%BA%20%E9%A6%96%E9%83%BD%E5%9C%8F%E3%81%AB%E9%9B%86%E4%B8%AD%E3%80%81%2F&link_type=hybrid_url"
       },
       {
         "rank": 2,
@@ -682,25 +682,6 @@
       },
       {
         "rank": 2,
-        "keyword": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー - スクリーンオンライン",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー - スクリーンオンライン",
-            "snippet": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー&nbsp;&nbsp;スクリーンオンラインアルタ前で本物の現金800万円をばらまく！ 『TOKYO BURST-犯罪都市-』驚きの撮影風景が",
-            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WMnJDTTVIZk1PRGJaaTBsbnRaLVJyM29CRWpZbEVRTEdSM2pDNWxNY3gyY1VRVGRpYWVUZG5jS0hzOEZKamZ1VWE2S3k?oc=5",
-            "source": "スクリーンオンライン"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%86%E3%81%9A%E3%82%8C%E3%81%AA%E3%81%84%E6%AD%A3%E7%BE%A9%E3%81%A8%E7%B5%86%E3%80%8ETOKYO%20BURST-%E7%8A%AF%E7%BD%AA%E9%83%BD%E5%B8%82-%E3%80%8F%E6%B0%B4%E4%B8%8A&tag=topnews22-22",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%86%E3%81%9A%E3%82%8C%E3%81%AA%E3%81%84%E6%AD%A3%E7%BE%A9%E3%81%A8%E7%B5%86%E3%80%8ETOKYO%20BURST-%E7%8A%AF%E7%BD%AA%E9%83%BD%E5%B8%82-%E3%80%8F%E6%B0%B4%E4%B8%8A%2F&link_type=hybrid_url"
-      },
-      {
-        "rank": 3,
         "keyword": "「日プ新世界」JO1川尻蓮、ファイナル歌唱曲を作詞作曲 次回予告登場で反響相次ぐ「待ち遠しい」「素敵なメロディ」 - モデルプレス",
         "category": "エンタメ",
         "source": "google_news",
@@ -717,6 +698,25 @@
         ],
         "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%97%A5%E3%83%97%E6%96%B0%E4%B8%96%E7%95%8C%E3%80%8DJO1%E5%B7%9D%E5%B0%BB%E8%93%AE%E3%80%81%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E6%AD%8C%E5%94%B1%E6%9B%B2%E3%82%92%E4%BD%9C%E8%A9%9E%E4%BD%9C%E6%9B%B2%20%E6%AC%A1%E5%9B%9E&tag=topnews22-22",
         "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E6%97%A5%E3%83%97%E6%96%B0%E4%B8%96%E7%95%8C%E3%80%8DJO1%E5%B7%9D%E5%B0%BB%E8%93%AE%E3%80%81%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%AB%E6%AD%8C%E5%94%B1%E6%9B%B2%E3%82%92%E4%BD%9C%E8%A9%9E%E4%BD%9C%E6%9B%B2%20%E6%AC%A1%E5%9B%9E%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 3,
+        "keyword": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー - スクリーンオンライン",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー - スクリーンオンライン",
+            "snippet": "ゆずれない正義と絆『TOKYO BURST-犯罪都市-』水上恒司×ユンホ（東方神起） インタビュー&nbsp;&nbsp;スクリーンオンラインアルタ前で本物の現金800万円をばらまく！ 『TOKYO BURST-犯罪都市-』驚きの撮影風景が",
+            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1WMnJDTTVIZk1PRGJaaTBsbnRaLVJyM29CRWpZbEVRTEdSM2pDNWxNY3gyY1VRVGRpYWVUZG5jS0hzOEZKamZ1VWE2S3k?oc=5",
+            "source": "スクリーンオンライン"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%86%E3%81%9A%E3%82%8C%E3%81%AA%E3%81%84%E6%AD%A3%E7%BE%A9%E3%81%A8%E7%B5%86%E3%80%8ETOKYO%20BURST-%E7%8A%AF%E7%BD%AA%E9%83%BD%E5%B8%82-%E3%80%8F%E6%B0%B4%E4%B8%8A&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%86%E3%81%9A%E3%82%8C%E3%81%AA%E3%81%84%E6%AD%A3%E7%BE%A9%E3%81%A8%E7%B5%86%E3%80%8ETOKYO%20BURST-%E7%8A%AF%E7%BD%AA%E9%83%BD%E5%B8%82-%E3%80%8F%E6%B0%B4%E4%B8%8A%2F&link_type=hybrid_url"
       },
       {
         "rank": 4,
@@ -739,6 +739,25 @@
       },
       {
         "rank": 5,
+        "keyword": "木村拓哉、ソロ初！！海外ライブ　9月から国内3都市に加えソウル＆台北の計5都市9公演 - サンスポ",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "木村拓哉、ソロ初！！海外ライブ　9月から国内3都市に加えソウル＆台北の計5都市9公演 - サンスポ",
+            "snippet": "木村拓哉、ソロ初！！海外ライブ　9月から国内3都市に加えソウル＆台北の計5都市9公演&nbsp;&nbsp;サンスポキムタク ソロで初の海外公演 レーベル移籍し新たな挑戦「楽しみ」（スポニチアネックス）&nbsp;&nbsp;Yahoo!ニ",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHaEd3b2p6WXUySkZRbDF5b0NzdmdBS3h0enZkYTN6ZU5OamtCeWZ6NkphMmhYM2hQWnNFN0pDOUF0ZkVBZ29nZlZCWVg0MkJaZTduTndyWWJDaWZ0QXZMN3hxLUdUM3lmcUVJSVhXbWxCVWl5aFHSAYoBQVVfeXFMTWVINWJSWk04V21PNXE2RU1NQ2Y0LXdJSzRuWjc3QU1sMTROeVpocjNqTkRTemF5Y3ZRSWZkRndlbjVyZ29BSTF6SnRUV1RnNTNPcEVBeVdHVnYxdlQ0cEpkNEpJTnUxaTRpc19LSXBMYlNHcVNDNjNha201ZFVLckpWQnk3Z05QY19B?oc=5",
+            "source": "サンスポ"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%9C%A8%E6%9D%91%E6%8B%93%E5%93%89%E3%80%81%E3%82%BD%E3%83%AD%E5%88%9D%EF%BC%81%EF%BC%81%E6%B5%B7%E5%A4%96%E3%83%A9%E3%82%A4%E3%83%96%E3%80%809%E6%9C%88%E3%81%8B%E3%82%89%E5%9B%BD%E5%86%853%E9%83%BD%E5%B8%82%E3%81%AB%E5%8A%A0%E3%81%88%E3%82%BD%E3%82%A6&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%9C%A8%E6%9D%91%E6%8B%93%E5%93%89%E3%80%81%E3%82%BD%E3%83%AD%E5%88%9D%EF%BC%81%EF%BC%81%E6%B5%B7%E5%A4%96%E3%83%A9%E3%82%A4%E3%83%96%E3%80%809%E6%9C%88%E3%81%8B%E3%82%89%E5%9B%BD%E5%86%853%E9%83%BD%E5%B8%82%E3%81%AB%E5%8A%A0%E3%81%88%E3%82%BD%E3%82%A6%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 6,
         "keyword": "横山裕が刑事役で主演「今夜もシリアルキラーと待ち合わせ」7月に実写ドラマ化、バディ役は関水渚 - ナタリー",
         "category": "エンタメ",
         "source": "google_news",
@@ -757,45 +776,7 @@
         "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%A8%AA%E5%B1%B1%E8%A3%95%E3%81%8C%E5%88%91%E4%BA%8B%E5%BD%B9%E3%81%A7%E4%B8%BB%E6%BC%94%E3%80%8C%E4%BB%8A%E5%A4%9C%E3%82%82%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%AD%E3%83%A9%E3%83%BC%E3%81%A8%E5%BE%85%E3%81%A1%E5%90%88%E3%82%8F%E3%81%9B%E3%80%8D7%E6%9C%88%2F&link_type=hybrid_url"
       },
       {
-        "rank": 6,
-        "keyword": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！ - デイリースポーツ",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！ - デイリースポーツ",
-            "snippet": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！&nbsp;&nbsp;デイリースポーツ5/26(火) 『推せ推せ！YOKOHAMA☆IDOL SERIES 2026』グッズや、パ・リーグ3球団マスコットとのコラボグッズ登場！&nbsp",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81cmw2ZHdocjA5bFFmcGtCVFFnaWJobGRRVVNOZjd4RnVBT0R6X241LVppN1BtZU1FQlBiZ1dTeTBHRnlSaHZTMnJxX2pPMDdfQkx1MU9ka3dQMWUwYTVXR3RrYUUxU1dUSUEwaQ?oc=5",
-            "source": "デイリースポーツ"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E5%90%91%E5%9D%82%EF%BC%94%EF%BC%96%E3%83%BB%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%20%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E5%A7%8B%E7%90%83%E5%BC%8F%E3%81%A7%E8%B1%AA%E5%BF%AB%E3%83%8E%E3%83%BC%E3%83%90%E3%83%B3%EF%BC%81%20-%20%E3%83%87&tag=topnews22-22",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E5%90%91%E5%9D%82%EF%BC%94%EF%BC%96%E3%83%BB%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%20%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E5%A7%8B%E7%90%83%E5%BC%8F%E3%81%A7%E8%B1%AA%E5%BF%AB%E3%83%8E%E3%83%BC%E3%83%90%E3%83%B3%EF%BC%81%20-%20%E3%83%87%2F&link_type=hybrid_url"
-      },
-      {
         "rank": 7,
-        "keyword": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント - デイリースポーツ",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント - デイリースポーツ",
-            "snippet": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント&nbsp;&nbsp;デイリースポーツ【実際の投稿】香音、生まれてはじめてのショートヘア姿&nbsp;&nbs",
-            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKWGx0YktMQ3ZyVVpHMTh0M3pfYzBzOGlwUm5zei1neFBscE9xU3ZLLWpsNTNYSWNkUWtLcGFHQWxlSnJVT1dDVzRZYWRQT254MlR0WmRRUm50WFVMMFRfa1FxTVhlUExRdlE?oc=5",
-            "source": "デイリースポーツ"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%98%87%E5%A4%A9%E3%81%97%E3%81%A1%E3%82%83%E3%81%84%E3%81%9D%E3%81%86%E3%80%8D%E9%A6%99%E9%9F%B3%E3%82%A4%E3%83%A1%E3%83%81%E3%82%A7%E3%83%B3%E3%80%81%E9%80%8F%E3%81%8D%E3%81%A8%E3%81%8A%E3%82%8B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E9%AB%AA%E3%81%AE%E7%BE%8E&tag=topnews22-22",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E6%98%87%E5%A4%A9%E3%81%97%E3%81%A1%E3%82%83%E3%81%84%E3%81%9D%E3%81%86%E3%80%8D%E9%A6%99%E9%9F%B3%E3%82%A4%E3%83%A1%E3%83%81%E3%82%A7%E3%83%B3%E3%80%81%E9%80%8F%E3%81%8D%E3%81%A8%E3%81%8A%E3%82%8B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E9%AB%AA%E3%81%AE%E7%BE%8E%2F&link_type=hybrid_url"
-      },
-      {
-        "rank": 8,
         "keyword": "高橋文哉、蒼井優主演TBS金曜ドラマ「Tシャツが乾くまで」出演 さらなるキャスト2人の顔隠れた新ビジュアルも解禁 - モデルプレス",
         "category": "エンタメ",
         "source": "google_news",
@@ -814,7 +795,45 @@
         "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E9%AB%98%E6%A9%8B%E6%96%87%E5%93%89%E3%80%81%E8%92%BC%E4%BA%95%E5%84%AA%E4%B8%BB%E6%BC%94TBS%E9%87%91%E6%9B%9C%E3%83%89%E3%83%A9%E3%83%9E%E3%80%8CT%E3%82%B7%E3%83%A3%E3%83%84%E3%81%8C%E4%B9%BE%E3%81%8F%E3%81%BE%E3%81%A7%E3%80%8D%E5%87%BA%2F&link_type=hybrid_url"
       },
       {
+        "rank": 8,
+        "keyword": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！ - デイリースポーツ",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！ - デイリースポーツ",
+            "snippet": "日向坂４６・藤嶌果歩 ハマスタ始球式で豪快ノーバン！&nbsp;&nbsp;デイリースポーツ5/26(火) 『推せ推せ！YOKOHAMA☆IDOL SERIES 2026』グッズや、パ・リーグ3球団マスコットとのコラボグッズ登場！&nbsp",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81cmw2ZHdocjA5bFFmcGtCVFFnaWJobGRRVVNOZjd4RnVBT0R6X241LVppN1BtZU1FQlBiZ1dTeTBHRnlSaHZTMnJxX2pPMDdfQkx1MU9ka3dQMWUwYTVXR3RrYUUxU1dUSUEwaQ?oc=5",
+            "source": "デイリースポーツ"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E5%90%91%E5%9D%82%EF%BC%94%EF%BC%96%E3%83%BB%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%20%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E5%A7%8B%E7%90%83%E5%BC%8F%E3%81%A7%E8%B1%AA%E5%BF%AB%E3%83%8E%E3%83%BC%E3%83%90%E3%83%B3%EF%BC%81%20-%20%E3%83%87&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E5%90%91%E5%9D%82%EF%BC%94%EF%BC%96%E3%83%BB%E8%97%A4%E5%B6%8C%E6%9E%9C%E6%AD%A9%20%E3%83%8F%E3%83%9E%E3%82%B9%E3%82%BF%E5%A7%8B%E7%90%83%E5%BC%8F%E3%81%A7%E8%B1%AA%E5%BF%AB%E3%83%8E%E3%83%BC%E3%83%90%E3%83%B3%EF%BC%81%20-%20%E3%83%87%2F&link_type=hybrid_url"
+      },
+      {
         "rank": 9,
+        "keyword": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント - デイリースポーツ",
+        "category": "エンタメ",
+        "source": "google_news",
+        "type": "news",
+        "volume_approx": "",
+        "trend": "",
+        "news": [
+          {
+            "title": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント - デイリースポーツ",
+            "snippet": "「昇天しちゃいそう」香音イメチェン、透きとおるショート髪の美形に騒然！雰囲気一変「すっごい短い！「時止まった」 父は大物タレント&nbsp;&nbsp;デイリースポーツ【実際の投稿】香音、生まれてはじめてのショートヘア姿&nbsp;&nbs",
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKWGx0YktMQ3ZyVVpHMTh0M3pfYzBzOGlwUm5zei1neFBscE9xU3ZLLWpsNTNYSWNkUWtLcGFHQWxlSnJVT1dDVzRZYWRQT254MlR0WmRRUm50WFVMMFRfa1FxTVhlUExRdlE?oc=5",
+            "source": "デイリースポーツ"
+          }
+        ],
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%8C%E6%98%87%E5%A4%A9%E3%81%97%E3%81%A1%E3%82%83%E3%81%84%E3%81%9D%E3%81%86%E3%80%8D%E9%A6%99%E9%9F%B3%E3%82%A4%E3%83%A1%E3%83%81%E3%82%A7%E3%83%B3%E3%80%81%E9%80%8F%E3%81%8D%E3%81%A8%E3%81%8A%E3%82%8B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E9%AB%AA%E3%81%AE%E7%BE%8E&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%8C%E6%98%87%E5%A4%A9%E3%81%97%E3%81%A1%E3%82%83%E3%81%84%E3%81%9D%E3%81%86%E3%80%8D%E9%A6%99%E9%9F%B3%E3%82%A4%E3%83%A1%E3%83%81%E3%82%A7%E3%83%B3%E3%80%81%E9%80%8F%E3%81%8D%E3%81%A8%E3%81%8A%E3%82%8B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E9%AB%AA%E3%81%AE%E7%BE%8E%2F&link_type=hybrid_url"
+      },
+      {
+        "rank": 10,
         "keyword": "羽生善治九段、タイトル１００期への挑戦逃す…王位戦挑戦者決定戦で伊藤匠二冠に競り負ける - 読売新聞",
         "category": "エンタメ",
         "source": "google_news",
@@ -831,25 +850,6 @@
         ],
         "amazon_url": "https://www.amazon.co.jp/s?k=%E7%BE%BD%E7%94%9F%E5%96%84%E6%B2%BB%E4%B9%9D%E6%AE%B5%E3%80%81%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91%EF%BC%90%EF%BC%90%E6%9C%9F%E3%81%B8%E3%81%AE%E6%8C%91%E6%88%A6%E9%80%83%E3%81%99%E2%80%A6%E7%8E%8B%E4%BD%8D%E6%88%A6%E6%8C%91%E6%88%A6%E8%80%85%E6%B1%BA%E5%AE%9A&tag=topnews22-22",
         "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%BE%BD%E7%94%9F%E5%96%84%E6%B2%BB%E4%B9%9D%E6%AE%B5%E3%80%81%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%EF%BC%91%EF%BC%90%EF%BC%90%E6%9C%9F%E3%81%B8%E3%81%AE%E6%8C%91%E6%88%A6%E9%80%83%E3%81%99%E2%80%A6%E7%8E%8B%E4%BD%8D%E6%88%A6%E6%8C%91%E6%88%A6%E8%80%85%E6%B1%BA%E5%AE%9A%2F&link_type=hybrid_url"
-      },
-      {
-        "rank": 10,
-        "keyword": "明日の「風、薫る」第45回 寛太と会う直美 りんにフユ「教えてもいい」＜5月29日＞ - 産経ニュース",
-        "category": "エンタメ",
-        "source": "google_news",
-        "type": "news",
-        "volume_approx": "",
-        "trend": "",
-        "news": [
-          {
-            "title": "明日の「風、薫る」第45回 寛太と会う直美 りんにフユ「教えてもいい」＜5月29日＞ - 産経ニュース",
-            "snippet": "明日の「風、薫る」第45回 寛太と会う直美 りんにフユ「教えてもいい」＜5月29日＞&nbsp;&nbsp;産経ニュース【次回6月1日の風、薫る】宮地雅子“小野田”の容態が悪化…中井友望“ゆき”が向き合う命の現実（映画チャンネル）&nbsp",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN1M0amw5UXpRRHNiNl9FemNjUTV6dUNRTFhabENBS3VHeWhWQVlCVlNqNDBQYmY2RHVvaWVmTFZmTkc3UmxoYzdiUzVwb1hVMzYwRzBveVh4ODk4cjVlZjhqczJnRlQtMXp1TE1LeVZ4SVlpZzI2dkMzUWFoNHFvWWhPdkhsNEtVWGFDaUszWmY1LWNIMEE?oc=5",
-            "source": "産経ニュース"
-          }
-        ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%98%8E%E6%97%A5%E3%81%AE%E3%80%8C%E9%A2%A8%E3%80%81%E8%96%AB%E3%82%8B%E3%80%8D%E7%AC%AC45%E5%9B%9E%20%E5%AF%9B%E5%A4%AA%E3%81%A8%E4%BC%9A%E3%81%86%E7%9B%B4%E7%BE%8E%20%E3%82%8A%E3%82%93%E3%81%AB%E3%83%95%E3%83%A6%E3%80%8C%E6%95%99%E3%81%88&tag=topnews22-22",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%98%8E%E6%97%A5%E3%81%AE%E3%80%8C%E9%A2%A8%E3%80%81%E8%96%AB%E3%82%8B%E3%80%8D%E7%AC%AC45%E5%9B%9E%20%E5%AF%9B%E5%A4%AA%E3%81%A8%E4%BC%9A%E3%81%86%E7%9B%B4%E7%BE%8E%20%E3%82%8A%E3%82%93%E3%81%AB%E3%83%95%E3%83%A6%E3%80%8C%E6%95%99%E3%81%88%2F&link_type=hybrid_url"
       }
     ],
     "ライフスタイル": [
@@ -1056,7 +1056,7 @@
         "news": [
           {
             "title": "阿部慎之助氏も長女も不幸になった…児相⇒警察⇒実名報道で「虐待加害者の子」として生きることになる過酷な現実 - AERA DIGITAL",
-            "snippet": "阿部慎之助氏も長女も不幸になった…児相⇒警察⇒実名報道で「虐待加害者の子」として生きることになる過酷な現実&nbsp;&nbsp;AERA DIGITAL巨人・阿部慎之助前監督の涙の辞任から一夜、波紋広がる 子育て中の親などからさまざまな声",
+            "snippet": "阿部慎之助氏も長女も不幸になった…児相⇒警察⇒実名報道で「虐待加害者の子」として生きることになる過酷な現実&nbsp;&nbsp;AERA DIGITAL「思い通りにならないと怒る」阿部前監督 二岡コーチが退団、ゴルフでは誰もチームを組みた",
             "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oRmFQVW1DM0MwSWdlLXBOd2Z0b2VVa2xjYzdpSDZiOGYyeXlKWEVRVExyVUQ4c19fWUJDV1VZQVgycnVBak5XSFdVZTFfQmJ6amZSaWpEUXZhUQ?oc=5",
             "source": "AERA DIGITAL"
           }
@@ -1218,7 +1218,7 @@
       },
       {
         "rank": 10,
-        "keyword": "日本ハム ヒーローインタビューで異例の光景 島本浩也が３６０度に一礼→負けた古巣ファンが拍手＆歓声に「幸せです」清原氏も「これが阪神ファンのいいところ」 - デイリースポーツ",
+        "keyword": "【ダービー・枠順確定】「並びがいい。すぐ隣で良かった」アスクエジンバラの福永師が騎手視線で - 日刊スポーツ",
         "category": "スポーツ",
         "source": "google_news",
         "type": "news",
@@ -1226,14 +1226,14 @@
         "trend": "",
         "news": [
           {
-            "title": "日本ハム ヒーローインタビューで異例の光景 島本浩也が３６０度に一礼→負けた古巣ファンが拍手＆歓声に「幸せです」清原氏も「これが阪神ファンのいいところ」 - デイリースポーツ",
-            "snippet": "日本ハム ヒーローインタビューで異例の光景 島本浩也が３６０度に一礼→負けた古巣ファンが拍手＆歓声に「幸せです」清原氏も「これが阪神ファンのいいところ」&nbsp;&nbsp;デイリースポーツ日本ハム ヒーローインタビューで異例の光景 島本",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nOGhtUmlJczFleEZGVlZtNmFlWm9wa0lEU3oyNXNpdDJWUkppYzZuU01qNF9BSWQzb3NiZFhJdEdUSmk3N3phOU5nZExLb2QxY1g5T0l4S0ZjMTdIbFN5cnNPd1h4X0ZCWS12Ng?oc=5",
-            "source": "デイリースポーツ"
+            "title": "【ダービー・枠順確定】「並びがいい。すぐ隣で良かった」アスクエジンバラの福永師が騎手視線で - 日刊スポーツ",
+            "snippet": "【ダービー・枠順確定】「並びがいい。すぐ隣で良かった」アスクエジンバラの福永師が騎手視線で&nbsp;&nbsp;日刊スポーツ【日本ダービー／枠順】アウダーシアは“馬券内率5％”の不振枠 「2.0.3.3」該当で穴は内枠にあり&nbsp;&",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FdDdTcDhvYWh0YjRkX2J5S0Y1aWpXRUlzRW5tOUhSaDlXSG9vT2c1dVJ5aGFVM25xOHVkQ2p6aUR5WVFRNkozb1RjaDRyM0pBWlVidWVLRzAtSEU5dWxLZ2o2dDVLV29GZHBLV9IBdEFVX3lxTE9UTWRvZ0dFM3lLejgyNy1Vbm50dFUyRDF3dm1Ub1BxcWhZSlo2MjRiZlFNSW1Eajc0b01OTHlCakVyUHhOXzNEV29SVktkWHBUYkw4U041OUk1LXlWUURVSU9ZTDdHQ2daNjI4ZDhZUVVTS2Fn?oc=5",
+            "source": "日刊スポーツ"
           }
         ],
-        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%97%A5%E6%9C%AC%E3%83%8F%E3%83%A0%20%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E3%81%A7%E7%95%B0%E4%BE%8B%E3%81%AE%E5%85%89%E6%99%AF%20%E5%B3%B6%E6%9C%AC%E6%B5%A9%E4%B9%9F%E3%81%8C%EF%BC%93%EF%BC%96%EF%BC%90&tag=topnews22-22",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%97%A5%E6%9C%AC%E3%83%8F%E3%83%A0%20%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E3%81%A7%E7%95%B0%E4%BE%8B%E3%81%AE%E5%85%89%E6%99%AF%20%E5%B3%B6%E6%9C%AC%E6%B5%A9%E4%B9%9F%E3%81%8C%EF%BC%93%EF%BC%96%EF%BC%90%2F&link_type=hybrid_url"
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%E3%83%BB%E6%9E%A0%E9%A0%86%E7%A2%BA%E5%AE%9A%E3%80%91%E3%80%8C%E4%B8%A6%E3%81%B3%E3%81%8C%E3%81%84%E3%81%84%E3%80%82%E3%81%99%E3%81%90%E9%9A%A3%E3%81%A7%E8%89%AF%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%8D%E3%82%A2%E3%82%B9%E3%82%AF&tag=topnews22-22",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%80%90%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%E3%83%BB%E6%9E%A0%E9%A0%86%E7%A2%BA%E5%AE%9A%E3%80%91%E3%80%8C%E4%B8%A6%E3%81%B3%E3%81%8C%E3%81%84%E3%81%84%E3%80%82%E3%81%99%E3%81%90%E9%9A%A3%E3%81%A7%E8%89%AF%E3%81%8B%E3%81%A3%E3%81%9F%E3%80%8D%E3%82%A2%E3%82%B9%E3%82%AF%2F&link_type=hybrid_url"
       }
     ],
     "グルメ": [
