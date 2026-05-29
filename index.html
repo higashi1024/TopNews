@@ -814,7 +814,9 @@ async function renderRanking() {
 
     // モバイル用: 5件ごとにガジェット比較バナーを挿入
     if ((idx + 1) % 5 === 0 && idx + 1 < items.length) {
-      const rndG = GADGETS[Math.floor(Math.random() * GADGETS.length)];
+      const rndG = gadgetItems.length > 0
+        ? gadgetItems[Math.floor(Math.random() * gadgetItems.length)]
+        : GADGET_FALLBACK[Math.floor(Math.random() * GADGET_FALLBACK.length)];
       const row  = document.createElement('div');
       row.className = 'inline-aff-row';
       row.innerHTML = `
