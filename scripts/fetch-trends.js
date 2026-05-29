@@ -364,7 +364,7 @@ async function main() {
       applicationId: CONFIG.RAKUTEN_APP_ID,
       accessKey:     CONFIG.RAKUTEN_ACCESS_KEY,
       keyword:       "ガジェット",
-      hits:          "50",
+      hits:          "30",  // 楽天APIの上限は30件
       format:        "json",
     });
     const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401?"
