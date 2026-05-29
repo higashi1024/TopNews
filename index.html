@@ -320,9 +320,9 @@
   /* ─── ページレイアウト（3カラム） ─── */
   .page-layout{
     display:grid;
-    grid-template-columns:200px 1fr 200px;
-    gap:24px;
-    max-width:1280px;
+    grid-template-columns:1fr 240px;
+    gap:28px;
+    max-width:1100px;
     margin:0 auto;
     padding:32px 16px 80px;
     align-items:start;
@@ -333,52 +333,107 @@
     padding:0;        /* page-layoutがpaddingを持つため0に */
   }
 
-  /* ─── サイドバー ─── */
+  /* ─── サイドバー（商品比較カード） ─── */
   .sidebar{
     position:sticky;
     top:80px;
   }
-  .sidebar-label{
-    font-size:10px;
-    color:var(--text-muted);
-    letter-spacing:0.12em;
-    margin-bottom:6px;
-    text-align:center;
-  }
-  .sidebar-aff{
-    display:flex;flex-direction:column;align-items:center;
-    padding:20px 12px;
+  .gadget-card{
+    background:var(--bg2);
+    border:1px solid var(--border);
     border-radius:10px;
-    text-decoration:none;
-    text-align:center;
-    gap:8px;
-    transition:opacity 0.18s, transform 0.18s;
+    overflow:hidden;
   }
-  .sidebar-aff:hover{ opacity:0.85; transform:translateY(-2px); }
-  .sidebar-aff.aff-amazon{
-    background:rgba(255,153,0,0.1);
-    border:1px solid rgba(255,153,0,0.3);
+  .gadget-card-header{
+    padding:10px 14px;
+    border-bottom:1px solid var(--border);
+    display:flex;align-items:center;justify-content:space-between;
   }
-  .sidebar-aff.aff-rakuten{
-    background:rgba(191,0,0,0.1);
-    border:1px solid rgba(191,0,0,0.3);
+  .gadget-card-label{
+    font-size:10px;font-weight:700;
+    letter-spacing:0.1em;color:var(--gold);
   }
-  .sidebar-aff-icon{ font-size:28px; }
-  .sidebar-aff-name{
-    font-size:14px;font-weight:700;letter-spacing:0.06em;
+  .gadget-pr{
+    font-size:9px;color:var(--text-muted);
+    border:1px solid var(--border);
+    padding:1px 5px;border-radius:2px;
   }
-  .aff-amazon .sidebar-aff-name{ color:#ffb84d; }
-  .aff-rakuten .sidebar-aff-name{ color:#ff6b6b; }
-  .sidebar-aff-desc{
+  .gadget-body{ padding:14px; }
+  .gadget-name{
+    font-size:13px;font-weight:700;
+    color:var(--text);margin-bottom:4px;
+    line-height:1.4;
+  }
+  .gadget-desc{
     font-size:11px;color:var(--text-muted);
-    line-height:1.5;word-break:break-all;
+    line-height:1.5;margin-bottom:14px;
   }
-  .sidebar-aff-cta{
-    font-size:11px;font-weight:700;
-    padding:5px 12px;border-radius:4px;margin-top:4px;
+  .gadget-compare{
+    display:flex;flex-direction:column;gap:8px;
   }
-  .aff-amazon  .sidebar-aff-cta{ background:rgba(255,153,0,0.2); color:#ffb84d; }
-  .aff-rakuten .sidebar-aff-cta{ background:rgba(191,0,0,0.2);   color:#ff6b6b; }
+  .gadget-btn{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:10px 12px;border-radius:6px;
+    text-decoration:none;font-size:12px;font-weight:700;
+    transition:opacity 0.15s, transform 0.15s;
+    gap:6px;
+  }
+  .gadget-btn:hover{ opacity:0.85; transform:translateX(2px); }
+  .gadget-btn-left{ display:flex;align-items:center;gap:7px; }
+  .gadget-btn-arrow{ font-size:11px;opacity:0.7; }
+  .gadget-btn.amazon{
+    background:rgba(255,153,0,0.12);
+    border:1px solid rgba(255,153,0,0.35);
+    color:#ffb84d;
+  }
+  .gadget-btn.rakuten{
+    background:rgba(191,0,0,0.12);
+    border:1px solid rgba(191,0,0,0.35);
+    color:#ff6b6b;
+  }
+  /* 商品リストアイテム */
+  .gadget-list{ display:flex;flex-direction:column;gap:12px; }
+  .gadget-item{
+    padding-bottom:12px;
+    border-bottom:1px solid var(--border);
+  }
+  .gadget-item:last-child{ border-bottom:none;padding-bottom:0; }
+  .gadget-item-inner{
+    display:flex;gap:10px;align-items:flex-start;
+    margin-bottom:8px;
+  }
+  .gadget-thumb{
+    width:56px;height:56px;object-fit:contain;
+    border-radius:4px;background:var(--bg3);
+    flex-shrink:0;border:1px solid var(--border);
+  }
+  .gadget-thumb-empty{
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;
+  }
+  .gadget-item-info{ flex:1;min-width:0; }
+  .gadget-rank{
+    font-size:10px;font-weight:700;
+    color:var(--gold);letter-spacing:0.06em;
+    margin-bottom:2px;
+  }
+  .gadget-price{
+    font-size:12px;font-weight:700;
+    color:#3ecf8e;margin-top:3px;
+  }
+
+  .gadget-shuffle{
+    margin-top:12px;padding-top:10px;
+    border-top:1px solid var(--border);
+    text-align:center;
+  }
+  .gadget-shuffle-btn{
+    background:transparent;border:none;
+    font-size:11px;color:var(--text-muted);
+    cursor:pointer;font-family:'Noto Sans JP',sans-serif;
+    transition:color 0.15s;
+  }
+  .gadget-shuffle-btn:hover{ color:var(--gold); }
 
   /* ─── モバイル用インラインアフィリエイトバナー ─── */
   .inline-aff-row{
@@ -399,6 +454,7 @@
   /* ─── スマホ対応 ─── */
   @media (max-width: 768px) {
     .page-layout   { grid-template-columns: 1fr; padding: 16px 14px 60px; gap: 0; }
+    .gadget-card   { display: none; }  /* スマホはインライン表示のみ */
     .sidebar       { display: none; }         /* サイドバーを非表示 */
     .inline-aff-row{ display: flex; }         /* インラインバナーを表示 */
     header         { padding: 0 16px; }
@@ -428,17 +484,6 @@
 
 <div class="page-layout">
 
-  <!-- 左サイドバー：Amazon -->
-  <aside class="sidebar sidebar-left">
-    <div class="sidebar-label">PR</div>
-    <a class="sidebar-aff aff-amazon" id="sidebar-amazon" href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer">
-      <div class="sidebar-aff-icon">📦</div>
-      <div class="sidebar-aff-name">Amazon</div>
-      <div class="sidebar-aff-desc" id="sidebar-amazon-kw">トレンド商品を探す</div>
-      <div class="sidebar-aff-cta">今すぐチェック →</div>
-    </a>
-  </aside>
-
   <!-- メインコンテンツ -->
   <main>
     <div class="section-title">トレンドランキング</div>
@@ -467,15 +512,20 @@
     <div class="ranking-list" id="ranking-list"></div>
   </main>
 
-  <!-- 右サイドバー：楽天 -->
+  <!-- 右サイドバー：ガジェット比較カード -->
   <aside class="sidebar sidebar-right">
-    <div class="sidebar-label">PR</div>
-    <a class="sidebar-aff aff-rakuten" id="sidebar-rakuten" href="https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fwww.rakuten.co.jp%2F&link_type=hybrid_url" target="_blank" rel="noopener noreferrer">
-      <div class="sidebar-aff-icon">🛍</div>
-      <div class="sidebar-aff-name">楽天市場</div>
-      <div class="sidebar-aff-desc" id="sidebar-rakuten-kw">トレンド商品を探す</div>
-      <div class="sidebar-aff-cta">今すぐチェック →</div>
-    </a>
+    <div class="gadget-card" id="gadget-card">
+      <div class="gadget-card-header">
+        <span class="gadget-card-label">🎁 おすすめガジェット</span>
+        <span class="gadget-pr">PR</span>
+      </div>
+      <div class="gadget-body">
+        <div class="gadget-list" id="gadget-list">読み込み中...</div>
+        <div class="gadget-shuffle">
+          <button class="gadget-shuffle-btn" onclick="shuffleGadget()">🔀 他の商品を見る</button>
+        </div>
+      </div>
+    </div>
   </aside>
 
 </div>
@@ -490,7 +540,96 @@
 // ================================================================
 // 定数
 // ================================================================
-const ASSOCIATE_ID = "topnews22-22"; // ← Amazonアソシエイト登録後に変更
+const ASSOCIATE_ID  = "topnews22-22";
+const RAKUTEN_AFF   = "0ec9c427.aa5cd21c.0ec9c428.b5bedaac";
+
+// ================================================================
+// ガジェットリスト（ランダム表示）
+// ================================================================
+// ================================================================
+// 楽天ランキングAPI（ガジェット・リアルタイム人気順）
+// ================================================================
+let gadgetItems = [];   // APIから取得した商品リスト
+let gadgetPage  = 0;    // 表示ページ（5件ずつ）
+const GADGET_PAGE_SIZE = 5;
+
+// 楽天ランキングAPIで「ガジェット・家電」カテゴリを取得
+// JSONファイルからガジェットを読み込む（サーバー側で楽天API取得済み）
+async function fetchRakutenRanking() {
+  try {
+    const today = new Date(Date.now() + 9*60*60*1000).toISOString().slice(0,10);
+    const data  = await fetchData(today);
+    if (data.gadgets && data.gadgets.length > 0) {
+      gadgetItems = data.gadgets;
+      gadgetPage  = 0;
+      renderGadget();
+    } else {
+      renderGadgetFallback();
+    }
+  } catch (err) {
+    console.warn("ガジェットデータ取得失敗:", err.message);
+    renderGadgetFallback();
+  }
+}
+
+// フォールバック（JSONにデータがない場合）
+const GADGET_FALLBACK = [
+  { name:"AirPods Pro 第2世代",    desc:"",  image:"", rakutenUrl:"https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FAirPods+Pro%2F&link_type=hybrid_url", amazonUrl:"https://www.amazon.co.jp/s?k=AirPods+Pro+第2世代&tag=topnews22-22" },
+  { name:"Nintendo Switch 有機EL", desc:"",  image:"", rakutenUrl:"https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FNintendo+Switch%2F&link_type=hybrid_url", amazonUrl:"https://www.amazon.co.jp/s?k=Nintendo+Switch+有機EL&tag=topnews22-22" },
+  { name:"Apple Watch SE",         desc:"",  image:"", rakutenUrl:"https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FApple+Watch+SE%2F&link_type=hybrid_url", amazonUrl:"https://www.amazon.co.jp/s?k=Apple+Watch+SE&tag=topnews22-22" },
+  { name:"Kindle Paperwhite",      desc:"",  image:"", rakutenUrl:"https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FKindle%2F&link_type=hybrid_url", amazonUrl:"https://www.amazon.co.jp/s?k=Kindle+Paperwhite&tag=topnews22-22" },
+  { name:"Sony WH-1000XM5",        desc:"",  image:"", rakutenUrl:"https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSony+WH-1000XM5%2F&link_type=hybrid_url", amazonUrl:"https://www.amazon.co.jp/s?k=Sony+WH-1000XM5&tag=topnews22-22" },
+];
+function renderGadgetFallback() {
+  gadgetItems = GADGET_FALLBACK;
+  gadgetPage  = 0;
+  renderGadget();
+}
+
+// サイドバーに商品を描画（5件ずつ・画像付き）
+function renderGadget() {
+  const container = document.getElementById('gadget-list');
+  if (!container) return;
+
+  const start = gadgetPage * GADGET_PAGE_SIZE;
+  const items = gadgetItems.slice(start, start + GADGET_PAGE_SIZE);
+
+  if (items.length === 0) { gadgetPage = 0; fetchRakutenRanking(); return; }
+
+  container.innerHTML = '';
+  items.forEach((g, i) => {
+    const rank = start + i + 1;
+    const el   = document.createElement('div');
+    el.className = 'gadget-item';
+    el.innerHTML = `
+      <div class="gadget-item-inner">
+        ${g.image
+          ? `<img class="gadget-thumb" src="${g.image}" alt="${g.name}" loading="lazy">`
+          : `<div class="gadget-thumb gadget-thumb-empty">📦</div>`
+        }
+        <div class="gadget-item-info">
+          <div class="gadget-rank">${rank}位</div>
+          <div class="gadget-name">${g.name}</div>
+          ${g.desc ? `<div class="gadget-price">${g.desc}</div>` : ''}
+        </div>
+      </div>
+      <div class="gadget-compare">
+        <a class="gadget-btn amazon"  href="${g.amazonUrl}"  target="_blank" rel="noopener noreferrer">
+          <span>📦 Amazon</span><span class="gadget-btn-arrow">→</span>
+        </a>
+        <a class="gadget-btn rakuten" href="${g.rakutenUrl}" target="_blank" rel="noopener noreferrer">
+          <span>🛍 楽天</span><span class="gadget-btn-arrow">→</span>
+        </a>
+      </div>`;
+    container.appendChild(el);
+  });
+}
+
+function shuffleGadget() {
+  const maxPage = Math.ceil(gadgetItems.length / GADGET_PAGE_SIZE) - 1;
+  gadgetPage = gadgetPage >= maxPage ? 0 : gadgetPage + 1;
+  fetchRakutenRanking();
+}
 
 // ================================================================
 // カテゴリ定義
@@ -679,42 +818,25 @@ async function renderRanking() {
     div.addEventListener('click', () => div.classList.toggle('expanded'));
     list.appendChild(div);
 
-    // モバイル用: 5件ごとにアフィリエイトバナーを挿入
+    // モバイル用: 5件ごとにガジェット比較バナーを挿入
     if ((idx + 1) % 5 === 0 && idx + 1 < items.length) {
-      const kw  = items[idx].keyword;
-      const enc = encodeURIComponent(kw.slice(0, 20));
-      const row = document.createElement('div');
+      const rndG = GADGETS[Math.floor(Math.random() * GADGETS.length)];
+      const row  = document.createElement('div');
       row.className = 'inline-aff-row';
       row.innerHTML = `
         <a class="inline-aff-link aff-amazon"
-           href="https://www.amazon.co.jp/s?k=${enc}&tag=${ASSOCIATE_ID}"
+           href="${amazonUrl(rndG.akw)}"
            target="_blank" rel="noopener noreferrer">
-          📦 Amazon で探す
+          📦 ${rndG.name}をAmazonで
         </a>
         <a class="inline-aff-link aff-rakuten"
-           href="https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${enc}%2F&link_type=hybrid_url"
+           href="${rakutenUrl(rndG.rkw)}"
            target="_blank" rel="noopener noreferrer">
-          🛍 楽天市場
+          🛍 楽天で比較
         </a>`;
       list.appendChild(row);
     }
   });
-
-  // サイドバーのリンクとキーワードを先頭アイテムで更新
-  if (items.length > 0) {
-    const topKw  = items[0].keyword;
-    const topEnc = encodeURIComponent(topKw.slice(0, 30));
-    const amazonEl  = document.getElementById('sidebar-amazon');
-    const rakutenEl = document.getElementById('sidebar-rakuten');
-    if (amazonEl) {
-      amazonEl.href = `https://www.amazon.co.jp/s?k=${topEnc}&tag=${ASSOCIATE_ID}`;
-      document.getElementById('sidebar-amazon-kw').textContent = `「${topKw.slice(0,16)}」を探す`;
-    }
-    if (rakutenEl) {
-      rakutenEl.href = `https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${topEnc}%2F&link_type=hybrid_url`;
-      document.getElementById('sidebar-rakuten-kw').textContent = `「${topKw.slice(0,16)}」を探す`;
-    }
-  }
 
   updateCount(items.length);
 }
@@ -740,6 +862,7 @@ renderTabs();
 renderCategoryBar();
 renderRanking();
 startCountdown();
+fetchRakutenRanking();
 </script>
 </body>
 </html>

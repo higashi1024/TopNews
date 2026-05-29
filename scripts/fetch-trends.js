@@ -19,6 +19,8 @@ const CONFIG = {
   GOOGLE_TRENDS_URL: "https://trends.google.co.jp/trending/rss?geo=JP",
   ANTHROPIC_API_URL: "https://api.anthropic.com/v1/messages",
   ANTHROPIC_MODEL:   "claude-haiku-4-5-20251001",
+  RAKUTEN_APP_ID:    "9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+  RAKUTEN_AFF_ID:    "0ec9c427.aa5cd21c.0ec9c428.b5bedaac",
 };
 
 // カテゴリ別 Google News RSS
@@ -312,9 +314,42 @@ async function main() {
     }
   }
 
+  // ── 楽天ランキングAPI ──
+  console.log("🛍 楽天ランキングを取得中...");
+  let gadgets = [];
+  try {
+    const rakutenApiUrl = "https://app.rakuten.co.jp/services/api/IchibaItem/Ranking/20150513"
+      + `?applicationId=${CONFIG.RAKUTEN_APP_ID}`
+      + `&affiliateId=${CONFIG.RAKUTEN_AFF_ID}`
+      + "&genreId=216131"
+      + "&hits=30"
+      + "&imageFlag=1"
+      + "&format=json";
+
+    const rakutenRes  = await fetchUrl(rakutenApiUrl);
+    const rakutenJson = JSON.parse(rakutenRes);
+
+    if (rakutenJson.Items && rakutenJson.Items.length > 0) {
+      gadgets = rakutenJson.Items.map((it, i) => {
+        const item = it.Item;
+        return {
+          rank:       i + 1,
+          name:       item.itemName.slice(0, 40),
+          price:      `¥${Number(item.itemPrice).toLocaleString()}`,
+          image:      item.mediumImageUrls?.[0]?.imageUrl || "",
+          rakutenUrl: item.affiliateUrl || item.itemUrl,
+          amazonUrl:  `https://www.amazon.co.jp/s?k=${encodeURIComponent(item.itemName.slice(0, 20))}&tag=${CONFIG.ASSOCIATE_ID}`,
+        };
+      });
+      console.log(`✅ 楽天ランキング: ${gadgets.length}件`);
+    }
+  } catch (err) {
+    console.warn(`⚠️ 楽天ランキング取得失敗: ${err.message}`);
+  }
+
   // ── JSON保存 ──
   const updatedAt = new Date(Date.now() + jstOffset).toISOString().replace("Z", "+09:00");
-  const data = { date: today, updated_at: updatedAt, trends: trendsItems, categories };
+  const data = { date: today, updated_at: updatedAt, trends: trendsItems, categories, gadgets };
   const outPath = path.join(CONFIG.DATA_DIR, `${today}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), "utf8");
   console.log(`💾 保存: ${outPath}`);
