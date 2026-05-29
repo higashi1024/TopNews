@@ -320,29 +320,35 @@ async function main() {
   console.log("🛍 楽天人気ガジェットを取得中...");
   let gadgets = [];
   try {
-    // genreId=216131: スマートフォン・タブレット周辺機器
-    // sort=-reviewCount: レビュー数の多い順（人気順の代替）
-    const rakutenApiUrl = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706"
+    // 新エンドポイント（2026-04-01）+ アクセスキー必須
+    const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401"
       + `?applicationId=${CONFIG.RAKUTEN_APP_ID}`
+      + `&accessKey=${CONFIG.RAKUTEN_ACCESS_KEY}`
       + `&affiliateId=${CONFIG.RAKUTEN_AFF_ID}`
-      + "&genreId=216131"
+      + "&keyword=ガジェット"
       + "&sort=-reviewCount"
       + "&hits=30"
       + "&imageFlag=1"
-      + "&availability=1"
+      + "&formatVersion=2"
       + "&format=json";
 
     const rakutenRes  = await fetchUrl(rakutenApiUrl);
     const rakutenJson = JSON.parse(rakutenRes);
 
-    if (rakutenJson.Items && rakutenJson.Items.length > 0) {
-      gadgets = rakutenJson.Items.map((it, i) => {
-        const item = it.Item || it;
+    // formatVersion=2: Items配列が items[i].itemName 形式
+    const items = rakutenJson.Items || [];
+    if (items.length > 0) {
+      gadgets = items.map((it, i) => {
+        // formatVersion=2はフラット、1はit.Item形式
+        const item = it.itemName ? it : (it.Item || it);
+        const imgUrl = Array.isArray(item.mediumImageUrls)
+          ? (item.mediumImageUrls[0]?.imageUrl || item.mediumImageUrls[0] || "")
+          : "";
         return {
           rank:       i + 1,
           name:       (item.itemName || "").slice(0, 40),
           price:      item.itemPrice ? `¥${Number(item.itemPrice).toLocaleString()}` : "",
-          image:      item.mediumImageUrls?.[0]?.imageUrl || "",
+          image:      imgUrl,
           rakutenUrl: item.affiliateUrl || item.itemUrl || "",
           amazonUrl:  `https://www.amazon.co.jp/s?k=${encodeURIComponent((item.itemName || "").slice(0, 20))}&tag=${CONFIG.ASSOCIATE_ID}`,
         };
