@@ -761,7 +761,7 @@ async function renderRanking() {
   // すべて → trends TOP10 / カテゴリ別 → categories[カテゴリ名]
   let items;
   if (currentCat === "すべて") {
-    items = (data.trends || []).slice(0, 10);
+    items = (data.trends || []).slice(0, 25); // Google Trends RSSの上限が約25件
   } else {
     items = (data.categories && data.categories[currentCat]) || [];
   }

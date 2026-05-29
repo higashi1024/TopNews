@@ -184,7 +184,7 @@ function parseNewsRSS(xml, categoryName) {
     items.push({ title, url, snippet, publisher });
   }
 
-  return items.slice(0, 10).map((item, i) => {
+  return items.slice(0, 50).map((item, i) => {
     // アフィリエイト検索用：見出しの先頭30文字
     const searchKw = encodeURIComponent(item.title.slice(0, 30));
     return {
@@ -318,7 +318,7 @@ async function main() {
       cats = rawItems.map(item => fallbackCategory(item.keyword));
     }
 
-    trendsItems = rawItems.slice(0, 10).map((item, i) => {
+    trendsItems = rawItems.slice(0, 25).map((item, i) => {
       const cat = CATEGORIES.includes(cats[i]) ? cats[i] : fallbackCategory(item.keyword);
       const enc = encodeURIComponent(item.keyword);
       return {
@@ -364,7 +364,7 @@ async function main() {
       applicationId: CONFIG.RAKUTEN_APP_ID,
       accessKey:     CONFIG.RAKUTEN_ACCESS_KEY,
       keyword:       "ガジェット",
-      hits:          "30",
+      hits:          "50",
       format:        "json",
     });
     const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401?"
