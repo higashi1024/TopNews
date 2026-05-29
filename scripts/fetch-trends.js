@@ -361,10 +361,7 @@ async function main() {
       applicationId: CONFIG.RAKUTEN_APP_ID,
       affiliateId:   CONFIG.RAKUTEN_AFF_ID,
       keyword:       "ガジェット",
-      sort:          "-reviewCount",
       hits:          "30",
-      imageFlag:     "1",
-      formatVersion: "2",
       format:        "json",
     });
     const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401?"
