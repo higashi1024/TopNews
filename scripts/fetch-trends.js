@@ -318,10 +318,11 @@ async function main() {
   console.log("🛍 楽天ランキングを取得中...");
   let gadgets = [];
   try {
+    // genreId=0: 全カテゴリ総合ランキング（無効なジャンルIDを除去）
     const rakutenApiUrl = "https://app.rakuten.co.jp/services/api/IchibaItem/Ranking/20150513"
       + `?applicationId=${CONFIG.RAKUTEN_APP_ID}`
       + `&affiliateId=${CONFIG.RAKUTEN_AFF_ID}`
-      + "&genreId=216131"
+      + "&genreId=0"
       + "&hits=30"
       + "&imageFlag=1"
       + "&format=json";
