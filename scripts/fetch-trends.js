@@ -373,6 +373,8 @@ async function main() {
     // Authorizationヘッダー付きでリクエスト
     const rakutenRes  = await fetchUrlWithHeaders(rakutenApiUrl, {
       "Authorization": `Bearer ${CONFIG.RAKUTEN_ACCESS_KEY}`,
+      "Referer":       "https://top-news-kappa.vercel.app/",
+      "Origin":        "https://top-news-kappa.vercel.app",
     });
     console.log("楽天APIレスポンス先頭200文字:", rakutenRes.slice(0, 200));
     const rakutenJson = JSON.parse(rakutenRes);
