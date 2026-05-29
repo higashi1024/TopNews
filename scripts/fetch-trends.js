@@ -362,6 +362,7 @@ async function main() {
     // アクセスキーはAuthorizationヘッダーで渡す（パラメータより優先される）
     const rakutenParams = new URLSearchParams({
       applicationId: CONFIG.RAKUTEN_APP_ID,
+      accessKey:     CONFIG.RAKUTEN_ACCESS_KEY,
       keyword:       "ガジェット",
       hits:          "30",
       format:        "json",
