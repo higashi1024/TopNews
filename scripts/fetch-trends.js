@@ -21,6 +21,7 @@ const CONFIG = {
   ANTHROPIC_MODEL:   "claude-haiku-4-5-20251001",
   RAKUTEN_APP_ID:    "9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
   RAKUTEN_AFF_ID:    "0ec9c427.aa5cd21c.0ec9c428.b5bedaac",
+  RAKUTEN_ACCESS_KEY:"pk_uRYSPaITfEvCsSsqD1QDqXz5Rfk3yuxTXOzIopEQOYY",
 };
 
 // カテゴリ別 Google News RSS
@@ -321,6 +322,7 @@ async function main() {
     // 新バージョンのランキングAPIエンドポイント（2022-06-01）
     const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibaranking/api/IchibaItem/Ranking/20220601"
       + `?applicationId=${CONFIG.RAKUTEN_APP_ID}`
+      + `&accessKey=${CONFIG.RAKUTEN_ACCESS_KEY}`
       + `&affiliateId=${CONFIG.RAKUTEN_AFF_ID}`
       + "&hits=30"
       + "&imageFlag=1"
