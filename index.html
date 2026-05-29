@@ -563,7 +563,6 @@ async function fetchRakutenRanking() {
     const data  = await fetchData(today);
     if (data.gadgets && data.gadgets.length > 0) {
       gadgetItems = data.gadgets;
-      gadgetPage  = 0;
       renderGadget();
     } else {
       renderGadgetFallback();
