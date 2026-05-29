@@ -35,9 +35,9 @@
   header{
     border-bottom:1px solid var(--border);
     padding:0 24px;
-    display:flex;
+    display:grid;
+    grid-template-columns:1fr auto 1fr;
     align-items:center;
-    justify-content:space-between;
     height:64px;
     position:sticky;top:0;z-index:100;
     background:rgba(11,13,17,0.92);
@@ -48,6 +48,8 @@
     font-size:22px;
     color:var(--gold-lt);
     letter-spacing:0.02em;
+    grid-column:2;
+    text-align:center;
   }
   .logo span{
     font-family:'Noto Sans JP',sans-serif;
@@ -138,7 +140,7 @@
     border-color:transparent;
   }
   /* カテゴリ別カラー */
-  .cat-btn[data-cat="すべて"].active        { background:#8a8880; }
+  .cat-btn[data-cat="トレンド"].active        { background:#8a8880; }
   .cat-btn[data-cat="テクノロジー"].active   { background:#4285f4; }
   .cat-btn[data-cat="経済・投資"].active     { background:#3ecf8e; }
   .cat-btn[data-cat="エンタメ"].active       { background:#a855f7; }
@@ -478,11 +480,11 @@
 <body>
 
 <header>
+  <div style="grid-column:1"></div>
   <div class="logo">
-    TrendAff
-    <span>今日の話題 × アフィリエイト</span>
+    トレンドランキング
   </div>
-  <div class="refresh-badge">
+  <div class="refresh-badge" style="justify-self:end">
     <div class="refresh-dot"></div>
     <span id="next-update">次回更新: --:--後</span>
   </div>
@@ -492,8 +494,7 @@
 
   <!-- メインコンテンツ -->
   <main>
-    <div class="section-title">トレンドランキング</div>
-    <div class="section-subtitle">TRENDING KEYWORDS — クリックでニュースを表示</div>
+
 
     <!-- 日付タブ（5日分） -->
     <div class="date-tabs" id="date-tabs"></div>
@@ -628,7 +629,7 @@ function shuffleGadget() { /* 全件表示のため不使用 */ }
 // ================================================================
 // カテゴリ定義
 // ================================================================
-const CATEGORIES = ["すべて","テクノロジー","経済・投資","エンタメ","ライフスタイル","スポーツ","グルメ","社会・ニュース"];
+const CATEGORIES = ["トレンド","テクノロジー","経済・投資","エンタメ","ライフスタイル","スポーツ","グルメ","社会・ニュース"];
 
 // カテゴリ → CSSクラス変換（特殊文字を除去）
 function catClass(cat) {
@@ -665,7 +666,7 @@ function getLast5Days() {
 
 const days = getLast5Days();
 let currentDate = days[0];
-let currentCat  = "すべて";
+let currentCat  = "トレンド";
 
 // ================================================================
 // 日付ラベル
@@ -717,7 +718,7 @@ function applyFilter() {
   const items = document.querySelectorAll('.ranking-item[data-category]');
   let visible = 0;
   items.forEach(el => {
-    const match = (currentCat === "すべて" || el.dataset.category === currentCat);
+    const match = (currentCat === "トレンド" || el.dataset.category === currentCat);
     el.classList.toggle('hidden', !match);
     if (match) visible++;
   });
@@ -726,7 +727,7 @@ function applyFilter() {
 
 function updateCount(n) {
   const el = document.getElementById('result-count');
-  if (currentCat === "すべて") {
+  if (currentCat === "トレンド") {
     el.innerHTML = `全 <strong>${n}</strong> 件`;
   } else {
     el.innerHTML = `「<strong>${currentCat}</strong>」 ${n} 件`;
@@ -760,7 +761,7 @@ async function renderRanking() {
 
   // すべて → trends TOP10 / カテゴリ別 → categories[カテゴリ名]
   let items;
-  if (currentCat === "すべて") {
+  if (currentCat === "トレンド") {
     items = (data.trends || []).slice(0, 25); // Google Trends RSSの上限が約25件
   } else {
     items = (data.categories && data.categories[currentCat]) || [];
