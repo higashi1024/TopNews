@@ -821,12 +821,12 @@ async function renderRanking() {
       row.className = 'inline-aff-row';
       row.innerHTML = `
         <a class="inline-aff-link aff-amazon"
-           href="${amazonUrl(rndG.akw)}"
+           href="${rndG.amazonUrl || '#'}"
            target="_blank" rel="noopener noreferrer">
           📦 ${rndG.name}をAmazonで
         </a>
         <a class="inline-aff-link aff-rakuten"
-           href="${rakutenUrl(rndG.rkw)}"
+           href="${rndG.rakutenUrl || '#'}"
            target="_blank" rel="noopener noreferrer">
           🛍 楽天で比較
         </a>`;
