@@ -8,17 +8,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg:        #0f1116;
-    --bg2:       #181b22;
-    --bg3:       #21242e;
-    --border:    rgba(255,255,255,0.08);
-    --gold:      #c9a84c;
-    --gold-lt:   #d4b060;
-    --text:      #b8b4ac;
-    --text-muted:#6e6a66;
-    --rank1:     #c9a84c;
-    --rank2:     #9ba5b4;
-    --rank3:     #b47c4e;
+    --bg:        #f5f4f2;
+    --bg2:       #ffffff;
+    --bg3:       #eceae6;
+    --border:    rgba(0,0,0,0.10);
+    --gold:      #a07828;
+    --gold-lt:   #8a6820;
+    --text:      #3a3830;
+    --text-muted:#888078;
+    --rank1:     #a07828;
+    --rank2:     #6a7888;
+    --rank3:     #8a5c2e;
   }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
@@ -27,7 +27,8 @@
     color:var(--text);
     font-family:'Noto Sans JP',sans-serif;
     font-weight:400;
-    line-height:1.6;
+    font-size:17px;
+    line-height:1.7;
     min-height:100vh;
   }
 
@@ -40,7 +41,7 @@
     align-items:center;
     height:64px;
     position:sticky;top:0;z-index:100;
-    background:rgba(11,13,17,0.92);
+    background:rgba(245,244,242,0.95);
     backdrop-filter:blur(12px);
   }
   .logo{
@@ -50,6 +51,7 @@
     letter-spacing:0.02em;
     grid-column:2;
     text-align:center;
+    font-size:24px;
   }
   .logo span{
     font-family:'Noto Sans JP',sans-serif;
@@ -189,7 +191,7 @@
 
   .rank-num{
     font-family:'DM Serif Display',serif;
-    font-size:32px;
+    font-size:36px;
     line-height:1;
     text-align:right;
     color:var(--text-muted);
@@ -201,7 +203,7 @@
 
   .rank-info{ min-width:0; }
   .rank-keyword{
-    font-size:17px;
+    font-size:19px;
     font-weight:700;
     color:var(--text);
     margin-bottom:6px;
@@ -213,9 +215,9 @@
     font-size:10px;font-weight:700;
     padding:2px 8px;border-radius:2px;letter-spacing:0.06em;
   }
-  .src-google  { background:rgba(66,133,244,0.15);color:#7ab3ff;border:1px solid rgba(66,133,244,0.3); }
-  .src-niconico{ background:rgba(235,87,87,0.15); color:#ff9a9a;border:1px solid rgba(235,87,87,0.3); }
-  .src-yahoo   { background:rgba(230,0,18,0.15);  color:#ff7a7a;border:1px solid rgba(230,0,18,0.3); }
+  .src-google  { background:rgba(66,133,244,0.12);color:#1a56c4;border:1px solid rgba(66,133,244,0.3); }
+  .src-niconico{ background:rgba(235,87,87,0.12); color:#c02020;border:1px solid rgba(235,87,87,0.3); }
+  .src-yahoo   { background:rgba(230,0,18,0.12);  color:#c00010;border:1px solid rgba(230,0,18,0.3); }
 
   .trend-arrow{ font-size:11px; color:var(--text-muted); }
   .up  { color:#3ecf8e; }
@@ -250,8 +252,8 @@
     text-decoration:none;transition:opacity 0.15s;letter-spacing:0.04em;
   }
   .aff-link:hover{opacity:0.8;}
-  .aff-amazon { background:rgba(255,153,0,0.12);border:1px solid rgba(255,153,0,0.35);color:#ffb84d; }
-  .aff-rakuten{ background:rgba(191,0,0,0.12);  border:1px solid rgba(191,0,0,0.35); color:#ff6b6b; }
+  .aff-amazon { background:rgba(255,153,0,0.15);border:1px solid rgba(255,153,0,0.5);color:#c07000; }
+  .aff-rakuten{ background:rgba(191,0,0,0.10);  border:1px solid rgba(191,0,0,0.4);  color:#bf0000; }
 
   .rank-right{
     display:flex;flex-direction:column;align-items:flex-end;gap:4px;padding-top:6px;
@@ -281,9 +283,9 @@
   /* フッター */
   footer{
     border-top:1px solid var(--border);padding:24px;
-    text-align:center;font-size:11px;color:var(--text-muted);line-height:2;
+    text-align:center;font-size:13px;color:var(--text-muted);line-height:2;
   }
-  footer a{ color:var(--gold);text-decoration:none; }
+  footer a{ color:var(--gold-lt);text-decoration:none; }
 
   /* ─── ニュースカード ─── */
   .news-list{
@@ -427,7 +429,7 @@
   }
   .gadget-price{
     font-size:12px;font-weight:700;
-    color:#3ecf8e;margin-top:3px;
+    color:#1a7a50;margin-top:3px;
   }
 
   .gadget-shuffle{
@@ -450,14 +452,20 @@
     margin:8px 0;
   }
   .inline-aff-link{
-    flex:1;display:flex;align-items:center;justify-content:center;gap:6px;
-    padding:10px 8px;border-radius:6px;
+    flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;
+    padding:10px 8px;border-radius:8px;
     font-size:12px;font-weight:700;text-decoration:none;
     transition:opacity 0.15s;
   }
   .inline-aff-link:hover{opacity:0.8;}
-  .inline-aff-link.aff-amazon { background:rgba(255,153,0,0.12);border:1px solid rgba(255,153,0,0.35);color:#ffb84d; }
-  .inline-aff-link.aff-rakuten{ background:rgba(191,0,0,0.12);  border:1px solid rgba(191,0,0,0.35); color:#ff6b6b; }
+  .inline-aff-link.aff-amazon { background:rgba(255,153,0,0.15);border:1px solid rgba(255,153,0,0.5);color:#c07000; }
+  .inline-aff-link.aff-rakuten{ background:rgba(191,0,0,0.10);  border:1px solid rgba(191,0,0,0.4);  color:#bf0000; }
+  .inline-aff-thumb{
+    width:60px;height:60px;object-fit:contain;border-radius:4px;
+    background:#fff;border:1px solid rgba(0,0,0,0.08);
+  }
+  .inline-aff-thumb-empty{ font-size:28px; }
+  .inline-aff-label{ font-size:11px;font-weight:700; }
 
   /* ─── スマホ対応 ─── */
   @media (max-width: 768px) {
@@ -820,16 +828,23 @@ async function renderRanking() {
         : GADGET_FALLBACK[Math.floor(Math.random() * GADGET_FALLBACK.length)];
       const row  = document.createElement('div');
       row.className = 'inline-aff-row';
+      const thumbHtml = rndG.image
+        ? `<img class="inline-aff-thumb" src="${rndG.image}" alt="${rndG.name}" loading="lazy">`
+        : `<span class="inline-aff-thumb-empty">📦</span>`;
       row.innerHTML = `
         <a class="inline-aff-link aff-amazon"
            href="${rndG.amazonUrl || '#'}"
            target="_blank" rel="noopener noreferrer">
-          📦 ${rndG.name}をAmazonで
+          ${thumbHtml}
+          <span class="inline-aff-label">📦 Amazonで見る</span>
+          <span style="font-size:10px;opacity:0.7">${rndG.price || ''}</span>
         </a>
         <a class="inline-aff-link aff-rakuten"
            href="${rndG.rakutenUrl || '#'}"
            target="_blank" rel="noopener noreferrer">
-          🛍 楽天で比較
+          ${thumbHtml}
+          <span class="inline-aff-label">🛍 楽天で見る</span>
+          <span style="font-size:10px;opacity:0.7">${rndG.price || ''}</span>
         </a>`;
       list.appendChild(row);
     }
