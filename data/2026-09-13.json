@@ -1,0 +1,521 @@
+{
+  "date": "2026-09-13",
+  "updated_at": "2026-09-13T01:42:57.053+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "プレミアリーグ 試合",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "ハル守田英正は内転筋負傷でプレミアリーグ2試合連続メンバー外に（ゲキサカ）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/27007a3fc0d32b664d95a3a5168164e576458650",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "「まじかよ」「代表きついかー」土曜深夜、日本に飛び込んできたまさかの“悲報”にネット騒然「本当にツイてない」「間に合わないやん」",
+          "snippet": "",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=196714",
+          "source": "サッカーダイジェストWeb"
+        },
+        {
+          "title": "ハル・シティ指揮官、欠場した守田英正の状態に言及「復帰には2週間かかる」",
+          "snippet": "",
+          "url": "https://www.soccer-king.jp/news/world/eng/20260907/2201618.html",
+          "source": "サッカーキング"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%AA%E3%83%BC%E3%82%B0%20%E8%A9%A6%E5%90%88&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%AA%E3%83%BC%E3%82%B0%20%E8%A9%A6%E5%90%88%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 2,
+      "keyword": "指原千夏",
+      "category": "エンタメ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%8C%87%E5%8E%9F%E5%8D%83%E5%A4%8F&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%8C%87%E5%8E%9F%E5%8D%83%E5%A4%8F%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 3,
+      "keyword": "ローズステークス",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "【ローズＳ】“令和のファインモーション”が１・８倍の断然人気 超良血イクシード、エンネが続く 前日オッズ（馬トク報知）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/c15c296466c4a0bf2562216adb4d6100afbe6803",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "【キムラヨウヘイさんコラム】「ノーザンF生産馬」＆3歳牝馬世代レベル低い年の「夏の上がり馬」重視…ローズS本命はモンローウォークだ！",
+          "snippet": "",
+          "url": "https://www.chunichi.co.jp/article/1310474",
+          "source": "中日新聞Web"
+        },
+        {
+          "title": "【ローズS】阪神特化の厩舎と絶好調の牧場が送り出す！逆襲の予感漂う注目馬",
+          "snippet": "",
+          "url": "https://www.keibalab.jp/topics/46536/",
+          "source": "競馬ラボ"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AF%E3%82%B9&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AF%E3%82%B9%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 4,
+      "keyword": "シントトロイデン",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "ホーム戦に強いベフェレン相手に崩しきれず2試合ぶりの敗戦【リーグ戦 第6節 ベフェレン戦】",
+          "snippet": "",
+          "url": "https://sports.yahoo.co.jp/official/detail/2026091200114-spnaviow",
+          "source": "スポーツナビ"
+        },
+        {
+          "title": "【9月12日】シント＝トロイデンvsベフェレンのライブ中継・テレビ放送・ネット配信｜谷口彰悟・荒木遼太郎・石渡ネルソンら所属",
+          "snippet": "",
+          "url": "https://www.sportingnews.com/jp/soccer/news/20260912-beveren-stvv-tv-ott/1989b99b245c0b78f3988f99",
+          "source": "Sporting News JP"
+        },
+        {
+          "title": "ベフェレンvsシントトロイデン スタメン発表",
+          "snippet": "",
+          "url": "https://news.livedoor.com/article/detail/32309577/",
+          "source": "ライブドアニュース"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%B3%E3%83%88%E3%83%88%E3%83%AD%E3%82%A4%E3%83%87%E3%83%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%B7%E3%83%B3%E3%83%88%E3%83%88%E3%83%AD%E3%82%A4%E3%83%87%E3%83%B3%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 5,
+      "keyword": "ngoại hạng anh",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "Siêu máy tính Opta dự đoán Ngoại hạng Anh 12/9: Liverpool, Chelsea sáng cửa, đại chiến Villa - Forest dễ chia điểm",
+          "snippet": "",
+          "url": "https://www.vietnam.vn/sieu-may-tinh-opta-du-doan-ngoai-hang-anh-12-9-liverpool-chelsea-sang-cua-dai-chien-villa-forest-de-chia-diem",
+          "source": "Vietnam.vn"
+        },
+        {
+          "title": "Liverpool hòa Fulham 0-0: Bất lực trước hàng thủ đội khách tại Anfield",
+          "snippet": "",
+          "url": "https://baolaocai.vn/liverpool-hoa-fulham-0-0-bat-luc-truoc-hang-thu-doi-khach-tai-anfield-post909275.html",
+          "source": "Báo Lào Cai điện tử"
+        },
+        {
+          "title": "Kết quả bóng đá Premier League: Chelsea và Liverpool cùng hòa",
+          "snippet": "",
+          "url": "https://thethaovanhoa.vn/ket-qua-bong-da-premier-league-chelsea-va-liverpool-cung-hoa-20260911203148786.htm",
+          "source": "thethaovanhoa.vn"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=ngo%E1%BA%A1i%20h%E1%BA%A1ng%20anh&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fngo%E1%BA%A1i%20h%E1%BA%A1ng%20anh%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 6,
+      "keyword": "プレミアリーグ",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "5000+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "「かなりのコストカットに繋がった」パリSG移籍破談も証明された“破格の力” 鈴木彩艶の年俸7億円契約に英メディアも感心「すでにお買い得」（CoCoKARAnext）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/b92d9a4efb4b83d8001ec28f6817dd2b1cdef8c2",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "まるでレーザービーム！？鈴木彩艶、オーバースローでハーフライン越え→解説もと驚愕の瞬間 | 9.9 クルブ・ブルッヘvsアストン・ヴィラ - UEFAチャンピオンズリーグ - Matchday1 (スポーツ) | 無料動画・見逃し配信を見るなら",
+          "snippet": "",
+          "url": "https://abema.tv/video/episode/wo_36742_s202600401_p1789091256",
+          "source": "ABEMA"
+        },
+        {
+          "title": "「MF級のパス能力」に各国メディアが驚愕 新守護神の座を確立した鈴木彩艶 3000万ポンドの巨額投資は「賭けと呼ぶには相応しくない」",
+          "snippet": "",
+          "url": "https://cocokara-next.com/football/europe/zion-suzuki-transfer-to-aston-villa-12/",
+          "source": "ココカラネクスト"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%AA%E3%83%BC%E3%82%B0&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%AA%E3%83%BC%E3%82%B0%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 7,
+      "keyword": "トッテナム 対 エヴァートン",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "1000+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "【9月13日】トッテナムvsエヴァートンの放送/配信予定｜プレミアリーグ第4節",
+          "snippet": "",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/tottenham-everton-md4-premier-league-20260913/blt00d43ef9f934d24a",
+          "source": "Goal.com"
+        },
+        {
+          "title": "【予想先発】エヴァ―トン戦の先発予想──ポロ＆ウドギに“試合当日判断”の波紋ソランケとクドゥスの先発は？デゼルビの選択を読む",
+          "snippet": "",
+          "url": "https://spurs.sc/2026/09/12/tottenham-predicted-xi-vs-everton-20260912/",
+          "source": "スパーズジャパン"
+        },
+        {
+          "title": "プレミアリーグ トッテナム対エバートン戦のサッカープレビュー",
+          "snippet": "",
+          "url": "https://ja.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-tottenham-vs-everton-tai-premier-league-1765318.ldo",
+          "source": "Laodong.vn"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%88%E3%83%83%E3%83%86%E3%83%8A%E3%83%A0%20%E5%AF%BE%20%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%88%E3%83%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%88%E3%83%83%E3%83%86%E3%83%8A%E3%83%A0%20%E5%AF%BE%20%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%88%E3%83%B3%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 8,
+      "keyword": "アリソン",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "サッカー＝リバプールＧＫアリソンに罰金、電子ボード蹴って破損（ロイター）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/7581dc82668695f4897f0a49a107d8b68ee6e701",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "リヴァプール守護神アリソンに罰金処分…フォレスト戦試合後に不適切な振る舞い",
+          "snippet": "",
+          "url": "https://www.soccer-king.jp/news/world/eng/20260910/2203464.html",
+          "source": "サッカーキング"
+        },
+        {
+          "title": "サッカー＝リバプールＧＫアリソンに罰金、電子ボード蹴って破損",
+          "snippet": "",
+          "url": "https://newspicks.com/news/17486914/?ref=pickstream_1002",
+          "source": "NewsPicks"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%AA%E3%82%BD%E3%83%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%A2%E3%83%AA%E3%82%BD%E3%83%B3%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 9,
+      "keyword": "福士蒼汰",
+      "category": "エンタメ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E7%A6%8F%E5%A3%AB%E8%92%BC%E6%B1%B0&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%A6%8F%E5%A3%AB%E8%92%BC%E6%B1%B0%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 10,
+      "keyword": "cocomi",
+      "category": "エンタメ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "Ｃｏｃｏｍｉ 妹Ｋｏｋｉ，の「専属フォトグラファー」でベネチアへ「連れていってくれて」と伊ブランドに感謝",
+          "snippet": "",
+          "url": "https://www.daily.co.jp/gossip/2026/09/12/0020811861.shtml",
+          "source": "デイリースポーツ"
+        },
+        {
+          "title": "『バズリズム LIVE』BUZZER STAGE出演アーティスト発表 音楽シーンの次世代を担う種が集う",
+          "snippet": "",
+          "url": "https://www.oricon.co.jp/news/2479283/photo/6/",
+          "source": "オリコンニュース"
+        },
+        {
+          "title": "【実際の投稿】Kōki，「美しい瞬間」全身シースルー撮",
+          "snippet": "",
+          "url": "https://www.chunichi.co.jp/article/1310390",
+          "source": "中日新聞Web"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=cocomi&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fcocomi%2F&link_type=hybrid_url"
+    }
+  ],
+  "categories": {},
+  "gadgets": [
+    {
+      "rank": 1,
+      "name": "【ふるさと納税】 モバイルバッテリー 大容量 軽量 小型 20000mAh タイ",
+      "price": "¥20,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-mb20001_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0033/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%20%E5%A4%A7&tag=topnews22-22"
+    },
+    {
+      "rank": 2,
+      "name": "【ふるさと納税】 MOTTERU 充電器 USB タイプC タイプA 対応 軽量",
+      "price": "¥10,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-acpd65wu1_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0027/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20MOTTERU%20%E5%85%85%E9%9B%BB%E5%99%A8&tag=topnews22-22"
+    },
+    {
+      "rank": 3,
+      "name": "【ふるさと納税】MOTTERU(モッテル) しなやかで絡まない 240W対応 U",
+      "price": "¥9,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-scb240ccg_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0200/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91MOTTERU(%E3%83%A2%E3%83%83%E3%83%86%E3%83%AB&tag=topnews22-22"
+    },
+    {
+      "rank": 4,
+      "name": "【ふるさと納税】 MOTTERU モバイルバッテリー 急速充電 10000mAh",
+      "price": "¥20,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/13188932/13189027/imgrc0128828271.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/mot291/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20MOTTERU%20%E3%83%A2%E3%83%90%E3%82%A4&tag=topnews22-22"
+    },
+    {
+      "rank": 5,
+      "name": "【ふるさと納税】 モバイルバッテリー MOTTERU 家電 10000mAh 大",
+      "price": "¥10,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-mb10001_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0025/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%20M&tag=topnews22-22"
+    },
+    {
+      "rank": 6,
+      "name": "【ふるさと納税】 オウルテック モバイルバッテリー ワイヤレス スタンド 充電 ",
+      "price": "¥25,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/9-0389.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/9-0389/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%82%AA%E3%82%A6%E3%83%AB%E3%83%86%E3%83%83%E3%82%AF%20%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB&tag=topnews22-22"
+    },
+    {
+      "rank": 7,
+      "name": "【ふるさと納税】 オウルテック タイプC 巻取り ケーブル PD60W対応 ホワ",
+      "price": "¥8,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/9-0204_01.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/9-0204/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%82%AA%E3%82%A6%E3%83%AB%E3%83%86%E3%83%83%E3%82%AF%20%E3%82%BF%E3%82%A4%E3%83%97C&tag=topnews22-22"
+    },
+    {
+      "rank": 8,
+      "name": "【ふるさと納税】 充電器 オウルテック 急速充電 USB タイプC 高出力 小型",
+      "price": "¥14,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/9-0378.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/9-0378/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E5%85%85%E9%9B%BB%E5%99%A8%20%E3%82%AA%E3%82%A6%E3%83%AB%E3%83%86%E3%83%83%E3%82%AF%20&tag=topnews22-22"
+    },
+    {
+      "rank": 9,
+      "name": "【ふるさと納税】 Owltech スマホ 充電器 タイプC 2口 小型 軽量 薄",
+      "price": "¥16,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/9-0377.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/9-0377/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20Owltech%20%E3%82%B9%E3%83%9E%E3%83%9B&tag=topnews22-22"
+    },
+    {
+      "rank": 10,
+      "name": "【ふるさと納税】 MOTTERU(モッテル) しなやかで絡まない シリコンケーブ",
+      "price": "¥5,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/36-0277sku_n01.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0087/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20MOTTERU(%E3%83%A2%E3%83%83%E3%83%86&tag=topnews22-22"
+    },
+    {
+      "rank": 11,
+      "name": "【ふるさと納税】MOTTERU(モッテル) しなやかで絡まない シリコンケーブル",
+      "price": "¥9,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-scbclg_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0092/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91MOTTERU(%E3%83%A2%E3%83%83%E3%83%86%E3%83%AB&tag=topnews22-22"
+    },
+    {
+      "rank": 12,
+      "name": "【ふるさと納税】 ケーブル 急速充電 MOTTERU マグネット スマホケーブル",
+      "price": "¥5,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/36-0293_1.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0266/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%20%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%20M&tag=topnews22-22"
+    },
+    {
+      "rank": 13,
+      "name": "【ふるさと納税】 MOTTERU(モッテル) AC充電器 PD35W USB-C",
+      "price": "¥10,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-acpd35wu1_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0193/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20MOTTERU(%E3%83%A2%E3%83%83%E3%83%86&tag=topnews22-22"
+    },
+    {
+      "rank": 14,
+      "name": "ガジェットポーチ ガジェットケース トラベルポーチ 収納ケース 充電器ポーチ セ",
+      "price": "¥1,980",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/2/200-bagin015bk.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/sanwadirect/200-bagin015bk/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%20%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9%20%E3%83%88%E3%83%A9&tag=topnews22-22"
+    },
+    {
+      "rank": 15,
+      "name": "【ふるさと納税】超やわらかで断線に強い 耐屈曲3万回以上 充電／データ転送 シリ",
+      "price": "¥5,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/9-0297.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/9-0297/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%E8%B6%85%E3%82%84%E3%82%8F%E3%82%89%E3%81%8B%E3%81%A7%E6%96%AD%E7%B7%9A%E3%81%AB%E5%BC%B7%E3%81%84%20&tag=topnews22-22"
+    },
+    {
+      "rank": 16,
+      "name": "【楽天1位受賞】ガジェットポーチ 小物入れ 5ポケット ストラップ付 旅行 海外",
+      "price": "¥1,580",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/2/200-bagin005.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/sanwadirect/200-bagin005/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E6%A5%BD%E5%A4%A91%E4%BD%8D%E5%8F%97%E8%B3%9E%E3%80%91%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%20%E5%B0%8F%E7%89%A9%E5%85%A5&tag=topnews22-22"
+    },
+    {
+      "rank": 17,
+      "name": "収納ポーチ トラベルポーチ 旅行ポーチ 小物ポーチ ガジェットポーチ ケーブル収",
+      "price": "¥1,580",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/2/200-bagin013.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/sanwadirect/200-bagin013/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%8F%8E%E7%B4%8D%E3%83%9D%E3%83%BC%E3%83%81%20%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%83%9D%E3%83%BC%E3%83%81%20%E6%97%85%E8%A1%8C%E3%83%9D%E3%83%BC%E3%83%81%20&tag=topnews22-22"
+    },
+    {
+      "rank": 18,
+      "name": "【ふるさと納税】 タイプC ケーブル マグネットケーブル 1m Owltech ",
+      "price": "¥7,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/9-0299.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/9-0299/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%82%BF%E3%82%A4%E3%83%97C%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%20%E3%83%9E&tag=topnews22-22"
+    },
+    {
+      "rank": 19,
+      "name": "ガジェットポーチ 薄型 ガジェットケース B5サイズ モバイルバッテリーケース ",
+      "price": "¥2,480",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/2/200-bagin024.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/sanwadirect/200-bagin024/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%20%E8%96%84%E5%9E%8B%20%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9&tag=topnews22-22"
+    },
+    {
+      "rank": 20,
+      "name": "ガジェットポーチ 大容量 2層式 ガジェットケース 仕切り調整可能 ケーブル収納",
+      "price": "¥1,180",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/karafura-shop/cabinet/k1104-k.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/karafura-shop/k1104/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%20%E5%A4%A7%E5%AE%B9%E9%87%8F%202%E5%B1%A4%E5%BC%8F%20%E3%82%AC%E3%82%B8%E3%82%A7&tag=topnews22-22"
+    },
+    {
+      "rank": 21,
+      "name": "UGREEN ガジェットポーチ コンパクト PC周辺小物 収納ケース トラベルポ",
+      "price": "¥2,599",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/compass1690195124.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/ugreen-gear/50903/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=UGREEN%20%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%20%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF&tag=topnews22-22"
+    },
+    {
+      "rank": 22,
+      "name": "【楽天1位受賞】セミハードケース ガジェットケース トラベルポーチ 30cm 大",
+      "price": "¥2,780",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/2/200-bagin023bk.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/sanwadirect/200-bagin023bk/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E6%A5%BD%E5%A4%A91%E4%BD%8D%E5%8F%97%E8%B3%9E%E3%80%91%E3%82%BB%E3%83%9F%E3%83%8F%E3%83%BC%E3%83%89%E3%82%B1%E3%83%BC%E3%82%B9%20%E3%82%AC%E3%82%B8%E3%82%A7&tag=topnews22-22"
+    },
+    {
+      "rank": 23,
+      "name": "ガジェットポーチ ガジェットケース 小物ケース ハードケース 小型 小物入れ 旅",
+      "price": "¥1,780",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sanwadirect/cabinet/2/200-bagin014bk.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/sanwadirect/200-bagin014bk/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81%20%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9%20%E5%B0%8F%E7%89%A9&tag=topnews22-22"
+    },
+    {
+      "rank": 24,
+      "name": "ポーチ 小物入れ メンズ 耐水ポーチ ガジェットポーチ 小物ポーチ 化粧ポーチ ",
+      "price": "¥2,760",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/asoboze/cabinet/tf-v180/tf-v180_cartnewgr.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/asoboze/tf-v180/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%83%BC%E3%83%81%20%E5%B0%8F%E7%89%A9%E5%85%A5%E3%82%8C%20%E3%83%A1%E3%83%B3%E3%82%BA%20%E8%80%90%E6%B0%B4%E3%83%9D%E3%83%BC%E3%83%81%20%E3%82%AC&tag=topnews22-22"
+    },
+    {
+      "rank": 25,
+      "name": "【ふるさと納税】 Owltech 最大4台同時にかしこく充電 USB Type-",
+      "price": "¥8,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/sam/9-0190.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/9-0190/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20Owltech%20%E6%9C%80%E5%A4%A74&tag=topnews22-22"
+    },
+    {
+      "rank": 26,
+      "name": "【ふるさと納税】 えび〜にゃ印刷モデル　スタンドに乗せたまま充電 角度調整できる",
+      "price": "¥10,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/sam/36-0120.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0120/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%81%88%E3%81%B3%E3%80%9C%E3%81%AB%E3%82%83%E5%8D%B0%E5%88%B7%E3%83%A2%E3%83%87%E3%83%AB%E3%80%80&tag=topnews22-22"
+    },
+    {
+      "rank": 27,
+      "name": "【ふるさと納税】 MOTTERU モバイルバッテリー 小型 軽量 5,000mA",
+      "price": "¥10,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-mb5001-ec_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0173/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20MOTTERU%20%E3%83%A2%E3%83%90%E3%82%A4&tag=topnews22-22"
+    },
+    {
+      "rank": 28,
+      "name": "【ふるさと納税】 スタンド タブレット スマホ えび〜にゃ 印刷モデル スマホス",
+      "price": "¥12,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/sam/36-0118.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0118/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%20%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88%20&tag=topnews22-22"
+    },
+    {
+      "rank": 29,
+      "name": "【ふるさと納税】MOTTERU(モッテル)　AC充電器 PD65W USB-C ",
+      "price": "¥15,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/f142158-ebina/cabinet/henreihin6/mot-acpd65_sku.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/f142158-ebina/36-0256/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%90%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E%E3%80%91MOTTERU(%E3%83%A2%E3%83%83%E3%83%86%E3%83%AB&tag=topnews22-22"
+    },
+    {
+      "rank": 30,
+      "name": "＼楽天1位999冠達成／ガジェットポーチ ポーチ 収納 防水 ミニポーチ ナイロ",
+      "price": "¥1,000",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/travel-depart/cabinet/gadget/gadget-18/gpouch_top.jpg?_ex=128x128",
+      "rakutenUrl": "https://item.rakuten.co.jp/travel-depart/gadget-18/?rafcid=wsc_i_is_9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%EF%BC%BC%E6%A5%BD%E5%A4%A91%E4%BD%8D999%E5%86%A0%E9%81%94%E6%88%90%EF%BC%8F%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%9D%E3%83%BC%E3%83%81&tag=topnews22-22"
+    }
+  ]
+}
