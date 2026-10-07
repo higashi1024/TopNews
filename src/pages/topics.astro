@@ -14,7 +14,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
 <Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" noindex={true} hideHeader={true}>
   <div class="titlebar">
     <h1>今日の話題</h1>
-    <a class="toupdates" href="/updates/">公的機関の最新情報</a>
+    <a class="toupdates" id="toupdates" href={`/updates/#${days[0].date}`}>公的機関の最新情報</a>
   </div>
   <div class="tabs" role="tablist" aria-label="日付">
     {days.map((d, i) => <button type="button" role="tab" class="tab" data-tab={d.date} aria-selected={i === 0 ? "true" : "false"}>{label(d.date)}</button>)}
@@ -84,6 +84,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
       function show(date) {
         tabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.tab === date ? "true" : "false"); });
         panels.forEach(function (p) { p.hidden = p.dataset.panel !== date; });
+        var lk = document.getElementById("toupdates"); if (lk) lk.setAttribute("href", "/updates/#" + date);
       }
       tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.dataset.tab); }); });
     })();
