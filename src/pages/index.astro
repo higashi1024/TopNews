@@ -1,46 +1,98 @@
 ---
+import fs from "node:fs";
+import path from "node:path";
 import Base from "../layouts/Base.astro";
 import { loadLatest } from "../lib/data.js";
-const data = loadLatest();
-const updated = data.updated_at.replace("T", " ").slice(0, 16);
+const latest = loadLatest();
+const gadgetsKeyword = latest.gadgets_keyword || "";
+const bigImage = (u) => (u || "").replace("_ex=128x128", "_ex=400x400");
+const gadgets = latest.gadgets.slice(0, 5).map((g) => ({ ...g, big: bigImage(g.image) }));
+const dir = path.resolve("src/content/topics");
+const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 7); // 新しい7日分だけ表示
+const jst = (iso) => {
+  if (!iso) return "不明";
+  const t = new Date(iso);
+  return isNaN(t.getTime()) ? "不明" : t.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }) + "(日本時間)";
+};
+const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
 ---
-<Base title="トレンドランキング" description={`${data.date} のGoogleトレンド急上昇キーワードのランキングです。各キーワードの関連ニュースを確認できます。`}>
-  <h1>今日のトレンドキーワード({data.date})</h1>
-  <p>Googleトレンド(日本)の急上昇ワードを一覧にしています。最終更新:{updated}(日本時間)。データの出どころは Google トレンド RSS です。</p>
-  <ol class="rank">
-    {data.trends.map((t) => (
-      <li>
-        <span class="no">{t.rank}</span><strong>{t.keyword}</strong>
-        {t.volume_approx && <span class="vol"> 検索回数の目安:{t.volume_approx}</span>}
-        <div class="vol">分類:{t.category}</div>
-        {t.news?.length > 0 && (
-          <ul>
-            {t.news.slice(0, 2).map((n) => (
-              <li style="background:none;padding:0;margin:4px 0"><a href={n.url} rel="nofollow noopener">{n.title}</a> <span class="vol">({n.source})</span></li>
-            ))}
-          </ul>
-        )}
-        <div class="links">
-          <a href={t.amazon_url} rel="sponsored nofollow noopener">Amazonで探す(PR)</a>
-          <a href={t.rakuten_url} rel="sponsored nofollow noopener">楽天で探す(PR)</a>
-        </div>
-      </li>
-    ))}
-  </ol>
-  {data.gadgets.length > 0 && (
-    <>
-      <h2>おすすめ商品(PR)</h2>
-      {data.gadgets_keyword && <p class="vol">今日の話題「{data.gadgets_keyword}」の関連商品(1日1回更新)</p>}
-      <ol class="rank">
-        {data.gadgets.slice(0, 10).map((g) => (
-          <li><span class="no">{g.rank}</span>{g.name} <span class="vol">{g.price}</span>
-            <div class="links">
-              <a href={g.rakutenUrl} rel="sponsored nofollow noopener">楽天で見る</a>
-              <a href={g.amazonUrl} rel="sponsored nofollow noopener">Amazonで探す</a>
-            </div>
+<Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" hideHeader={true}>
+  <div class="titlebar">
+    <h1>今日の話題</h1>
+    <a class="toupdates" id="toupdates" href={`/updates/#${days[0].date}`}>公的機関の最新情報</a>
+  </div>
+  <div class="tabs" role="tablist" aria-label="日付">
+    {days.map((d, i) => <button type="button" role="tab" class="tab" data-tab={d.date} aria-selected={i === 0 ? "true" : "false"}>{label(d.date)}</button>)}
+  </div>
+  <div class="layout">
+  <div class="main">
+  {days.map((d, i) => (
+    <section class="panel" data-panel={d.date} hidden={i !== 0}>
+      <h2>{label(d.date)}のTOP3(テクノロジー)</h2>
+      <ol class="topics">
+        {d.items.map((it) => (
+          <li>
+            <h3><a href={it.url} rel="noopener nofollow" target="_blank">{it.title}</a></h3>
+            <p class="vol">ニュースの公開時刻:{jst(it.published)}</p>
+            {it.background.length > 0 ? (
+              <>
+                <h4>背景(確認できたこと)</h4>
+                <ul>{it.background.map((b) => <li>{b.text}{b.url && <> <a href={b.url} rel="noopener">[{b.label}]</a></>}</li>)}</ul>
+                {it.actions.length > 0 && (<><h4>読者ができること</h4><ul>{it.actions.map((a) => <li>{a}</li>)}</ul></>)}
+                {it.unknown.length > 0 && (<><h4>確認できなかったこと</h4><ul>{it.unknown.map((u) => <li>{u}</li>)}</ul></>)}
+                {it.terms.length > 0 && (<><h4>用語</h4><ul>{it.terms.map((t) => <li><strong>{t[0]}</strong>:{t[1]}</li>)}</ul></>)}
+              </>
+            ) : <p class="vol">解説は準備中です(出典を確認中)。</p>}
           </li>
         ))}
       </ol>
-    </>
-  )}
+    </section>
+  ))}
+  </div>
+  <aside class="side" aria-label="広告(PR)">
+    <h2>おすすめ商品(PR)</h2>
+    {gadgetsKeyword && <p class="vol">今日の話題「{gadgetsKeyword}」の関連商品(1日1回更新)</p>}
+    <ol class="rank">
+      {gadgets.map((g) => (
+        <li class="prod"><span class="no">{g.rank}</span>{g.name} <span class="vol">{g.price}</span>
+          {g.image && (
+            <a href={g.rakutenUrl} rel="sponsored nofollow noopener" class="photo">
+              <img src={g.big} alt={g.name} loading="lazy" width="400" height="400" onerror={`this.onerror=null;this.src='${g.image}'`} />
+            </a>
+          )}
+          <div class="links">
+            <a href={g.rakutenUrl} rel="sponsored nofollow noopener">楽天で見る</a>
+            <a href={g.amazonUrl} rel="sponsored nofollow noopener">Amazonで探す</a>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </aside>
+  </div>
+  <style>
+    .titlebar { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
+    .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
+    .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(381px, calc((100% - 24px) / 3)); gap: 24px; align-items: start; }
+    .side { position: sticky; top: 12px; min-width: 0; }
+    .prod .photo { display: block; margin: 8px 0; max-width: 349px; }
+    .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid #ddd; border-radius: 6px; }
+    .side h2 { margin-top: 0; font-size: 1.05rem; }
+    .main { min-width: 0; overflow-wrap: anywhere; }
+    .side { overflow-wrap: anywhere; }
+    .topics > li { margin-bottom: 28px; }
+    .topics h4 { margin: 12px 0 4px; font-size: 0.95rem; }
+  </style>
+  <script is:inline>
+    (function () {
+      var tabs = document.querySelectorAll(".tab"), panels = document.querySelectorAll(".panel");
+      function show(date) {
+        tabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.tab === date ? "true" : "false"); });
+        panels.forEach(function (p) { p.hidden = p.dataset.panel !== date; });
+        var lk = document.getElementById("toupdates"); if (lk) lk.setAttribute("href", "/updates/#" + date);
+      }
+      tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.dataset.tab); }); });
+    })();
+  </script>
 </Base>
