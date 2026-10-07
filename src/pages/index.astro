@@ -82,7 +82,13 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     .main { min-width: 0; overflow-wrap: anywhere; }
     .side { overflow-wrap: anywhere; }
     .topics > li { margin-bottom: 28px; }
-    .topics h4 { margin: 12px 0 4px; font-size: 0.95rem; }
+    .topics h4 { margin: 12px 0 4px; font-size: 0.95em; }
+    /* 狭い画面(スマホ)では、記事(左の列)の文字を約半分にする */
+    @media (max-width: 720px) {
+      .main { font-size: 9px; line-height: 1.6; }
+      .main h2 { font-size: 11px; }
+      .main .vol { font-size: 8px; }
+    }
   </style>
   <script is:inline>
     (function () {
