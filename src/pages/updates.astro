@@ -1,47 +1,40 @@
 ---
+import fs from "node:fs";
+import path from "node:path";
 import Base from "../layouts/Base.astro";
+// 「今日の話題」で表示している最新日のTOP3(テクノロジー)に出てきた、公的機関などのページだけを並べる
+const dir = path.resolve("src/content/topics");
+const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort().reverse();
+const latest = JSON.parse(fs.readFileSync(path.join(dir, files[0]), "utf8"));
+const checked = "2026-10-07"; // 出典ページを確認した日
+const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
+const rows = latest.items.map((it) => {
+  const seen = new Set();
+  const links = [];
+  for (const b of it.background) {
+    if (b.url && !seen.has(b.url)) { seen.add(b.url); links.push({ url: b.url, label: b.label || b.url }); }
+  }
+  return { title: it.title, links };
+});
 ---
-<Base title="公的機関の最新情報(モバイルバッテリー・ガジェット)" description="モバイルバッテリーなどの安全に関する、公的機関の新しい情報へのリンクと、数字の紹介です。内容は転載せず、出典を明示しています。" noindex={true} hideHeader={true}>
+<Base title="公的機関の最新情報" description="「今日の話題」のTOP3(テクノロジー)に関連する、公的機関などのページへのリンクです。" noindex={true} hideHeader={true}>
   <p><a href="/topics/">← 今日の話題にもどる</a></p>
-  <h1>公的機関の最新情報(モバイルバッテリー・ガジェット)</h1>
-  <p>公的機関のページを、確認日つきで並べています。内容の詳しい説明は、リンク先の原文でご確認ください。</p>
-
-  <h2>1. 新しい情報へのリンク(TOP3)</h2>
+  <h1>公的機関の最新情報</h1>
+  <p>{label(latest.date)}のTOP3(テクノロジー)に関連する、公的機関などのページです。内容の詳しい説明は、リンク先の原文でご確認ください。</p>
   <table>
-    <thead><tr><th>機関</th><th>ページ</th><th>確認日</th></tr></thead>
+    <thead><tr><th>話題</th><th>公的機関などのページ</th><th>確認日</th></tr></thead>
     <tbody>
-      <tr>
-        <td>消費者庁</td>
-        <td><a href="https://www.recall.caa.go.jp/result/detail.php?rcl=00000034421" rel="noopener">【特集】モバイルバッテリー(リコール情報サイト)</a><br><span class="vol">ページ上の対応開始日:2025年10月2日</span></td>
-        <td>2026-10-07</td>
-      </tr>
-      <tr>
-        <td>NITE</td>
-        <td><a href="https://www.nite.go.jp/jiko/chuikanki/mailmagazin/2026fy/vol506_260807.html" rel="noopener">製品安全情報マガジン Vol.506(8月7日号)「リチウムイオン電池搭載製品の事故」</a></td>
-        <td>2026-10-07</td>
-      </tr>
-      <tr>
-        <td>Android(Google)</td>
-        <td><a href="https://source.android.com/docs/security/bulletin/2026/2026-10-01" rel="noopener">Android Security Bulletin 2026年10月</a><br><span class="vol">パッチレベルは「2026-10-01」(公開日:2026-10-05)</span></td>
-        <td>2026-10-07</td>
-      </tr>
+      {rows.map((r) => (
+        <tr>
+          <td>{r.title}</td>
+          <td>
+            {r.links.length > 0
+              ? <ul>{r.links.map((l) => <li><a href={l.url} rel="noopener">{l.label}</a></li>)}</ul>
+              : <span class="vol">準備中(出典を確認中)</span>}
+          </td>
+          <td>{checked}</td>
+        </tr>
+      ))}
     </tbody>
   </table>
-
-  <h2>2. 事故件数の多い製品 TOP3(NITE Vol.506より)</h2>
-  <p>NITEが7月12日〜7月25日に受け付けた「リチウムイオン電池搭載製品」の事故は104件でした。製品別の上位3つは次のとおりです。</p>
-  <ol>
-    <li><strong>モバイルバッテリー</strong>(火災など17件)</li>
-    <li>スピーカー(充電式)(火災など6件)</li>
-    <li>携帯電話機(スマートフォン)(火災など5件)</li>
-  </ol>
-  <p class="vol">
-    出典:<a href="https://www.nite.go.jp/jiko/chuikanki/mailmagazin/2026fy/vol506_260807.html" rel="noopener">NITE 製品安全情報マガジン Vol.506</a>(確認日:2026-10-07)。
-    ページには「8月7日号」とあり、年は明記されていません(URLの表記から2026年と読み取れますが、確認が必要です)。件数は、NITEが受け付けた事故の件数です。
-  </p>
-
-  <p class="draft">
-    【要確認】この表は手作業で更新します。毎日の自動更新はしていません。
-    更新の目安は、NITEのマガジンの発行(原則として約2週間に1号と見られますが、公式な発行間隔は未確認)と、消費者庁の新規登録情報です。
-  </p>
 </Base>
