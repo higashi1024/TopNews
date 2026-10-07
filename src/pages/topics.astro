@@ -9,9 +9,11 @@ const dir = path.resolve("src/content/topics");
 const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5); // 新しい5日分だけ表示
 const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
 ---
-<Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" noindex={true}>
-  <p class="draft">【下書き・公開前に確認】見出しはニュースの見出しです。「背景」は公的機関などの資料で確認できた内容だけを書き、確認できないものは「未確認」と書いています。解説が「準備中」の項目は、まだ出典を確認していません。</p>
-  <h1>今日の話題</h1>
+<Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" noindex={true} hideHeader={true}>
+  <div class="titlebar">
+    <h1>今日の話題</h1>
+    <a class="toupdates" href="/updates/">公的機関の最新情報</a>
+  </div>
   <div class="tabs" role="tablist" aria-label="日付">
     {days.map((d, i) => <button type="button" role="tab" class="tab" data-tab={d.date} aria-selected={i === 0 ? "true" : "false"}>{label(d.date)}</button>)}
   </div>
@@ -59,6 +61,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   </aside>
   </div>
   <style>
+    .titlebar { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
     .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
     .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
     .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
