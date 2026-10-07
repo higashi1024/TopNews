@@ -19,9 +19,12 @@ const CONFIG = {
   GOOGLE_TRENDS_URL: "https://trends.google.co.jp/trending/rss?geo=JP",
   ANTHROPIC_API_URL: "https://api.anthropic.com/v1/messages",
   ANTHROPIC_MODEL:   "claude-haiku-4-5-20251001",
-  RAKUTEN_APP_ID:    "9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
-  RAKUTEN_AFF_ID:    "0ec9c427.aa5cd21c.0ec9c428.b5bedaac",
-  RAKUTEN_ACCESS_KEY:"pk_uRYSPaITfEvCsSsqD1QDqXz5Rfk3yuxTXOzIopEQOYY",
+  // 秘密の値はコードに書かず、GitHub の Secrets から環境変数で受け取る
+  RAKUTEN_APP_ID:    process.env.RAKUTEN_APP_ID || "",
+  RAKUTEN_AFF_ID:    process.env.RAKUTEN_AFF_ID || "",
+  RAKUTEN_ACCESS_KEY:process.env.RAKUTEN_ACCESS_KEY || "",
+  GADGET_KEYWORD:    process.env.GADGET_KEYWORD || "モバイルバッテリー",
+  ARCHIVE_DIR:       path.join(__dirname, "../data/archive"),
 };
 
 // カテゴリ別 Google News RSS
@@ -74,7 +77,7 @@ function fetchUrlWithHeaders(url, extraHeaders = {}) {
     });
     req.on("error", reject);
     req.setTimeout(FETCH_TIMEOUT_MS, () => {
-      req.destroy(new Error(`タイムアウト: ${url}`));
+      req.destroy(new Error(`タイムアウト: ${new URL(url).hostname}`));
     });
     req.end();
   });
@@ -98,7 +101,7 @@ function fetchUrl(url) {
     });
     req.on("error", reject);
     req.setTimeout(FETCH_TIMEOUT_MS, () => {
-      req.destroy(new Error(`タイムアウト: ${url}`));
+      req.destroy(new Error(`タイムアウト: ${new URL(url).hostname}`));
     });
   });
 }
@@ -197,7 +200,7 @@ function parseNewsRSS(xml, categoryName) {
       trend:         "",
       news:          [{ title: item.title, snippet: item.snippet, url: item.url, source: item.publisher }],
       amazon_url:    `https://www.amazon.co.jp/s?k=${searchKw}&tag=${CONFIG.ASSOCIATE_ID}`,
-      rakuten_url:   `https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${searchKw}%2F&link_type=hybrid_url`,
+      rakuten_url:   `https://hb.afl.rakuten.co.jp/hgc/${CONFIG.RAKUTEN_AFF_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${searchKw}%2F&link_type=hybrid_url`,
     };
   });
 }
@@ -327,7 +330,7 @@ async function main() {
         volume_approx: item.volume, trend: "→0",
         news: item.news,
         amazon_url:  `https://www.amazon.co.jp/s?k=${enc}&tag=${CONFIG.ASSOCIATE_ID}`,
-        rakuten_url: `https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${enc}%2F&link_type=hybrid_url`,
+        rakuten_url: `https://hb.afl.rakuten.co.jp/hgc/${CONFIG.RAKUTEN_AFF_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${enc}%2F&link_type=hybrid_url`,
       };
     });
   } catch (err) {
@@ -363,10 +366,12 @@ async function main() {
     const rakutenParams = new URLSearchParams({
       applicationId: CONFIG.RAKUTEN_APP_ID,
       accessKey:     CONFIG.RAKUTEN_ACCESS_KEY,
-      keyword:       "ガジェット",
+      keyword:       CONFIG.GADGET_KEYWORD,
       hits:          "30",  // 楽天APIの上限は30件
       format:        "json",
     });
+    // アフィリエイトIDを渡すと、商品リンクがアフィリエイト用URL(affiliateUrl)で返る想定（公式仕様は未確認。動作確認が必要）
+    if (CONFIG.RAKUTEN_AFF_ID) rakutenParams.set("affiliateId", CONFIG.RAKUTEN_AFF_ID);
     const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401?"
       + rakutenParams.toString();
 
@@ -380,7 +385,8 @@ async function main() {
     const rakutenJson = JSON.parse(rakutenRes);
 
     // formatVersion=2: Items配列が items[i].itemName 形式
-    const items = rakutenJson.Items || [];
+    // 「ふるさと納税」の返礼品は紹介対象外にする
+    const items = (rakutenJson.Items || []).filter(it => !String((it.itemName || (it.Item && it.Item.itemName) || "")).includes("ふるさと納税"));
     if (items.length > 0) {
       gadgets = items.map((it, i) => {
         // formatVersion=2はフラット、1はit.Item形式
@@ -409,6 +415,15 @@ async function main() {
   const outPath = path.join(CONFIG.DATA_DIR, `${today}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), "utf8");
   console.log(`💾 保存: ${outPath}`);
+
+  // 履歴：話題キーワードだけを別フォルダに保存（容量が小さいので削除しない）
+  if (trendsItems.length > 0) {
+    if (!fs.existsSync(CONFIG.ARCHIVE_DIR)) fs.mkdirSync(CONFIG.ARCHIVE_DIR, { recursive: true });
+    const slim = trendsItems.map(({ rank, keyword, category, volume_approx }) => ({ rank, keyword, category, volume_approx }));
+    fs.writeFileSync(path.join(CONFIG.ARCHIVE_DIR, `${today}.json`),
+      JSON.stringify({ date: today, updated_at: updatedAt, trends: slim }, null, 2), "utf8");
+    console.log(`📚 履歴保存: ${today}`);
+  }
 
   deleteOldFiles();
   console.log("🎉 完了");

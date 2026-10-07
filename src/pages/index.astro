@@ -1,0 +1,45 @@
+---
+import Base from "../layouts/Base.astro";
+import { loadLatest } from "../lib/data.js";
+const data = loadLatest();
+const updated = data.updated_at.replace("T", " ").slice(0, 16);
+---
+<Base title="トレンドランキング" description={`${data.date} のGoogleトレンド急上昇キーワードのランキングです。各キーワードの関連ニュースを確認できます。`}>
+  <h1>今日のトレンドキーワード({data.date})</h1>
+  <p>Googleトレンド(日本)の急上昇ワードを一覧にしています。最終更新:{updated}(日本時間)。データの出どころは Google トレンド RSS です。</p>
+  <ol class="rank">
+    {data.trends.map((t) => (
+      <li>
+        <span class="no">{t.rank}</span><strong>{t.keyword}</strong>
+        {t.volume_approx && <span class="vol"> 検索回数の目安:{t.volume_approx}</span>}
+        <div class="vol">分類:{t.category}</div>
+        {t.news?.length > 0 && (
+          <ul>
+            {t.news.slice(0, 2).map((n) => (
+              <li style="background:none;padding:0;margin:4px 0"><a href={n.url} rel="nofollow noopener">{n.title}</a> <span class="vol">({n.source})</span></li>
+            ))}
+          </ul>
+        )}
+        <div class="links">
+          <a href={t.amazon_url} rel="sponsored nofollow noopener">Amazonで探す(PR)</a>
+          <a href={t.rakuten_url} rel="sponsored nofollow noopener">楽天で探す(PR)</a>
+        </div>
+      </li>
+    ))}
+  </ol>
+  {data.gadgets.length > 0 && (
+    <>
+      <h2>おすすめ商品(PR)</h2>
+      <ol class="rank">
+        {data.gadgets.slice(0, 10).map((g) => (
+          <li><span class="no">{g.rank}</span>{g.name} <span class="vol">{g.price}</span>
+            <div class="links">
+              <a href={g.rakutenUrl} rel="sponsored nofollow noopener">楽天で見る</a>
+              <a href={g.amazonUrl} rel="sponsored nofollow noopener">Amazonで探す</a>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </>
+  )}
+</Base>

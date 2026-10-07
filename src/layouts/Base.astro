@@ -1,0 +1,57 @@
+---
+const { title, description, noindex = false, path = Astro.url.pathname } = Astro.props;
+const canonical = new URL(path, Astro.site).href;
+const fullTitle = title === "トレンドランキング" ? "トレンドランキング | 今日の話題" : `${title} | 今日の話題`;
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="今日の話題" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary" />
+    <style is:global>
+      body { margin:0; background:#f5f4f2; color:#3a3830; font-size:18px; line-height:1.8;
+             font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; }
+      a { color:#1a5fb4; }
+      header, main, footer { max-width:860px; margin:0 auto; padding:0 16px; }
+      header { padding-top:16px; padding-bottom:8px; }
+      header .site { font-size:22px; font-weight:700; text-decoration:none; color:inherit; }
+      nav a { margin-right:16px; font-size:16px; }
+      h1 { font-size:28px; line-height:1.4; }
+      h2 { font-size:22px; margin-top:2em; border-left:6px solid #3a3830; padding-left:10px; }
+      ol.rank { padding-left:0; list-style:none; }
+      ol.rank li { background:#fff; border-radius:8px; padding:12px 16px; margin:10px 0; }
+      .no { font-weight:700; font-size:24px; margin-right:8px; }
+      .vol { color:#777; font-size:15px; }
+      .links a { margin-right:12px; font-size:15px; }
+      .draft { background:#fff3cd; border:1px solid #e0c36a; padding:10px 14px; border-radius:6px; font-size:15px; }
+      footer { padding-top:32px; padding-bottom:48px; font-size:14px; color:#666; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="site" href="/">今日の話題</a>
+      <nav>
+        <a href="/">今日のランキング</a>
+        <a href="/archive/">過去のランキング</a>
+        <a href="/guide/mobile-battery/">モバイルバッテリーの選び方</a>
+        <a href="/about/">このサイトについて</a>
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer>
+      <p>本サイトはAmazon.co.jpアソシエイト・プログラム及び楽天アフィリエイトの参加者です。掲載の商品リンクを経由してご購入いただいた場合、当サイトが報酬を受け取ることがあります。</p>
+      <p><a href="/privacy/">プライバシーポリシー</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="/about/">運営者情報</a></p>
+    </footer>
+  </body>
+</html>
