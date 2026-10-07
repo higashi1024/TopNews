@@ -281,14 +281,13 @@ function fallbackCategory(kw) {
 // 古いファイルを削除
 // ================================================================
 function deleteOldFiles() {
-  if (!fs.existsSync(CONFIG.DATA_DIR)) return;
-  const cutoff = new Date();
-  cutoff.setDate(cutoff.getDate() - CONFIG.KEEP_DAYS);
-  const cutoffStr = cutoff.toISOString().slice(0, 10);
-  for (const file of fs.readdirSync(CONFIG.DATA_DIR).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))) {
-    if (file.replace(".json", "") < cutoffStr) {
-      fs.unlinkSync(path.join(CONFIG.DATA_DIR, file));
-      console.log(`🗑 削除: ${file}`);
+  // data/ と data/archive/ の両方で、新しい日付から数えて KEEP_DAYS 日分だけ残す
+  for (const dir of [CONFIG.DATA_DIR, CONFIG.ARCHIVE_DIR]) {
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().reverse();
+    for (const file of files.slice(CONFIG.KEEP_DAYS)) {
+      fs.unlinkSync(path.join(dir, file));
+      console.log(`🗑 削除: ${path.basename(dir)}/${file}`);
     }
   }
 }
@@ -416,7 +415,7 @@ async function main() {
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), "utf8");
   console.log(`💾 保存: ${outPath}`);
 
-  // 履歴：話題キーワードだけを別フォルダに保存（容量が小さいので削除しない）
+  // 履歴：話題キーワードだけを別フォルダに保存（KEEP_DAYS日分だけ残す）
   if (trendsItems.length > 0) {
     if (!fs.existsSync(CONFIG.ARCHIVE_DIR)) fs.mkdirSync(CONFIG.ARCHIVE_DIR, { recursive: true });
     const slim = trendsItems.map(({ rank, keyword, category, volume_approx }) => ({ rank, keyword, category, volume_approx }));
