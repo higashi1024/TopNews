@@ -68,7 +68,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
     .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
     .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
-    .layout { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; align-items: start; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(381px, calc((100% - 24px) / 3)); gap: 24px; align-items: start; }
     .side { position: sticky; top: 12px; min-width: 0; }
     .prod .photo { display: block; margin: 8px 0; max-width: 349px; }
     .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid #ddd; border-radius: 6px; }
