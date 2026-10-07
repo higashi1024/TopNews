@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "rank": 1,
+      "title": "中国、ＢＹＤの高電圧ＥＶ充電ケーブルでブランコ遊び…「絶縁層損傷で安全上の懸念」（ハンギョレ新聞） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wYmQ4eUZYbUhQVFN0ZUZqdXIyQVJOem83c1ZyUk5zZVNRT29EaG01NXFsUEJwckwxektLekNaT01wWnBJc0NKV2JUbTNvS1NwcWlZYzJJYTRkLVpKblhoLTA4SDJlVUx0b0RaWlkteG9jM2l5R2tCcUhGVy1LZWM?oc=5",
+      "background": [
+        {
+          "text": "この報道の内容(ケーブルの状態や安全上の懸念)は、BYD公式・規制当局などの一次情報では確認できていません。",
+          "url": null
+        },
+        {
+          "text": "日本の公的資料では、経済産業省・国土交通省の「充電設備設置にあたってのガイドブック」(2010年12月)が、市販の延長ケーブルやドラム式リールを充電に使ってはいけないとしています。大電流で発熱し、火災のおそれがあるためです。",
+          "url": "https://www.mlit.go.jp/common/000130845.pdf",
+          "label": "充電設備設置にあたってのガイドブック(経産省・国交省)"
+        }
+      ],
+      "actions": [
+        "車両付属または充電設備付属のケーブルを使い、延長ケーブルやドラム式リールは使わない(上のガイドブックの案内)。"
+      ],
+      "unknown": [
+        "報道の内容そのもの",
+        "BYDの公式見解",
+        "中国当局の対応",
+        "上のガイドブックは2010年の資料で、今回の報道に直接対応するものではありません。"
+      ],
+      "terms": [
+        [
+          "絶縁層",
+          "導線を覆い、感電や漏電を防ぐ被覆。"
+        ],
+        [
+          "高電圧ケーブル",
+          "EVの電池と機器をつなぐ、大電流用の電線。"
+        ]
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "ハッカーが楽天会員1億100万件の個人情報 販売を主張―氏名・住所・ポイント情報のサンプル掲載、漏洩元・真正性は未確認 - 合同会社ロケットボーイズ",
+      "source": "合同会社ロケットボーイズ",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVpTY0JNTnE2R0xQWUdfcWU2YUhmUmRTN2xmWVFKdndsSnZUTVVzdHFNdGRuMllEMjdHeHdERFU4OW94c2p1ZU9jLTc2ZFpyajNBb2p6T0VHaUpBRDJ3Mi14OVZOYmIxRUhCNTJYc1U4X0ltckFaMk1TZUJvZEpGNWNsb1pHdUFjelJDXzVRY0dwTXlPV1E?oc=5",
+      "background": [
+        {
+          "text": "投稿の内容、真正性、漏えい元、1億100万件という件数は、一次情報では確認できていません(見出しにも「真正性は未確認」とあります)。",
+          "url": null
+        },
+        {
+          "text": "楽天グループの「お知らせ」一覧(2026年10月)に、この件の記載は見当たりませんでした(確認日:2026-10-07)。",
+          "url": "https://corp.rakuten.co.jp/news/update/",
+          "label": "楽天グループ お知らせ"
+        },
+        {
+          "text": "IPAの「情報セキュリティ10大脅威2026」個人編では、「インターネット上のサービスからの個人情報の窃取」が脅威の1つに挙げられています。",
+          "url": "https://www.ipa.go.jp/security/10threats/omgdg50000008fi8-att/setsumei_2026_kojin.pdf",
+          "label": "10大脅威2026 個人編(IPA)"
+        },
+        {
+          "text": "個人情報保護委員会は、事業者に漏えい等の報告を義務づけています(本人数1,000人超などの場合)。この件に当てはまるかは不明です。",
+          "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+          "label": "漏えい等の対応(個人情報保護委員会)"
+        }
+      ],
+      "actions": [
+        "利用していないサービスのアカウントを削除・退会する。登録時は必須項目だけを入力する。",
+        "多要素認証やパスキーを使い、パスワードは長くして使い回さない(IPAの案内)。",
+        "身に覚えのないメールやSMSは開かず、公式サイトはブックマークから開く。クレジットカードの利用明細を定期的に確認する。",
+        "技術的な相談は、IPA「情報セキュリティ安心相談窓口」(03-5978-7509)。サイバー犯罪は警察のオンライン窓口へ。"
+      ],
+      "unknown": [
+        "投稿の真偽と漏えい元",
+        "楽天グループの公式見解",
+        "警察・個人情報保護委員会の対応の有無"
+      ],
+      "terms": [
+        [
+          "パスキー",
+          "パスワードの代わりに、端末の生体認証や画面ロックで本人確認する仕組み。"
+        ],
+        [
+          "多要素認証",
+          "パスワードに加えて、別の方法でも本人確認する仕組み。"
+        ]
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "防犯カメラに映る米兵とみられる人影、短時間で犯行か ホテル強盗殺人 那覇・沖縄（琉球新報） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tekw1c2p4azJvQURoRjR3dnNLYmM2SnhSRi1UVEc4UjdBUHlwM05fNlpFYXI0ZXZ0OUZXX2QyYmJSUDN1ZHhTbDdQRE9PckhleTlMbkd0M045a1EwY01HQ2ZZLU5UQzYzQWZTSEFXcUhJb3JiRlc0b0gwaE1zcEE?oc=5",
+      "background": [],
+      "actions": [],
+      "unknown": [],
+      "terms": []
+    }
+  ]
+}

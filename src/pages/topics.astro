@@ -1,0 +1,53 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Base from "../layouts/Base.astro";
+const dir = path.resolve("src/content/topics");
+const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date));
+const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
+---
+<Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" noindex={true}>
+  <p class="draft">【下書き・公開前に確認】見出しはニュースの見出しです。「背景」は公的機関などの資料で確認できた内容だけを書き、確認できないものは「未確認」と書いています。解説が「準備中」の項目は、まだ出典を確認していません。</p>
+  <h1>今日の話題</h1>
+  <div class="tabs" role="tablist" aria-label="日付">
+    {days.map((d, i) => <button type="button" role="tab" class="tab" data-tab={d.date} aria-selected={i === 0 ? "true" : "false"}>{label(d.date)}</button>)}
+  </div>
+  {days.map((d, i) => (
+    <section class="panel" data-panel={d.date} hidden={i !== 0}>
+      <h2>{label(d.date)}のTOP3(テクノロジー)</h2>
+      <ol class="topics">
+        {d.items.map((it) => (
+          <li>
+            <h3><a href={it.url} rel="noopener nofollow" target="_blank">{it.title}</a></h3>
+            {it.background.length > 0 ? (
+              <>
+                <h4>背景(確認できたこと)</h4>
+                <ul>{it.background.map((b) => <li>{b.text}{b.url && <> <a href={b.url} rel="noopener">[{b.label}]</a></>}</li>)}</ul>
+                {it.actions.length > 0 && (<><h4>読者ができること</h4><ul>{it.actions.map((a) => <li>{a}</li>)}</ul></>)}
+                {it.unknown.length > 0 && (<><h4>確認できなかったこと</h4><ul>{it.unknown.map((u) => <li>{u}</li>)}</ul></>)}
+                {it.terms.length > 0 && (<><h4>用語</h4><ul>{it.terms.map((t) => <li><strong>{t[0]}</strong>:{t[1]}</li>)}</ul></>)}
+              </>
+            ) : <p class="vol">解説は準備中です(出典を確認中)。</p>}
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))}
+  <style>
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
+    .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
+    .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
+    .topics > li { margin-bottom: 28px; }
+    .topics h4 { margin: 12px 0 4px; font-size: 0.95rem; }
+  </style>
+  <script is:inline>
+    (function () {
+      var tabs = document.querySelectorAll(".tab"), panels = document.querySelectorAll(".panel");
+      function show(date) {
+        tabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.tab === date ? "true" : "false"); });
+        panels.forEach(function (p) { p.hidden = p.dataset.panel !== date; });
+      }
+      tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.dataset.tab); }); });
+    })();
+  </script>
+</Base>
