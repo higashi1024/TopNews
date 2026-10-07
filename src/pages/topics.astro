@@ -8,7 +8,12 @@ const gadgetsKeyword = latest.gadgets_keyword || "";
 const bigImage = (u) => (u || "").replace("_ex=128x128", "_ex=400x400");
 const gadgets = latest.gadgets.slice(0, 5).map((g) => ({ ...g, big: bigImage(g.image) }));
 const dir = path.resolve("src/content/topics");
-const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5); // 新しい5日分だけ表示
+const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 7); // 新しい7日分だけ表示
+const jst = (iso) => {
+  if (!iso) return "不明";
+  const t = new Date(iso);
+  return isNaN(t.getTime()) ? "不明" : t.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }) + "(日本時間)";
+};
 const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
 ---
 <Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" noindex={true} hideHeader={true}>
@@ -28,6 +33,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
         {d.items.map((it) => (
           <li>
             <h3><a href={it.url} rel="noopener nofollow" target="_blank">{it.title}</a></h3>
+            <p class="vol">ニュースの公開時刻:{jst(it.published)}</p>
             {it.background.length > 0 ? (
               <>
                 <h4>背景(確認できたこと)</h4>

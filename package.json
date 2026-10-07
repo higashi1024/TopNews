@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch": "node scripts/fetch-trends.js"
+    "fetch": "node scripts/fetch-trends.cjs",
+    "topics": "node scripts/make-topics.cjs"
   },
   "dependencies": {
     "astro": "^5.0.0",

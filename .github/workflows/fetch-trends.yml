@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: トレンドデータを取得・保存
-        run: node scripts/fetch-trends.js
+        run: node scripts/fetch-trends.cjs
         timeout-minutes: 3
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

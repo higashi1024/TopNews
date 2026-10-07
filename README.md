@@ -1,7 +1,7 @@
 # 今日の話題（Astro版）
 
 ## 構成
-- `scripts/fetch-trends.js` … データ取得（GitHub Actions が毎時実行）
+- `scripts/fetch-trends.cjs` … データ取得（GitHub Actions が毎時実行）
 - `data/` … 当日分の全データ（5日で削除）／ `data/archive/` … 話題キーワードの履歴（こちらも直近5日分だけ残す）
 - `src/pages/` … ページ。ビルド時にランキングがHTMLへ書き込まれる
 - `public/robots.txt`、サイトマップは自動生成

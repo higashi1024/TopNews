@@ -1,5 +1,5 @@
 /**
- * fetch-trends.js
+ * fetch-trends.cjs
  *
  * すべて   → Google Trends RSS → AI分類 → TOP10
  * 各カテゴリ → Google News カテゴリ別RSS → TOP10
@@ -13,7 +13,7 @@ const https = require("https");
 // 設定
 // ================================================================
 const CONFIG = {
-  KEEP_DAYS:         5,
+  KEEP_DAYS:         7,
   DATA_DIR:          path.join(__dirname, "../data"),
   ASSOCIATE_ID:      "topnews22-22",
   GOOGLE_TRENDS_URL: "https://trends.google.co.jp/trending/rss?geo=JP",
@@ -184,7 +184,12 @@ function parseNewsRSS(xml, categoryName) {
     const sourceMatch = block.match(/<source[^>]*>([\s\S]*?)<\/source>/);
     const publisher = sourceMatch ? decodeHtml(sourceMatch[1]) : "";
 
-    items.push({ title, url, snippet, publisher });
+    // 公開時刻（RSSの pubDate。取れなければ空文字）
+    const pubMatch = block.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+    const pubDate = pubMatch ? new Date(pubMatch[1].trim()) : null;
+    const published = pubDate && !isNaN(pubDate.getTime()) ? pubDate.toISOString() : "";
+
+    items.push({ title, url, snippet, publisher, published });
   }
 
   return items.slice(0, 50).map((item, i) => {
@@ -198,7 +203,7 @@ function parseNewsRSS(xml, categoryName) {
       type:          "news",
       volume_approx: "",
       trend:         "",
-      news:          [{ title: item.title, snippet: item.snippet, url: item.url, source: item.publisher }],
+      news:          [{ title: item.title, snippet: item.snippet, url: item.url, source: item.publisher, published: item.published }],
       amazon_url:    `https://www.amazon.co.jp/s?k=${searchKw}&tag=${CONFIG.ASSOCIATE_ID}`,
       rakuten_url:   `https://hb.afl.rakuten.co.jp/hgc/${CONFIG.RAKUTEN_AFF_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${searchKw}%2F&link_type=hybrid_url`,
     };

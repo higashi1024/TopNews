@@ -4,7 +4,7 @@ import path from "node:path";
 import Base from "../layouts/Base.astro";
 // 「今日の話題」で表示している最新日のTOP3(テクノロジー)に出てきた、公的機関などのページだけを並べる
 const dir = path.resolve("src/content/topics");
-const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5);
+const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 7);
 const checked = "2026-10-07"; // 出典ページを確認した日
 const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
 const sections = days.map((day) => ({
