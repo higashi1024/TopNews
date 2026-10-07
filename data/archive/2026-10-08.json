@@ -1,66 +1,66 @@
 {
   "date": "2026-10-08",
-  "updated_at": "2026-10-08T02:12:13.872+09:00",
+  "updated_at": "2026-10-08T07:37:53.261+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "world space week 2026",
-      "category": "テクノロジー",
+      "keyword": "竜二 映画",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "川崎 映画",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "千葉県",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "lol",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "トヨタ カローラ",
+      "category": "テクノロジー",
+      "volume_approx": "500+"
     },
     {
       "rank": 4,
-      "keyword": "蒼井優",
-      "category": "エンタメ",
+      "keyword": "今日 気温",
+      "category": "ライフスタイル",
       "volume_approx": "100+"
     },
     {
       "rank": 5,
-      "keyword": "仮面教師",
-      "category": "エンタメ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 6,
-      "keyword": "桐谷健太",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
-    },
-    {
-      "rank": 7,
-      "keyword": "若井滉斗",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 8,
-      "keyword": "映画館",
-      "category": "ライフスタイル",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 9,
-      "keyword": "ちいかわ 特典",
+      "keyword": "堂本光一",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 10,
-      "keyword": "サイバーセキュリティ",
-      "category": "経済・投資",
+      "rank": 6,
+      "keyword": "エスピノーザ",
+      "category": "スポーツ",
       "volume_approx": "100+"
+    },
+    {
+      "rank": 7,
+      "keyword": "ヤマトリノ 再逮捕",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 8,
+      "keyword": "グリフィン",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 9,
+      "keyword": "小川淳司",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 10,
+      "keyword": "工藤阿須加",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     }
   ]
 }
