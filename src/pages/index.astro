@@ -30,6 +30,7 @@ const updated = data.updated_at.replace("T", " ").slice(0, 16);
   {data.gadgets.length > 0 && (
     <>
       <h2>おすすめ商品(PR)</h2>
+      {data.gadgets_keyword && <p class="vol">今日の話題「{data.gadgets_keyword}」の関連商品(1日1回更新)</p>}
       <ol class="rank">
         {data.gadgets.slice(0, 10).map((g) => (
           <li><span class="no">{g.rank}</span>{g.name} <span class="vol">{g.price}</span>
