@@ -2,6 +2,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import Base from "../layouts/Base.astro";
+import { loadLatest } from "../lib/data.js";
+const gadgets = loadLatest().gadgets.slice(0, 5);
 const dir = path.resolve("src/content/topics");
 const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5); // 新しい5日分だけ表示
 const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
@@ -12,6 +14,8 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   <div class="tabs" role="tablist" aria-label="日付">
     {days.map((d, i) => <button type="button" role="tab" class="tab" data-tab={d.date} aria-selected={i === 0 ? "true" : "false"}>{label(d.date)}</button>)}
   </div>
+  <div class="layout">
+  <div class="main">
   {days.map((d, i) => (
     <section class="panel" data-panel={d.date} hidden={i !== 0}>
       <h2>{label(d.date)}のTOP3(テクノロジー)</h2>
@@ -33,10 +37,30 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
       </ol>
     </section>
   ))}
+  </div>
+  <aside class="side" aria-label="広告(PR)">
+    <h2>おすすめ商品(PR)</h2>
+    <ol class="rank">
+      {gadgets.map((g) => (
+        <li><span class="no">{g.rank}</span>{g.name} <span class="vol">{g.price}</span>
+          <div class="links">
+            <a href={g.rakutenUrl} rel="sponsored nofollow noopener">楽天で見る</a>
+            <a href={g.amazonUrl} rel="sponsored nofollow noopener">Amazonで探す</a>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </aside>
+  </div>
   <style>
     .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
     .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
     .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
+    .layout { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; align-items: start; }
+    .side { position: sticky; top: 12px; min-width: 0; }
+    .side h2 { margin-top: 0; font-size: 1.05rem; }
+    .main { min-width: 0; }
+    @media (max-width: 720px) { .layout { grid-template-columns: 1fr; } .side { position: static; } }
     .topics > li { margin-bottom: 28px; }
     .topics h4 { margin: 12px 0 4px; font-size: 0.95rem; }
   </style>
