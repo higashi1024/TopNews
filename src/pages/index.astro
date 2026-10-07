@@ -83,11 +83,14 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     .side { overflow-wrap: anywhere; }
     .topics > li { margin-bottom: 28px; }
     .topics h4 { margin: 12px 0 4px; font-size: 0.95em; }
-    /* 狭い画面(スマホ)では、記事(左の列)の文字を約半分にする */
+    /* 狭い画面(スマホ)では、記事(左)とおすすめ商品(右)の文字を、2/3(18px→12px)にする */
     @media (max-width: 720px) {
-      .main { font-size: 9px; line-height: 1.6; }
-      .main h2 { font-size: 11px; }
-      .main .vol { font-size: 8px; }
+      .main, .side { font-size: 12px; line-height: 1.7; }
+      .main h2 { font-size: 15px; }
+      .side h2 { font-size: 11px; }
+      .main .vol, .side .vol { font-size: 10px; }
+      .side .no { font-size: 16px; margin-right: 4px; }
+      .side .links a { font-size: 10px; margin-right: 8px; }
     }
   </style>
   <script is:inline>
