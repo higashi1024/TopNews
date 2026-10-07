@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [
     sitemap({
       // 下書きページ（noindex）はサイトマップに載せない
-      filter: (page) => !page.includes("/guide/") && !page.includes("/topics") && !page.includes("/privacy") && !page.includes("/contact") && !page.includes("/about"),
+      filter: (page) => !page.includes("/guide/") && !page.includes("/topics") && !page.includes("/updates") && !page.includes("/privacy") && !page.includes("/contact") && !page.includes("/about"),
     }),
   ],
 });
