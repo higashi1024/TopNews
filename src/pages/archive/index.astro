@@ -1,0 +1,12 @@
+---
+import Base from "../../layouts/Base.astro";
+import { loadArchive } from "../../lib/data.js";
+const days = loadArchive();
+---
+<Base title="過去のトレンドランキング" description="日ごとのGoogleトレンド急上昇キーワードの記録です。">
+  <h1>過去のトレンドランキング</h1>
+  <p>毎日の最終的なランキングを記録しています。</p>
+  <ul>
+    {days.map((d) => <li><a href={`/archive/${d.date}/`}>{d.date} のランキング</a>({d.trends.length}件)</li>)}
+  </ul>
+</Base>

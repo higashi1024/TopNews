@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-03",
+  "updated_at": "2026-10-03T20:31:44.536+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "石川雅規",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 2,
+      "keyword": "橋本マナミ",
+      "category": "経済・投資",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 3,
+      "keyword": "横山夢樹",
+      "category": "スポーツ",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 4,
+      "keyword": "ウクライナ軍",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "バレーボール男子",
+      "category": "スポーツ",
+      "volume_approx": "20000+"
+    },
+    {
+      "rank": 6,
+      "keyword": "アジア大会 サッカー",
+      "category": "スポーツ",
+      "volume_approx": "50000+"
+    },
+    {
+      "rank": 7,
+      "keyword": "初代『剣聖』 レイド 棒振り 超究極 モンスト 攻略",
+      "category": "エンタメ",
+      "volume_approx": "10000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "綾瀬はるか",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "大分 対 山形",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "柏 対 g大阪",
+      "category": "スポーツ",
+      "volume_approx": "10000+"
+    }
+  ]
+}

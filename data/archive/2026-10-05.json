@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-05",
+  "updated_at": "2026-10-05T17:14:31.931+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "オーバードーズ",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 2,
+      "keyword": "日経平均株価",
+      "category": "経済・投資",
+      "volume_approx": "10000+"
+    },
+    {
+      "rank": 3,
+      "keyword": "山口 一郎",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 4,
+      "keyword": "安川電機",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "頓宮裕真",
+      "category": "スポーツ",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 6,
+      "keyword": "yahoo!ニュース",
+      "category": "社会・ニュース",
+      "volume_approx": "20000+"
+    },
+    {
+      "rank": 7,
+      "keyword": "松永一哉",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "大和証券",
+      "category": "経済・投資",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "ニュースto",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "小松空港",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
+    }
+  ]
+}

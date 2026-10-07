@@ -1,0 +1,52 @@
+---
+import Base from "../../layouts/Base.astro";
+---
+<Base title="充電ケーブルの選び方:ワット数とデータ速度のロゴの見方" description="USB Type-Cケーブルの60W/240Wロゴ、5〜80Gbpsのデータ速度ロゴの意味を、USB-IF(規格団体)の資料をもとにまとめました。" noindex={true}>
+  <p class="draft">【下書き・公開前に確認】本文は、USB-IF(USBの規格を決める団体)の公式資料で確認できた内容だけで書いています(確認日:2026-10-07)。運営者の読み直しと、【要確認】の項目が残っているため、公開するまで検索エンジンには登録しません(noindex)。</p>
+
+  <h1>充電ケーブルの選び方:ワット数とデータ速度のロゴの見方</h1>
+  <p>
+    同じ形のUSB Type-Cケーブルでも、流せる電力とデータ転送の速さは製品によって違います。
+    このページでは、USB-IFが定めている「ロゴ」の意味を整理します。USB-IFは、USBの規格づくりと認証を行う団体です。
+  </p>
+
+  <h2>1. 電力(ワット数)のロゴ</h2>
+  <ul>
+    <li>USB Power Delivery(USB PD、充電の取り決め)では、USB Type-Cケーブルを使って最大240Wまで供給できると、USB-IFのページに書かれています。</li>
+    <li><strong>60Wロゴ</strong>:USB Power Delivery 3.1の「Standard Power Range」の認証テストに合格したケーブルを示します。</li>
+    <li><strong>240Wロゴ</strong>:同「Extended Power Range」の認証テストに合格したケーブルを示します。</li>
+    <li>電力とデータ速度をまとめて示すロゴ(60W/20Gbps、60W/40Gbps、240W/20Gbps、240W/40Gbps)もあります。</li>
+  </ul>
+
+  <h2>2. データ転送速度のロゴ</h2>
+  <ul>
+    <li>USB 5Gbps、USB 10Gbps:USB 3.2の製品に使われるロゴです。</li>
+    <li>USB 20Gbps、USB 40Gbps、USB 80Gbps:USB4の仕様に合う製品に使われるロゴです。</li>
+    <li>Gbps(ギガビット毎秒)は、1秒間に送れるデータ量の最大値の目安を表す単位です。</li>
+  </ul>
+
+  <h2>3. ロゴを使える条件</h2>
+  <p>
+    上のロゴは、USB-IFの適合試験に合格し、「USB-IF Integrators List」(認証済み製品の一覧)に登録された製品だけが使えるとされています。
+    ロゴのない製品が、必ず性能不足という意味ではありません。ただし、表示されたワット数や速度が認証によるものかどうかは、ロゴの有無で確認できます。
+  </p>
+
+  <h2>4. 選ぶときの確認ポイント(上の内容から言えること)</h2>
+  <ul>
+    <li>充電に使うなら、機器が必要とするワット数に合う電力ロゴ(60Wまたは240W)があるか。</li>
+    <li>データ転送に使うなら、必要な速度のロゴ(5・10・20・40・80Gbps)があるか。</li>
+    <li>使う機器と充電器の側も、同じ規格に対応している必要があります。</li>
+  </ul>
+
+  <p class="draft">
+    【要確認】(1) 機器側・充電器側の対応の確認方法の一次情報。(2) ケーブルの長さと性能の関係。(3) 日本国内でのケーブルの安全規制(PSE等)の対象範囲。いずれも今回の調査では、公的な資料で確認できていません。<br>
+    【未記入】おすすめ商品を載せる場合は、ロゴの表示とUSB-IFの認証一覧を運営者が確認できた商品だけにしてください。
+  </p>
+
+  <h2>参考にした情報(確認日:2026-10-07)</h2>
+  <ul>
+    <li><a href="https://www.usb.org/usb-charger-pd" rel="noopener">USB Power Delivery(USB-IF)</a></li>
+    <li><a href="https://www.usb.org/sites/default/files/usb_type-c_cable_power_rating_logo_usage_guidelines_020222.pdf" rel="noopener">USB Type-C Cable Power Rating Logo Usage Guidelines(USB-IF)</a></li>
+    <li><a href="https://www.usb.org/sites/default/files/usb-if_usb_performance_logo_usage_guidelines_final_20230818.pdf" rel="noopener">USB Performance Logo Usage Guidelines(USB-IF)</a></li>
+  </ul>
+</Base>

@@ -1,5 +1,5 @@
 /**
- * fetch-trends.js
+ * fetch-trends.cjs
  *
  * すべて   → Google Trends RSS → AI分類 → TOP10
  * 各カテゴリ → Google News カテゴリ別RSS → TOP10
@@ -13,15 +13,18 @@ const https = require("https");
 // 設定
 // ================================================================
 const CONFIG = {
-  KEEP_DAYS:         5,
+  KEEP_DAYS:         7,
   DATA_DIR:          path.join(__dirname, "../data"),
   ASSOCIATE_ID:      "topnews22-22",
   GOOGLE_TRENDS_URL: "https://trends.google.co.jp/trending/rss?geo=JP",
   ANTHROPIC_API_URL: "https://api.anthropic.com/v1/messages",
   ANTHROPIC_MODEL:   "claude-haiku-4-5-20251001",
-  RAKUTEN_APP_ID:    "9dcbc77f-4f7b-4e9f-8bb5-c7735e3540c3",
-  RAKUTEN_AFF_ID:    "0ec9c427.aa5cd21c.0ec9c428.b5bedaac",
-  RAKUTEN_ACCESS_KEY:"pk_uRYSPaITfEvCsSsqD1QDqXz5Rfk3yuxTXOzIopEQOYY",
+  // 秘密の値はコードに書かず、GitHub の Secrets から環境変数で受け取る
+  RAKUTEN_APP_ID:    process.env.RAKUTEN_APP_ID || "",
+  RAKUTEN_AFF_ID:    process.env.RAKUTEN_AFF_ID || "",
+  RAKUTEN_ACCESS_KEY:process.env.RAKUTEN_ACCESS_KEY || "",
+  GADGET_KEYWORD:    process.env.GADGET_KEYWORD || "モバイルバッテリー",
+  ARCHIVE_DIR:       path.join(__dirname, "../data/archive"),
 };
 
 // カテゴリ別 Google News RSS
@@ -74,7 +77,7 @@ function fetchUrlWithHeaders(url, extraHeaders = {}) {
     });
     req.on("error", reject);
     req.setTimeout(FETCH_TIMEOUT_MS, () => {
-      req.destroy(new Error(`タイムアウト: ${url}`));
+      req.destroy(new Error(`タイムアウト: ${new URL(url).hostname}`));
     });
     req.end();
   });
@@ -98,7 +101,7 @@ function fetchUrl(url) {
     });
     req.on("error", reject);
     req.setTimeout(FETCH_TIMEOUT_MS, () => {
-      req.destroy(new Error(`タイムアウト: ${url}`));
+      req.destroy(new Error(`タイムアウト: ${new URL(url).hostname}`));
     });
   });
 }
@@ -181,7 +184,12 @@ function parseNewsRSS(xml, categoryName) {
     const sourceMatch = block.match(/<source[^>]*>([\s\S]*?)<\/source>/);
     const publisher = sourceMatch ? decodeHtml(sourceMatch[1]) : "";
 
-    items.push({ title, url, snippet, publisher });
+    // 公開時刻（RSSの pubDate。取れなければ空文字）
+    const pubMatch = block.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+    const pubDate = pubMatch ? new Date(pubMatch[1].trim()) : null;
+    const published = pubDate && !isNaN(pubDate.getTime()) ? pubDate.toISOString() : "";
+
+    items.push({ title, url, snippet, publisher, published });
   }
 
   return items.slice(0, 50).map((item, i) => {
@@ -195,9 +203,9 @@ function parseNewsRSS(xml, categoryName) {
       type:          "news",
       volume_approx: "",
       trend:         "",
-      news:          [{ title: item.title, snippet: item.snippet, url: item.url, source: item.publisher }],
+      news:          [{ title: item.title, snippet: item.snippet, url: item.url, source: item.publisher, published: item.published }],
       amazon_url:    `https://www.amazon.co.jp/s?k=${searchKw}&tag=${CONFIG.ASSOCIATE_ID}`,
-      rakuten_url:   `https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${searchKw}%2F&link_type=hybrid_url`,
+      rakuten_url:   `https://hb.afl.rakuten.co.jp/hgc/${CONFIG.RAKUTEN_AFF_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${searchKw}%2F&link_type=hybrid_url`,
     };
   });
 }
@@ -278,14 +286,13 @@ function fallbackCategory(kw) {
 // 古いファイルを削除
 // ================================================================
 function deleteOldFiles() {
-  if (!fs.existsSync(CONFIG.DATA_DIR)) return;
-  const cutoff = new Date();
-  cutoff.setDate(cutoff.getDate() - CONFIG.KEEP_DAYS);
-  const cutoffStr = cutoff.toISOString().slice(0, 10);
-  for (const file of fs.readdirSync(CONFIG.DATA_DIR).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))) {
-    if (file.replace(".json", "") < cutoffStr) {
-      fs.unlinkSync(path.join(CONFIG.DATA_DIR, file));
-      console.log(`🗑 削除: ${file}`);
+  // data/ と data/archive/ の両方で、新しい日付から数えて KEEP_DAYS 日分だけ残す
+  for (const dir of [CONFIG.DATA_DIR, CONFIG.ARCHIVE_DIR]) {
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().reverse();
+    for (const file of files.slice(CONFIG.KEEP_DAYS)) {
+      fs.unlinkSync(path.join(dir, file));
+      console.log(`🗑 削除: ${path.basename(dir)}/${file}`);
     }
   }
 }
@@ -327,7 +334,7 @@ async function main() {
         volume_approx: item.volume, trend: "→0",
         news: item.news,
         amazon_url:  `https://www.amazon.co.jp/s?k=${enc}&tag=${CONFIG.ASSOCIATE_ID}`,
-        rakuten_url: `https://hb.afl.rakuten.co.jp/hgc/0ec9c427.aa5cd21c.0ec9c428.b5bedaac/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${enc}%2F&link_type=hybrid_url`,
+        rakuten_url: `https://hb.afl.rakuten.co.jp/hgc/${CONFIG.RAKUTEN_AFF_ID}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F${enc}%2F&link_type=hybrid_url`,
       };
     });
   } catch (err) {
@@ -353,62 +360,95 @@ async function main() {
     }
   }
 
-  // ── 楽天商品検索API（レビュー数順）──
-  // ランキングAPIの代わりに商品検索APIで人気ガジェットを取得
-  console.log("🛍 楽天人気ガジェットを取得中...");
-  let gadgets = [];
-  try {
-    // 新エンドポイント（2026-04-01）
-    // アクセスキーはAuthorizationヘッダーで渡す（パラメータより優先される）
+  // ── 楽天商品検索API ──
+  // おすすめ商品は「1日1回」だけ更新する。
+  //  - 今日のデータに商品が既にあれば、それをそのまま使う（毎時の実行では取り直さない）
+  //  - なければ、今日のトレンドキーワードを上位から順に検索し、商品が見つかった最初のキーワードを使う
+  //  - どれも見つからなければ、GADGET_KEYWORD（既定:モバイルバッテリー）で検索する
+  async function searchRakuten(keyword) {
     const rakutenParams = new URLSearchParams({
       applicationId: CONFIG.RAKUTEN_APP_ID,
       accessKey:     CONFIG.RAKUTEN_ACCESS_KEY,
-      keyword:       "ガジェット",
+      keyword,
       hits:          "30",  // 楽天APIの上限は30件
       format:        "json",
     });
-    const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401?"
-      + rakutenParams.toString();
-
-    // Authorizationヘッダー付きでリクエスト
-    const rakutenRes  = await fetchUrlWithHeaders(rakutenApiUrl, {
+    // アフィリエイトIDを渡すと、商品リンクがアフィリエイト用URL(affiliateUrl)で返る想定（公式仕様は未確認。動作確認が必要）
+    if (CONFIG.RAKUTEN_AFF_ID) rakutenParams.set("affiliateId", CONFIG.RAKUTEN_AFF_ID);
+    const rakutenApiUrl = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401?" + rakutenParams.toString();
+    const rakutenRes = await fetchUrlWithHeaders(rakutenApiUrl, {
       "Authorization": `Bearer ${CONFIG.RAKUTEN_ACCESS_KEY}`,
       "Referer":       "https://top-news-kappa.vercel.app/",
       "Origin":        "https://top-news-kappa.vercel.app",
     });
-    console.log("楽天APIレスポンス先頭200文字:", rakutenRes.slice(0, 200));
     const rakutenJson = JSON.parse(rakutenRes);
+    // 「ふるさと納税」の返礼品は紹介対象外にする
+    const items = (rakutenJson.Items || []).filter(it => !String((it.itemName || (it.Item && it.Item.itemName) || "")).includes("ふるさと納税"));
+    return items.map((it, i) => {
+      // formatVersion=2はフラット、1はit.Item形式
+      const item = it.itemName ? it : (it.Item || it);
+      const imgUrl = Array.isArray(item.mediumImageUrls)
+        ? (item.mediumImageUrls[0]?.imageUrl || item.mediumImageUrls[0] || "")
+        : "";
+      return {
+        rank:       i + 1,
+        name:       (item.itemName || "").slice(0, 40),
+        price:      item.itemPrice ? `¥${Number(item.itemPrice).toLocaleString()}` : "",
+        image:      imgUrl,
+        rakutenUrl: item.affiliateUrl || item.itemUrl || "",
+        amazonUrl:  `https://www.amazon.co.jp/s?k=${encodeURIComponent((item.itemName || "").slice(0, 20))}&tag=${CONFIG.ASSOCIATE_ID}`,
+      };
+    });
+  }
 
-    // formatVersion=2: Items配列が items[i].itemName 形式
-    const items = rakutenJson.Items || [];
-    if (items.length > 0) {
-      gadgets = items.map((it, i) => {
-        // formatVersion=2はフラット、1はit.Item形式
-        const item = it.itemName ? it : (it.Item || it);
-        const imgUrl = Array.isArray(item.mediumImageUrls)
-          ? (item.mediumImageUrls[0]?.imageUrl || item.mediumImageUrls[0] || "")
-          : "";
-        return {
-          rank:       i + 1,
-          name:       (item.itemName || "").slice(0, 40),
-          price:      item.itemPrice ? `¥${Number(item.itemPrice).toLocaleString()}` : "",
-          image:      imgUrl,
-          rakutenUrl: item.affiliateUrl || item.itemUrl || "",
-          amazonUrl:  `https://www.amazon.co.jp/s?k=${encodeURIComponent((item.itemName || "").slice(0, 20))}&tag=${CONFIG.ASSOCIATE_ID}`,
-        };
-      });
-      console.log(`✅ 楽天人気ガジェット: ${gadgets.length}件`);
+  let gadgets = [];
+  let gadgetsKeyword = "";
+  try {
+    const todayFile = path.join(CONFIG.DATA_DIR, `${today}.json`);
+    const prev = fs.existsSync(todayFile) ? JSON.parse(fs.readFileSync(todayFile, "utf8")) : null;
+    if (prev && Array.isArray(prev.gadgets) && prev.gadgets.length > 0 && prev.gadgets_keyword) {
+      gadgets = prev.gadgets;
+      gadgetsKeyword = prev.gadgets_keyword;
+      console.log(`🛍 今日の商品は取得済みのため再利用: 「${gadgetsKeyword}」${gadgets.length}件`);
+    } else {
+      console.log("🛍 おすすめ商品を取得中（1日1回）...");
+      const candidates = [...trendsItems.slice(0, 5).map(t => t.keyword), CONFIG.GADGET_KEYWORD];
+      for (const kw of candidates) {
+        try {
+          const found = await searchRakuten(kw);
+          if (found.length >= 5) { gadgets = found; gadgetsKeyword = kw; break; }
+          console.log(`  「${kw}」は商品が少ないため次の候補へ（${found.length}件）`);
+        } catch (err) {
+          console.warn(`  「${kw}」の検索失敗: ${err.message}`);
+        }
+      }
+      if (gadgets.length > 0) console.log(`✅ おすすめ商品: 「${gadgetsKeyword}」${gadgets.length}件`);
+      else if (prev && Array.isArray(prev.gadgets) && prev.gadgets.length > 0) {
+        // 取得に失敗したときは、前回の商品を残す
+        gadgets = prev.gadgets;
+        gadgetsKeyword = prev.gadgets_keyword || "";
+        console.log("⚠️ 商品を取得できなかったため、前回の商品を残します");
+      }
     }
   } catch (err) {
-    console.warn(`⚠️ 楽天ガジェット取得失敗: ${err.message}`);
+    console.warn(`⚠️ 楽天商品の取得失敗: ${err.message}`);
   }
 
   // ── JSON保存 ──
   const updatedAt = new Date(Date.now() + jstOffset).toISOString().replace("Z", "+09:00");
-  const data = { date: today, updated_at: updatedAt, trends: trendsItems, categories, gadgets };
+  const data = { date: today, updated_at: updatedAt, trends: trendsItems, categories, gadgets, gadgets_keyword: gadgetsKeyword };
   const outPath = path.join(CONFIG.DATA_DIR, `${today}.json`);
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), "utf8");
   console.log(`💾 保存: ${outPath}`);
+
+  // 履歴：話題キーワードだけを別フォルダに保存（KEEP_DAYS日分だけ残す）
+  if (trendsItems.length > 0) {
+    if (!fs.existsSync(CONFIG.ARCHIVE_DIR)) fs.mkdirSync(CONFIG.ARCHIVE_DIR, { recursive: true });
+    const slim = trendsItems.map(({ rank, keyword, category, volume_approx }) => ({ rank, keyword, category, volume_approx }));
+    fs.writeFileSync(path.join(CONFIG.ARCHIVE_DIR, `${today}.json`),
+      JSON.stringify({ date: today, updated_at: updatedAt, trends: slim }, null, 2), "utf8");
+    console.log(`📚 履歴保存: ${today}`);
+  }
 
   deleteOldFiles();
   console.log("🎉 完了");
