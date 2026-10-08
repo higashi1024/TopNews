@@ -44,11 +44,11 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
             <p class="vol">ニュースの公開時刻:{jst(it.published)}</p>
             {it.background.length > 0 ? (
               <>
-                <h4>背景(確認できたこと)</h4>
-                <ul>{it.background.map((b) => <li>{b.text}{b.url && <> <a href={b.url} rel="noopener">[{b.label}]</a></>}</li>)}</ul>
-                {it.actions.length > 0 && (<><h4>読者ができること</h4><ul>{it.actions.map((a) => <li>{a}</li>)}</ul></>)}
-                {it.unknown.length > 0 && (<><h4>確認できなかったこと</h4><ul>{it.unknown.map((u) => <li>{u}</li>)}</ul></>)}
-                {it.terms.length > 0 && (<><h4>用語</h4><ul>{it.terms.map((t) => <li><strong>{t[0]}</strong>:{t[1]}</li>)}</ul></>)}
+                <div class="blk blk-ok"><h4>背景(確認できたこと)</h4>
+                <ul>{it.background.map((b) => <li>{b.text}{b.url && <> <a href={b.url} rel="noopener">[{b.label}]</a></>}</li>)}</ul></div>
+                {it.actions.length > 0 && (<div class="blk"><h4>読者ができること</h4><ul>{it.actions.map((a) => <li>{a}</li>)}</ul></div>)}
+                {it.unknown.length > 0 && (<div class="blk blk-unk"><h4>確認できなかったこと</h4><ul>{it.unknown.map((u) => <li>{u}</li>)}</ul></div>)}
+                {it.terms.length > 0 && (<div class="blk"><h4>用語</h4><ul>{it.terms.map((t) => <li><strong>{t[0]}</strong>:{t[1]}</li>)}</ul></div>)}
               </>
             ) : <p class="vol">解説は準備中です(出典を確認中)。</p>}
             {gadgets[k] && (
@@ -73,13 +73,13 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
       </ol>
     </section>
   ))}
-  <section id="odai" hidden>
+  <section id="odai" class="article-card" hidden>
     {odai ? (
       <>
         <h2>今日のお題</h2>
         <h3>{odai.title}</h3>
         <p class="vol">{odai.date}</p>
-        <div id="odai-body"><OdaiContent /></div>
+        <div id="odai-body" class="article"><OdaiContent /></div>
         <p><a href="/articles/">お題の記事の一覧(新しい10本)</a></p>
       </>
     ) : <p class="vol">今日のお題の記事は、まだありません。</p>}
@@ -108,41 +108,64 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   <style>
     .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
     .tabs[hidden], #odai[hidden], .panel[hidden], .toupdates[hidden] { display: none; }
-    .modes { display: flex; gap: 4px; }
-    .mode { padding: 6px 4px; margin-right: 12px; border: 0; border-bottom: 4px solid transparent; background: none; font-size: 1.3em; font-weight: 700; color: #3a3830; cursor: pointer; }
-    .mode[aria-selected="true"] { border-bottom-color: #1a56c4; }
-    #odai h3 { margin: 8px 0 4px; }
-    .titlebar { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
-    .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
-    .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
-    .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(381px, calc((100% - 24px) / 3)); gap: 24px; align-items: start; }
-    .inline-prod { display: none; }
-    .side { position: sticky; top: 12px; min-width: 0; }
-    .prod .photo { display: block; margin: 8px auto; max-width: 349px; }
-    .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid #ddd; border-radius: 6px; }
-    .side h2 { margin-top: 0; font-size: 1.05rem; }
+    /* 表示の切り替え(今日の話題 / 今日のお題) */
+    .titlebar { display: flex; justify-content: space-between; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-bottom: 20px; }
+    .modes { display: inline-flex; padding: 4px; background: #e9e7df; border-radius: 999px; }
+    .mode { padding: 8px 24px; min-height: 44px; border: 0; border-radius: 999px; background: none; font: inherit; font-size: 1rem; font-weight: 700; color: var(--muted); cursor: pointer; }
+    .mode[aria-selected="true"] { background: #fff; color: var(--ink); box-shadow: 0 1px 3px rgba(22, 24, 29, .15); }
+    .toupdates { font-size: 15px; font-weight: 500; }
+    /* 日付のタブ */
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+    .tab { padding: 8px 16px; min-height: 44px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); font: inherit; font-size: 15px; font-weight: 700; cursor: pointer; }
+    .tab[aria-selected="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(360px, calc((100% - 32px) / 3)); gap: 32px; align-items: start; }
     .main { min-width: 0; overflow-wrap: anywhere; }
-    .side { overflow-wrap: anywhere; }
-    .topics > li { margin-bottom: 28px; }
-    /* 段(リストの階層)が変わるときのインデントは、全角1文字分(1em)にする */
-    .main ul, .main ol { padding-left: 1em; margin: 4px 0; }
-    .topics h4 { margin: 12px 0 4px; font-size: 0.95em; }
-    /* 狭い画面(スマホ)では、記事(左)とおすすめ商品(右)の文字を、2/3(18px→12px)にする */
+    .main h2 { margin-top: 0; }
+    /* 話題(TOP3)のカード */
+    .main ol.topics { list-style: none; padding: 0; margin: 0; counter-reset: topic; display: flex; flex-direction: column; gap: 20px; }
+    .topics > li { counter-increment: topic; position: relative; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 24px 24px 24px 84px; margin: 0; }
+    .topics > li::before { content: counter(topic); position: absolute; left: 26px; top: 18px; font-family: var(--serif); font-weight: 700; font-size: 48px; line-height: 1; color: var(--accent); }
+    .topics h3 { margin: 0 0 8px; font-size: 1.25em; line-height: 1.5; }
+    .topics h3 a { color: var(--ink); }
+    .topics h3 a:hover { color: var(--accent); }
+    .blk { margin-top: 14px; padding: 14px 18px; border-radius: 12px; background: var(--bg); }
+    .blk h4 { margin: 0 0 6px; font-size: 0.85em; letter-spacing: 0.06em; color: var(--muted); }
+    .main .blk ul { margin: 0; padding-left: 1em; }
+    .blk-ok { background: var(--accent-soft); }
+    .blk-ok h4 { color: var(--accent-dark); }
+    .blk-unk { background: #fff; border: 2px dashed #b9b6aa; }
+    .blk-unk h4 { color: var(--ink); }
+    /* 今日のお題 */
+    #odai h2 { margin-top: 0; }
+    #odai h3 { margin: 8px 0 4px; font-size: 1.4em; line-height: 1.5; }
+    /* おすすめ商品(PR) */
+    .inline-prod { display: none; }
+    .inline-prod li { list-style: none; }
+    .side { position: sticky; top: 12px; min-width: 0; overflow-wrap: anywhere; }
+    .side h2 { margin-top: 0; font-size: 1.05rem; }
+    .prod .photo { display: block; margin: 8px auto; max-width: 300px; }
+    .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 10px; }
     @media (max-width: 720px) {
       /* 狭い画面では、右の列をやめて、話題(章)ごとに商品を1つずつ、縦に差し込む */
       .layout { grid-template-columns: minmax(0, 1fr); }
       .side { display: none; }
-      .inline-prod { display: block; margin-top: 12px; padding: 8px; border: 1px solid #ddd; border-radius: 6px; max-width: 349px; }
+      .inline-prod { display: block; margin-top: 12px; padding: 8px; background: #fff; border: 1px solid var(--line); border-radius: 12px; max-width: 349px; }
       .inline-prod .photo { max-width: 50%; }
       .inline-prod .links a { font-size: 10px; margin-right: 8px; }
       .inline-prod .no { font-size: 16px; margin-right: 4px; }
+      /* 狭い画面(スマホ)では、記事(左)とおすすめ商品(右)の文字を、2/3(18px→12px)にする */
       .main, .side { font-size: 12px; line-height: 1.7; }
       .main h2 { font-size: 15px; }
       .side h2 { font-size: 11px; }
       .main .vol, .side .vol { font-size: 10px; }
       .side .no { font-size: 16px; margin-right: 4px; }
       .side .links a { font-size: 10px; margin-right: 8px; }
+      .mode { padding: 8px 16px; font-size: 0.9rem; }
+      .tabs { flex-wrap: nowrap; overflow-x: auto; margin-bottom: 20px; padding-bottom: 4px; }
+      .tab { flex: 0 0 auto; font-size: 13px; padding: 8px 12px; }
+      .topics > li { padding: 16px; }
+      .topics > li::before { position: static; display: block; font-size: 32px; margin-bottom: 4px; }
+      .blk { padding: 10px 12px; }
     }
   </style>
   <script is:inline>
