@@ -38,7 +38,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     <section class="panel" data-panel={d.date} hidden={i !== 0}>
       <h2>{label(d.date)}のTOP3(テクノロジー)</h2>
       <ol class="topics">
-        {d.items.map((it) => (
+        {d.items.map((it, k) => (
           <li>
             <h3><a href={it.url} rel="noopener nofollow" target="_blank">{it.title}</a></h3>
             <p class="vol">ニュースの公開時刻:{jst(it.published)}</p>
@@ -51,6 +51,23 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
                 {it.terms.length > 0 && (<><h4>用語</h4><ul>{it.terms.map((t) => <li><strong>{t[0]}</strong>:{t[1]}</li>)}</ul></>)}
               </>
             ) : <p class="vol">解説は準備中です(出典を確認中)。</p>}
+            {gadgets[k] && (
+              <div class="inline-prod">
+                <p class="vol">おすすめ商品(PR)</p>
+                <div class="prod">
+                  <span class="no">{gadgets[k].rank}</span>{gadgets[k].name} <span class="vol">{gadgets[k].price}</span>
+                  {gadgets[k].image && (
+                    <a href={gadgets[k].rakutenUrl} rel="sponsored nofollow noopener" class="photo">
+                      <img src={gadgets[k].big} alt={gadgets[k].name} loading="lazy" width="400" height="400" onerror={`this.onerror=null;this.src='${gadgets[k].image}'`} />
+                    </a>
+                  )}
+                  <div class="links">
+                    <a href={gadgets[k].rakutenUrl} rel="sponsored nofollow noopener">楽天で見る</a>
+                    <a href={gadgets[k].amazonUrl} rel="sponsored nofollow noopener">Amazonで探す</a>
+                  </div>
+                </div>
+              </div>
+            )}
           </li>
         ))}
       </ol>
@@ -100,6 +117,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
     .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
     .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(381px, calc((100% - 24px) / 3)); gap: 24px; align-items: start; }
+    .inline-prod { display: none; }
     .side { position: sticky; top: 12px; min-width: 0; }
     .prod .photo { display: block; margin: 8px 0; max-width: 349px; }
     .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid #ddd; border-radius: 6px; }
@@ -112,6 +130,13 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     .topics h4 { margin: 12px 0 4px; font-size: 0.95em; }
     /* 狭い画面(スマホ)では、記事(左)とおすすめ商品(右)の文字を、2/3(18px→12px)にする */
     @media (max-width: 720px) {
+      /* 狭い画面では、右の列をやめて、話題(章)ごとに商品を1つずつ、縦に差し込む */
+      .layout { grid-template-columns: minmax(0, 1fr); }
+      .side { display: none; }
+      .inline-prod { display: block; margin-top: 12px; padding: 8px; border: 1px solid #ddd; border-radius: 6px; max-width: 349px; }
+      .inline-prod .photo { max-width: 100%; }
+      .inline-prod .links a { font-size: 10px; margin-right: 8px; }
+      .inline-prod .no { font-size: 16px; margin-right: 4px; }
       .main, .side { font-size: 12px; line-height: 1.7; }
       .main h2 { font-size: 15px; }
       .side h2 { font-size: 11px; }
