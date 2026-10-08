@@ -36,6 +36,9 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
       .links a { margin-right:12px; font-size:15px; }
       .draft { background:#fff3cd; border:1px solid #e0c36a; padding:10px 14px; border-radius:6px; font-size:15px; }
       footer { padding-top:32px; padding-bottom:48px; font-size:14px; color:#666; }
+      .reload-fab { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: 48px; height: 48px; border-radius: 50%; border: 1px solid #1a56c4; background: #1a56c4; color: #fff; font-size: 22px; line-height: 1; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+      .reload-fab:hover { background: #17489f; }
+      @media print { .reload-fab { display: none; } }
     </style>
     <!-- Vercel Analytics（旧サイトと同じタグ。管理者ダッシュボードのみで確認可能） -->
     <script defer src="/_vercel/insights/script.js"></script>
@@ -58,5 +61,6 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
       <p>本サイトはAmazon.co.jpアソシエイト・プログラム及び楽天アフィリエイトの参加者です。掲載の商品リンクを経由してご購入いただいた場合、当サイトが報酬を受け取ることがあります。</p>
       <p><a href="/privacy/">プライバシーポリシー</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="/about/">運営者情報</a></p>
     </footer>
+    <button type="button" class="reload-fab" aria-label="ページを再読み込みする" title="再読み込み" onclick="location.reload()">↻</button>
   </body>
 </html>
