@@ -25,9 +25,10 @@ export function formatDate(d) {
 }
 
 // 「10月8日(木)」の形(年なし)
-export function shortDate(iso) {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso).slice(0, 10));
-  if (!m) return String(iso);
+export function shortDate(d) {
+  const iso = d instanceof Date ? d.toISOString().slice(0, 10) : String(d).slice(0, 10);
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if (!m) return String(d);
   const wd = "日月火水木金土"[new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])).getUTCDay()];
   return `${+m[2]}月${+m[3]}日(${wd})`;
 }

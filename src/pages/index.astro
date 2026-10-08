@@ -4,9 +4,8 @@ import path from "node:path";
 import Base from "../layouts/Base.astro";
 import { loadLatest } from "../lib/data.js";
 import { loadArticles, formatDate, shortDate } from "../lib/articles.js";
-// 今日のお題 = 公開済み(下書きでない)記事のうち、いちばん新しいもの
-const odai = loadArticles().find((a) => a.draft !== true);
-const OdaiContent = odai ? odai.Content : null;
+// 今日のお題 = 公開済み(下書きでない)記事のうち、新しい順に最大10本(loadArticles が、新しい10本までに絞る)
+const odais = loadArticles().filter((a) => a.draft !== true);
 const latest = loadLatest();
 const gadgetsKeyword = latest.gadgets_keyword || "";
 const bigImage = (u) => (u || "").replace("_ex=128x128", "_ex=400x400");
@@ -32,6 +31,11 @@ const label = shortDate; // 例: 10月8日(木)
   <div class="tabs" role="tablist" aria-label="日付">
     {days.map((d, i) => <button type="button" role="tab" class="tab" data-tab={d.date} aria-selected={i === 0 ? "true" : "false"}>{label(d.date)}</button>)}
   </div>
+  {odais.length > 0 && (
+    <div class="tabs otabs" id="otabs" role="tablist" aria-label="お題の記事(日付)" hidden>
+      {odais.map((a, i) => <button type="button" role="tab" class="otab" data-otab={a.slug} title={a.title} aria-selected={i === 0 ? "true" : "false"}>{shortDate(a.date)}</button>)}
+    </div>
+  )}
   <div class="layout">
   <div class="main">
   {days.map((d, i) => (
@@ -73,13 +77,20 @@ const label = shortDate; // 例: 10月8日(木)
       </ol>
     </section>
   ))}
-  <section id="odai" class="article-card" hidden>
-    {odai ? (
+  <section id="odai" hidden>
+    {odais.length > 0 ? (
       <>
-        <h2>今日のお題</h2>
-        <h3>{odai.title}</h3>
-        <p class="vol">{formatDate(odai.date)}</p>
-        <div id="odai-body" class="article"><OdaiContent /></div>
+        {odais.map((a, i) => {
+          const Body = a.Content;
+          return (
+            <article class="odai-panel article-card" data-odai={a.slug} hidden={i !== 0}>
+              <h2>{i === 0 ? "今日のお題" : "過去のお題"}</h2>
+              <h3>{a.title}</h3>
+              <p class="vol">{formatDate(a.date)}(<a href={`/articles/${a.slug}/`}>この記事だけのページ</a>)</p>
+              <div class="article" data-odai-body><Body /></div>
+            </article>
+          );
+        })}
         <p><a href="/articles/">お題の記事の一覧(新しい10本)</a></p>
       </>
     ) : <p class="vol">今日のお題の記事は、まだありません。</p>}
@@ -107,7 +118,7 @@ const label = shortDate; // 例: 10月8日(木)
   </div>
   <style>
     .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-    .tabs[hidden], #odai[hidden], .panel[hidden], .toupdates[hidden] { display: none; }
+    .tabs[hidden], #odai[hidden], .panel[hidden], .odai-panel[hidden], .toupdates[hidden] { display: none; }
     /* 表示の切り替え(今日の話題 / 今日のお題) */
     .titlebar { display: flex; justify-content: space-between; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-bottom: 20px; }
     .modes { display: inline-flex; padding: 4px; background: #e9e7df; border-radius: 999px; }
@@ -116,8 +127,8 @@ const label = shortDate; // 例: 10月8日(木)
     .toupdates { font-size: 15px; font-weight: 500; }
     /* 日付のタブ */
     .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
-    .tab { padding: 8px 16px; min-height: 44px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); font: inherit; font-size: 15px; font-weight: 700; cursor: pointer; }
-    .tab[aria-selected="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .tab, .otab { padding: 8px 16px; min-height: 44px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); font: inherit; font-size: 15px; font-weight: 700; cursor: pointer; }
+    .tab[aria-selected="true"], .otab[aria-selected="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
     .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(360px, calc((100% - 32px) / 3)); gap: 32px; align-items: start; }
     .main { min-width: 0; overflow-wrap: anywhere; }
     .main h2 { margin-top: 0; }
@@ -136,8 +147,8 @@ const label = shortDate; // 例: 10月8日(木)
     .blk-unk { background: #fff; border: 2px dashed #b9b6aa; }
     .blk-unk h4 { color: var(--ink); }
     /* 今日のお題 */
-    #odai h2 { margin-top: 0; }
-    #odai h3 { margin: 8px 0 4px; font-size: 1.4em; line-height: 1.5; }
+    .odai-panel h2 { margin-top: 0; }
+    .odai-panel h3 { margin: 8px 0 4px; font-size: 1.4em; line-height: 1.5; }
     /* おすすめ商品(PR) */
     .inline-prod { display: none; }
     .inline-prod li { list-style: none; }
@@ -162,7 +173,7 @@ const label = shortDate; // 例: 10月8日(木)
       .side .links a { font-size: 10px; margin-right: 8px; }
       .mode { padding: 8px 16px; font-size: 0.9rem; }
       .tabs { flex-wrap: nowrap; overflow-x: auto; margin-bottom: 20px; padding-bottom: 4px; }
-      .tab { flex: 0 0 auto; font-size: 13px; padding: 8px 12px; }
+      .tab, .otab { flex: 0 0 auto; font-size: 13px; padding: 8px 12px; }
       .topics > li { padding: 16px; }
       .topics > li::before { position: static; display: block; font-size: 32px; margin-bottom: 4px; }
       .blk { padding: 10px 12px; }
@@ -172,29 +183,31 @@ const label = shortDate; // 例: 10月8日(木)
     (function () {
       var tabs = document.querySelectorAll(".tab"), panels = document.querySelectorAll(".panel");
       var modes = document.querySelectorAll(".mode"), odai = document.getElementById("odai");
-      var tabBar = document.querySelector(".tabs"), lk = document.getElementById("toupdates");
-      var current = null;
+      var tabBar = document.querySelector(".tabs:not(.otabs)"), lk = document.getElementById("toupdates");
+      var otabBar = document.getElementById("otabs"), otabs = document.querySelectorAll(".otab"), opanels = document.querySelectorAll(".odai-panel");
+      var current = null, ocurrent = null;
       tabs.forEach(function (t) { if (t.getAttribute("aria-selected") === "true") current = t.dataset.tab; });
-      // 狭い画面では、「今日のお題」の記事の章(見出し)ごとに、商品を1つずつ縦に差し込む(商品の数まで)
+      otabs.forEach(function (t) { if (t.getAttribute("aria-selected") === "true") ocurrent = t.dataset.otab; });
+      // 狭い画面では、「今日のお題」の記事の章(見出し)ごとに、商品を1つずつ縦に差し込む(商品の数まで)。記事ごとに行う
       var mq = window.matchMedia("(max-width: 720px)");
       function placeProducts() {
-        var body = document.getElementById("odai-body");
-        if (!body) return;
-        body.querySelectorAll(".inline-prod-js").forEach(function (e) { e.remove(); });
-        if (!mq.matches) return;
-        var prods = document.querySelectorAll(".side .prod");
-        var heads = body.querySelectorAll("h2");
-        heads.forEach(function (h, i) {
-          if (i >= prods.length) return;
-          var box = document.createElement("div");
-          box.className = "inline-prod inline-prod-js";
-          var label = document.createElement("p");
-          label.className = "vol"; label.textContent = "おすすめ商品(PR)";
-          box.appendChild(label);
-          box.appendChild(prods[i].cloneNode(true));
-          // 章の終わり = 次の見出しの直前(最後の章は記事の末尾)
-          var next = heads[i + 1];
-          if (next) next.parentNode.insertBefore(box, next); else body.appendChild(box);
+        document.querySelectorAll("[data-odai-body]").forEach(function (body) {
+          body.querySelectorAll(".inline-prod-js").forEach(function (e) { e.remove(); });
+          if (!mq.matches) return;
+          var prods = document.querySelectorAll(".side .prod");
+          var heads = body.querySelectorAll("h2");
+          heads.forEach(function (h, i) {
+            if (i >= prods.length) return;
+            var box = document.createElement("div");
+            box.className = "inline-prod inline-prod-js";
+            var label = document.createElement("p");
+            label.className = "vol"; label.textContent = "おすすめ商品(PR)";
+            box.appendChild(label);
+            box.appendChild(prods[i].cloneNode(true));
+            // 章の終わり = 次の見出しの直前(最後の章は記事の末尾)
+            var next = heads[i + 1];
+            if (next) next.parentNode.insertBefore(box, next); else body.appendChild(box);
+          });
         });
       }
       if (mq.addEventListener) mq.addEventListener("change", placeProducts); else mq.addListener(placeProducts);
@@ -205,15 +218,22 @@ const label = shortDate; // 例: 10月8日(木)
         panels.forEach(function (p) { p.hidden = p.dataset.panel !== date; });
         if (lk) lk.setAttribute("href", "/updates/#" + date);
       }
+      function showOdai(slug) {
+        ocurrent = slug;
+        otabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.otab === slug ? "true" : "false"); });
+        opanels.forEach(function (p) { p.hidden = p.dataset.odai !== slug; });
+      }
       function setMode(m) {
         modes.forEach(function (b) { b.setAttribute("aria-selected", b.dataset.mode === m ? "true" : "false"); });
         var isOdai = m === "odai";
         odai.hidden = !isOdai;
         tabBar.hidden = isOdai;
+        if (otabBar) otabBar.hidden = !isOdai;
         if (lk) lk.hidden = isOdai;
-        if (isOdai) { panels.forEach(function (p) { p.hidden = true; }); } else { show(current); }
+        if (isOdai) { panels.forEach(function (p) { p.hidden = true; }); if (ocurrent) showOdai(ocurrent); } else { show(current); }
       }
       tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.dataset.tab); }); });
+      otabs.forEach(function (t) { t.addEventListener("click", function () { showOdai(t.dataset.otab); }); });
       modes.forEach(function (b) { b.addEventListener("click", function () { setMode(b.dataset.mode); }); });
       if (location.hash === "#odai") setMode("odai");
     })();
