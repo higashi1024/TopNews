@@ -1,66 +1,66 @@
 {
   "date": "2026-10-08",
-  "updated_at": "2026-10-08T11:27:02.466+09:00",
+  "updated_at": "2026-10-08T18:54:43.232+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "ゴールドシュミット",
+      "keyword": "篠原ともえ",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 2,
+      "keyword": "陸上自衛隊 富士駐屯地",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 3,
+      "keyword": "弥彦競輪",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
-      "rank": 2,
-      "keyword": "ペイペイ",
-      "category": "経済・投資",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 3,
-      "keyword": "運転",
-      "category": "社会・ニュース",
-      "volume_approx": "1000+"
-    },
-    {
       "rank": 4,
-      "keyword": "ファビオ・ボリーニ",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 5,
-      "keyword": "大谷翔平",
+      "keyword": "mlb ドジャース",
       "category": "スポーツ",
       "volume_approx": "20000+"
     },
     {
+      "rank": 5,
+      "keyword": "産業廃棄物",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 6,
-      "keyword": "本木雅弘",
+      "keyword": "イム・セジュ",
       "category": "エンタメ",
-      "volume_approx": "500+"
+      "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "サイバーセキュリティクラウド",
-      "category": "テクノロジー",
+      "keyword": "サイモン",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "相馬直樹",
-      "category": "スポーツ",
-      "volume_approx": "2000+"
+      "keyword": "ノートルダム清心女子大学",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "田名部匡代",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "keyword": "サッカー 大韓民国 代表",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "永野芽郁",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "福島県知事選挙",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     }
   ]
 }
