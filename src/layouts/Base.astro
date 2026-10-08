@@ -97,10 +97,10 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
   <body>
-    <header class="site-header">
+    {!hideHeader && (<header class="site-header">
       <div class="inner">
         <a class="site" href="/"><span class="mark" aria-hidden="true"></span>今日の話題</a>
-        {!hideHeader && (<nav>
+        <nav>
           <a href="/ranking/">今日のランキング</a>
           <a href="/archive/">過去のランキング</a>
           <a href="/">テクノロジーの話題</a>
@@ -108,9 +108,9 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
           <a href="/updates/">公的機関の最新情報</a>
           <a href="/guide/mobile-battery/">モバイルバッテリーの選び方</a>
           <a href="/about/">このサイトについて</a>
-        </nav>)}
+        </nav>
       </div>
-    </header>
+    </header>)}
     <main><slot /></main>
     <footer>
       <div class="inner">
