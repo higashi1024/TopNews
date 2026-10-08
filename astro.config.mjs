@@ -6,6 +6,8 @@ export default defineConfig({
   site: "https://top-news-kappa.vercel.app",
   output: "static",
   redirects: { "/topics": "/" },
+  // 小さなCSSをHTMLに埋め込み、CSSファイルの追加読み込み(通信1回分)をなくす
+  build: { inlineStylesheets: "always" },
   integrations: [
     sitemap({
       // 下書きページ（noindex）はサイトマップに載せない

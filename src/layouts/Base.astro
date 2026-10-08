@@ -8,6 +8,9 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 読み込み前の画面が黒くならないよう、明るい配色であることを先に伝える -->
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f6f5f1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -27,6 +30,7 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
         --sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
         --serif: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", "BIZ UDPMincho", serif;
       }
+      html { background: #f6f5f1; }
       body { margin: 0; background: var(--bg); color: var(--ink); font-size: 18px; line-height: 1.8; font-family: var(--sans); }
       a { color: var(--accent); }
       a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
