@@ -350,6 +350,12 @@ async function main() {
   );
 
   const categories = {};
+  // 取得に失敗したカテゴリは、同じ日の前回データを残す（空で上書きしない）
+  let prevCategories = {};
+  try {
+    const pf = path.join(CONFIG.DATA_DIR, `${today}.json`);
+    if (fs.existsSync(pf)) prevCategories = JSON.parse(fs.readFileSync(pf, "utf8")).categories || {};
+  } catch (e) { /* 読めなければ無視 */ }
   for (const result of categoryResults) {
     if (result.status === "fulfilled") {
       const { name, items } = result.value;
@@ -357,6 +363,13 @@ async function main() {
       console.log(`✅ ${name}: ${items.length}件`);
     } else {
       console.warn(`⚠️ 取得失敗: ${result.reason.message}`);
+    }
+  }
+  for (const src of CATEGORY_SOURCES) {
+    const got = categories[src.name];
+    if ((!got || got.length === 0) && Array.isArray(prevCategories[src.name]) && prevCategories[src.name].length > 0) {
+      categories[src.name] = prevCategories[src.name];
+      console.log(`⚠️ ${src.name}: 今回は取得できなかったため前回分を残します`);
     }
   }
 

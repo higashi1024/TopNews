@@ -11,6 +11,7 @@ const dates = process.argv.slice(2).length
   : fs.readdirSync(dataDir).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map(f => f.slice(0, 10));
 for (const date of dates) {
   const src = JSON.parse(fs.readFileSync(path.join(dataDir, `${date}.json`), "utf8"));
+  if (!(src.categories?.["テクノロジー"] || []).length) { console.log(`スキップ: ${date} (テクノロジーのニュースが0件)`); continue; }
   const outPath = path.join(outDir, `${date}.json`);
   const prev = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, "utf8")) : { items: [] };
   const items = (src.categories?.["テクノロジー"] || []).slice(0, 3).map(t => {
