@@ -6,9 +6,24 @@ export function getStaticPaths() {
 }
 const { article } = Astro.props;
 const { Content } = article;
+const d = article.date instanceof Date ? article.date : new Date(article.date);
+const iso = d.toISOString().slice(0, 10);
+const url = new URL(`/articles/${article.slug}/`, Astro.site).href;
+// 検索エンジン向けの記事情報(構造化データ)。確認できている項目だけを入れる(運営者名は未記入のため入れない)
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: article.title,
+  description: article.description || article.title,
+  datePublished: iso,
+  mainEntityOfPage: url,
+  inLanguage: "ja",
+  publisher: { "@type": "Organization", name: "今日の話題" },
+};
 ---
-<Base title={article.title} description={article.description || article.title} noindex={article.draft === true}>
+<Base title={article.title} description={article.description || article.title} noindex={article.draft === true} ogType="article" jsonLd={jsonLd}>
   {article.draft && <p class="draft">【下書き・公開前に確認】</p>}
+  <h1>{article.title}</h1>
   <p class="vol">{formatDate(article.date)}</p>
   <div class="article-card" style="max-width: 880px"><article class="article"><Content /></article></div>
   <p><a href="/articles/">← お題の記事の一覧にもどる</a></p>
