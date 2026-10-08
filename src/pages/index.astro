@@ -3,6 +3,10 @@ import fs from "node:fs";
 import path from "node:path";
 import Base from "../layouts/Base.astro";
 import { loadLatest } from "../lib/data.js";
+import { loadArticles } from "../lib/articles.js";
+// 今日のお題 = 公開済み(下書きでない)記事のうち、いちばん新しいもの
+const odai = loadArticles().find((a) => a.draft !== true);
+const OdaiContent = odai ? odai.Content : null;
 const latest = loadLatest();
 const gadgetsKeyword = latest.gadgets_keyword || "";
 const bigImage = (u) => (u || "").replace("_ex=128x128", "_ex=400x400");
@@ -17,8 +21,12 @@ const jst = (iso) => {
 const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
 ---
 <Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" hideHeader={true}>
+  <h1 class="sr-only">今日の話題・今日のお題</h1>
   <div class="titlebar">
-    <h1>今日の話題</h1>
+    <div class="modes" role="tablist" aria-label="表示の切り替え">
+      <button type="button" role="tab" class="mode" data-mode="topics" aria-selected="true">今日の話題</button>
+      <button type="button" role="tab" class="mode" data-mode="odai" aria-selected="false">今日のお題</button>
+    </div>
     <a class="toupdates" id="toupdates" href={`/updates/#${days[0].date}`}>公的機関の最新情報</a>
   </div>
   <div class="tabs" role="tablist" aria-label="日付">
@@ -48,6 +56,17 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
       </ol>
     </section>
   ))}
+  <section id="odai" hidden>
+    {odai ? (
+      <>
+        <h2>今日のお題</h2>
+        <h3>{odai.title}</h3>
+        <p class="vol">{odai.date}</p>
+        <OdaiContent />
+        <p><a href="/articles/">お題の記事の一覧(新しい10本)</a></p>
+      </>
+    ) : <p class="vol">今日のお題の記事は、まだありません。</p>}
+  </section>
   </div>
   <aside class="side" aria-label="広告(PR)">
     <h2>おすすめ商品(PR)</h2>
@@ -70,6 +89,12 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   </aside>
   </div>
   <style>
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .tabs[hidden], #odai[hidden], .panel[hidden], .toupdates[hidden] { display: none; }
+    .modes { display: flex; gap: 4px; }
+    .mode { padding: 6px 4px; margin-right: 12px; border: 0; border-bottom: 4px solid transparent; background: none; font-size: 1.3em; font-weight: 700; color: #3a3830; cursor: pointer; }
+    .mode[aria-selected="true"] { border-bottom-color: #1a56c4; }
+    #odai h3 { margin: 8px 0 4px; }
     .titlebar { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
     .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
     .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
@@ -98,12 +123,27 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   <script is:inline>
     (function () {
       var tabs = document.querySelectorAll(".tab"), panels = document.querySelectorAll(".panel");
+      var modes = document.querySelectorAll(".mode"), odai = document.getElementById("odai");
+      var tabBar = document.querySelector(".tabs"), lk = document.getElementById("toupdates");
+      var current = null;
+      tabs.forEach(function (t) { if (t.getAttribute("aria-selected") === "true") current = t.dataset.tab; });
       function show(date) {
+        current = date;
         tabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.tab === date ? "true" : "false"); });
         panels.forEach(function (p) { p.hidden = p.dataset.panel !== date; });
-        var lk = document.getElementById("toupdates"); if (lk) lk.setAttribute("href", "/updates/#" + date);
+        if (lk) lk.setAttribute("href", "/updates/#" + date);
+      }
+      function setMode(m) {
+        modes.forEach(function (b) { b.setAttribute("aria-selected", b.dataset.mode === m ? "true" : "false"); });
+        var isOdai = m === "odai";
+        odai.hidden = !isOdai;
+        tabBar.hidden = isOdai;
+        if (lk) lk.hidden = isOdai;
+        if (isOdai) { panels.forEach(function (p) { p.hidden = true; }); } else { show(current); }
       }
       tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.dataset.tab); }); });
+      modes.forEach(function (b) { b.addEventListener("click", function () { setMode(b.dataset.mode); }); });
+      if (location.hash === "#odai") setMode("odai");
     })();
   </script>
 </Base>
