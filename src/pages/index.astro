@@ -79,7 +79,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
         <h2>今日のお題</h2>
         <h3>{odai.title}</h3>
         <p class="vol">{odai.date}</p>
-        <OdaiContent />
+        <div id="odai-body"><OdaiContent /></div>
         <p><a href="/articles/">お題の記事の一覧(新しい10本)</a></p>
       </>
     ) : <p class="vol">今日のお題の記事は、まだありません。</p>}
@@ -152,6 +152,30 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
       var tabBar = document.querySelector(".tabs"), lk = document.getElementById("toupdates");
       var current = null;
       tabs.forEach(function (t) { if (t.getAttribute("aria-selected") === "true") current = t.dataset.tab; });
+      // 狭い画面では、「今日のお題」の記事の章(見出し)ごとに、商品を1つずつ縦に差し込む(商品の数まで)
+      var mq = window.matchMedia("(max-width: 720px)");
+      function placeProducts() {
+        var body = document.getElementById("odai-body");
+        if (!body) return;
+        body.querySelectorAll(".inline-prod-js").forEach(function (e) { e.remove(); });
+        if (!mq.matches) return;
+        var prods = document.querySelectorAll(".side .prod");
+        var heads = body.querySelectorAll("h2");
+        heads.forEach(function (h, i) {
+          if (i >= prods.length) return;
+          var box = document.createElement("div");
+          box.className = "inline-prod inline-prod-js";
+          var label = document.createElement("p");
+          label.className = "vol"; label.textContent = "おすすめ商品(PR)";
+          box.appendChild(label);
+          box.appendChild(prods[i].cloneNode(true));
+          // 章の終わり = 次の見出しの直前(最後の章は記事の末尾)
+          var next = heads[i + 1];
+          if (next) next.parentNode.insertBefore(box, next); else body.appendChild(box);
+        });
+      }
+      if (mq.addEventListener) mq.addEventListener("change", placeProducts); else mq.addListener(placeProducts);
+      placeProducts();
       function show(date) {
         current = date;
         tabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.tab === date ? "true" : "false"); });
