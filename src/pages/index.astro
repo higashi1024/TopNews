@@ -3,10 +3,9 @@ import fs from "node:fs";
 import path from "node:path";
 import Base from "../layouts/Base.astro";
 import { loadLatest } from "../lib/data.js";
-import { loadArticles } from "../lib/articles.js";
-// 今日のお題 = 公開済み(下書きでない)記事のうち、いちばん新しいもの
-const odai = loadArticles().find((a) => a.draft !== true);
-const OdaiContent = odai ? odai.Content : null;
+import { loadArticles, formatDate, shortDate } from "../lib/articles.js";
+// 今日のお題 = 公開済み(下書きでない)記事のうち、新しい順に最大10本(loadArticles が、新しい10本までに絞る)
+const odais = loadArticles().filter((a) => a.draft !== true);
 const latest = loadLatest();
 const gadgetsKeyword = latest.gadgets_keyword || "";
 const bigImage = (u) => (u || "").replace("_ex=128x128", "_ex=400x400");
@@ -18,9 +17,9 @@ const jst = (iso) => {
   const t = new Date(iso);
   return isNaN(t.getTime()) ? "不明" : t.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }) + "(日本時間)";
 };
-const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
+const label = shortDate; // 例: 10月8日(木)
 ---
-<Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" hideHeader={true}>
+<Base title="今日の話題:テクノロジーのTOP5" description="日ごとのテクノロジー関連ニュースのTOP5を、公的機関などの一次情報で背景を確認しながら紹介します。" hideHeader={true}>
   <h1 class="sr-only">今日の話題・今日のお題</h1>
   <div class="titlebar">
     <div class="modes" role="tablist" aria-label="表示の切り替え">
@@ -32,11 +31,16 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   <div class="tabs" role="tablist" aria-label="日付">
     {days.map((d, i) => <button type="button" role="tab" class="tab" data-tab={d.date} aria-selected={i === 0 ? "true" : "false"}>{label(d.date)}</button>)}
   </div>
+  {odais.length > 0 && (
+    <div class="tabs otabs" id="otabs" role="tablist" aria-label="お題の記事" hidden>
+      {odais.map((a, i) => <button type="button" role="tab" class="otab" data-otab={a.slug} title={a.title} aria-selected={i === 0 ? "true" : "false"}>{a.title}</button>)}
+    </div>
+  )}
   <div class="layout">
   <div class="main">
   {days.map((d, i) => (
     <section class="panel" data-panel={d.date} hidden={i !== 0}>
-      <h2>{label(d.date)}のTOP3(テクノロジー)</h2>
+      <h2>{label(d.date)}のTOP{d.items.length}(テクノロジー)</h2>
       <ol class="topics">
         {d.items.map((it, k) => (
           <li>
@@ -44,11 +48,11 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
             <p class="vol">ニュースの公開時刻:{jst(it.published)}</p>
             {it.background.length > 0 ? (
               <>
-                <h4>背景(確認できたこと)</h4>
-                <ul>{it.background.map((b) => <li>{b.text}{b.url && <> <a href={b.url} rel="noopener">[{b.label}]</a></>}</li>)}</ul>
-                {it.actions.length > 0 && (<><h4>読者ができること</h4><ul>{it.actions.map((a) => <li>{a}</li>)}</ul></>)}
-                {it.unknown.length > 0 && (<><h4>確認できなかったこと</h4><ul>{it.unknown.map((u) => <li>{u}</li>)}</ul></>)}
-                {it.terms.length > 0 && (<><h4>用語</h4><ul>{it.terms.map((t) => <li><strong>{t[0]}</strong>:{t[1]}</li>)}</ul></>)}
+                <div class="blk blk-ok"><h4>背景(確認できたこと)</h4>
+                <ul>{it.background.map((b) => <li>{b.text}{b.url && <> <a href={b.url} rel="noopener">[{b.label}]</a></>}</li>)}</ul></div>
+                {it.actions.length > 0 && (<div class="blk"><h4>読者ができること</h4><ul>{it.actions.map((a) => <li>{a}</li>)}</ul></div>)}
+                {it.unknown.length > 0 && (<div class="blk blk-unk"><h4>確認できなかったこと</h4><ul>{it.unknown.map((u) => <li>{u}</li>)}</ul></div>)}
+                {it.terms.length > 0 && (<div class="blk"><h4>用語</h4><ul>{it.terms.map((t) => <li><strong>{t[0]}</strong>:{t[1]}</li>)}</ul></div>)}
               </>
             ) : <p class="vol">解説は準備中です(出典を確認中)。</p>}
             {gadgets[k] && (
@@ -74,12 +78,19 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     </section>
   ))}
   <section id="odai" hidden>
-    {odai ? (
+    {odais.length > 0 ? (
       <>
-        <h2>今日のお題</h2>
-        <h3>{odai.title}</h3>
-        <p class="vol">{odai.date}</p>
-        <div id="odai-body"><OdaiContent /></div>
+        {odais.map((a, i) => {
+          const Body = a.Content;
+          return (
+            <article class="odai-panel article-card" data-odai={a.slug} hidden={i !== 0}>
+              <h2>{i === 0 ? "今日のお題" : "過去のお題"}</h2>
+              <h3>{a.title}</h3>
+              <p class="vol">{formatDate(a.date)}(<a href={`/articles/${a.slug}/`}>この記事だけのページ</a>)</p>
+              <div class="article" data-odai-body><Body /></div>
+            </article>
+          );
+        })}
         <p><a href="/articles/">お題の記事の一覧(新しい10本)</a></p>
       </>
     ) : <p class="vol">今日のお題の記事は、まだありません。</p>}
@@ -107,71 +118,98 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   </div>
   <style>
     .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-    .tabs[hidden], #odai[hidden], .panel[hidden], .toupdates[hidden] { display: none; }
-    .modes { display: flex; gap: 4px; }
-    .mode { padding: 6px 4px; margin-right: 12px; border: 0; border-bottom: 4px solid transparent; background: none; font-size: 1.3em; font-weight: 700; color: #3a3830; cursor: pointer; }
-    .mode[aria-selected="true"] { border-bottom-color: #1a56c4; }
-    #odai h3 { margin: 8px 0 4px; }
-    .titlebar { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 20px; }
-    .tab { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font-size: 1rem; }
-    .tab[aria-selected="true"] { background: #1a56c4; color: #fff; border-color: #1a56c4; }
-    .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(381px, calc((100% - 24px) / 3)); gap: 24px; align-items: start; }
-    .inline-prod { display: none; }
-    .side { position: sticky; top: 12px; min-width: 0; }
-    .prod .photo { display: block; margin: 8px auto; max-width: 349px; }
-    .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid #ddd; border-radius: 6px; }
-    .side h2 { margin-top: 0; font-size: 1.05rem; }
+    .tabs[hidden], #odai[hidden], .panel[hidden], .odai-panel[hidden], .toupdates[hidden] { display: none; }
+    /* 表示の切り替え(今日の話題 / 今日のお題) */
+    .titlebar { display: flex; justify-content: space-between; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-bottom: 20px; }
+    .modes { display: inline-flex; padding: 4px; background: #e9e7df; border-radius: 999px; }
+    .mode { padding: 8px 24px; min-height: 44px; border: 0; border-radius: 999px; background: none; font: inherit; font-size: 1rem; font-weight: 700; color: var(--muted); cursor: pointer; }
+    .mode[aria-selected="true"] { background: #fff; color: var(--ink); box-shadow: 0 1px 3px rgba(22, 24, 29, .15); }
+    .toupdates { font-size: 15px; font-weight: 500; }
+    /* 日付のタブ */
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+    .tab, .otab { padding: 8px 16px; min-height: 44px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); font: inherit; font-size: 15px; font-weight: 700; cursor: pointer; }
+    .otab { max-width: 18em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .tab[aria-selected="true"], .otab[aria-selected="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(360px, calc((100% - 32px) / 3)); gap: 32px; align-items: start; }
     .main { min-width: 0; overflow-wrap: anywhere; }
-    .side { overflow-wrap: anywhere; }
-    .topics > li { margin-bottom: 28px; }
-    /* 段(リストの階層)が変わるときのインデントは、全角1文字分(1em)にする */
-    .main ul, .main ol { padding-left: 1em; margin: 4px 0; }
-    .topics h4 { margin: 12px 0 4px; font-size: 0.95em; }
-    /* 狭い画面(スマホ)では、記事(左)とおすすめ商品(右)の文字を、2/3(18px→12px)にする */
+    .main h2 { margin-top: 0; }
+    /* 話題(TOP5)のカード */
+    .main ol.topics { list-style: none; padding: 0; margin: 0; counter-reset: topic; display: flex; flex-direction: column; gap: 20px; }
+    .topics > li { counter-increment: topic; position: relative; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 24px 24px 24px 84px; margin: 0; }
+    .topics > li::before { content: counter(topic); position: absolute; left: 26px; top: 18px; font-family: var(--serif); font-weight: 700; font-size: 48px; line-height: 1; color: var(--accent); }
+    .topics h3 { margin: 0 0 8px; font-size: 1.25em; line-height: 1.5; }
+    .topics h3 a { color: var(--ink); }
+    .topics h3 a:hover { color: var(--accent); }
+    .blk { margin-top: 14px; padding: 14px 18px; border-radius: 12px; background: var(--bg); }
+    .blk h4 { margin: 0 0 6px; font-size: 0.85em; letter-spacing: 0.06em; color: var(--muted); }
+    .main .blk ul { margin: 0; padding-left: 1em; }
+    .blk-ok { background: var(--accent-soft); }
+    .blk-ok h4 { color: var(--accent-dark); }
+    .blk-unk { background: #fff; border: 2px dashed #b9b6aa; }
+    .blk-unk h4 { color: var(--ink); }
+    /* 今日のお題 */
+    .odai-panel h2 { margin-top: 0; }
+    .odai-panel h3 { margin: 8px 0 4px; font-size: 1.4em; line-height: 1.5; }
+    /* おすすめ商品(PR) */
+    .inline-prod { display: none; }
+    .inline-prod li { list-style: none; }
+    .side { position: sticky; top: 12px; min-width: 0; overflow-wrap: anywhere; }
+    .side h2 { margin-top: 0; font-size: 1.05rem; }
+    .prod .photo { display: block; margin: 8px auto; max-width: 300px; }
+    .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 10px; }
     @media (max-width: 720px) {
       /* 狭い画面では、右の列をやめて、話題(章)ごとに商品を1つずつ、縦に差し込む */
       .layout { grid-template-columns: minmax(0, 1fr); }
       .side { display: none; }
-      .inline-prod { display: block; margin-top: 12px; padding: 8px; border: 1px solid #ddd; border-radius: 6px; max-width: 349px; }
+      .inline-prod { display: block; margin-top: 12px; padding: 8px; background: #fff; border: 1px solid var(--line); border-radius: 12px; max-width: 349px; }
       .inline-prod .photo { max-width: 50%; }
       .inline-prod .links a { font-size: 10px; margin-right: 8px; }
       .inline-prod .no { font-size: 16px; margin-right: 4px; }
+      /* 狭い画面(スマホ)では、記事(左)とおすすめ商品(右)の文字を、2/3(18px→12px)にする */
       .main, .side { font-size: 12px; line-height: 1.7; }
       .main h2 { font-size: 15px; }
       .side h2 { font-size: 11px; }
       .main .vol, .side .vol { font-size: 10px; }
       .side .no { font-size: 16px; margin-right: 4px; }
       .side .links a { font-size: 10px; margin-right: 8px; }
+      .mode { padding: 8px 16px; font-size: 0.9rem; }
+      .tabs { flex-wrap: nowrap; overflow-x: auto; margin-bottom: 20px; padding-bottom: 4px; }
+      .tab, .otab { flex: 0 0 auto; font-size: 13px; padding: 8px 12px; }
+      .otab { max-width: 12em; }
+      .topics > li { padding: 16px; }
+      .topics > li::before { position: static; display: block; font-size: 32px; margin-bottom: 4px; }
+      .blk { padding: 10px 12px; }
     }
   </style>
   <script is:inline>
     (function () {
       var tabs = document.querySelectorAll(".tab"), panels = document.querySelectorAll(".panel");
       var modes = document.querySelectorAll(".mode"), odai = document.getElementById("odai");
-      var tabBar = document.querySelector(".tabs"), lk = document.getElementById("toupdates");
-      var current = null;
+      var tabBar = document.querySelector(".tabs:not(.otabs)"), lk = document.getElementById("toupdates");
+      var otabBar = document.getElementById("otabs"), otabs = document.querySelectorAll(".otab"), opanels = document.querySelectorAll(".odai-panel");
+      var current = null, ocurrent = null;
       tabs.forEach(function (t) { if (t.getAttribute("aria-selected") === "true") current = t.dataset.tab; });
-      // 狭い画面では、「今日のお題」の記事の章(見出し)ごとに、商品を1つずつ縦に差し込む(商品の数まで)
+      otabs.forEach(function (t) { if (t.getAttribute("aria-selected") === "true") ocurrent = t.dataset.otab; });
+      // 狭い画面では、「今日のお題」の記事の章(見出し)ごとに、商品を1つずつ縦に差し込む(商品の数まで)。記事ごとに行う
       var mq = window.matchMedia("(max-width: 720px)");
       function placeProducts() {
-        var body = document.getElementById("odai-body");
-        if (!body) return;
-        body.querySelectorAll(".inline-prod-js").forEach(function (e) { e.remove(); });
-        if (!mq.matches) return;
-        var prods = document.querySelectorAll(".side .prod");
-        var heads = body.querySelectorAll("h2");
-        heads.forEach(function (h, i) {
-          if (i >= prods.length) return;
-          var box = document.createElement("div");
-          box.className = "inline-prod inline-prod-js";
-          var label = document.createElement("p");
-          label.className = "vol"; label.textContent = "おすすめ商品(PR)";
-          box.appendChild(label);
-          box.appendChild(prods[i].cloneNode(true));
-          // 章の終わり = 次の見出しの直前(最後の章は記事の末尾)
-          var next = heads[i + 1];
-          if (next) next.parentNode.insertBefore(box, next); else body.appendChild(box);
+        document.querySelectorAll("[data-odai-body]").forEach(function (body) {
+          body.querySelectorAll(".inline-prod-js").forEach(function (e) { e.remove(); });
+          if (!mq.matches) return;
+          var prods = document.querySelectorAll(".side .prod");
+          var heads = body.querySelectorAll("h2");
+          heads.forEach(function (h, i) {
+            if (i >= prods.length) return;
+            var box = document.createElement("div");
+            box.className = "inline-prod inline-prod-js";
+            var label = document.createElement("p");
+            label.className = "vol"; label.textContent = "おすすめ商品(PR)";
+            box.appendChild(label);
+            box.appendChild(prods[i].cloneNode(true));
+            // 章の終わり = 次の見出しの直前(最後の章は記事の末尾)
+            var next = heads[i + 1];
+            if (next) next.parentNode.insertBefore(box, next); else body.appendChild(box);
+          });
         });
       }
       if (mq.addEventListener) mq.addEventListener("change", placeProducts); else mq.addListener(placeProducts);
@@ -182,15 +220,22 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
         panels.forEach(function (p) { p.hidden = p.dataset.panel !== date; });
         if (lk) lk.setAttribute("href", "/updates/#" + date);
       }
+      function showOdai(slug) {
+        ocurrent = slug;
+        otabs.forEach(function (t) { t.setAttribute("aria-selected", t.dataset.otab === slug ? "true" : "false"); });
+        opanels.forEach(function (p) { p.hidden = p.dataset.odai !== slug; });
+      }
       function setMode(m) {
         modes.forEach(function (b) { b.setAttribute("aria-selected", b.dataset.mode === m ? "true" : "false"); });
         var isOdai = m === "odai";
         odai.hidden = !isOdai;
         tabBar.hidden = isOdai;
+        if (otabBar) otabBar.hidden = !isOdai;
         if (lk) lk.hidden = isOdai;
-        if (isOdai) { panels.forEach(function (p) { p.hidden = true; }); } else { show(current); }
+        if (isOdai) { panels.forEach(function (p) { p.hidden = true; }); if (ocurrent) showOdai(ocurrent); } else { show(current); }
       }
       tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.dataset.tab); }); });
+      otabs.forEach(function (t) { t.addEventListener("click", function () { showOdai(t.dataset.otab); }); });
       modes.forEach(function (b) { b.addEventListener("click", function () { setMode(b.dataset.mode); }); });
       if (location.hash === "#odai") setMode("odai");
     })();

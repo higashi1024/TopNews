@@ -1,6 +1,7 @@
-// 「今日の話題」用に、各日のテクノロジーTOP3を src/content/topics/<日付>.json に書き出す。
+// 「今日の話題」用に、各日のテクノロジーTOP5を src/content/topics/<日付>.json に書き出す。
 // 既にある解説(背景・読者ができること・確認できなかったこと・用語)は、同じ順位・同じ見出しなら残す。
 // 使い方: node scripts/make-topics.js [日付 ...]   (日付を省略すると data/ にある全日付)
+const TOP_N = 5; // 「今日の話題」に載せる件数
 const fs = require("fs");
 const path = require("path");
 const dataDir = path.join(__dirname, "../data");
@@ -14,7 +15,7 @@ for (const date of dates) {
   if (!(src.categories?.["テクノロジー"] || []).length) { console.log(`スキップ: ${date} (テクノロジーのニュースが0件)`); continue; }
   const outPath = path.join(outDir, `${date}.json`);
   const prev = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, "utf8")) : { items: [] };
-  const items = (src.categories?.["テクノロジー"] || []).slice(0, 3).map(t => {
+  const items = (src.categories?.["テクノロジー"] || []).slice(0, TOP_N).map(t => {
     const n = (t.news || [])[0] || {};
     const old = prev.items.find(p => p.rank === t.rank && p.title === t.keyword) || {};
     return {

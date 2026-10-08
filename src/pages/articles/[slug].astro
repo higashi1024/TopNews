@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { loadArticles } from "../../lib/articles.js";
+import { loadArticles, formatDate } from "../../lib/articles.js";
 export function getStaticPaths() {
   return loadArticles().map((a) => ({ params: { slug: a.slug }, props: { article: a } }));
 }
@@ -9,19 +9,7 @@ const { Content } = article;
 ---
 <Base title={article.title} description={article.description || article.title} noindex={article.draft === true}>
   {article.draft && <p class="draft">【下書き・公開前に確認】</p>}
-  <p class="vol">{article.date}</p>
-  <article class="article"><Content /></article>
+  <p class="vol">{formatDate(article.date)}</p>
+  <div class="article-card" style="max-width: 880px"><article class="article"><Content /></article></div>
   <p><a href="/articles/">← お題の記事の一覧にもどる</a></p>
-  <style>
-    .article :global(h2) { margin-top: 1.8em; }
-    .article :global(h3) { margin-top: 1.2em; }
-    .article :global(ul), .article :global(ol) { padding-left: 1.3em; margin: 6px 0 12px; }
-    .article :global(li) { margin: 4px 0; }
-    .article :global(p) { margin: 8px 0; }
-    .article :global(table) { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 12px 0; font-size: 0.9em; line-height: 1.6; }
-    .article :global(th), .article :global(td) { border: 1px solid #bbb; padding: 6px 10px; text-align: left; vertical-align: top; min-width: 7em; }
-    .article :global(th) { background: #ebe9e4; white-space: nowrap; }
-    .article :global(td) { background: #fff; }
-    @media (max-width: 720px) { .article { font-size: 12px; line-height: 1.7; } .article :global(h2) { font-size: 15px; } }
-  </style>
 </Base>

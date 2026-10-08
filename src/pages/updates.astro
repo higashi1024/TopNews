@@ -2,11 +2,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import Base from "../layouts/Base.astro";
-// 「今日の話題」で表示している最新日のTOP3(テクノロジー)に出てきた、公的機関などのページだけを並べる
+import { shortDate } from "../lib/articles.js";
+// 「今日の話題」で表示している最新日のTOP5(テクノロジー)に出てきた、公的機関などのページだけを並べる
 const dir = path.resolve("src/content/topics");
 const days = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 7);
 const checked = "2026-10-07"; // 出典ページを確認した日
-const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
+const label = shortDate; // 例: 10月8日(木)
 const sections = days.map((day) => ({
   date: day.date,
   rows: day.items.map((it) => {
@@ -19,12 +20,12 @@ const sections = days.map((day) => ({
   }),
 }));
 ---
-<Base title="公的機関の最新情報" description="「今日の話題」のTOP3(テクノロジー)に関連する、公的機関などのページへのリンクです。" noindex={true} hideHeader={true}>
+<Base title="公的機関の最新情報" description="「今日の話題」のTOP5(テクノロジー)に関連する、公的機関などのページへのリンクです。" noindex={true} hideHeader={true}>
   <p><a href="/">← 今日の話題にもどる</a></p>
   <h1>公的機関の最新情報</h1>
   {sections.map((sec, i) => (
     <section class="day" data-date={sec.date} hidden={i !== 0}>
-      <p>{label(sec.date)}のTOP3(テクノロジー)に関連する、公的機関などのページです。内容の詳しい説明は、リンク先の原文でご確認ください。</p>
+      <p>{label(sec.date)}のTOP{sec.rows.length}(テクノロジー)に関連する、公的機関などのページです。内容の詳しい説明は、リンク先の原文でご確認ください。</p>
       <table>
         <thead><tr><th>話題</th><th>公的機関などのページ</th><th>確認日</th></tr></thead>
         <tbody>

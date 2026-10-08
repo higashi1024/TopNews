@@ -20,47 +20,123 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
     <meta property="og:locale" content="ja_JP" />
     <meta name="twitter:card" content="summary" />
     <style is:global>
-      body { margin:0; background:#f5f4f2; color:#3a3830; font-size:18px; line-height:1.8;
-             font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; }
-      a { color:#1a5fb4; }
-      header, main, footer { max-width:none; margin:0; padding:0 16px; }
-      header { padding-top:16px; padding-bottom:8px; }
-      header .site { font-size:22px; font-weight:700; text-decoration:none; color:inherit; }
-      nav a { margin-right:16px; font-size:16px; }
-      h1 { font-size:28px; line-height:1.4; }
-      h2 { font-size:22px; margin-top:2em; border-left:6px solid #3a3830; padding-left:10px; }
-      ol.rank { padding-left:0; list-style:none; }
-      ol.rank li { background:#fff; border-radius:8px; padding:12px 16px; margin:10px 0; }
-      .no { font-weight:700; font-size:24px; margin-right:8px; }
-      .vol { color:#777; font-size:15px; }
-      .links a { margin-right:12px; font-size:15px; }
-      .draft { background:#fff3cd; border:1px solid #e0c36a; padding:10px 14px; border-radius:6px; font-size:15px; }
-      footer { padding-top:32px; padding-bottom:48px; font-size:14px; color:#666; }
-      .reload-fab { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: 48px; height: 48px; border-radius: 50%; border: 1px solid #1a56c4; background: #1a56c4; color: #fff; font-size: 22px; line-height: 1; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
-      .reload-fab:hover { background: #17489f; }
-      @media print { .reload-fab { display: none; } }
+      /* 配色・書体(デザイン案)。外部のフォントは読み込まず、端末にある書体を使う */
+      :root {
+        --bg: #f6f5f1; --ink: #16181d; --muted: #565b69; --line: #e2e0d8; --card: #ffffff;
+        --accent: #1f4fd8; --accent-dark: #173a9e; --accent-soft: #eaf0fd;
+        --sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+        --serif: "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", "BIZ UDPMincho", serif;
+      }
+      body { margin: 0; background: var(--bg); color: var(--ink); font-size: 18px; line-height: 1.8; font-family: var(--sans); }
+      a { color: var(--accent); }
+      a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+      main { max-width: 1120px; margin: 0 auto; padding: 32px 32px 72px; box-sizing: border-box; }
+      h1 { font-family: var(--serif); font-size: 32px; line-height: 1.4; margin: 0 0 12px; }
+      h2 { font-size: 22px; margin-top: 2em; border-left: 5px solid var(--accent); padding-left: 12px; }
+      h3 { font-family: var(--serif); }
+
+      /* ヘッダー */
+      .site-header { background: var(--card); border-bottom: 1px solid var(--line); }
+      .site-header .inner { max-width: 1120px; margin: 0 auto; padding: 14px 32px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 28px; }
+      .site-header .site { display: inline-flex; align-items: center; gap: 12px; font-family: var(--serif); font-size: 26px; font-weight: 700; line-height: 1.3; text-decoration: none; color: var(--ink); }
+      .site-header .mark { display: inline-block; width: 12px; height: 28px; background: var(--accent); }
+      .site-header nav { display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 15px; }
+      .site-header nav a { color: var(--ink); text-decoration: none; font-weight: 500; padding: 6px 0; }
+      .site-header nav a:hover { color: var(--accent); text-decoration: underline; }
+
+      /* 一覧・カード */
+      ol.rank { padding-left: 0; list-style: none; }
+      ol.rank li { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px 20px; margin: 12px 0; }
+      .no { font-family: var(--serif); font-weight: 700; font-size: 24px; margin-right: 8px; color: var(--accent); }
+      .vol { color: var(--muted); font-size: 15px; }
+      .links a { margin-right: 14px; font-size: 15px; font-weight: 700; }
+      .draft { background: #fff3cd; border: 1px solid #e0c36a; padding: 10px 14px; border-radius: 12px; font-size: 15px; }
+
+      /* 記事の本文(記事ページと「今日のお題」で共通) */
+      .article h2 { margin-top: 1.8em; }
+      .article h3 { margin-top: 1.2em; }
+      .article ul, .article ol { padding-left: 1.3em; margin: 6px 0 12px; }
+      .article li { margin: 4px 0; }
+      .article p { margin: 8px 0; }
+      .article-card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 32px; }
+      .article-card .article > :first-child { margin-top: 0; }
+
+      /* 表 */
+      main table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 12px 0; font-size: 0.9em; line-height: 1.6; }
+      main th, main td { border: 1px solid #bdbab0; padding: 8px 12px; text-align: left; vertical-align: top; min-width: 7em; }
+      main th { background: #ebe9e2; white-space: nowrap; }
+      main td { background: var(--card); }
+
+      /* フッター */
+      footer { background: var(--card); border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+      footer .inner { max-width: 1120px; margin: 0 auto; padding: 28px 32px 56px; box-sizing: border-box; }
+      footer p { margin: 8px 0; }
+
+      /* 再読み込みボタン */
+      .reload-fab { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; padding: 0; border-radius: 50%; border: 0; background: var(--accent); color: #fff; cursor: pointer; box-shadow: 0 6px 16px rgba(31, 79, 216, .35); }
+      .reload-fab:hover { background: var(--accent-dark); }
+      .top-fab { position: fixed; right: 16px; bottom: 80px; z-index: 50; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; padding: 0; border-radius: 50%; border: 2px solid var(--accent); background: #fff; color: var(--accent); cursor: pointer; box-shadow: 0 6px 16px rgba(22, 24, 29, .18); }
+      .top-fab[hidden] { display: none; }
+      .top-fab:hover { background: var(--accent-soft); }
+      @media print { .reload-fab, .top-fab { display: none; } }
+
+      @media (max-width: 720px) {
+        main { padding: 20px 16px 56px; }
+        h1 { font-size: 24px; }
+        .site-header .inner { padding: 12px 16px; }
+        .site-header .site { font-size: 22px; }
+        .site-header .mark { width: 10px; height: 24px; }
+        .site-header nav { font-size: 14px; gap: 2px 16px; }
+        footer .inner { padding: 20px 16px 48px; }
+        .article { font-size: 12px; line-height: 1.7; }
+        .article h2 { font-size: 15px; }
+        .article-card { padding: 16px; border-radius: 16px; }
+      }
     </style>
     <!-- Vercel Analytics（旧サイトと同じタグ。管理者ダッシュボードのみで確認可能） -->
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
   <body>
-    {!hideHeader && (<header>
-      <a class="site" href="/">今日の話題</a>
-      <nav>
-        <a href="/ranking/">今日のランキング</a>
-        <a href="/archive/">過去のランキング</a>
-        <a href="/">テクノロジーの話題</a>
-        <a href="/articles/">お題の記事</a>
-        <a href="/updates/">公的機関の最新情報</a>
-        <a href="/guide/mobile-battery/">モバイルバッテリーの選び方</a>
-        <a href="/about/">このサイトについて</a>
-      </nav>
+    {!hideHeader && (<header class="site-header">
+      <div class="inner">
+        <a class="site" href="/"><span class="mark" aria-hidden="true"></span>今日の話題</a>
+        <nav>
+          <a href="/ranking/">今日のランキング</a>
+          <a href="/archive/">過去のランキング</a>
+          <a href="/">テクノロジーの話題</a>
+          <a href="/articles/">お題の記事</a>
+          <a href="/updates/">公的機関の最新情報</a>
+          <a href="/guide/mobile-battery/">モバイルバッテリーの選び方</a>
+          <a href="/about/">このサイトについて</a>
+        </nav>
+      </div>
     </header>)}
     <main><slot /></main>
     <footer>
-      <p>本サイトはAmazon.co.jpアソシエイト・プログラム及び楽天アフィリエイトの参加者です。掲載の商品リンクを経由してご購入いただいた場合、当サイトが報酬を受け取ることがあります。</p>
-      <p><a href="/privacy/">プライバシーポリシー</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="/about/">運営者情報</a></p>
+      <div class="inner">
+        <p>本サイトはAmazon.co.jpアソシエイト・プログラム及び楽天アフィリエイトの参加者です。掲載の商品リンクを経由してご購入いただいた場合、当サイトが報酬を受け取ることがあります。</p>
+        <p><a href="/privacy/">プライバシーポリシー</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="/about/">運営者情報</a></p>
+      </div>
     </footer>
-    <button type="button" class="reload-fab" aria-label="ページを再読み込みする" title="再読み込み" onclick="location.reload()">↻</button>
+    <button type="button" class="top-fab" id="top-fab" aria-label="ページの先頭へ戻る" title="先頭へ" hidden>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+    </button>
+    <button type="button" class="reload-fab" aria-label="ページを再読み込みする" title="再読み込み" onclick="location.reload()">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.5-5.8"/><path d="M20 4v5h-5"/></svg>
+    </button>
+    <script is:inline>
+      // 先頭へ戻るボタン: 少しスクロールしたときだけ表示する
+      (function () {
+        var b = document.getElementById("top-fab");
+        if (!b) return;
+        function update() { b.hidden = (window.scrollY || document.documentElement.scrollTop) < 400; }
+        window.addEventListener("scroll", update, { passive: true });
+        b.addEventListener("click", function () {
+          var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+        });
+        update();
+      })();
+    </script>
   </body>
 </html>
