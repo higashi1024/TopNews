@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09",
+  "updated_at": "2026-10-09T02:09:59.450+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "ジェミニ",
+      "category": "テクノロジー",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 2,
+      "keyword": "h&amp;m",
+      "category": "経済・投資",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 3,
+      "keyword": "山口 もえ",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "浜口京子",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "田中真美子",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 6,
+      "keyword": "オリコン",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 7,
+      "keyword": "ライフトレード",
+      "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 8,
+      "keyword": "紺野ぶるま",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "池袋 映画館",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 10,
+      "keyword": "キングオブコント",
+      "category": "エンタメ",
+      "volume_approx": "500+"
+    }
+  ]
+}
