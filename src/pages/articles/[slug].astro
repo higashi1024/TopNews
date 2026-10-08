@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { loadArticles } from "../../lib/articles.js";
+import { loadArticles, formatDate } from "../../lib/articles.js";
 export function getStaticPaths() {
   return loadArticles().map((a) => ({ params: { slug: a.slug }, props: { article: a } }));
 }
@@ -9,7 +9,7 @@ const { Content } = article;
 ---
 <Base title={article.title} description={article.description || article.title} noindex={article.draft === true}>
   {article.draft && <p class="draft">【下書き・公開前に確認】</p>}
-  <p class="vol">{article.date}</p>
+  <p class="vol">{formatDate(article.date)}</p>
   <div class="article-card" style="max-width: 880px"><article class="article"><Content /></article></div>
   <p><a href="/articles/">← お題の記事の一覧にもどる</a></p>
 </Base>

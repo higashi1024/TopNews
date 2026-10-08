@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import Base from "../layouts/Base.astro";
 import { loadLatest } from "../lib/data.js";
-import { loadArticles } from "../lib/articles.js";
+import { loadArticles, formatDate, shortDate } from "../lib/articles.js";
 // 今日のお題 = 公開済み(下書きでない)記事のうち、いちばん新しいもの
 const odai = loadArticles().find((a) => a.draft !== true);
 const OdaiContent = odai ? odai.Content : null;
@@ -18,9 +18,9 @@ const jst = (iso) => {
   const t = new Date(iso);
   return isNaN(t.getTime()) ? "不明" : t.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }) + "(日本時間)";
 };
-const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
+const label = shortDate; // 例: 10月8日(木)
 ---
-<Base title="今日の話題:テクノロジーのTOP3" description="日ごとのテクノロジー関連ニュースのTOP3を、公的機関などの一次情報で背景を確認しながら紹介します。" hideHeader={true}>
+<Base title="今日の話題:テクノロジーのTOP5" description="日ごとのテクノロジー関連ニュースのTOP5を、公的機関などの一次情報で背景を確認しながら紹介します。" hideHeader={true}>
   <h1 class="sr-only">今日の話題・今日のお題</h1>
   <div class="titlebar">
     <div class="modes" role="tablist" aria-label="表示の切り替え">
@@ -36,7 +36,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
   <div class="main">
   {days.map((d, i) => (
     <section class="panel" data-panel={d.date} hidden={i !== 0}>
-      <h2>{label(d.date)}のTOP3(テクノロジー)</h2>
+      <h2>{label(d.date)}のTOP{d.items.length}(テクノロジー)</h2>
       <ol class="topics">
         {d.items.map((it, k) => (
           <li>
@@ -78,7 +78,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
       <>
         <h2>今日のお題</h2>
         <h3>{odai.title}</h3>
-        <p class="vol">{odai.date}</p>
+        <p class="vol">{formatDate(odai.date)}</p>
         <div id="odai-body" class="article"><OdaiContent /></div>
         <p><a href="/articles/">お題の記事の一覧(新しい10本)</a></p>
       </>
@@ -121,7 +121,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(360px, calc((100% - 32px) / 3)); gap: 32px; align-items: start; }
     .main { min-width: 0; overflow-wrap: anywhere; }
     .main h2 { margin-top: 0; }
-    /* 話題(TOP3)のカード */
+    /* 話題(TOP5)のカード */
     .main ol.topics { list-style: none; padding: 0; margin: 0; counter-reset: topic; display: flex; flex-direction: column; gap: 20px; }
     .topics > li { counter-increment: topic; position: relative; background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 24px 24px 24px 84px; margin: 0; }
     .topics > li::before { content: counter(topic); position: absolute; left: 26px; top: 18px; font-family: var(--serif); font-weight: 700; font-size: 48px; line-height: 1; color: var(--accent); }

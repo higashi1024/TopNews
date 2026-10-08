@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { loadArticles, KEEP } from "../../lib/articles.js";
+import { loadArticles, KEEP, formatDate } from "../../lib/articles.js";
 const articles = loadArticles();
 ---
 <Base title="お題の記事" description={`お題をもとに書いた記事の、新しい${KEEP}本の一覧です。`}>
@@ -11,7 +11,7 @@ const articles = loadArticles();
       {articles.map((a) => (
         <li>
           <a href={`/articles/${a.slug}/`}>{a.title}</a>
-          <span class="vol">({a.date}){a.draft ? " 下書き" : ""}</span>
+          <span class="vol">({formatDate(a.date)}){a.draft ? " 下書き" : ""}</span>
           {a.description && <div class="vol">{a.description}</div>}
         </li>
       ))}

@@ -75,7 +75,10 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
       /* 再読み込みボタン */
       .reload-fab { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; padding: 0; border-radius: 50%; border: 0; background: var(--accent); color: #fff; cursor: pointer; box-shadow: 0 6px 16px rgba(31, 79, 216, .35); }
       .reload-fab:hover { background: var(--accent-dark); }
-      @media print { .reload-fab { display: none; } }
+      .top-fab { position: fixed; right: 16px; bottom: 80px; z-index: 50; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; padding: 0; border-radius: 50%; border: 2px solid var(--accent); background: #fff; color: var(--accent); cursor: pointer; box-shadow: 0 6px 16px rgba(22, 24, 29, .18); }
+      .top-fab[hidden] { display: none; }
+      .top-fab:hover { background: var(--accent-soft); }
+      @media print { .reload-fab, .top-fab { display: none; } }
 
       @media (max-width: 720px) {
         main { padding: 20px 16px 56px; }
@@ -115,8 +118,25 @@ const fullTitle = title === "トレンドランキング" ? "トレンドラン�
         <p><a href="/privacy/">プライバシーポリシー</a> ・ <a href="/contact/">お問い合わせ</a> ・ <a href="/about/">運営者情報</a></p>
       </div>
     </footer>
+    <button type="button" class="top-fab" id="top-fab" aria-label="ページの先頭へ戻る" title="先頭へ" hidden>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+    </button>
     <button type="button" class="reload-fab" aria-label="ページを再読み込みする" title="再読み込み" onclick="location.reload()">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.5-5.8"/><path d="M20 4v5h-5"/></svg>
     </button>
+    <script is:inline>
+      // 先頭へ戻るボタン: 少しスクロールしたときだけ表示する
+      (function () {
+        var b = document.getElementById("top-fab");
+        if (!b) return;
+        function update() { b.hidden = (window.scrollY || document.documentElement.scrollTop) < 400; }
+        window.addEventListener("scroll", update, { passive: true });
+        b.addEventListener("click", function () {
+          var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+        });
+        update();
+      })();
+    </script>
   </body>
 </html>
