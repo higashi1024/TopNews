@@ -119,7 +119,7 @@ const label = (d) => `${Number(d.slice(5, 7))}月${Number(d.slice(8, 10))}日`;
     .layout { display: grid; grid-template-columns: minmax(0, 1fr) min(381px, calc((100% - 24px) / 3)); gap: 24px; align-items: start; }
     .inline-prod { display: none; }
     .side { position: sticky; top: 12px; min-width: 0; }
-    .prod .photo { display: block; margin: 8px 0; max-width: 349px; }
+    .prod .photo { display: block; margin: 8px auto; max-width: 349px; }
     .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid #ddd; border-radius: 6px; }
     .side h2 { margin-top: 0; font-size: 1.05rem; }
     .main { min-width: 0; overflow-wrap: anywhere; }
