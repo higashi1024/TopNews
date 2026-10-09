@@ -6,7 +6,7 @@ export function getStaticPaths() {
 }
 const { day } = Astro.props;
 ---
-<Base title={`${day.date} のトレンドランキング`} description={`${day.date} のGoogleトレンド急上昇キーワード上位${day.trends.length}件の記録です。`}>
+<Base share={true} title={`${day.date} のトレンドランキング`} description={`${day.date} のGoogleトレンド急上昇キーワード上位${day.trends.length}件の記録です。`}>
   <h1>{day.date} のトレンドキーワード</h1>
   <p>Googleトレンド(日本)の記録です。</p>
   <ol class="rank">

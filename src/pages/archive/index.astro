@@ -3,7 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { loadArchive } from "../../lib/data.js";
 const days = loadArchive();
 ---
-<Base title="過去のトレンドランキング" description="日ごとのGoogleトレンド急上昇キーワードの記録です。">
+<Base share={true} title="過去のトレンドランキング" description="日ごとのGoogleトレンド急上昇キーワードの記録です。">
   <h1>過去のトレンドランキング</h1>
   <p>毎日の最終的なランキングを記録しています。</p>
   <ul>
