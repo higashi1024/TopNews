@@ -184,15 +184,25 @@ const label = shortDate; // 例: 10月8日(木)
     .inline-prod { display: none; }
     .inline-prod li { list-style: none; }
     .side { position: sticky; top: 12px; min-width: 0; overflow-wrap: anywhere; }
-    .side h2 { margin-top: 0; font-size: 1.05rem; }
-    .prod .photo { display: block; margin: 8px auto; max-width: 300px; }
-    .prod img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 10px; }
+    /* おすすめ商品(PR)は、余白を詰めて表示する(行間・上下の余白・写真の下の隙間) */
+    .side h2 { margin: 0 0 6px; font-size: 1.05rem; line-height: 1.4; }
+    .side > .vol { margin: 0 0 6px; line-height: 1.4; }
+    .side ol.rank { margin: 0; }
+    .side ol.rank li { padding: 8px 10px; margin: 6px 0; border-radius: 10px; }
+    .prod { line-height: 1.45; }
+    .prod .no { font-size: 20px; margin-right: 4px; line-height: 1; }
+    .prod .photo { display: block; margin: 4px auto; max-width: 300px; }
+    .prod img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 10px; }
+    .prod .links { margin: 2px 0 0; line-height: 1.3; }
+    .prod .links a { margin-right: 10px; }
     @media (max-width: 720px) {
       /* 狭い画面では、右の列をやめて、話題(章)ごとに商品を1つずつ、縦に差し込む */
       .layout { grid-template-columns: minmax(0, 1fr); }
       .side { display: none; }
-      .inline-prod { display: block; margin-top: 12px; padding: 8px; background: #fff; border: 1px solid var(--line); border-radius: 12px; max-width: 349px; }
-      .inline-prod .photo { max-width: 50%; }
+      .inline-prod { display: block; margin-top: 8px; padding: 4px 6px; background: #fff; border: 1px solid var(--line); border-radius: 10px; max-width: 349px; line-height: 1.4; }
+      .inline-prod > .vol { margin: 0 0 2px; line-height: 1.3; }
+      .inline-prod .photo { max-width: 50%; margin: 2px auto; }
+      .inline-prod .links { margin: 0; }
       .inline-prod .links a { font-size: 10px; margin-right: 8px; }
       .inline-prod .no { font-size: 16px; margin-right: 4px; }
       /* 狭い画面(スマホ)では、記事(左)とおすすめ商品(右)の文字を、2/3(18px→12px)にする */
@@ -237,6 +247,9 @@ const label = shortDate; // 例: 10月8日(木)
             box.className = "inline-prod inline-prod-js";
             var label = document.createElement("p");
             label.className = "vol"; label.textContent = "おすすめ商品(PR)";
+            // 差し込む要素には、このページのCSS(要素ごとの印つき)が効かないので、余白だけここで詰める
+            label.style.margin = "0 0 2px"; label.style.lineHeight = "1.3";
+            box.style.lineHeight = "1.4";
             box.appendChild(label);
             box.appendChild(prods[i].cloneNode(true));
             // 章の終わり = 次の見出しの直前(最後の章は記事の末尾)
