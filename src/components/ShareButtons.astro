@@ -1,13 +1,13 @@
 ---
 // 記事の共有ボタン。外部のスクリプトは読み込まず、各サービスの公式に載っているリンク形式だけを使う
-const { url, title, compact = false } = Astro.props;
+const { url, title, compact = false, label = "この記事を共有する" } = Astro.props;
 const eu = encodeURIComponent(url);
 const et = encodeURIComponent(title);
 const x = `https://x.com/intent/tweet?text=${et}&url=${eu}`;
 const line = `https://social-plugins.line.me/lineit/share?url=${eu}&text=${et}`;
 ---
-<section class:list={["share", { compact }]} aria-label="この記事を共有する" data-url={url} data-title={title}>
-  <p class="share-label">この記事を共有する</p>
+<section class:list={["share", { compact }]} aria-label={label} data-url={url} data-title={title}>
+  <p class="share-label">{label}</p>
   <div class="share-row">
     <a class="share-btn" href={x} target="_blank" rel="noopener noreferrer">Xで共有</a>
     <a class="share-btn" href={line} target="_blank" rel="noopener noreferrer">LINEで送る</a>
