@@ -1,0 +1,50 @@
+---
+// 記事の共有ボタン。外部のスクリプトは読み込まず、各サービスの公式に載っているリンク形式だけを使う
+const { url, title } = Astro.props;
+const eu = encodeURIComponent(url);
+const et = encodeURIComponent(title);
+const x = `https://x.com/intent/tweet?text=${et}&url=${eu}`;
+const line = `https://social-plugins.line.me/lineit/share?url=${eu}&text=${et}`;
+---
+<section class="share" aria-label="この記事を共有する" data-url={url} data-title={title}>
+  <p class="share-label">この記事を共有する</p>
+  <div class="share-row">
+    <a class="share-btn" href={x} target="_blank" rel="noopener noreferrer">Xで共有</a>
+    <a class="share-btn" href={line} target="_blank" rel="noopener noreferrer">LINEで送る</a>
+    <button type="button" class="share-btn" data-copy>リンクをコピー</button>
+    <button type="button" class="share-btn" data-native hidden>その他の方法で共有</button>
+  </div>
+  <p class="share-msg" role="status" aria-live="polite"></p>
+</section>
+<style>
+  .share { margin: 24px 0; }
+  .share-label { margin: 0 0 8px; font-size: 15px; color: var(--muted); }
+  .share-row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .share-btn { font: inherit; font-size: 15px; font-weight: 700; line-height: 1.2; padding: 12px 18px; min-height: 44px; box-sizing: border-box; border-radius: 999px; border: 2px solid var(--accent); background: #fff; color: var(--accent); text-decoration: none; cursor: pointer; display: inline-flex; align-items: center; }
+  .share-btn:hover { background: var(--accent-soft); }
+  .share-btn[hidden] { display: none; }
+  .share-msg { margin: 8px 0 0; min-height: 1.5em; font-size: 14px; color: var(--muted); }
+</style>
+<script>
+  document.querySelectorAll<HTMLElement>(".share").forEach((box) => {
+    const url = box.dataset.url || location.href;
+    const title = box.dataset.title || document.title;
+    const msg = box.querySelector<HTMLElement>(".share-msg")!;
+    const copy = box.querySelector<HTMLButtonElement>("[data-copy]")!;
+    const nat = box.querySelector<HTMLButtonElement>("[data-native]")!;
+    copy.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        msg.textContent = "リンクをコピーしました。";
+      } catch (e) {
+        msg.textContent = "コピーできませんでした。アドレスバーのURLをお使いください。";
+      }
+    });
+    if (typeof navigator.share === "function") {
+      nat.hidden = false;
+      nat.addEventListener("click", async () => {
+        try { await navigator.share({ title, url }); } catch (e) { /* 取り消しは何もしない */ }
+      });
+    }
+  });
+</script>
