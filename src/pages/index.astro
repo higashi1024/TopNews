@@ -76,6 +76,7 @@ const label = shortDate; // 例: 10月8日(木)
           </li>
         ))}
       </ol>
+      <ShareButtons url={new URL(`/#${d.date}`, Astro.site).href} title={`${label(d.date)}のテクノロジーTOP${d.items.length} | 今日の話題`} label="この日の話題を共有する" compact />
     </section>
   ))}
   <section id="odai" hidden>
@@ -239,6 +240,9 @@ const label = shortDate; // 例: 10月8日(木)
       tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.dataset.tab); }); });
       otabs.forEach(function (t) { t.addEventListener("click", function () { showOdai(t.dataset.otab); }); });
       modes.forEach(function (b) { b.addEventListener("click", function () { setMode(b.dataset.mode); }); });
+      // 日付つきのURL(例: /#2026-10-08)で開いたときは、その日のタブを表示する(該当する日がなければ最新のまま)
+      var dm = location.hash.match(/^#(\d{4}-\d{2}-\d{2})$/);
+      if (dm && document.querySelector('.panel[data-panel="' + dm[1] + '"]')) show(dm[1]);
       if (location.hash === "#odai") setMode("odai");
     })();
   </script>
