@@ -21,7 +21,6 @@ const sections = days.map((day) => ({
 }));
 ---
 <Base title="公的機関の最新情報" description="「今日の話題」のTOP5(テクノロジー)に関連する、公的機関などのページへのリンクです。" noindex={true} hideHeader={true}>
-  <p><a href="/">← 今日の話題にもどる</a></p>
   <h1>公的機関の最新情報</h1>
   {sections.map((sec, i) => (
     <section class="day" data-date={sec.date} hidden={i !== 0}>
