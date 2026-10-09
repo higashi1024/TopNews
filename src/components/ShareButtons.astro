@@ -1,5 +1,6 @@
 ---
 // 記事の共有ボタン。外部のスクリプトは読み込まず、各サービスの公式に載っているリンク形式だけを使う
+// (Instagramには、リンクを渡して共有画面を開く公式のURL形式がないため、「リンクをコピーして、Instagramを開く」ボタンにしている)
 const { url, title, compact = false, label = "この記事を共有する" } = Astro.props;
 const eu = encodeURIComponent(url);
 const et = encodeURIComponent(title);
@@ -11,6 +12,7 @@ const line = `https://social-plugins.line.me/lineit/share?url=${eu}&text=${et}`;
   <div class="share-row">
     <a class="share-btn" href={x} target="_blank" rel="noopener noreferrer">Xで共有</a>
     <a class="share-btn" href={line} target="_blank" rel="noopener noreferrer">LINEで送る</a>
+    <button type="button" class="share-btn" data-instagram>Instagramで共有</button>
     <button type="button" class="share-btn" data-copy>リンクをコピー</button>
     <button type="button" class="share-btn" data-native hidden>その他の方法で共有</button>
   </div>
@@ -36,6 +38,7 @@ const line = `https://social-plugins.line.me/lineit/share?url=${eu}&text=${et}`;
     const msg = box.querySelector<HTMLElement>(".share-msg")!;
     const copy = box.querySelector<HTMLButtonElement>("[data-copy]")!;
     const nat = box.querySelector<HTMLButtonElement>("[data-native]")!;
+    const insta = box.querySelector<HTMLButtonElement>("[data-instagram]")!;
     copy.addEventListener("click", async () => {
       try {
         await navigator.clipboard.writeText(url);
@@ -43,6 +46,16 @@ const line = `https://social-plugins.line.me/lineit/share?url=${eu}&text=${et}`;
       } catch (e) {
         msg.textContent = "コピーできませんでした。アドレスバーのURLをお使いください。";
       }
+    });
+    // Instagram: 共有用のURLがないので、リンクをコピーして、Instagramを開く(貼り付けは、利用者が行う)
+    insta.addEventListener("click", async () => {
+      let copied = true;
+      const pending = navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject(new Error("no clipboard"));
+      window.open("https://www.instagram.com/", "_blank", "noopener,noreferrer"); // クリックの直後に開く(ブロックされにくくするため)
+      try { await pending; } catch (e) { copied = false; }
+      msg.textContent = copied
+        ? "リンクをコピーしました。Instagramを開いたら、DMなどに貼り付けてください。"
+        : "コピーできませんでした。アドレスバーのURLをお使いください。";
     });
     if (typeof navigator.share === "function") {
       nat.hidden = false;
