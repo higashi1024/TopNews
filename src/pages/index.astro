@@ -2,6 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Base from "../layouts/Base.astro";
+import ShareButtons from "../components/ShareButtons.astro";
 import { loadLatest } from "../lib/data.js";
 import { loadArticles, formatDate, shortDate } from "../lib/articles.js";
 // 今日のお題 = 公開済み(下書きでない)記事のうち、新しい順に最大10本(loadArticles が、新しい10本までに絞る)
@@ -88,6 +89,7 @@ const label = shortDate; // 例: 10月8日(木)
               <h3>{a.title}</h3>
               <p class="vol">{formatDate(a.date)}(<a href={`/articles/${a.slug}/`}>この記事だけのページ</a>)</p>
               <div class="article" data-odai-body><Body /></div>
+              <ShareButtons url={new URL(`/articles/${a.slug}/`, Astro.site).href} title={a.title} compact />
             </article>
           );
         })}
