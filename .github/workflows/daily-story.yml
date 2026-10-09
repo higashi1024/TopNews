@@ -1,0 +1,32 @@
+name: Daily Story
+
+on:
+  schedule:
+    # 1日1回。UTC 22:05 = 日本時間 7:05
+    - cron: "5 22 * * *"
+  workflow_dispatch:
+
+jobs:
+  story:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: 今日のお話を作成（作成済みなら何もしない）
+        run: node scripts/make-story.cjs "$(TZ=Asia/Tokyo date +%Y-%m-%d)"
+        timeout-minutes: 8
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: 変更をコミット & プッシュ
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A src/content/stories/
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: add daily story $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          # 毎時のトレンド取得と、同時にプッシュしても衝突しないようにする
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
