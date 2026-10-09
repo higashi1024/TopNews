@@ -15,6 +15,8 @@ for (const date of dates) {
   if (!(src.categories?.["テクノロジー"] || []).length) { console.log(`スキップ: ${date} (テクノロジーのニュースが0件)`); continue; }
   const outPath = path.join(outDir, `${date}.json`);
   const prev = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, "utf8")) : { items: [] };
+  // "checked"(出典を確認した日)がある日は、人が背景を確認して書いた日。毎時の更新で順位が入れ替わっても消えないよう、上書きしない
+  if (prev.checked) { console.log(`スキップ: ${date} (確認済み: ${prev.checked})`); continue; }
   const items = (src.categories?.["テクノロジー"] || []).slice(0, TOP_N).map(t => {
     const n = (t.news || [])[0] || {};
     const old = prev.items.find(p => p.rank === t.rank && p.title === t.keyword) || {};
