@@ -1,12 +1,12 @@
 ---
 // 記事の共有ボタン。外部のスクリプトは読み込まず、各サービスの公式に載っているリンク形式だけを使う
-const { url, title } = Astro.props;
+const { url, title, compact = false } = Astro.props;
 const eu = encodeURIComponent(url);
 const et = encodeURIComponent(title);
 const x = `https://x.com/intent/tweet?text=${et}&url=${eu}`;
 const line = `https://social-plugins.line.me/lineit/share?url=${eu}&text=${et}`;
 ---
-<section class="share" aria-label="この記事を共有する" data-url={url} data-title={title}>
+<section class:list={["share", { compact }]} aria-label="この記事を共有する" data-url={url} data-title={title}>
   <p class="share-label">この記事を共有する</p>
   <div class="share-row">
     <a class="share-btn" href={x} target="_blank" rel="noopener noreferrer">Xで共有</a>
@@ -23,6 +23,10 @@ const line = `https://social-plugins.line.me/lineit/share?url=${eu}&text=${et}`;
   .share-btn { font: inherit; font-size: 15px; font-weight: 700; line-height: 1.2; padding: 12px 18px; min-height: 44px; box-sizing: border-box; border-radius: 999px; border: 2px solid var(--accent); background: #fff; color: var(--accent); text-decoration: none; cursor: pointer; display: inline-flex; align-items: center; }
   .share-btn:hover { background: var(--accent-soft); }
   .share-btn[hidden] { display: none; }
+  /* トップページ内の控えめな表示 */
+  .share.compact { margin: 16px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+  .share.compact .share-label { font-size: 13px; }
+  .share.compact .share-btn { font-size: 13px; padding: 8px 14px; min-height: 40px; border-width: 1px; font-weight: 500; }
   .share-msg { margin: 8px 0 0; min-height: 1.5em; font-size: 14px; color: var(--muted); }
 </style>
 <script>
