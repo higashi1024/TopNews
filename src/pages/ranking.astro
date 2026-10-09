@@ -4,7 +4,7 @@ import { loadLatest } from "../lib/data.js";
 const data = loadLatest();
 const updated = data.updated_at.replace("T", " ").slice(0, 16);
 ---
-<Base title="トレンドランキング" description={`${data.date} のGoogleトレンド急上昇キーワードのランキングです。各キーワードの関連ニュースを確認できます。`}>
+<Base share={true} title="トレンドランキング" description={`${data.date} のGoogleトレンド急上昇キーワードのランキングです。各キーワードの関連ニュースを確認できます。`}>
   <h1>今日のトレンドキーワード({data.date})</h1>
   <p>Googleトレンド(日本)の急上昇ワードを一覧にしています。最終更新:{updated}(日本時間)。データの出どころは Google トレンド RSS です。</p>
   <ol class="rank">
