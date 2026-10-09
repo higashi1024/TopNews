@@ -1,5 +1,6 @@
 {
   "date": "2026-10-09",
+  "checked": "2026-10-09",
   "items": [
     {
       "rank": 1,
@@ -7,10 +8,35 @@
       "source": "Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVdm5mcV93c1JDQU1BRDR3MTc3dXFTNThhSWJxRnF2UDQ1bFNUNmFNZ3hXcURZdlV1Zjl5UHNjMVNlMlJqc3JkVkFEUkRtVWtt?oc=5",
       "published": "2026-10-09T08:21:13.000Z",
-      "background": [],
-      "actions": [],
-      "unknown": [],
-      "terms": []
+      "background": [
+        {
+          "text": "Anthropic公式の発表ページは、今回は読み取れず、一次情報では確認できていません。以下は報道の記述です。",
+          "url": null
+        },
+        {
+          "text": "報道(ASCII.jp、10月9日更新)によると、Anthropicは10月8日に利用ポリシーを改定し、目的のない執拗で残酷な言動をClaudeに向ける行為を禁止事項に加えました。発効は11月12日とされています。",
+          "url": null
+        },
+        {
+          "text": "同じ記事は、通常の不満や反論、暗い題材を扱う創作、モデルのテストや研究は対象外としています。「執拗」の具体的な基準(回数や期間など)は、記事に記載がありません。",
+          "url": null
+        }
+      ],
+      "actions": [
+        "Claudeを使う方は、Anthropicの利用ポリシーの原文で、禁止事項と発効日を確認する。",
+        "仕事で使う場合は、社内の利用ルールと照らし合わせる。"
+      ],
+      "unknown": [
+        "Anthropic公式の利用ポリシーや発表の原文(読み取れませんでした)",
+        "改定後の正確な文言と、違反したときの措置",
+        "発効日(11月12日)の公式な記載"
+      ],
+      "terms": [
+        [
+          "利用ポリシー",
+          "サービスの提供側が、してよいこと・いけないことを定めた文書。"
+        ]
+      ]
     },
     {
       "rank": 2,
@@ -18,10 +44,42 @@
       "source": "Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvSmlaRmVsTVFMQ05SeDZaaUc4elVieEwwX0llSjNFTVlkU1pZa1pLMWI2UUhPTzNEczBtdXpZZi1ZVl9YVC03VzNKclRpeFBoM3BtYXA5b0NxMzdqYTBiM1haR2xDNGZfRmw1TVczeXF2RzIyVFVtSHpoSWZ2Y1k?oc=5",
       "published": "2026-10-09T00:28:50.000Z",
-      "background": [],
-      "actions": [],
-      "unknown": [],
-      "terms": []
+      "background": [
+        {
+          "text": "ブックオフ公式の発表(適時開示を含む)は、今回は読み取れず、一次情報では確認できていません。以下は報道の記述です。",
+          "url": null
+        },
+        {
+          "text": "報道(ITmedia NEWS、10月9日)によると、ブックオフグループホールディングスが10月9日に発表しました。子会社の会員管理システムへの不正アクセスを10月6日に確認し、会員情報が最大約643万件流出した可能性があります。643万件は会員番号の件数で、実際の人数ではないと記事は書いています。",
+          "url": null
+        },
+        {
+          "text": "流出した可能性がある項目は、氏名、生年月日、性別、メールアドレス、電話番号、郵便番号・住所、パスワードのハッシュ値、ポイントカード番号、会員番号とされています。クレジットカードなどの決済情報は、このシステムで保有していないため含まれないとのことです。9日時点で、情報の公開、悪用、書き換えは確認されていないと報じられています。",
+          "url": null
+        },
+        {
+          "text": "個人情報保護委員会のページでは、個人データの漏えい等(おそれを含む)が起きたとき、事業者は委員会へ「速やかに」報告するよう努めることとされています。本人への連絡も「速やかに」行うこととされています。この件がその対象かどうかは不明です。",
+          "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction/leakAction_detail/",
+          "label": "漏えい等の対応(個人情報保護委員会)"
+        }
+      ],
+      "actions": [
+        "ブックオフから届く個別の連絡を待つ。メールやSMSのリンクは開かず、公式サイト・公式アプリ、またはブックマークから確認する(山梨県警察の案内)。",
+        "同社を装ったメール、SMS、電話に注意する(報道によると、会社が呼びかけています)。",
+        "ブックオフのパスワードを他のサービスでも使っている場合は、そちらも変更しておくと安心です(一般的な対策です。この件についての公的機関の案内は確認できていません)。"
+      ],
+      "unknown": [
+        "ブックオフ公式の発表の原文",
+        "最終的な対象者数と、流出した情報の範囲(報道では精査中)",
+        "攻撃の手口・侵入経路",
+        "個人情報保護委員会や警察など、公的機関の対応"
+      ],
+      "terms": [
+        [
+          "ハッシュ値",
+          "パスワードを、元に戻しにくい別の文字列に変えたもの。"
+        ]
+      ]
     },
     {
       "rank": 3,
@@ -29,10 +87,49 @@
       "source": "Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ra0htWDJyT1JQb2JrUmc2dDhOZkIyWE04WnduamtfSlhvVjVlVldQbXhUN3RNU1ZnQVVZZ0JTNWVYUWEya2RTeXdVRHI4ajEwSFBqT1IyRzkyTFZZMm1sTkh4OUhFTHdtWmpnZlJ2MnN3SUJFYU1JYU5VSEU3a0E?oc=5",
       "published": "2026-10-08T23:10:41.000Z",
-      "background": [],
-      "actions": [],
-      "unknown": [],
-      "terms": []
+      "background": [
+        {
+          "text": "個人情報保護委員会のページでは、個人データの漏えい・滅失・毀損、またはそのおそれがある事案が起きたとき、事業者は委員会へ「速やかに」報告するよう努めることとされています。実質的に外部へ漏れていない場合(高度な暗号化がされている場合など)は、報告が不要とされています。",
+          "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction/leakAction_detail/",
+          "label": "漏えい等の対応(個人情報保護委員会)"
+        },
+        {
+          "text": "同ページでは、本人への連絡は、影響を受ける可能性のある本人に「速やかに」連絡する(または本人が容易に知り得る状態に置く)こととされ、二次被害や類似事案の防止の観点から望ましい対応と位置づけられています。連絡する内容は「事実関係等」とあり、細かな項目の記載はありません。",
+          "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction/leakAction_detail/",
+          "label": "漏えい等の対応(個人情報保護委員会)"
+        },
+        {
+          "text": "山梨県警察のページでは、偽サイトに個人情報を入力してしまった場合に、パスワードや暗証番号を推測されにくいものに変更する、クレジットカード情報を登録していれば直ちにカードを停止する、金融機関や企業の窓口に相談する、金銭的被害が出たら警察に相談する、と案内しています。",
+          "url": "https://www.pref.yamanashi.jp/police/p_cyber/cyber/soudan/soudan05.html",
+          "label": "フィッシングの被害にあった(山梨県警察)"
+        },
+        {
+          "text": "静岡県警察のページでは、フィッシングサイトは実在のサイトを複写したものが多く、見た目で偽物と判断することは困難だとしています。",
+          "url": "https://www.pref.shizuoka.jp/police/kurashi/bohan/cyber/phishing.html",
+          "label": "フィッシング(静岡県警察)"
+        }
+      ],
+      "actions": [
+        "漏えいの連絡が来たら、メール・SMS内のリンクは開かず、公式サイトや公式アプリ、ブックマークから、お知らせの有無を確認する(山梨県警察)。",
+        "偽サイトにIDやパスワードを入力してしまったら、パスワードを変更し、カード情報を登録していればカードを停止する(山梨県警察)。",
+        "不正アクセスやカードの不正利用などの被害があれば、最寄りの警察署に届け出る(静岡県警察)。",
+        "フィッシングサイトを見つけたら、インターネット・ホットラインセンターから通報できる(静岡県警察)。"
+      ],
+      "unknown": [
+        "産経新聞の記事そのものの内容(今回は読んでいません)",
+        "企業の漏えい事故を受けた個人の対応を、公的機関が示したページ(山梨県警察のページには記載なし)",
+        "届いた連絡が本物かを見分ける具体的な方法"
+      ],
+      "terms": [
+        [
+          "フィッシング",
+          "本物そっくりの偽サイトやメールで、IDやパスワード、カード情報などを入力させて盗む手口。"
+        ],
+        [
+          "二次被害",
+          "漏えいした情報が悪用されて、さらに起きる被害。"
+        ]
+      ]
     },
     {
       "rank": 4,
@@ -40,10 +137,42 @@
       "source": "Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xMVhvS3Q1a3p1a1J1NEJjSjgwYW1EN2hULVBubmVGU2VuOFpzSEhUOEhWMUtiUnN2WThyRk1XY1hsTjBBeUZQOTREd1hubTAtRWdKeWtrN1lRU0lFSzg1Q2xaeERfUlFYaWd1NkNPQ1dmampCbVVqNnVRdFNSZzA?oc=5",
       "published": "2026-10-08T21:00:58.000Z",
-      "background": [],
-      "actions": [],
-      "unknown": [],
-      "terms": []
+      "background": [
+        {
+          "text": "記事の主題(皇室の方々の携帯電話の契約方法)は、公的機関のページでは確認できていません。",
+          "url": null
+        },
+        {
+          "text": "総務省のページによると、携帯音声通信事業者は、契約の締結時と譲渡時に、契約者の本人確認を行う義務があります。根拠は、携帯電話不正利用防止法(正式名称は「携帯音声通信事業者による契約者等の本人確認等及び携帯音声通信役務の不正な利用の防止に関する法律」)です。",
+          "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/050526_1.html",
+          "label": "携帯電話の契約時の本人確認(総務省)"
+        },
+        {
+          "text": "同ページでは、契約者が本人確認で虚偽の氏名などを申告することは処罰の対象とされ、本人確認に応じない場合、事業者は役務の提供を拒むことができるとされています。",
+          "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/050526_1.html",
+          "label": "携帯電話の契約時の本人確認(総務省)"
+        },
+        {
+          "text": "本人確認書類については、同ページに、個人番号カード等・年金手帳・医療保険の被保険者証・介護保険の被保険者証を用いるときの留意事項が載っています(介護保険は令和8年4月6日)。書類の一覧や、確認の具体的な手順は、同ページに記載がありません。",
+          "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/050526_1.html",
+          "label": "携帯電話の契約時の本人確認(総務省)"
+        }
+      ],
+      "actions": [
+        "携帯電話を契約するときは、事業者から本人確認を求められる。応じない場合、事業者は提供を拒むことができる(総務省のページ)。",
+        "必要な書類や手順は、契約する事業者の案内で確認する。"
+      ],
+      "unknown": [
+        "皇室の方々の契約の具体的な手続き",
+        "身分証を持たない場合の扱い(総務省のページには記載なし)",
+        "記事の本文の内容(今回は読んでいません)"
+      ],
+      "terms": [
+        [
+          "携帯電話不正利用防止法",
+          "携帯電話が詐欺などに悪用されるのを防ぐため、契約時の本人確認などを定めた法律。"
+        ]
+      ]
     },
     {
       "rank": 5,
@@ -51,9 +180,30 @@
       "source": "Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VM2ZjNm14SGMzM3A1QTd1M3FfR2d1dEctcnJsUm4xemRQUlFoM185aWs1MXdQc0M3ZG5GWTBMcmVncWdyQmpZTVRROVVBWVNYeFczQlBSdmQzd0g2cFdWY0ROOTJTeU1BNUxScXBsVkRGTDFGbmJIaThYNlFLamM?oc=5",
       "published": "2026-10-08T20:00:45.000Z",
-      "background": [],
-      "actions": [],
-      "unknown": [],
+      "background": [
+        {
+          "text": "報道の見出しにある「ロケットの短期製造に関する調査研究」について、防衛省の公式発表は確認できていません。",
+          "url": null
+        },
+        {
+          "text": "防衛省の令和9年度概算要求の概要(PDF)では、宇宙が「新しい戦い方」への対応の重点9項目の1つに挙げられています(2頁)。",
+          "url": "https://www.mod.go.jp/j/budget/yosan_gaiyo/fy2027/yosan_20260831.pdf",
+          "label": "令和9年度概算要求の概要(防衛省)"
+        },
+        {
+          "text": "同PDFの「宇宙領域における能力強化」(20頁)を確認した範囲では、ロケットの短期製造や衛星の迅速な打ち上げに関する記載は見当たりませんでした。同じ項目に「機動対応宇宙システムの技術実証」(事項要求)がありますが、今回の調査研究との関係は不明です。",
+          "url": "https://www.mod.go.jp/j/budget/yosan_gaiyo/fy2027/yosan_20260831.pdf",
+          "label": "令和9年度概算要求の概要(防衛省)"
+        }
+      ],
+      "actions": [
+        "防衛省の報道発表や、概算要求の詳細資料で、調査研究の内容・時期・予算を確認する。"
+      ],
+      "unknown": [
+        "防衛省による公式発表の有無と内容",
+        "調査研究の予算額・実施時期",
+        "記事の本文の内容(今回は読んでいません)"
+      ],
       "terms": []
     }
   ]
