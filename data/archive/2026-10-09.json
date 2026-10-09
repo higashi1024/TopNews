@@ -1,65 +1,65 @@
 {
   "date": "2026-10-09",
-  "updated_at": "2026-10-09T11:43:55.989+09:00",
+  "updated_at": "2026-10-09T18:58:36.487+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "先発ローテーション",
-      "category": "スポーツ",
-      "volume_approx": "10000+"
+      "keyword": "富士宮市",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "麻生 太郎",
-      "category": "社会・ニュース",
+      "keyword": "古江彩佳",
+      "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "グラント・テイラー",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "今森まや",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "アンソニー・ケイ",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "スーパーカップ",
+      "category": "グルメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 5,
-      "keyword": "パトリック・ベイリー",
-      "category": "スポーツ",
+      "keyword": "スコット・ベッセント",
+      "category": "経済・投資",
       "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "alexa tablet",
-      "category": "テクノロジー",
-      "volume_approx": "1000+"
+      "keyword": "柏 対 神戸",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
     },
     {
       "rank": 7,
-      "keyword": "ラヴィット!",
+      "keyword": "mステ",
       "category": "エンタメ",
-      "volume_approx": "200+"
+      "volume_approx": "1000+"
     },
     {
       "rank": 8,
-      "keyword": "大竹 しのぶ",
+      "keyword": "それスノ",
       "category": "エンタメ",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "ホセ・ラミレス",
-      "category": "スポーツ",
+      "keyword": "建物火災",
+      "category": "社会・ニュース",
       "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "松丸友紀",
-      "category": "エンタメ",
+      "keyword": "navi pillay",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     }
   ]
