@@ -1,66 +1,66 @@
 {
   "date": "2026-10-11",
-  "updated_at": "2026-10-11T00:00:31.696+09:00",
+  "updated_at": "2026-10-11T04:42:02.584+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "マンチェスターユナイテッド",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "リフレ",
+      "category": "経済・投資",
+      "volume_approx": "100+"
     },
     {
       "rank": 2,
-      "keyword": "dead by daylight",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "real madrid vs villarreal",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "金麦はビールへ",
-      "category": "グルメ",
-      "volume_approx": "100+"
+      "keyword": "千葉 西 総合 病院 看護 師",
+      "category": "社会・ニュース",
+      "volume_approx": "5000+"
     },
     {
       "rank": 4,
-      "keyword": "齋藤飛鳥",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
-    },
-    {
-      "rank": 5,
-      "keyword": "alavés vs atlético",
+      "keyword": "バーンリー",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
+      "rank": 5,
+      "keyword": "パリsg 対 ル・マンfc",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
       "rank": 6,
-      "keyword": "渡邊渚",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "保育園",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "加藤ローサ",
+      "keyword": "それスノ",
       "category": "エンタメ",
       "volume_approx": "2000+"
     },
     {
       "rank": 8,
-      "keyword": "福本莉子",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
+      "keyword": "la liga",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "石丸伸二",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "フェイエノールト 対 アルクマール",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "ラ・リーガ",
+      "keyword": "man utd đấu với tottenham",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
     }
   ]
 }
