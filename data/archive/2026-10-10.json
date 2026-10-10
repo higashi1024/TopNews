@@ -1,66 +1,66 @@
 {
   "date": "2026-10-10",
-  "updated_at": "2026-10-10T10:28:57.135+09:00",
+  "updated_at": "2026-10-10T17:03:18.495+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "日本シリーズ チケット",
+      "keyword": "吉田鈴",
       "category": "スポーツ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 2,
-      "keyword": "泉健太",
-      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
+      "rank": 2,
+      "keyword": "anaカード sfc",
+      "category": "経済・投資",
+      "volume_approx": "1000+"
+    },
+    {
       "rank": 3,
-      "keyword": "ぴあチケット",
-      "category": "エンタメ",
+      "keyword": "予告先発",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "ケロロ軍曹",
+      "keyword": "ニコ生",
       "category": "エンタメ",
-      "volume_approx": "500+"
+      "volume_approx": "100+"
     },
     {
       "rank": 5,
-      "keyword": "ゴルフ",
+      "keyword": "レバンガ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "b.league",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 7,
+      "keyword": "ヴァンフォーレ甲府",
       "category": "スポーツ",
       "volume_approx": "1000+"
     },
     {
-      "rank": 6,
-      "keyword": "常磐線 人身事故",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 7,
-      "keyword": "濵田崇裕",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
       "rank": 8,
-      "keyword": "山下智久",
+      "keyword": "マック鈴木",
       "category": "エンタメ",
-      "volume_approx": "500+"
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "abema 将棋",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
+      "keyword": "lost10",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "北信越高校野球",
-      "category": "スポーツ",
-      "volume_approx": "500+"
+      "keyword": "失業",
+      "category": "経済・投資",
+      "volume_approx": "100+"
     }
   ]
 }
