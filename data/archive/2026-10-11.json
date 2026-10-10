@@ -1,66 +1,66 @@
 {
   "date": "2026-10-11",
-  "updated_at": "2026-10-11T04:42:02.584+09:00",
+  "updated_at": "2026-10-11T08:10:45.785+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "リフレ",
-      "category": "経済・投資",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 2,
-      "keyword": "real madrid vs villarreal",
+      "keyword": "ウルフアロン",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
-      "rank": 3,
-      "keyword": "千葉 西 総合 病院 看護 師",
-      "category": "社会・ニュース",
-      "volume_approx": "5000+"
-    },
-    {
-      "rank": 4,
-      "keyword": "バーンリー",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "パリsg 対 ル・マンfc",
-      "category": "スポーツ",
+      "rank": 2,
+      "keyword": "川崎みなと祭り",
+      "category": "ライフスタイル",
       "volume_approx": "500+"
     },
     {
-      "rank": 6,
-      "keyword": "保育園",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 7,
-      "keyword": "それスノ",
-      "category": "エンタメ",
+      "rank": 3,
+      "keyword": "aiロボティクス",
+      "category": "テクノロジー",
       "volume_approx": "2000+"
     },
     {
-      "rank": 8,
-      "keyword": "la liga",
+      "rank": 4,
+      "keyword": "全日本空輸",
+      "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 5,
+      "keyword": "カラダweek",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "八田容疑者",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 7,
+      "keyword": "坂倉将吾",
       "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 8,
+      "keyword": "レゴランド",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "フェイエノールト 対 アルクマール",
-      "category": "スポーツ",
-      "volume_approx": "500+"
+      "keyword": "比嘉 愛未",
+      "category": "エンタメ",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "man utd đấu với tottenham",
+      "keyword": "キリアン・エムバペ",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "100+"
     }
   ]
 }
