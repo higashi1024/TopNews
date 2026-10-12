@@ -1,65 +1,65 @@
 {
   "date": "2026-10-12",
-  "updated_at": "2026-10-12T09:10:57.411+09:00",
+  "updated_at": "2026-10-12T15:55:02.725+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "brewers vs dodgers",
-      "category": "スポーツ",
-      "volume_approx": "5000+"
-    },
-    {
-      "rank": 2,
-      "keyword": "ドラム",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
-    },
-    {
-      "rank": 3,
-      "keyword": "田村真子",
-      "category": "エンタメ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 4,
-      "keyword": "nhk one",
-      "category": "テクノロジー",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 5,
-      "keyword": "土屋太鳳",
-      "category": "エンタメ",
+      "keyword": "ハーゲンダッツ",
+      "category": "グルメ",
       "volume_approx": "200+"
     },
     {
+      "rank": 2,
+      "keyword": "中央競馬",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 3,
+      "keyword": "前川右京",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "平沢大河",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 5,
+      "keyword": "競馬結果",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
       "rank": 6,
-      "keyword": "香取慎吾",
+      "keyword": "小瀧望",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "たけのこの里",
-      "category": "グルメ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 8,
-      "keyword": "田口壮",
-      "category": "スポーツ",
+      "keyword": "北朝鮮ミサイル発射",
+      "category": "社会・ニュース",
       "volume_approx": "5000+"
     },
     {
+      "rank": 8,
+      "keyword": "富栄ドラム",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
       "rank": 9,
-      "keyword": "大迫傑",
+      "keyword": "オクトーバーステークス",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "aquascutum",
-      "category": "ライフスタイル",
+      "keyword": "渡辺真太朗",
+      "category": "社会・ニュース",
       "volume_approx": "500+"
     }
   ]
