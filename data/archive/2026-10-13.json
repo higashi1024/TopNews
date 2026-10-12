@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-13",
+  "updated_at": "2026-10-13T01:27:19.591+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "チャンピオンズリーグ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 2,
+      "keyword": "gta6",
+      "category": "テクノロジー",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 3,
+      "keyword": "解体",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 4,
+      "keyword": "ブリーチ",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "ionq 株価",
+      "category": "経済・投資",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "岸和田だんじり祭り 死亡",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 7,
+      "keyword": "快速 列車",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "妻を引退します ドラマ",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 9,
+      "keyword": "パンサー尾形",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 10,
+      "keyword": "fitbit edge",
+      "category": "テクノロジー",
+      "volume_approx": "200+"
+    }
+  ]
+}
