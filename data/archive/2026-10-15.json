@@ -1,66 +1,66 @@
 {
   "date": "2026-10-15",
-  "updated_at": "2026-10-15T01:26:34.373+09:00",
+  "updated_at": "2026-10-15T05:24:49.287+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "フェイエノールト 対 コモ",
+      "keyword": "ホルムズ海峡",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 2,
+      "keyword": "メジャーリーグベースボール",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
-      "rank": 2,
-      "keyword": "ルーマニア",
+      "rank": 3,
+      "keyword": "トラ",
       "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
-      "rank": 3,
-      "keyword": "ヒューマン グルメ ンタリー オモウマい 店",
-      "category": "グルメ",
+      "rank": 4,
+      "keyword": "psg",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
-      "rank": 4,
-      "keyword": "桐谷健太 嫁",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
       "rank": 5,
-      "keyword": "lask 対 リヴァプール",
-      "category": "スポーツ",
+      "keyword": "ひき逃げ",
+      "category": "社会・ニュース",
       "volume_approx": "1000+"
     },
     {
       "rank": 6,
-      "keyword": "仮面教師",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "real madrid",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "国王",
+      "keyword": "ドジャース 対 ブルワーズ",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "博士 むぅこ",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "黒竜江省",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "プライム感謝祭 先行セール",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
+      "keyword": "uefaチャンピオンズリーグ 試合",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 10,
-      "keyword": "長野 市 焼肉 食中毒",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "給付",
+      "category": "経済・投資",
+      "volume_approx": "1000+"
     }
   ]
 }
