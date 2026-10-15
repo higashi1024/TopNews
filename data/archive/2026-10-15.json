@@ -1,66 +1,66 @@
 {
   "date": "2026-10-15",
-  "updated_at": "2026-10-15T08:38:05.112+09:00",
+  "updated_at": "2026-10-15T12:01:48.920+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "リーグチャンピオンシップシリーズ",
+      "keyword": "ドジャース",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "20000+"
     },
     {
       "rank": 2,
-      "keyword": "サウサンプトン",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 3,
-      "keyword": "インテル・マイアミ 対 nyシティ",
-      "category": "スポーツ",
+      "keyword": "愛子内親王",
+      "category": "社会・ニュース",
       "volume_approx": "500+"
     },
     {
+      "rank": 3,
+      "keyword": "リオネル・メッシ",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
+    },
+    {
       "rank": 4,
-      "keyword": "jo1 メンバー",
-      "category": "エンタメ",
+      "keyword": "mls",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "債券市場",
-      "category": "経済・投資",
-      "volume_approx": "200+"
+      "keyword": "とわの森三愛高校",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 6,
-      "keyword": "uefaチャンピオンズリーグ 順位",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "遊佐浩二 結婚",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 7,
-      "keyword": "豪ドル",
-      "category": "経済・投資",
-      "volume_approx": "100+"
+      "keyword": "須藤晃",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
     },
     {
       "rank": 8,
-      "keyword": "消防車",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "ドジャース速報",
+      "category": "スポーツ",
+      "volume_approx": "10000+"
     },
     {
       "rank": 9,
-      "keyword": "ニコラス・ジャクソン",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "万紫千紅",
+      "category": "テクノロジー",
+      "volume_approx": "1000+"
     },
     {
       "rank": 10,
-      "keyword": "ポケモンgo イベント",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "攻撃",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     }
   ]
 }
