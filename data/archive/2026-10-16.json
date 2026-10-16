@@ -1,66 +1,66 @@
 {
   "date": "2026-10-16",
-  "updated_at": "2026-10-16T14:23:37.598+09:00",
+  "updated_at": "2026-10-16T19:37:06.885+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "山口真由",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "木村沙織",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 2,
-      "keyword": "愛子さま",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "株式",
+      "category": "経済・投資",
+      "volume_approx": "20000+"
     },
     {
       "rank": 3,
-      "keyword": "佐藤 早 也 伽",
-      "category": "スポーツ",
+      "keyword": "sfl",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "王将",
-      "category": "社会・ニュース",
-      "volume_approx": "5000+"
+      "keyword": "ソフトバンクホークス 速報",
+      "category": "スポーツ",
+      "volume_approx": "10000+"
     },
     {
       "rank": 5,
-      "keyword": "小日向文世",
+      "keyword": "殺人の追憶",
       "category": "エンタメ",
-      "volume_approx": "200+"
+      "volume_approx": "2000+"
     },
     {
       "rank": 6,
-      "keyword": "yahoo 障害",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
+      "keyword": "阪神",
+      "category": "スポーツ",
+      "volume_approx": "50000+"
     },
     {
       "rank": 7,
-      "keyword": "ファミマ スヌーピー",
-      "category": "ライフスタイル",
+      "keyword": "高嶋ちさ子",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "mステ ebidan",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "クライマックスシリーズ 速報",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "福田雄一",
-      "category": "エンタメ",
-      "volume_approx": "5000+"
+      "keyword": "イエローハット",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "倖田來未",
+      "keyword": "石原 さとみ",
       "category": "エンタメ",
-      "volume_approx": "2000+"
+      "volume_approx": "500+"
     }
   ]
 }
