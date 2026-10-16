@@ -1,66 +1,66 @@
 {
   "date": "2026-10-17",
-  "updated_at": "2026-10-17T04:15:15.505+09:00",
+  "updated_at": "2026-10-17T07:27:53.955+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "給付金",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "keyword": "亀田和毅",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "芦田愛菜",
-      "category": "エンタメ",
-      "volume_approx": "1000+"
+      "keyword": "灯油価格",
+      "category": "経済・投資",
+      "volume_approx": "2000+"
     },
     {
       "rank": 3,
-      "keyword": "不二家 ケーキ",
-      "category": "グルメ",
-      "volume_approx": "1000+"
+      "keyword": "山﨑 武司",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "西岡剛",
+      "keyword": "東葛駅伝",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "yandex",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
+      "keyword": "水田信二",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 6,
-      "keyword": "貨物",
-      "category": "経済・投資",
-      "volume_approx": "500+"
+      "keyword": "ロボット",
+      "category": "テクノロジー",
+      "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "不正アクセス 情報漏洩",
+      "keyword": "線路",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 8,
+      "keyword": "ロボット遠隔手術",
       "category": "テクノロジー",
       "volume_approx": "500+"
     },
     {
-      "rank": 8,
-      "keyword": "lol",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
       "rank": 9,
-      "keyword": "まだ誰にも使われていない名前",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "タクシー運転手",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
     },
     {
       "rank": 10,
-      "keyword": "杉浦 太陽",
+      "keyword": "=love",
       "category": "エンタメ",
-      "volume_approx": "500+"
+      "volume_approx": "100+"
     }
   ]
 }
