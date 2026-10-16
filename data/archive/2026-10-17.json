@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-17",
+  "updated_at": "2026-10-17T00:09:26.515+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "ホタルの嫁入り",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 2,
+      "keyword": "mリーグ",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 3,
+      "keyword": "本人確認",
+      "category": "経済・投資",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "脱力タイムズ",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "淀花火大会 2026",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "a20 lite",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 7,
+      "keyword": "来田涼斗",
+      "category": "スポーツ",
+      "volume_approx": "10000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "二階堂ふみ",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "デュエキング",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 10,
+      "keyword": "浜田文子",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    }
+  ]
+}
