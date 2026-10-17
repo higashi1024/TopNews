@@ -1,65 +1,65 @@
 {
   "date": "2026-10-17",
-  "updated_at": "2026-10-17T15:30:15.992+09:00",
+  "updated_at": "2026-10-17T20:19:33.352+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "j1 順位",
+      "keyword": "カターレ富山",
       "category": "スポーツ",
-      "volume_approx": "2000+"
+      "volume_approx": "500+"
     },
     {
       "rank": 2,
-      "keyword": "鹿島アントラーズ",
+      "keyword": "鹿児島ユナイテッド",
       "category": "スポーツ",
-      "volume_approx": "1000+"
+      "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "阪和線 人身事故",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "笑ってコラえて",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "工藤阿 須加",
-      "category": "スポーツ",
+      "keyword": "松本光平",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 5,
-      "keyword": "京セラドーム",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "everton vs chelsea",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 6,
-      "keyword": "クライマックスシリーズ 結果速報",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "岩井勇気",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 7,
-      "keyword": "ローチケ",
+      "keyword": "芦田愛菜 ドラマ",
       "category": "エンタメ",
-      "volume_approx": "2000+"
+      "volume_approx": "5000+"
     },
     {
       "rank": 8,
-      "keyword": "阪神 速報",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 9,
-      "keyword": "東国原 英夫",
-      "category": "社会・ニュース",
+      "keyword": "小峠英二",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
-      "rank": 10,
-      "keyword": "ベイスターズ",
+      "rank": 9,
+      "keyword": "エヴァートン 対 チェルシー",
       "category": "スポーツ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "ニッポンの社長",
+      "category": "エンタメ",
       "volume_approx": "1000+"
     }
   ]
