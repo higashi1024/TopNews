@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-18",
+  "updated_at": "2026-10-18T02:44:02.248+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "中川圭太",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 2,
+      "keyword": "barcelona",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 3,
+      "keyword": "カミラ",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "アストンヴィラ",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 5,
+      "keyword": "バルサ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "premier league",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 7,
+      "keyword": "india vs west indies",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "マスターソアラ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 9,
+      "keyword": "リーグ・アン",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 10,
+      "keyword": "liga inggris",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    }
+  ]
+}
