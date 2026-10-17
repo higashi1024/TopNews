@@ -1,66 +1,66 @@
 {
   "date": "2026-10-18",
-  "updated_at": "2026-10-18T05:02:35.045+09:00",
+  "updated_at": "2026-10-18T07:51:08.390+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "小谷野 栄一",
+      "keyword": "川上審判員",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "1000+"
     },
     {
       "rank": 2,
-      "keyword": "佐藤佳奈",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "福生市",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "低気圧",
+      "keyword": "逮捕",
       "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "整体",
-      "category": "ライフスタイル",
+      "keyword": "子役",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 5,
-      "keyword": "バイエルン 対 rbライプツィヒ 順位",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "タイ王妃",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 6,
-      "keyword": "リフレ",
-      "category": "経済・投資",
+      "keyword": "クリミナル・マインド fbi行動分析課",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "フィットネス",
-      "category": "ライフスタイル",
+      "keyword": "ユーロ円",
+      "category": "経済・投資",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "吉田優利",
+      "keyword": "東京マラソン",
       "category": "スポーツ",
-      "volume_approx": "2000+"
+      "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "バレンシア 対 ビルバオ",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "訃報",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "強風域",
-      "category": "社会・ニュース",
-      "volume_approx": "5000+"
+      "keyword": "ムーキー ベッツ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     }
   ]
 }
