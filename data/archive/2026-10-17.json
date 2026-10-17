@@ -1,66 +1,66 @@
 {
   "date": "2026-10-17",
-  "updated_at": "2026-10-17T20:19:33.352+09:00",
+  "updated_at": "2026-10-17T23:53:32.497+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "カターレ富山",
-      "category": "スポーツ",
-      "volume_approx": "500+"
+      "keyword": "松田元太",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 2,
-      "keyword": "鹿児島ユナイテッド",
+      "keyword": "ストラスブール 対 パリsg",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "笑ってコラえて",
+      "keyword": "サクサクヒムヒム",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "松本光平",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "プライム感謝祭 いつまで",
+      "category": "ライフスタイル",
+      "volume_approx": "500+"
     },
     {
       "rank": 5,
-      "keyword": "everton vs chelsea",
+      "keyword": "man city vs ipswich",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "100+"
     },
     {
       "rank": 6,
-      "keyword": "岩井勇気",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "persija",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "芦田愛菜 ドラマ",
-      "category": "エンタメ",
-      "volume_approx": "5000+"
+      "keyword": "水田 離婚",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
     },
     {
       "rank": 8,
-      "keyword": "小峠英二",
-      "category": "エンタメ",
+      "keyword": "笠松競馬場",
+      "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "エヴァートン 対 チェルシー",
+      "keyword": "ado 対 psv",
       "category": "スポーツ",
-      "volume_approx": "2000+"
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "ニッポンの社長",
+      "keyword": "頭文字d",
       "category": "エンタメ",
-      "volume_approx": "1000+"
+      "volume_approx": "200+"
     }
   ]
 }
