@@ -1,65 +1,65 @@
 {
   "date": "2026-10-17",
-  "updated_at": "2026-10-17T07:27:53.955+09:00",
+  "updated_at": "2026-10-17T10:00:20.420+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "亀田和毅",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "埼玉県議会",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 2,
-      "keyword": "灯油価格",
-      "category": "経済・投資",
-      "volume_approx": "2000+"
+      "keyword": "ビリー・ジョエル",
+      "category": "エンタメ",
+      "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "山﨑 武司",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "ゲームマーケット",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "東葛駅伝",
-      "category": "スポーツ",
+      "keyword": "世論調査",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "水田信二",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "岸和田だんじり祭",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "ロボット",
-      "category": "テクノロジー",
+      "keyword": "東京国際映画祭",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "線路",
-      "category": "社会・ニュース",
+      "keyword": "丸佳浩",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "ロボット遠隔手術",
-      "category": "テクノロジー",
-      "volume_approx": "500+"
+      "keyword": "近畿大会 高校野球",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "タクシー運転手",
-      "category": "社会・ニュース",
-      "volume_approx": "2000+"
+      "keyword": "プリンセス駅伝",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "=love",
-      "category": "エンタメ",
+      "keyword": "ブラックマンデー",
+      "category": "経済・投資",
       "volume_approx": "100+"
     }
   ]
