@@ -1,66 +1,66 @@
 {
   "date": "2026-10-19",
-  "updated_at": "2026-10-19T02:46:50.665+09:00",
+  "updated_at": "2026-10-19T05:02:01.918+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "arsenal",
+      "keyword": "阪神戦力外",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "東京湾大華火祭",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "秋 華 賞 コメント",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "ピクセル",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
+      "keyword": "real madrid",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "フローニンゲン 対 アヤックス",
+      "keyword": "レアル・マドリード",
       "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "arc raiders",
-      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 6,
-      "keyword": "wec",
+      "rank": 5,
+      "keyword": "リーグアン",
       "category": "スポーツ",
       "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "real madrid vs sevilla",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "ブリーチ",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "藤本敦士",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 8,
-      "keyword": "マラガ 対 ソシエダ",
+      "keyword": "村上 宗隆",
       "category": "スポーツ",
-      "volume_approx": "2000+"
+      "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "乃木坂46",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
+      "keyword": "セリエa",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "ミラン 対 アタランタ",
+      "keyword": "rマドリード 対 セビージャ",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "1000+"
     }
   ]
 }
