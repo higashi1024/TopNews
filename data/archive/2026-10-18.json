@@ -1,65 +1,65 @@
 {
   "date": "2026-10-18",
-  "updated_at": "2026-10-18T14:22:56.047+09:00",
+  "updated_at": "2026-10-18T19:19:12.347+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "東京ハイジャンプ",
-      "category": "スポーツ",
+      "keyword": "ドズル社",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "中日 ドラゴンズ",
-      "category": "スポーツ",
+      "keyword": "浜松市",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "今野忍",
-      "category": "社会・ニュース",
+      "keyword": "セブンカフェ",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "ハヤブササキチャン",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "環境大臣",
+      "keyword": "清里町",
       "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
+      "rank": 5,
+      "keyword": "豊臣兄弟 あさひ",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 6,
-      "keyword": "伊藤あおい",
+      "keyword": "瀬戸大也",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "契約更改",
+      "keyword": "テニス",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "weリーグ",
+      "keyword": "松井秀喜",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "愛媛新聞",
+      "keyword": "愛子さま",
       "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "新婚さんいらっしゃい",
-      "category": "エンタメ",
+      "keyword": "キム・ヨナ",
+      "category": "スポーツ",
       "volume_approx": "200+"
     }
   ]
