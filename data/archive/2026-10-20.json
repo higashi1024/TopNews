@@ -1,65 +1,65 @@
 {
   "date": "2026-10-20",
-  "updated_at": "2026-10-20T03:57:50.529+09:00",
+  "updated_at": "2026-10-20T07:49:37.011+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "ミニバン",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "亀梨 田中 みな 実",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 2,
-      "keyword": "jaxa",
-      "category": "テクノロジー",
+      "keyword": "韓鶴子",
+      "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "高市早苗",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 4,
-      "keyword": "北朝鮮",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 5,
-      "keyword": "ネルソンズ 1点",
-      "category": "エンタメ",
+      "keyword": "リアム・ローソン",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
+      "rank": 4,
+      "keyword": "安斉星来",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "大雨警報",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 6,
-      "keyword": "マイクロソフト",
-      "category": "テクノロジー",
+      "keyword": "シソンヌ",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "日本郵政",
-      "category": "経済・投資",
-      "volume_approx": "2000+"
+      "keyword": "玉島",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "rain98",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "météo",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "プライムセール",
-      "category": "経済・投資",
-      "volume_approx": "200+"
+      "keyword": "岡山天気",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "トレンドマイクロ",
-      "category": "テクノロジー",
+      "keyword": "雨雲",
+      "category": "社会・ニュース",
       "volume_approx": "100+"
     }
   ]
