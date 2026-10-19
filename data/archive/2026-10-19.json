@@ -1,66 +1,66 @@
 {
   "date": "2026-10-19",
-  "updated_at": "2026-10-19T07:43:41.843+09:00",
+  "updated_at": "2026-10-19T09:45:39.005+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "ダイハツ・コペン",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 2,
-      "keyword": "安斉 星来",
-      "category": "エンタメ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 3,
-      "keyword": "lua blanco",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 4,
-      "keyword": "フォーミュラ1",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "外傷",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "青森市 天気",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 7,
-      "keyword": "宇宙航空研究開発機構",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 8,
-      "keyword": "融資",
+      "keyword": "キオクシア株価",
       "category": "経済・投資",
       "volume_approx": "200+"
     },
     {
+      "rank": 2,
+      "keyword": "エンカーナシオン",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 3,
+      "keyword": "yahooファイナンス",
+      "category": "経済・投資",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 4,
+      "keyword": "東芝",
+      "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 5,
+      "keyword": "ダイハツ コペン",
+      "category": "テクノロジー",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 6,
+      "keyword": "秀ノ山部屋",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 7,
+      "keyword": "アメリカ 中間選挙",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 8,
+      "keyword": "徳山競艇",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 9,
-      "keyword": "釧路 天気",
-      "category": "ライフスタイル",
+      "keyword": "吉田正尚",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "長崎天気",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "高橋文哉",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     }
   ]
 }
