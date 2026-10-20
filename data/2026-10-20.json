@@ -1,10 +1,22 @@
 {
   "date": "2026-10-20",
-  "updated_at": "2026-10-20T07:49:37.011+09:00",
+  "updated_at": "2026-10-20T10:31:59.490+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "亀梨 田中 みな 実",
+      "keyword": "栃木県警察",
+      "category": "社会・ニュース",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "100+",
+      "trend": "→0",
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E6%A0%83%E6%9C%A8%E7%9C%8C%E8%AD%A6%E5%AF%9F&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%A0%83%E6%9C%A8%E7%9C%8C%E8%AD%A6%E5%AF%9F%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 2,
+      "keyword": "小池徹平",
       "category": "エンタメ",
       "source": "google",
       "type": "trend",
@@ -12,61 +24,92 @@
       "trend": "→0",
       "news": [
         {
-          "title": "【独自】変装せず堂々と...亀梨和也＆田中みな実夫妻 初めてキャッチした「ラブラブ2ショット姿」（FRIDAY）",
+          "title": "亀梨和也、母親がテレビ初登場 「6畳2間で6人生活」「おやつはパンの耳」の少年時代が明らかに（ENCOUNT）",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/53863b994d0de577a9f8fa5088f95b384d5961af",
+          "url": "https://news.yahoo.co.jp/articles/54f7fc5ef50bfaff7a831dbfa5585e55cd855083",
           "source": "Yahoo!ニュース"
         },
         {
-          "title": "田中みな実＆亀梨和也、“手つなぎ散歩”報道で「厚底ブーツ」にツッコミの声も「10cmヒールで登壇」「500万円デニム」夫婦にみなぎる私服愛",
+          "title": "亀梨和也、母がテレビ初登場 『ごくせん』第2シリーズ21年ぶり同窓会",
           "snippet": "",
-          "url": "https://topics.smt.docomo.ne.jp/article/smartflash/entertainment/smartflash-434255?page=2",
-          "source": "ｄメニューニュース"
+          "url": "https://www.niigata-nippo.co.jp/articles/-/927328",
+          "source": "新潟日報"
         },
         {
-          "title": "田中みな実と亀梨和也の手つなぎ散歩報道 SNSでは服装にツッコミも (2026年10月19日掲載)",
+          "title": "「ごくせん」21年ぶり同窓会を「しゃべくり007」で、亀梨和也・小池徹平・小出恵介ら集結",
           "snippet": "",
-          "url": "https://news.livedoor.com/topics/detail/32602902/",
-          "source": "ライブドアニュース"
+          "url": "https://natalie.mu/eiga/news/694316",
+          "source": "ナタリー"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E4%BA%80%E6%A2%A8%20%E7%94%B0%E4%B8%AD%20%E3%81%BF%E3%81%AA%20%E5%AE%9F&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E4%BA%80%E6%A2%A8%20%E7%94%B0%E4%B8%AD%20%E3%81%BF%E3%81%AA%20%E5%AE%9F%2F&link_type=hybrid_url"
-    },
-    {
-      "rank": 2,
-      "keyword": "韓鶴子",
-      "category": "社会・ニュース",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "旧統一教会総裁の保釈決定 「健康状態を考慮」＝韓国高裁",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/4e587ba5f5bd7ac0bea028ed0d48af169c5a70ee",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "旧統一教会・韓総裁の保釈決定 保釈金2300万円 ソウル高裁",
-          "snippet": "",
-          "url": "https://mainichi.jp/articles/20261020/k00/00m/030/001000c",
-          "source": "毎日新聞"
-        },
-        {
-          "title": "最高機関トップに総裁の孫　旧統一教会、結束意図か",
-          "snippet": "",
-          "url": "https://topics.smt.docomo.ne.jp/article/kyodo_nor/world/kyodo_nor-2026101501001665",
-          "source": "ｄメニューニュース"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E9%9F%93%E9%B6%B4%E5%AD%90&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E9%9F%93%E9%B6%B4%E5%AD%90%2F&link_type=hybrid_url"
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E5%B0%8F%E6%B1%A0%E5%BE%B9%E5%B9%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%B0%8F%E6%B1%A0%E5%BE%B9%E5%B9%B3%2F&link_type=hybrid_url"
     },
     {
       "rank": 3,
-      "keyword": "リアム・ローソン",
+      "keyword": "一場靖弘",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "巨人入り白紙 一場靖弘氏が回顧",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/pickup/6599431",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "巨人入り白紙、騒動の真実は「墓場まで持っていく」…世代No.1投手の苦悩「人間不信に」（スポーティングニュース日本版）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/f715606c38572f5abee975b0cd99dfbb8f863f07",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "一場靖弘氏 金銭騒動「墓場まで」",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/pickup/6599436",
+          "source": "Yahoo!ニュース"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%80%E5%A0%B4%E9%9D%96%E5%BC%98&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E4%B8%80%E5%A0%B4%E9%9D%96%E5%BC%98%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 4,
+      "keyword": "ウィル オスプレイ",
+      "category": "スポーツ",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "200+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "【新日本】Yuto-Ice オスプレイvsカラムの〝UE内紛〟に干渉する理由「今の状態が続くくらいなら…」（東スポWEB）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/7a4e0a29fce6025687beb390d5e7e9b471ee54f2",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "K.O.Bは難敵エンパイアからIWGPタッグ王座奪還なるか!?",
+          "snippet": "",
+          "url": "https://tver.jp/episodes/epzjmsad2m",
+          "source": "TVer"
+        },
+        {
+          "title": "【新日本】Yuto-Ice オスプレイvsカラムの〝UE内紛〟に干渉する理由「今の状態が続くくらいなら…」",
+          "snippet": "",
+          "url": "https://www.tokyo-sports.co.jp/articles/-/407135",
+          "source": "東スポWEB"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A6%E3%82%A3%E3%83%AB%20%E3%82%AA%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%A6%E3%82%A3%E3%83%AB%20%E3%82%AA%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 5,
+      "keyword": "commanders vs 49ers",
       "category": "スポーツ",
       "source": "google",
       "type": "trend",
@@ -74,243 +117,162 @@
       "trend": "→0",
       "news": [
         {
-          "title": "【写真1】リアム・ローソン仕様の特注ギター『LL30 GS Mini Special Edition』は数量限定で販売予定",
+          "title": "Commanders vs. 49ers preview | A trip out west",
           "snippet": "",
-          "url": "https://www.as-web.jp/f1/1363332/attachment/10082026-taylor-env-arttop-gs-mini-liam-lawson-30-19-jpg",
-          "source": "autosport web"
+          "url": "https://www.commanders.com/news/commanders-vs-49ers-preview-a-trip-out-west",
+          "source": "Washington Commanders"
         },
         {
-          "title": "リアム・ローソン仕様のギターが数量限定で登場。F1アメリカGP直前にはライブ出演も実現（オートスポーツweb）",
+          "title": "NFL &apos;Monday Night Football&apos; betting promos: Earn over $5k in sportsbook, prediction market bonuses for Commanders vs. 49ers",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/bc2db8379b74e0af6e152046f76727ff1b2df6ee",
-          "source": "Yahoo!ニュース"
+          "url": "https://nypost.com/2026/10/19/betting/nfl-monday-night-football-betting-promos-earn-over-5k-in-sportsbook-prediction-market-bonuses-for-commanders-vs-49ers/",
+          "source": "New York Post"
         },
         {
-          "title": "ローソン、スペシャル・ギターを発表＆ライブも開催へ",
+          "title": "Tracking the leader for DraftKings King of the End Zone: Monday 10/19/26",
           "snippet": "",
-          "url": "http://www.formula-web.jp/f1news/38741.html",
-          "source": "Formula Web"
+          "url": "https://dknetwork.draftkings.com/2026/10/19/tracking-the-leader-for-draftkings-king-of-the-end-zone-monday-10-19-26/",
+          "source": "DraftKings Network"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%2F&link_type=hybrid_url"
-    },
-    {
-      "rank": 4,
-      "keyword": "安斉星来",
-      "category": "エンタメ",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "5000+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "「うるわしの宵の月」公開直前イベントで主演2人がサプライズ登壇 神戸（産経新聞）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/255a027c5c140d3f0060871d3ce3b75f83d586bf",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "【記事全文】道枝駿佑 韓国ファンへ「アニョハセヨ！」韓国・釜山国際映画祭 主演「うるわしの宵の月」あいさつ",
-          "snippet": "",
-          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/articles/20261013s00041000044000c.html",
-          "source": "スポニチ Sponichi Annex"
-        },
-        {
-          "title": "「うるわしの宵の月」場面写真 [画像ギャラリー 5/6]",
-          "snippet": "",
-          "url": "https://natalie.mu/eiga/gallery/news/693898/2951761",
-          "source": "ナタリー"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E5%AE%89%E6%96%89%E6%98%9F%E6%9D%A5&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%AE%89%E6%96%89%E6%98%9F%E6%9D%A5%2F&link_type=hybrid_url"
-    },
-    {
-      "rank": 5,
-      "keyword": "大雨警報",
-      "category": "社会・ニュース",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "200+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "【レベル3大雨警報】石川県・金沢市に発表 07:11時点（TBS NEWS DIG Powered by JNN）",
-          "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/9a5592294440c67d0fa45d882225886abe12aa8e",
-          "source": "Yahoo!ニュース"
-        },
-        {
-          "title": "【レベル３大雨警報】石川県・輪島市に発表 05:00時点",
-          "snippet": "",
-          "url": "https://newsdig.tbs.co.jp/articles/-/3023297",
-          "source": "TBS NEWS DIG"
-        },
-        {
-          "title": "輪島で早朝に1時間30㍉の強い雨、石川県内 昼前にかけ浸水や河川の増水に警戒を",
-          "snippet": "",
-          "url": "https://www.47news.jp/15104399.html",
-          "source": "47NEWS"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A4%A7%E9%9B%A8%E8%AD%A6%E5%A0%B1&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%A4%A7%E9%9B%A8%E8%AD%A6%E5%A0%B1%2F&link_type=hybrid_url"
+      "amazon_url": "https://www.amazon.co.jp/s?k=commanders%20vs%2049ers&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fcommanders%20vs%2049ers%2F&link_type=hybrid_url"
     },
     {
       "rank": 6,
-      "keyword": "シソンヌ",
-      "category": "エンタメ",
+      "keyword": "サンフレッチェ広島レジーナ",
+      "category": "スポーツ",
       "source": "google",
       "type": "trend",
-      "volume_approx": "200+",
+      "volume_approx": "100+",
       "trend": "→0",
       "news": [
         {
-          "title": "香取×シソンヌ 来年コントライブ",
+          "title": "レジーナユース『U18女子サッカーリーグ2026 中国』結果のお知らせ",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/pickup/6599415",
-          "source": "Yahoo!ニュース"
+          "url": "https://www.sanfrecce.co.jp/news/regina/12972",
+          "source": "サンフレッチェ広島 オフィシャルサイト"
         },
         {
-          "title": "香取慎吾＆シソンヌのコントライブ「シゴンヌ」2027年に日本武道館で開催決定",
+          "title": "ファジアーノペイ",
           "snippet": "",
-          "url": "https://natalie.mu/owarai/news/694370",
-          "source": "ナタリー"
+          "url": "https://www.fagiano-okayama.com/supporters/fagipay/",
+          "source": "ファジアーノ岡山"
         },
         {
-          "title": "オリコンニュース：香取慎吾×シソンヌ、コントライブ“シゴンヌ”上演決定 世界観あふれるポスターも解禁「楽しみしかありません」「慎吾さんは太陽です」［コメントあり］",
+          "title": "新しい公式アプリを公開！クラブ独自のスマホ決済サービス『サンフレッチェPay』登場！",
           "snippet": "",
-          "url": "https://mainichi.jp/articles/20261020/orc/00m/200/004000c",
-          "source": "毎日新聞"
+          "url": "https://www.sanfrecce.co.jp/news/other/12907",
+          "source": "サンフレッチェ広島 オフィシャルサイト"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%82%BD%E3%83%B3%E3%83%8C&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%B7%E3%82%BD%E3%83%B3%E3%83%8C%2F&link_type=hybrid_url"
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%81%E3%82%A7%E5%BA%83%E5%B3%B6%E3%83%AC%E3%82%B8%E3%83%BC%E3%83%8A&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%B5%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%81%E3%82%A7%E5%BA%83%E5%B3%B6%E3%83%AC%E3%82%B8%E3%83%BC%E3%83%8A%2F&link_type=hybrid_url"
     },
     {
       "rank": 7,
-      "keyword": "玉島",
-      "category": "社会・ニュース",
+      "keyword": "キッザニア",
+      "category": "ライフスタイル",
       "source": "google",
       "type": "trend",
       "volume_approx": "100+",
       "trend": "→0",
       "news": [
         {
-          "title": "アパートの1室で火事 焼け跡から1人の遺体 41歳の女性と連絡取れず 倉敷市玉島",
+          "title": "キッザニア甲子園に期間限定「TAX OFFICE（税務署）」登場～こども達が「税を考える週間」に税務職員を体験～",
           "snippet": "",
-          "url": "https://newsdig.tbs.co.jp/articles/-/3020532",
-          "source": "TBS NEWS DIG"
+          "url": "https://www.kobe-np.co.jp/info/prtimes/202610/c78157_r426.shtml",
+          "source": "神戸新聞"
         },
         {
-          "title": "倉敷市でアパート1室全焼 1人死亡",
+          "title": "キッザニア東京に期間限定「TAX OFFICE（税務署）」登場～こども達が「税を考える週間」に 税務職員を体験",
           "snippet": "",
-          "url": "https://tver.jp/episodes/ep7vq8xbl0",
-          "source": "TVer"
+          "url": "https://mantan-web.jp/prtimes/article/20261019prt00m200000482a.html",
+          "source": "MANTANWEB"
         },
         {
-          "title": "倉敷市でアパート1室全焼 1人死亡（2026年10月18日掲載）｜RNC NEWS NNN",
+          "title": "〈税を考える週間〉キッザニア東京で「TAX WEEK2026」を開催します！",
           "snippet": "",
-          "url": "https://news.ntv.co.jp/n/rnc/category/society/rn68548656fdc546e889883e3d78940dba",
-          "source": "日テレNEWS NNN"
+          "url": "https://www.tohoren.or.jp/other/2026101423808.html",
+          "source": "一般社団法人 東京法人会連合会"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E7%8E%89%E5%B3%B6&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E7%8E%89%E5%B3%B6%2F&link_type=hybrid_url"
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2%2F&link_type=hybrid_url"
     },
     {
       "rank": 8,
-      "keyword": "météo",
+      "keyword": "インフルエンザ 予防接種",
       "category": "社会・ニュース",
       "source": "google",
       "type": "trend",
-      "volume_approx": "100+",
+      "volume_approx": "1000+",
       "trend": "→0",
-      "news": [
-        {
-          "title": "Alerte Météo : Pluie et inondations : épisode méditerranéen jusqu&apos;à mercredi matin",
-          "snippet": "",
-          "url": "https://actualite.lachainemeteo.com/alerte-meteo/9641-episode-mediterraneen-lundi-et-mardi",
-          "source": "La Chaîne Météo"
-        },
-        {
-          "title": "Épisode méditerranéen : la vigilance rouge pourrait être activée dans le Gard et l’Hérault, qu’est-ce que ça changerait",
-          "snippet": "",
-          "url": "https://www.midilibre.fr/2026/10/19/episode-mediterraneen-la-vigilance-rouge-pourrait-etre-activee-dans-le-gard-et-lherault-quest-ce-que-ca-changerait-13609880.php",
-          "source": "Midi Libre"
-        },
-        {
-          "title": "Météo aujourd&apos;hui : fortes pluies dans le sud-est, fraîcheur et éclaircies à l’ouest",
-          "snippet": "",
-          "url": "https://www.meteoconsult.fr/actualites-meteo/2026-10-20/93313-meteo-aujourd-hui-fortes-pluies-dans-le-sud-est-fraicheur-et-eclaircies-a-l-ouest",
-          "source": "METEO CONSULT"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=m%C3%A9t%C3%A9o&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fm%C3%A9t%C3%A9o%2F&link_type=hybrid_url"
+      "news": [],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AB%E3%82%A8%E3%83%B3%E3%82%B6%20%E4%BA%88%E9%98%B2%E6%8E%A5%E7%A8%AE&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AB%E3%82%A8%E3%83%B3%E3%82%B6%20%E4%BA%88%E9%98%B2%E6%8E%A5%E7%A8%AE%2F&link_type=hybrid_url"
     },
     {
       "rank": 9,
-      "keyword": "岡山天気",
-      "category": "社会・ニュース",
+      "keyword": "ポケモンgo",
+      "category": "テクノロジー",
+      "source": "google",
+      "type": "trend",
+      "volume_approx": "1000+",
+      "trend": "→0",
+      "news": [
+        {
+          "title": "「ポケモンGO」動作に不具合 公式が謝罪 ログイン・画面読み込みに問題「解決に向けて対応」（スポニチアネックス）",
+          "snippet": "",
+          "url": "https://news.yahoo.co.jp/articles/4b8c2201d3f507e96f02b5e87a536e862cc7ec50",
+          "source": "Yahoo!ニュース"
+        },
+        {
+          "title": "ガラル3鳥狙いならディアルガ周回は全力で / 「ときのほうこう」で「おさんぽおこう」の延長が可能【ポケモンGO】",
+          "snippet": "",
+          "url": "https://getnews.jp/archives/3749655",
+          "source": "ガジェット通信"
+        },
+        {
+          "title": "ディアルガは2名でも周回可能 / 「ときのほうこう」のために何十周したってOK【ポケモンGO】",
+          "snippet": "",
+          "url": "https://getnews.jp/archives/3748883",
+          "source": "ガジェット通信"
+        }
+      ],
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3go&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3go%2F&link_type=hybrid_url"
+    },
+    {
+      "rank": 10,
+      "keyword": "アンソニー・レンドン",
+      "category": "スポーツ",
       "source": "google",
       "type": "trend",
       "volume_approx": "500+",
       "trend": "→0",
       "news": [
         {
-          "title": "【春日井市】10/20 最高26℃、朝は雨、やや暑さを感じる場面もある予想【朝版】",
+          "title": "ついに終わった「史上最悪の契約」 388億円も実働たったの22.6％…大谷元同僚の7年に反響（THE ANSWER）",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/028bf1c6e69501ad563cbbf34f28d3a18f8d6983",
+          "url": "https://news.yahoo.co.jp/articles/315d342564873ccdb4f26c12ad6a43b7575e4a86",
           "source": "Yahoo!ニュース"
         },
         {
-          "title": "【京都府】10/20の天気予報",
+          "title": "エンゼルスとレンドンの7年388億円の大型契約が終了、反響広がる (2026年10月20日掲載)",
           "snippet": "",
-          "url": "https://www.fnn.jp/articles/-/1135913",
-          "source": "FNNプライムオンライン"
+          "url": "https://news.livedoor.com/topics/detail/32608076/",
+          "source": "ライブドアニュース"
         },
         {
-          "title": "【富士市】10/20 最低20℃、最高26℃、朝は雨、夜も雨の予想【朝版】",
+          "title": "なんてことだ！3267億ウォンを受け取り、なんと877試合を欠場した「災厄級」の食い逃げがある？ 契約期間の25％だけプレーし、ついに「別れ」を迎える",
           "snippet": "",
-          "url": "https://news.yahoo.co.jp/articles/82f38ef91b1f6662458f5a91d8f85b0f4fbe234a",
-          "source": "Yahoo!ニュース"
+          "url": "https://www.starnewskorea.com/ja/sports/2026/10/20/2026102007192696950",
+          "source": "스타뉴스"
         }
       ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E5%B2%A1%E5%B1%B1%E5%A4%A9%E6%B0%97&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E5%B2%A1%E5%B1%B1%E5%A4%A9%E6%B0%97%2F&link_type=hybrid_url"
-    },
-    {
-      "rank": 10,
-      "keyword": "雨雲",
-      "category": "社会・ニュース",
-      "source": "google",
-      "type": "trend",
-      "volume_approx": "100+",
-      "trend": "→0",
-      "news": [
-        {
-          "title": "ひと目でわかる今日の傘マップ 10月19日(月)",
-          "snippet": "",
-          "url": "https://weathernews.jp/news/202610/190051/",
-          "source": "ウェザーニュース"
-        },
-        {
-          "title": "ひと目でわかる今日の傘マップ 10月16日(金)",
-          "snippet": "",
-          "url": "https://portal.uqmobile.jp/detail/1/2/2/150_2_r_20261016_1792097531862706",
-          "source": "UQライフ"
-        },
-        {
-          "title": "ひと目でわかる今日の傘マップ 10月11日(日)",
-          "snippet": "",
-          "url": "https://article.auone.jp/f9017c3f-d5cb-445e-80d1-d578b9909bc7",
-          "source": "au Webポータル"
-        }
-      ],
-      "amazon_url": "https://www.amazon.co.jp/s?k=%E9%9B%A8%E9%9B%B2&tag=topnews22-22",
-      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E9%9B%A8%E9%9B%B2%2F&link_type=hybrid_url"
+      "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%AC%E3%83%B3%E3%83%89%E3%83%B3&tag=topnews22-22",
+      "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/5448e207.b5e1edb5.5448e208.ff6bfe37/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%AC%E3%83%B3%E3%83%89%E3%83%B3%2F&link_type=hybrid_url"
     }
   ],
   "categories": {

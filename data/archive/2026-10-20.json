@@ -1,66 +1,66 @@
 {
   "date": "2026-10-20",
-  "updated_at": "2026-10-20T07:49:37.011+09:00",
+  "updated_at": "2026-10-20T10:31:59.490+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "亀梨 田中 みな 実",
+      "keyword": "栃木県警察",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 2,
+      "keyword": "小池徹平",
       "category": "エンタメ",
       "volume_approx": "1000+"
     },
     {
-      "rank": 2,
-      "keyword": "韓鶴子",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "rank": 3,
+      "keyword": "一場靖弘",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
-      "rank": 3,
-      "keyword": "リアム・ローソン",
+      "rank": 4,
+      "keyword": "ウィル オスプレイ",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 5,
+      "keyword": "commanders vs 49ers",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
-      "rank": 4,
-      "keyword": "安斉星来",
-      "category": "エンタメ",
-      "volume_approx": "5000+"
-    },
-    {
-      "rank": 5,
-      "keyword": "大雨警報",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
-    },
-    {
       "rank": 6,
-      "keyword": "シソンヌ",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "サンフレッチェ広島レジーナ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "玉島",
-      "category": "社会・ニュース",
+      "keyword": "キッザニア",
+      "category": "ライフスタイル",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "météo",
+      "keyword": "インフルエンザ 予防接種",
       "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "volume_approx": "1000+"
     },
     {
       "rank": 9,
-      "keyword": "岡山天気",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "keyword": "ポケモンgo",
+      "category": "テクノロジー",
+      "volume_approx": "1000+"
     },
     {
       "rank": 10,
-      "keyword": "雨雲",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "アンソニー・レンドン",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     }
   ]
 }
