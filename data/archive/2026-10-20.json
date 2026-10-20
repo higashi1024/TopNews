@@ -1,66 +1,66 @@
 {
   "date": "2026-10-20",
-  "updated_at": "2026-10-20T10:31:59.490+09:00",
+  "updated_at": "2026-10-20T16:05:57.048+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "栃木県警察",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "日経平均 伊藤",
+      "category": "経済・投資",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "小池徹平",
-      "category": "エンタメ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 3,
-      "keyword": "一場靖弘",
+      "keyword": "ブラウブリッツ秋田",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
+      "rank": 3,
+      "keyword": "ゴゴスマ",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 4,
-      "keyword": "ウィル オスプレイ",
+      "keyword": "巨人 次期 監督",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "commanders vs 49ers",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "ユン ジュマン",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 6,
-      "keyword": "サンフレッチェ広島レジーナ",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "ホルン奏者",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
     },
     {
       "rank": 7,
-      "keyword": "キッザニア",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "博多華丸",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "インフルエンザ 予防接種",
+      "keyword": "新名神高速道路",
       "category": "社会・ニュース",
-      "volume_approx": "1000+"
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "ポケモンgo",
-      "category": "テクノロジー",
-      "volume_approx": "1000+"
+      "keyword": "福谷浩司",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "アンソニー・レンドン",
-      "category": "スポーツ",
-      "volume_approx": "500+"
+      "keyword": "アオアシ",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     }
   ]
 }
