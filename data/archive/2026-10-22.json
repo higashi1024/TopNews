@@ -1,66 +1,66 @@
 {
   "date": "2026-10-22",
-  "updated_at": "2026-10-22T02:52:41.429+09:00",
+  "updated_at": "2026-10-22T06:12:13.475+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "マンチェスターユナイテッド",
+      "keyword": "uefaチャンピオンズリーグ",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "2000+"
     },
     {
       "rank": 2,
-      "keyword": "コモ 対 マンu",
-      "category": "スポーツ",
-      "volume_approx": "2000+"
+      "keyword": "ナスダック100指数",
+      "category": "経済・投資",
+      "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "como vs man utd",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 4,
-      "keyword": "ホンジャマカ",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
-    },
-    {
-      "rank": 5,
-      "keyword": "日本u-17 対 u-17サッカーフランス女子代表",
+      "keyword": "熊本 対 鳥取",
       "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
-      "rank": 6,
-      "keyword": "smbc",
+      "rank": 4,
+      "keyword": "気象庁 天気予報",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "補助金",
       "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "竜王戦",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "進撃の巨人 映画",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 8,
-      "keyword": "日向坂46",
+      "keyword": "有村架純",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 9,
-      "keyword": "松本 対 群馬",
+      "rank": 8,
+      "keyword": "アドマイヤ ズーム",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
-      "rank": 10,
-      "keyword": "マルイ",
+      "rank": 9,
+      "keyword": "メタ 決算",
       "category": "経済・投資",
-      "volume_approx": "100+"
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 10,
+      "keyword": "uefa champions league",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     }
   ]
 }
