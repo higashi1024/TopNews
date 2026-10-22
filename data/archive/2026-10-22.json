@@ -1,65 +1,65 @@
 {
   "date": "2026-10-22",
-  "updated_at": "2026-10-22T09:24:26.168+09:00",
+  "updated_at": "2026-10-22T14:43:29.532+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "財務省",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "髙木美帆",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "セールスフォース",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
+      "keyword": "フリオ・ロドリゲス",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "内閣府",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "t バールーフ",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "徳山競艇",
-      "category": "スポーツ",
+      "keyword": "梅宮アンナ",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "フューチャーショップ",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "総務省",
+      "keyword": "闘犬",
       "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
+      "rank": 6,
+      "keyword": "スパイウェア",
+      "category": "テクノロジー",
+      "volume_approx": "100+"
+    },
+    {
       "rank": 7,
-      "keyword": "杉谷拳士",
+      "keyword": "エル デスペラード",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
     },
     {
       "rank": 8,
-      "keyword": "高橋塁",
+      "keyword": "選抜高等学校野球大会",
       "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "ネッツ 対 ホーネッツ",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "ちぃたん☆",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "java 脆弱性",
-      "category": "テクノロジー",
+      "keyword": "フライデー",
+      "category": "エンタメ",
       "volume_approx": "200+"
     }
   ]
