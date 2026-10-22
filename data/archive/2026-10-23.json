@@ -1,66 +1,66 @@
 {
   "date": "2026-10-23",
-  "updated_at": "2026-10-23T05:24:09.981+09:00",
+  "updated_at": "2026-10-23T08:51:40.697+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "算数",
-      "category": "ライフスタイル",
+      "keyword": "76ers vs cavaliers",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "世界体操 2026",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 3,
-      "keyword": "雨",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 4,
-      "keyword": "熱帯低気圧",
-      "category": "社会・ニュース",
+      "keyword": "iphoneデュオ",
+      "category": "テクノロジー",
       "volume_approx": "500+"
     },
     {
-      "rank": 5,
-      "keyword": "興行収入",
-      "category": "エンタメ",
+      "rank": 3,
+      "keyword": "ソフビ",
+      "category": "ライフスタイル",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 4,
+      "keyword": "ウォーレン・バフェット",
+      "category": "経済・投資",
       "volume_approx": "200+"
     },
     {
+      "rank": 5,
+      "keyword": "新生銀行",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
+    },
+    {
       "rank": 6,
-      "keyword": "ソシエダ",
-      "category": "スポーツ",
+      "keyword": "nhk bs8k",
+      "category": "テクノロジー",
       "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "メタ",
-      "category": "経済・投資",
-      "volume_approx": "500+"
+      "keyword": "tom skerritt",
+      "category": "エンタメ",
+      "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "塙元輝",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "瀬戸康史",
+      "category": "エンタメ",
+      "volume_approx": "20000+"
     },
     {
       "rank": 9,
-      "keyword": "全般台風情報、台風第30号",
-      "category": "社会・ニュース",
-      "volume_approx": "200000+"
+      "keyword": "小栗旬",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
     },
     {
       "rank": 10,
-      "keyword": "アナログ ナース トラベル ナース",
+      "keyword": "ブラッサム あらすじ",
       "category": "エンタメ",
-      "volume_approx": "10000+"
+      "volume_approx": "5000+"
     }
   ]
 }
