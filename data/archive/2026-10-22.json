@@ -1,64 +1,64 @@
 {
   "date": "2026-10-22",
-  "updated_at": "2026-10-22T14:43:29.532+09:00",
+  "updated_at": "2026-10-22T20:05:35.379+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "髙木美帆",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
+      "keyword": "石橋静河",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
     },
     {
       "rank": 2,
-      "keyword": "フリオ・ロドリゲス",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "せいや",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "t バールーフ",
-      "category": "ライフスタイル",
+      "keyword": "相葉ヒロミのお困りですカー",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "梅宮アンナ",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "トラビスジャパン",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 5,
-      "keyword": "闘犬",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "ドラフト 評価",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "スパイウェア",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 7,
-      "keyword": "エル デスペラード",
-      "category": "スポーツ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 8,
-      "keyword": "選抜高等学校野球大会",
-      "category": "スポーツ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 9,
-      "keyword": "ちぃたん☆",
+      "keyword": "パチンコライター、モデル・オノ",
       "category": "社会・ニュース",
       "volume_approx": "500+"
     },
     {
+      "rank": 7,
+      "keyword": "谷渕瑛仁",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 8,
+      "keyword": "停班停課",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "亀梨和也",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
+    },
+    {
       "rank": 10,
-      "keyword": "フライデー",
+      "keyword": "arirang",
       "category": "エンタメ",
       "volume_approx": "200+"
     }
