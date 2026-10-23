@@ -1,66 +1,66 @@
 {
   "date": "2026-10-23",
-  "updated_at": "2026-10-23T08:51:40.697+09:00",
+  "updated_at": "2026-10-23T12:13:53.496+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "76ers vs cavaliers",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "アイフォンデュオ",
+      "category": "テクノロジー",
+      "volume_approx": "500+"
     },
     {
       "rank": 2,
-      "keyword": "iphoneデュオ",
-      "category": "テクノロジー",
-      "volume_approx": "500+"
+      "keyword": "歌舞伎",
+      "category": "エンタメ",
+      "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "ソフビ",
-      "category": "ライフスタイル",
-      "volume_approx": "500+"
+      "keyword": "文化勲章",
+      "category": "テクノロジー",
+      "volume_approx": "1000+"
     },
     {
       "rank": 4,
-      "keyword": "ウォーレン・バフェット",
-      "category": "経済・投資",
-      "volume_approx": "200+"
+      "keyword": "高橋由伸",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 5,
-      "keyword": "新生銀行",
-      "category": "社会・ニュース",
-      "volume_approx": "2000+"
+      "keyword": "阪神 コーチ 退団 なぜ",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 6,
-      "keyword": "nhk bs8k",
-      "category": "テクノロジー",
+      "keyword": "flamengo",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "tom skerritt",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "蒲鉾",
+      "category": "グルメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 8,
-      "keyword": "瀬戸康史",
-      "category": "エンタメ",
-      "volume_approx": "20000+"
+      "keyword": "台風31号",
+      "category": "社会・ニュース",
+      "volume_approx": "10000+"
     },
     {
       "rank": 9,
-      "keyword": "小栗旬",
-      "category": "エンタメ",
-      "volume_approx": "5000+"
+      "keyword": "日経平均 伊藤",
+      "category": "経済・投資",
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "ブラッサム あらすじ",
+      "keyword": "トム スケリット",
       "category": "エンタメ",
-      "volume_approx": "5000+"
+      "volume_approx": "500+"
     }
   ]
 }
