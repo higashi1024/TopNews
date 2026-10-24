@@ -1,66 +1,66 @@
 {
   "date": "2026-10-24",
-  "updated_at": "2026-10-24T09:13:59.620+09:00",
+  "updated_at": "2026-10-24T14:20:48.113+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "フードフェスティバル 広島",
-      "category": "グルメ",
-      "volume_approx": "200+"
+      "keyword": "鹿島 対 柏",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
     },
     {
       "rank": 2,
-      "keyword": "celtics vs knicks",
+      "keyword": "タイ・ジェローム",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "ホルン奏者",
+      "keyword": "藤枝 対 徳島",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 4,
+      "keyword": "能動的サイバー防御",
+      "category": "テクノロジー",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "田中陽希",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "アンガールズ",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 4,
-      "keyword": "支出",
-      "category": "経済・投資",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 5,
-      "keyword": "駅伝競走",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "全日本大学女子駅伝",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
       "rank": 7,
-      "keyword": "태풍 참피",
-      "category": "社会・ニュース",
+      "keyword": "渡辺リサ",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "鳴門競艇",
+      "keyword": "spurs vs rockets",
       "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 9,
-      "keyword": "エアフェスタ浜松2026",
-      "category": "ライフスタイル",
       "volume_approx": "100+"
     },
     {
+      "rank": 9,
+      "keyword": "キャメロン・ブーザー",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
       "rank": 10,
-      "keyword": "typhoon champi (rosal)",
-      "category": "社会・ニュース",
-      "volume_approx": "1000+"
+      "keyword": "グラハム・アイク",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     }
   ]
 }
