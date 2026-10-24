@@ -1,66 +1,66 @@
 {
   "date": "2026-10-24",
-  "updated_at": "2026-10-24T14:20:48.113+09:00",
+  "updated_at": "2026-10-24T19:13:33.535+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "鹿島 対 柏",
+      "keyword": "筒香",
       "category": "スポーツ",
-      "volume_approx": "2000+"
+      "volume_approx": "500+"
     },
     {
       "rank": 2,
-      "keyword": "タイ・ジェローム",
-      "category": "スポーツ",
+      "keyword": "雅楽",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "藤枝 対 徳島",
-      "category": "スポーツ",
+      "keyword": "エイドリアン ニューウェイ",
+      "category": "テクノロジー",
       "volume_approx": "500+"
     },
     {
       "rank": 4,
-      "keyword": "能動的サイバー防御",
-      "category": "テクノロジー",
-      "volume_approx": "5000+"
+      "keyword": "山川穂高",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "田中陽希",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 6,
-      "keyword": "アンガールズ",
+      "keyword": "ジョブチューン",
       "category": "エンタメ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 7,
-      "keyword": "渡辺リサ",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 8,
-      "keyword": "spurs vs rockets",
-      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
-      "rank": 9,
-      "keyword": "キャメロン・ブーザー",
+      "rank": 6,
+      "keyword": "上沢直之",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 7,
+      "keyword": "佐野恵太",
       "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
-      "rank": 10,
-      "keyword": "グラハム・アイク",
+      "rank": 8,
+      "keyword": "ソフトバンク 監督",
       "category": "スポーツ",
       "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "周東佑京",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "正木智也",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
     }
   ]
 }
