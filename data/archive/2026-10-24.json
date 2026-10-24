@@ -1,66 +1,66 @@
 {
   "date": "2026-10-24",
-  "updated_at": "2026-10-24T06:49:21.539+09:00",
+  "updated_at": "2026-10-24T09:13:59.620+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "山本耕史",
-      "category": "エンタメ",
+      "keyword": "フードフェスティバル 広島",
+      "category": "グルメ",
       "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "前田大然",
+      "keyword": "celtics vs knicks",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "ウエザーニュース",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 4,
-      "keyword": "細野豪志",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "今日の天気 東京",
-      "category": "ライフスタイル",
+      "keyword": "ホルン奏者",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 6,
-      "keyword": "ダウ平均株価",
+      "rank": 4,
+      "keyword": "支出",
       "category": "経済・投資",
       "volume_approx": "500+"
     },
     {
+      "rank": 5,
+      "keyword": "駅伝競走",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "全日本大学女子駅伝",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
       "rank": 7,
-      "keyword": "天氣",
-      "category": "ライフスタイル",
+      "keyword": "태풍 참피",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "สภาพอากาศ",
+      "keyword": "鳴門競艇",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "エアフェスタ浜松2026",
       "category": "ライフスタイル",
       "volume_approx": "100+"
     },
     {
-      "rank": 9,
-      "keyword": "気象庁 天気予報",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
-    },
-    {
       "rank": 10,
-      "keyword": "大阪市天気",
-      "category": "ライフスタイル",
-      "volume_approx": "5000+"
+      "keyword": "typhoon champi (rosal)",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
     }
   ]
 }
