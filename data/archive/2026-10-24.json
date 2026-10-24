@@ -1,66 +1,66 @@
 {
   "date": "2026-10-24",
-  "updated_at": "2026-10-24T19:13:33.535+09:00",
+  "updated_at": "2026-10-24T23:13:34.290+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "筒香",
+      "keyword": "馬場",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "2000+"
     },
     {
       "rank": 2,
-      "keyword": "雅楽",
-      "category": "ライフスタイル",
+      "keyword": "プレミアリーグ 試合",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "エイドリアン ニューウェイ",
-      "category": "テクノロジー",
-      "volume_approx": "500+"
+      "keyword": "韓国ドラマ",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 4,
-      "keyword": "山川穂高",
-      "category": "スポーツ",
+      "keyword": "春日野道駅",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "ジョブチューン",
+      "keyword": "アベイル コナン",
       "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "上沢直之",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 7,
-      "keyword": "佐野恵太",
-      "category": "スポーツ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 8,
-      "keyword": "ソフトバンク 監督",
-      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
-      "rank": 9,
-      "keyword": "周東佑京",
+      "rank": 6,
+      "keyword": "保育",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 7,
+      "keyword": "鈴木彩艶",
       "category": "スポーツ",
       "volume_approx": "1000+"
     },
     {
-      "rank": 10,
-      "keyword": "正木智也",
+      "rank": 8,
+      "keyword": "前川誠太",
       "category": "スポーツ",
       "volume_approx": "1000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "クビアカツヤカミキリ",
+      "category": "社会・ニュース",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "リフォーム",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
     }
   ]
 }
