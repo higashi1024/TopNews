@@ -1,66 +1,66 @@
 {
   "date": "2026-10-25",
-  "updated_at": "2026-10-25T05:08:58.896+09:00",
+  "updated_at": "2026-10-25T07:51:24.822+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "早田ひな",
-      "category": "スポーツ",
-      "volume_approx": "2000+"
+      "keyword": "少林寺レーシング",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 2,
-      "keyword": "ツキノワグマ",
-      "category": "社会・ニュース",
+      "keyword": "豊田市 天気",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "選抜高等学校野球大会",
+      "keyword": "fcバルセロナ",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "テニス",
-      "category": "スポーツ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 5,
-      "keyword": "整体",
+      "keyword": "今日の天気 東京",
       "category": "ライフスタイル",
       "volume_approx": "100+"
     },
     {
+      "rank": 5,
+      "keyword": "chelsea f.c. vs tottenham standings",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
       "rank": 6,
-      "keyword": "インド",
-      "category": "社会・ニュース",
+      "keyword": "桜井麻衣",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "英会話",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
+      "keyword": "小林美駒",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
     },
     {
       "rank": 8,
-      "keyword": "トッテナム",
+      "keyword": "橋本大輝",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "石井大智",
+      "keyword": "nyレッドブルズ 対 インテル・マイアミ",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "chelsea",
+      "keyword": "頓宮裕真",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     }
   ]
 }
