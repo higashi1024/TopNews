@@ -1,66 +1,66 @@
 {
   "date": "2026-10-26",
-  "updated_at": "2026-10-26T03:04:35.313+09:00",
+  "updated_at": "2026-10-26T06:23:13.360+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "秋広優人",
-      "category": "スポーツ",
-      "volume_approx": "10000+"
+      "keyword": "呉線",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 2,
-      "keyword": "レッチェ 対 ユヴェントス",
+      "keyword": "三振",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "england cricket team vs pakistan national cricket team standings",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 4,
-      "keyword": "矢野謙次",
-      "category": "スポーツ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 5,
-      "keyword": "クリスタル・パレスfc 対 ニューカッスル 順位",
-      "category": "スポーツ",
-      "volume_approx": "5000+"
-    },
-    {
-      "rank": 6,
-      "keyword": "coach",
+      "keyword": "barcelona đấu với real madrid",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
-      "rank": 7,
-      "keyword": "土屋伸之",
+      "rank": 4,
+      "keyword": "変動金利",
+      "category": "経済・投資",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "千葉 天気",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "ディオマンデ",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 8,
-      "keyword": "liverpool",
+      "rank": 7,
+      "keyword": "大相撲",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
+      "rank": 8,
+      "keyword": "天気予報 東京",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 9,
-      "keyword": "エプスタイン",
-      "category": "社会・ニュース",
+      "keyword": "雨",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "伊集院光",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "福山 天気",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
     }
   ]
 }
