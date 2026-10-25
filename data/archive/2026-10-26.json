@@ -1,66 +1,66 @@
 {
   "date": "2026-10-26",
-  "updated_at": "2026-10-26T06:23:13.360+09:00",
+  "updated_at": "2026-10-26T08:45:32.202+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "呉線",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "ラジコ",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "三振",
+      "keyword": "ウルブズ 対 ラプターズ",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "barcelona đấu với real madrid",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "決算",
+      "category": "経済・投資",
+      "volume_approx": "500+"
     },
     {
       "rank": 4,
-      "keyword": "変動金利",
-      "category": "経済・投資",
-      "volume_approx": "100+"
+      "keyword": "tenki",
+      "category": "ライフスタイル",
+      "volume_approx": "500+"
     },
     {
       "rank": 5,
-      "keyword": "千葉 天気",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "シクサーズ 対 ピストンズ",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "ディオマンデ",
-      "category": "エンタメ",
+      "keyword": "工藤泰成",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "大相撲",
-      "category": "スポーツ",
+      "keyword": "十日市場駅",
+      "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "天気予報 東京",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
+      "keyword": "セルビア",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "雨",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
+      "keyword": "パズドラ 薬屋 の ひとりごと",
+      "category": "エンタメ",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "福山 天気",
+      "keyword": "新潟天気",
       "category": "ライフスタイル",
-      "volume_approx": "200+"
+      "volume_approx": "100+"
     }
   ]
 }
