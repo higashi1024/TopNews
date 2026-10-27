@@ -1,65 +1,65 @@
 {
   "date": "2026-10-27",
-  "updated_at": "2026-10-27T10:04:30.263+09:00",
+  "updated_at": "2026-10-27T16:14:11.614+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "brotli",
-      "category": "テクノロジー",
-      "volume_approx": "2000+"
+      "keyword": "かぶたん",
+      "category": "経済・投資",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "エイジェイ・ミッチェル",
+      "keyword": "サイ ヤング賞",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "森田茉里恵アナウンサー",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "mlb",
+      "category": "スポーツ",
+      "volume_approx": "5000+"
     },
     {
       "rank": 4,
-      "keyword": "近藤 真彦",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "渋滞",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "mufg",
+      "keyword": "適時開示",
       "category": "経済・投資",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "九州大会高校野球",
+      "keyword": "ミゲル・ロハス",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
     },
     {
       "rank": 7,
-      "keyword": "和菓子",
-      "category": "グルメ",
-      "volume_approx": "200+"
+      "keyword": "nz vs ind",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 8,
-      "keyword": "海洋汚染",
+      "keyword": "高速鉄道",
       "category": "社会・ニュース",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 9,
-      "keyword": "森田茉里恵",
-      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
+      "rank": 9,
+      "keyword": "スズキ・ジムニー",
+      "category": "テクノロジー",
+      "volume_approx": "5000+"
+    },
+    {
       "rank": 10,
-      "keyword": "デンベレ",
-      "category": "スポーツ",
+      "keyword": "萩本欽一",
+      "category": "エンタメ",
       "volume_approx": "100+"
     }
   ]
