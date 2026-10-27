@@ -1,66 +1,66 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28T04:11:38.156+09:00",
+  "updated_at": "2026-10-28T08:26:37.393+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "元 警察 官",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "keyword": "出口夏希",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "岩貞祐太",
-      "category": "エンタメ",
+      "keyword": "インフルエンザワクチン",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "hikakin",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "skハイニックス",
+      "category": "経済・投資",
+      "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "深海",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 5,
-      "keyword": "カルロス・アルカラス",
+      "keyword": "piala liga",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
+      "rank": 5,
+      "keyword": "セルティックス 対 ネッツ",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 6,
-      "keyword": "松下洸平",
-      "category": "エンタメ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 7,
-      "keyword": "macbook air",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 8,
-      "keyword": "ドコモ 情報 漏洩",
-      "category": "社会・ニュース",
-      "volume_approx": "20000+"
-    },
-    {
-      "rank": 9,
-      "keyword": "二宮和也",
-      "category": "エンタメ",
+      "keyword": "jr",
+      "category": "ライフスタイル",
       "volume_approx": "1000+"
     },
     {
-      "rank": 10,
-      "keyword": "osint",
+      "rank": 7,
+      "keyword": "jr 遅延",
       "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 8,
+      "keyword": "札幌 雪",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 9,
+      "keyword": "室蘭 天気",
+      "category": "ライフスタイル",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 10,
+      "keyword": "ボルソナロ",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     }
   ]
 }
