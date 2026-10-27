@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-28",
+  "updated_at": "2026-10-28T04:11:38.156+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "元 警察 官",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 2,
+      "keyword": "岩貞祐太",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 3,
+      "keyword": "hikakin",
+      "category": "エンタメ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 4,
+      "keyword": "深海",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 5,
+      "keyword": "カルロス・アルカラス",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "松下洸平",
+      "category": "エンタメ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 7,
+      "keyword": "macbook air",
+      "category": "テクノロジー",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 8,
+      "keyword": "ドコモ 情報 漏洩",
+      "category": "社会・ニュース",
+      "volume_approx": "20000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "二宮和也",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "osint",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    }
+  ]
+}
