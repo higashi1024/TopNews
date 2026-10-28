@@ -1,66 +1,66 @@
 {
   "date": "2026-10-28",
-  "updated_at": "2026-10-28T08:26:37.393+09:00",
+  "updated_at": "2026-10-28T12:50:05.261+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "出口夏希",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "ヤーレンズ",
+      "category": "社会・ニュース",
+      "volume_approx": "5000+"
     },
     {
       "rank": 2,
-      "keyword": "インフルエンザワクチン",
-      "category": "ライフスタイル",
+      "keyword": "松井証券",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "skハイニックス",
-      "category": "経済・投資",
+      "keyword": "県民の日",
+      "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "piala liga",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "小遣い",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 5,
-      "keyword": "セルティックス 対 ネッツ",
-      "category": "スポーツ",
+      "keyword": "東京アプリ",
+      "category": "テクノロジー",
       "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "jr",
-      "category": "ライフスタイル",
-      "volume_approx": "1000+"
+      "keyword": "アーロン・アシュビー",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "jr 遅延",
+      "keyword": "バドミントン",
       "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "札幌 雪",
-      "category": "ライフスタイル",
+      "keyword": "ケンタッキーフライドチキン",
+      "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "室蘭 天気",
-      "category": "ライフスタイル",
-      "volume_approx": "500+"
+      "keyword": "ブラジル大統領選挙",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
     },
     {
       "rank": 10,
-      "keyword": "ボルソナロ",
+      "keyword": "萩原利久",
       "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "volume_approx": "500+"
     }
   ]
 }
