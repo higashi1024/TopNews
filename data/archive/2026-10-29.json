@@ -1,64 +1,64 @@
 {
   "date": "2026-10-29",
-  "updated_at": "2026-10-29T10:29:43.604+09:00",
+  "updated_at": "2026-10-29T16:58:01.308+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "ドリュー・ラスムッセン",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 2,
-      "keyword": "紀平梨花",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 3,
-      "keyword": "サムスン 株価",
-      "category": "経済・投資",
+      "keyword": "radiko+fm",
+      "category": "テクノロジー",
       "volume_approx": "500+"
     },
     {
-      "rank": 4,
-      "keyword": "ジェイコブ・ミジオロウスキー",
+      "rank": 2,
+      "keyword": "ピエール ガスリー",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
-      "rank": 5,
-      "keyword": "11",
-      "category": "社会・ニュース",
+      "rank": 3,
+      "keyword": "出水麻衣",
+      "category": "エンタメ",
       "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "太田 光",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "坂本拓己",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "ペリカンズ 対 ナゲッツ",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "文春 matt",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "nec 株価",
-      "category": "経済・投資",
-      "volume_approx": "500+"
+      "keyword": "加藤あい",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "サムスン 決算",
+      "keyword": "中部電力",
+      "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "6701",
       "category": "経済・投資",
       "volume_approx": "500+"
     },
     {
-      "rank": 9,
-      "keyword": "macbook air",
-      "category": "テクノロジー",
-      "volume_approx": "2000+"
-    },
-    {
       "rank": 10,
-      "keyword": "eu",
+      "keyword": "高橋洋一",
       "category": "社会・ニュース",
       "volume_approx": "100+"
     }
