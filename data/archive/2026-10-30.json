@@ -1,65 +1,65 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30T00:02:56.850+09:00",
+  "updated_at": "2026-10-30T05:49:35.948+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "上田綺世",
-      "category": "グルメ",
-      "volume_approx": "500+"
+      "keyword": "神戸新聞",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 2,
-      "keyword": "ドウデュース",
+      "keyword": "小野寺吟雲",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "チェキ",
-      "category": "テクノロジー",
+      "keyword": "渋野日向子",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "富士フイルム",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 5,
-      "keyword": "ホワイトハッカー",
-      "category": "テクノロジー",
+      "keyword": "マイクロソフト株価",
+      "category": "経済・投資",
       "volume_approx": "500+"
     },
     {
+      "rank": 5,
+      "keyword": "パトリックスチュワート",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 6,
-      "keyword": "インフルエンサー",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "黒須 駿",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 7,
-      "keyword": "トイザらス 閉店",
-      "category": "経済・投資",
+      "keyword": "辻発彦",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "遠藤憲一",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
+      "keyword": "浜松 天気",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "古舘伊知郎",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "静岡市 天気",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "桜島",
-      "category": "社会・ニュース",
+      "keyword": "マンチェスター・シティwfc 対 パリ・サンジェルマンfc",
+      "category": "スポーツ",
       "volume_approx": "200+"
     }
   ]
