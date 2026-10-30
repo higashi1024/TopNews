@@ -1,66 +1,66 @@
 {
   "date": "2026-10-30",
-  "updated_at": "2026-10-30T15:44:49.021+09:00",
+  "updated_at": "2026-10-30T22:47:37.789+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "適時開示",
-      "category": "経済・投資",
-      "volume_approx": "200+"
+      "keyword": "補助金",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
     },
     {
       "rank": 2,
-      "keyword": "かぶたん",
+      "keyword": "俺のこと、なんか言ってた キャスト",
       "category": "エンタメ",
-      "volume_approx": "200+"
+      "volume_approx": "100+"
     },
     {
       "rank": 3,
-      "keyword": "シンエンペラー",
+      "keyword": "玉鷲",
       "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
       "rank": 4,
-      "keyword": "nz vs ind",
-      "category": "スポーツ",
+      "keyword": "東京ディズニーシー",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "ロザマリア・モンチベレル",
-      "category": "スポーツ",
+      "keyword": "厚生労働省",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "リースバック",
-      "category": "経済・投資",
-      "volume_approx": "100+"
+      "keyword": "マラソン",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "disney+",
-      "category": "エンタメ",
+      "keyword": "ロボタクシー",
+      "category": "テクノロジー",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "ローラーコースター",
-      "category": "社会・ニュース",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 9,
-      "keyword": "youtuber",
-      "category": "エンタメ",
+      "keyword": "テオスカー・ヘルナンデス",
+      "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
+      "rank": 9,
+      "keyword": "高雄",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 10,
-      "keyword": "巨人浅野",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "星野リゾート",
+      "category": "ライフスタイル",
+      "volume_approx": "1000+"
     }
   ]
 }
