@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-01",
+  "updated_at": "2026-11-01T04:11:14.141+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "レガレイラ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 2,
+      "keyword": "ウディネーゼ 対 ローマ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 3,
+      "keyword": "bcターフ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "キーンランド競馬場",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "フリーエージェント",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 6,
+      "keyword": "bc",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 7,
+      "keyword": "ギャビン・ストーン",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 8,
+      "keyword": "プレミアリーグ 試合",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "メッテ=マリット",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 10,
+      "keyword": "松木玖生",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    }
+  ]
+}
