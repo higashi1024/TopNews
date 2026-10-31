@@ -1,66 +1,66 @@
 {
   "date": "2026-10-31",
-  "updated_at": "2026-10-31T17:10:11.323+09:00",
+  "updated_at": "2026-10-31T23:58:53.918+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "オラキオ",
-      "category": "グルメ",
-      "volume_approx": "200+"
+      "keyword": "マンc 対 ブライトン",
+      "category": "スポーツ",
+      "volume_approx": "5000+"
     },
     {
       "rank": 2,
-      "keyword": "天皇賞秋 過去10年",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 3,
-      "keyword": "渡嘉敷勝男",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 4,
-      "keyword": "西岡剛",
+      "keyword": "チェルシー",
       "category": "スポーツ",
       "volume_approx": "1000+"
     },
     {
-      "rank": 5,
-      "keyword": "レトロクルーザー",
+      "rank": 3,
+      "keyword": "mu",
       "category": "テクノロジー",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 4,
+      "keyword": "liga inggris",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "ハル 対 イプスウィッチ",
+      "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
       "rank": 6,
-      "keyword": "熊本県高校駅伝 結果",
-      "category": "スポーツ",
-      "volume_approx": "2000+"
-    },
-    {
-      "rank": 7,
-      "keyword": "シンガポール",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 8,
-      "keyword": "ジャスティンビーバー",
+      "keyword": "たくろう 芸人",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 9,
-      "keyword": "スニーカーベストドレッサー賞",
-      "category": "ライフスタイル",
+      "rank": 7,
+      "keyword": "epl",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
-      "rank": 10,
-      "keyword": "076 型 強襲 揚陸 艦",
+      "rank": 8,
+      "keyword": "梨泰院 事故",
       "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 9,
+      "keyword": "早期天候情報",
+      "category": "社会・ニュース",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "ボーンマス 対 リーズ u",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
     }
   ]
 }
