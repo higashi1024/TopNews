@@ -1,66 +1,66 @@
 {
   "date": "2026-11-01",
-  "updated_at": "2026-11-01T08:01:17.698+09:00",
+  "updated_at": "2026-11-01T13:08:36.581+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "k",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
+      "keyword": "hong kong vs sri lanka",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "尚巴志ハーフマラソン",
+      "keyword": "リアム・ローソン",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "南海トラフ地震",
+      "keyword": "競馬 今日",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "全国高校サッカー選手権",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 5,
+      "keyword": "死体遺棄",
       "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
-      "rank": 4,
-      "keyword": "しまむら コラボ",
+      "rank": 6,
+      "keyword": "スタバ新作",
       "category": "ライフスタイル",
       "volume_approx": "1000+"
     },
     {
-      "rank": 5,
-      "keyword": "ハフィーニャ",
+      "rank": 7,
+      "keyword": "ラファエル エスピノサ",
       "category": "スポーツ",
       "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "紅ゆずる",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 7,
-      "keyword": "吉田鋼太郎 妻",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
     },
     {
       "rank": 8,
-      "keyword": "富士山の初冠雪最も早い記録は",
-      "category": "社会・ニュース",
-      "volume_approx": "5000+"
+      "keyword": "pikmin day",
+      "category": "テクノロジー",
+      "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "fc barcelona vs deportivo alavés standings",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "コナン",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "南海トラフ",
+      "keyword": "ジェームズ・タラリコ",
       "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "volume_approx": "1000+"
     }
   ]
 }
