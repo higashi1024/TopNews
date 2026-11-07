@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-08",
+  "updated_at": "2026-11-08T02:22:23.699+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "東名高速",
+      "category": "社会・ニュース",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 2,
+      "keyword": "新幹線",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 3,
+      "keyword": "ノッティンガム・フォレスト 対 マンc",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 4,
+      "keyword": "地震被害",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 5,
+      "keyword": "熊本地震 2026",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "japan",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 7,
+      "keyword": "地震 南海トラフ",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 8,
+      "keyword": "緊急地震速報 鳴らない",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "熊本地震 震度",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 10,
+      "keyword": "セントレア",
+      "category": "ライフスタイル",
+      "volume_approx": "100+"
+    }
+  ]
+}
