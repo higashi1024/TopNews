@@ -1,66 +1,66 @@
 {
   "date": "2026-11-07",
-  "updated_at": "2026-11-07T08:37:25.656+09:00",
+  "updated_at": "2026-11-07T13:29:01.872+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "キン肉マン 一番くじ",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "名古屋 対 京都",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 2,
-      "keyword": "スティーブン・ミラー",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "横浜fm 対 岡山",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "マイルチャンピオンシップ",
+      "keyword": "蔵内勇夫",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 4,
+      "keyword": "acnチャンピオンシップゴルフトーナメント",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
-      "rank": 4,
-      "keyword": "byd",
-      "category": "経済・投資",
-      "volume_approx": "1000+"
-    },
-    {
       "rank": 5,
-      "keyword": "byd ラッコ",
-      "category": "経済・投資",
-      "volume_approx": "500+"
+      "keyword": "栃木県高校サッカー",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "サタプラ",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "被告",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "suica",
-      "category": "ライフスタイル",
-      "volume_approx": "500+"
+      "keyword": "ロードラムセス",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "織戸学",
+      "keyword": "lakers vs trail blazers",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "サイバートラック",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
+      "keyword": "高校サッカー 選手権 東京",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "totoジャパンクラシック 放送",
-      "category": "スポーツ",
-      "volume_approx": "500+"
+      "keyword": "福岡市長選挙 候補者",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     }
   ]
 }
