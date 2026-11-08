@@ -1,66 +1,66 @@
 {
   "date": "2026-11-08",
-  "updated_at": "2026-11-08T10:01:38.685+09:00",
+  "updated_at": "2026-11-08T17:30:45.536+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "ウォリアーズ 対 マジック",
+      "keyword": "藤青雲",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "1000+"
     },
     {
       "rank": 2,
-      "keyword": "タイラー・グラスノー",
+      "keyword": "鳥取 対 栃木sc",
       "category": "スポーツ",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "日本ネットワークセキュリティ協会",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
+      "keyword": "大相撲 結果 速報",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "宝くじ",
-      "category": "ライフスタイル",
-      "volume_approx": "2000+"
+      "keyword": "武蔵野ステークス",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 5,
-      "keyword": "滝沢秀一",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "ベガルタ仙台 対 ヴァンフォーレ甲府 順位",
+      "category": "スポーツ",
+      "volume_approx": "5000+"
     },
     {
       "rank": 6,
-      "keyword": "停電",
-      "category": "社会・ニュース",
+      "keyword": "藤ノ川",
+      "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
       "rank": 7,
-      "keyword": "山田哲人",
-      "category": "スポーツ",
+      "keyword": "shiho",
+      "category": "ライフスタイル",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "石川歩",
+      "keyword": "相模原 対 鹿児島",
       "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 9,
-      "keyword": "年末ジャンボ",
-      "category": "ライフスタイル",
       "volume_approx": "500+"
     },
     {
+      "rank": 9,
+      "keyword": "熱海富士",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 10,
-      "keyword": "大和路線",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "長野 対 讃岐",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     }
   ]
 }
