@@ -1,66 +1,66 @@
 {
   "date": "2026-11-08",
-  "updated_at": "2026-11-08T06:23:58.474+09:00",
+  "updated_at": "2026-11-08T10:01:38.685+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "梅林優貴",
+      "keyword": "ウォリアーズ 対 マジック",
       "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 2,
-      "keyword": "埼玉県警察",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 3,
-      "keyword": "real madrid",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 4,
-      "keyword": "フィットネス",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "岩本計介",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "愛子内親王",
-      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
+      "rank": 2,
+      "keyword": "タイラー・グラスノー",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 3,
+      "keyword": "日本ネットワークセキュリティ協会",
+      "category": "テクノロジー",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 4,
+      "keyword": "宝くじ",
+      "category": "ライフスタイル",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "滝沢秀一",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "停電",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
       "rank": 7,
-      "keyword": "鈴木誠也",
+      "keyword": "山田哲人",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "nvidia",
-      "category": "テクノロジー",
+      "keyword": "石川歩",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "整体",
+      "keyword": "年末ジャンボ",
       "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "田中将大",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "大和路線",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     }
   ]
 }
