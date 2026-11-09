@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-10",
+  "updated_at": "2026-11-10T03:14:13.288+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "ジェイソン・ステイサム",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 2,
+      "keyword": "ジュウリョクピエロ",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 3,
+      "keyword": "嶺井博希",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "嶺井",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "菊池雄星",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "doran",
+      "category": "テクノロジー",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 7,
+      "keyword": "太田光",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 8,
+      "keyword": "名無しのシンデレラ",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "若 隆景 化粧 まわし",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 10,
+      "keyword": "gta6",
+      "category": "テクノロジー",
+      "volume_approx": "500+"
+    }
+  ]
+}
