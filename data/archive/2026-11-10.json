@@ -1,66 +1,66 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10T03:14:13.288+09:00",
+  "updated_at": "2026-11-10T10:51:18.174+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "ジェイソン・ステイサム",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "コルトン ハータ",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "ジュウリョクピエロ",
+      "keyword": "nz vs ind",
       "category": "スポーツ",
-      "volume_approx": "500+"
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "嶺井博希",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "アナウンサー",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "嶺井",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
+      "keyword": "マンジャロ",
+      "category": "経済・投資",
+      "volume_approx": "2000+"
     },
     {
       "rank": 5,
-      "keyword": "菊池雄星",
+      "keyword": "高岡伶颯",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "フジクラ 決算",
+      "category": "経済・投資",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 7,
+      "keyword": "fable",
+      "category": "テクノロジー",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 8,
+      "keyword": "ピストンズ 対 ウィザーズ",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
-      "rank": 6,
-      "keyword": "doran",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 7,
-      "keyword": "太田光",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 8,
-      "keyword": "名無しのシンデレラ",
-      "category": "エンタメ",
-      "volume_approx": "200+"
-    },
-    {
       "rank": 9,
-      "keyword": "若 隆景 化粧 まわし",
-      "category": "スポーツ",
-      "volume_approx": "500+"
+      "keyword": "スターライトキッド",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
     },
     {
       "rank": 10,
-      "keyword": "gta6",
-      "category": "テクノロジー",
-      "volume_approx": "500+"
+      "keyword": "政策金利",
+      "category": "経済・投資",
+      "volume_approx": "200+"
     }
   ]
 }
