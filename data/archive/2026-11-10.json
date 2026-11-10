@@ -1,65 +1,65 @@
 {
   "date": "2026-11-10",
-  "updated_at": "2026-11-10T10:51:18.174+09:00",
+  "updated_at": "2026-11-10T18:10:06.884+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "コルトン ハータ",
+      "keyword": "藤島部屋",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "nz vs ind",
-      "category": "スポーツ",
+      "keyword": "ザクザクジューシーマック",
+      "category": "グルメ",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "アナウンサー",
-      "category": "社会・ニュース",
+      "keyword": "石塚裕惺",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "マンジャロ",
-      "category": "経済・投資",
-      "volume_approx": "2000+"
+      "keyword": "藤ノ川",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "高岡伶颯",
+      "keyword": "大相撲 結果",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "フジクラ 決算",
-      "category": "経済・投資",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 7,
-      "keyword": "fable",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 8,
-      "keyword": "ピストンズ 対 ウィザーズ",
+      "keyword": "藤凌駕",
       "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 9,
-      "keyword": "スターライトキッド",
-      "category": "エンタメ",
       "volume_approx": "2000+"
     },
     {
+      "rank": 7,
+      "keyword": "朝乃山",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "義ノ富士",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 9,
+      "keyword": "ゆず庵",
+      "category": "グルメ",
+      "volume_approx": "1000+"
+    },
+    {
       "rank": 10,
-      "keyword": "政策金利",
-      "category": "経済・投資",
+      "keyword": "サラリーキャップ",
+      "category": "スポーツ",
       "volume_approx": "200+"
     }
   ]
