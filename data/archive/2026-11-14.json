@@ -1,65 +1,65 @@
 {
   "date": "2026-11-14",
-  "updated_at": "2026-11-14T05:16:58.408+09:00",
+  "updated_at": "2026-11-14T10:13:52.563+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "介護報酬",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "関脇",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "桐谷広人",
-      "category": "経済・投資",
-      "volume_approx": "100+"
+      "keyword": "自衛隊",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "木村 拓哉",
+      "keyword": "イープラス",
       "category": "エンタメ",
-      "volume_approx": "100+"
+      "volume_approx": "2000+"
     },
     {
       "rank": 4,
-      "keyword": "宮舘涼太",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "不登校",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 5,
-      "keyword": "薬丸 裕英",
-      "category": "エンタメ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "藤浪晋太郎",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 7,
-      "keyword": "セルビア 対 ドイツ",
+      "keyword": "土俵",
       "category": "スポーツ",
       "volume_approx": "500+"
     },
     {
+      "rank": 6,
+      "keyword": "姫路 天気",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 7,
+      "keyword": "アニカ driven by ゲインブリッジ at ペリカン",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
+    },
+    {
       "rank": 8,
-      "keyword": "オランダ 対 ギリシャ",
+      "keyword": "唐津競艇",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "自衛隊給与改正",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "keyword": "前田大然",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "ミセスグリーンアップル",
-      "category": "エンタメ",
+      "keyword": "芦屋航空祭",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     }
   ]
