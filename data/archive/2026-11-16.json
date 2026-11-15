@@ -1,65 +1,65 @@
 {
   "date": "2026-11-16",
-  "updated_at": "2026-11-16T00:16:05.151+09:00",
+  "updated_at": "2026-11-16T05:46:13.803+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "列車",
-      "category": "社会・ニュース",
+      "keyword": "lost10",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "金沢マラソン",
+      "keyword": "今田美桜",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 3,
+      "keyword": "角田裕毅",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
-      "rank": 3,
-      "keyword": "ちゃんみな",
-      "category": "エンタメ",
-      "volume_approx": "5000+"
-    },
-    {
       "rank": 4,
-      "keyword": "ジョージア大使",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "keyword": "エリー・デラクルーズ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 5,
-      "keyword": "アレクサンダー・ズベレフ",
-      "category": "スポーツ",
-      "volume_approx": "500+"
+      "keyword": "金融資産",
+      "category": "経済・投資",
+      "volume_approx": "100+"
     },
     {
       "rank": 6,
-      "keyword": "mma 2026",
-      "category": "エンタメ",
+      "keyword": "spain vs england",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "プロント パンどろぼう",
-      "category": "グルメ",
+      "keyword": "利益",
+      "category": "経済・投資",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "佐々木俊輔",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "航空機",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "武井壮",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
+      "keyword": "藤井聡太",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "ぼる塾 田辺",
-      "category": "エンタメ",
+      "keyword": "ベルギー 対 イタリア",
+      "category": "スポーツ",
       "volume_approx": "1000+"
     }
   ]
