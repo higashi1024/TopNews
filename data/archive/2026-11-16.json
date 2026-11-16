@@ -1,66 +1,66 @@
 {
   "date": "2026-11-16",
-  "updated_at": "2026-11-16T05:46:13.803+09:00",
+  "updated_at": "2026-11-16T09:41:49.148+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "lost10",
-      "category": "エンタメ",
+      "keyword": "アシックス 株価",
+      "category": "経済・投資",
       "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "今田美桜",
-      "category": "ライフスタイル",
+      "keyword": "瀬戸サオリ",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "角田裕毅",
-      "category": "スポーツ",
+      "keyword": "九谷焼",
+      "category": "ライフスタイル",
       "volume_approx": "100+"
     },
     {
       "rank": 4,
-      "keyword": "エリー・デラクルーズ",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "インファンティーノ",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
     },
     {
       "rank": 5,
-      "keyword": "金融資産",
-      "category": "経済・投資",
-      "volume_approx": "100+"
+      "keyword": "ホロライブ",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 6,
-      "keyword": "spain vs england",
-      "category": "スポーツ",
+      "keyword": "伊藤智洋",
+      "category": "経済・投資",
       "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "利益",
+      "keyword": "gdp",
       "category": "経済・投資",
-      "volume_approx": "200+"
+      "volume_approx": "500+"
     },
     {
       "rank": 8,
-      "keyword": "航空機",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "サム・アルトマン",
+      "category": "テクノロジー",
+      "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "藤井聡太",
+      "keyword": "ルカ・ドンチッチ",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "ベルギー 対 イタリア",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
+      "keyword": "ブラタモリ",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     }
   ]
 }
