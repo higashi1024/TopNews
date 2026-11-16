@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-17",
+  "updated_at": "2026-11-17T02:52:16.929+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "ブライトン",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 2,
+      "keyword": "大雪",
+      "category": "社会・ニュース",
+      "volume_approx": "100000+"
+    },
+    {
+      "rank": 3,
+      "keyword": "ウォロディミル・ゼレンスキー",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 4,
+      "keyword": "toloveる",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "ジェラードン",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "gta6 発売日",
+      "category": "テクノロジー",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 7,
+      "keyword": "ロバートパティンソン",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "robert pattinson",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "jalブラックフライデー",
+      "category": "ライフスタイル",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 10,
+      "keyword": "iphone 15",
+      "category": "テクノロジー",
+      "volume_approx": "100+"
+    }
+  ]
+}
