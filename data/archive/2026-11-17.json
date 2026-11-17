@@ -1,66 +1,66 @@
 {
   "date": "2026-11-17",
-  "updated_at": "2026-11-17T10:30:23.316+09:00",
+  "updated_at": "2026-11-17T19:05:54.557+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "領空侵犯",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 2,
-      "keyword": "匿名・流動型犯罪グループ",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 3,
-      "keyword": "日米豪印戦略対話",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 4,
-      "keyword": "内海哲也",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "滝沢カレン",
+      "keyword": "近藤 真彦",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
+      "rank": 2,
+      "keyword": "マックフルーリー",
+      "category": "グルメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 3,
+      "keyword": "楽天 株価",
+      "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 4,
+      "keyword": "太田梨歩",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 5,
+      "keyword": "シカ",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
+    },
+    {
       "rank": 6,
-      "keyword": "ヒート 対 ロケッツ",
+      "keyword": "愛斗",
       "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 7,
-      "keyword": "愛子内親王",
+      "keyword": "楽天証券",
       "category": "社会・ニュース",
-      "volume_approx": "1000+"
+      "volume_approx": "20000+"
     },
     {
       "rank": 8,
-      "keyword": "トヨタ・プリウス",
-      "category": "経済・投資",
+      "keyword": "石川 さゆり",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 9,
-      "keyword": "ネッツ 対 シクサーズ",
-      "category": "スポーツ",
+      "keyword": "singapura x brasil",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "横澤夏子",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "シルバースラッガー賞",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     }
   ]
 }
