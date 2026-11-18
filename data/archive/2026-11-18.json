@@ -1,66 +1,66 @@
 {
   "date": "2026-11-18",
-  "updated_at": "2026-11-18T04:33:34.182+09:00",
+  "updated_at": "2026-11-18T11:03:12.979+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "デンマーク 対 ノルウェー",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 2,
-      "keyword": "小園健太",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 3,
-      "keyword": "トヨタ・プリウス",
-      "category": "テクノロジー",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 4,
-      "keyword": "ニコニコ",
-      "category": "テクノロジー",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 5,
-      "keyword": "馬",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 6,
-      "keyword": "ジェン・スン・フアン",
-      "category": "テクノロジー",
+      "keyword": "入国拒否",
+      "category": "社会・ニュース",
       "volume_approx": "1000+"
     },
     {
+      "rank": 2,
+      "keyword": "サッカーカタール代表",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 3,
+      "keyword": "阿野鉱二",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 4,
+      "keyword": "杉山茂樹",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "看護",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 6,
+      "keyword": "大江竜聖",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 7,
-      "keyword": "今井春花",
-      "category": "エンタメ",
-      "volume_approx": "500+"
+      "keyword": "株式公開",
+      "category": "経済・投資",
+      "volume_approx": "1000+"
     },
     {
       "rank": 8,
-      "keyword": "暴力団ニュース",
-      "category": "社会・ニュース",
-      "volume_approx": "5000+"
+      "keyword": "長期金利",
+      "category": "経済・投資",
+      "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "徳島 あおり運転",
-      "category": "社会・ニュース",
-      "volume_approx": "20000+"
+      "keyword": "java 脆弱性",
+      "category": "テクノロジー",
+      "volume_approx": "200+"
     },
     {
       "rank": 10,
-      "keyword": "えなこ",
+      "keyword": "相棒",
       "category": "エンタメ",
-      "volume_approx": "200+"
+      "volume_approx": "2000+"
     }
   ]
 }
