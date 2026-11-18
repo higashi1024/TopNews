@@ -1,66 +1,66 @@
 {
   "date": "2026-11-18",
-  "updated_at": "2026-11-18T11:03:12.979+09:00",
+  "updated_at": "2026-11-18T20:03:07.911+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "入国拒否",
-      "category": "社会・ニュース",
-      "volume_approx": "1000+"
+      "keyword": "千鳥かまいたち",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "サッカーカタール代表",
-      "category": "スポーツ",
+      "keyword": "訃報",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "阿野鉱二",
-      "category": "スポーツ",
+      "keyword": "mama 2026",
+      "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "杉山茂樹",
-      "category": "スポーツ",
-      "volume_approx": "2000+"
+      "keyword": "ハーゲンダッツ",
+      "category": "グルメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 5,
-      "keyword": "看護",
-      "category": "社会・ニュース",
-      "volume_approx": "1000+"
+      "keyword": "weリーグ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 6,
-      "keyword": "大江竜聖",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "gta6 発売日 ps5",
+      "category": "テクノロジー",
+      "volume_approx": "5000+"
     },
     {
       "rank": 7,
-      "keyword": "株式公開",
-      "category": "経済・投資",
-      "volume_approx": "1000+"
+      "keyword": "長嶋一茂",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "長期金利",
-      "category": "経済・投資",
+      "keyword": "大阪 天気 雨雲レーダー",
+      "category": "社会・ニュース",
       "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "java 脆弱性",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
+      "keyword": "ピッチクロック",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "相棒",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
+      "keyword": "エスカレーター",
+      "category": "社会・ニュース",
+      "volume_approx": "200+"
     }
   ]
 }
