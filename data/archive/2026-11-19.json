@@ -1,66 +1,66 @@
 {
   "date": "2026-11-19",
-  "updated_at": "2026-11-19T04:55:08.751+09:00",
+  "updated_at": "2026-11-19T10:40:18.147+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "収入",
-      "category": "経済・投資",
-      "volume_approx": "100+"
+      "keyword": "corinthians x botafogo",
+      "category": "スポーツ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "chat gpt",
-      "category": "テクノロジー",
+      "keyword": "護衛艦",
+      "category": "社会・ニュース",
       "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "織田翔希",
-      "category": "スポーツ",
+      "keyword": "移籍金",
+      "category": "経済・投資",
       "volume_approx": "500+"
     },
     {
       "rank": 4,
-      "keyword": "佐々木朗希",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "rdr2",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 5,
-      "keyword": "野手",
-      "category": "スポーツ",
-      "volume_approx": "5000+"
+      "keyword": "cev補助金",
+      "category": "経済・投資",
+      "volume_approx": "200+"
     },
     {
       "rank": 6,
-      "keyword": "緊急地震速報",
-      "category": "社会・ニュース",
+      "keyword": "php 脆弱性",
+      "category": "テクノロジー",
       "volume_approx": "1000+"
     },
     {
       "rank": 7,
-      "keyword": "熊本地震 2026",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 8,
-      "keyword": "サイバー攻撃",
-      "category": "経済・投資",
+      "keyword": "nasa ボイジャー 1 号",
+      "category": "テクノロジー",
       "volume_approx": "1000+"
     },
     {
+      "rank": 8,
+      "keyword": "マーベリックス 対 ウォリアーズ",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
       "rank": 9,
-      "keyword": "トラ",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "原 英莉花",
+      "category": "スポーツ",
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "リアルタイム",
-      "category": "テクノロジー",
-      "volume_approx": "200+"
+      "keyword": "fns歌謡祭 2026 出演者",
+      "category": "エンタメ",
+      "volume_approx": "5000+"
     }
   ]
 }
