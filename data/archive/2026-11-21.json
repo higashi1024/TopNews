@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-21",
+  "updated_at": "2026-11-21T03:15:32.348+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "al-ahli vs al-nassr",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 2,
+      "keyword": "向井康二",
+      "category": "エンタメ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 3,
+      "keyword": "月がみている",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 4,
+      "keyword": "諫早幸作 laco",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 5,
+      "keyword": "riemann hypothesis",
+      "category": "テクノロジー",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 6,
+      "keyword": "coach",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 7,
+      "keyword": "黎曼猜想",
+      "category": "テクノロジー",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 8,
+      "keyword": "宗佑磨",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 9,
+      "keyword": "ビットコイン",
+      "category": "経済・投資",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 10,
+      "keyword": "星の見える町で",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    }
+  ]
+}
