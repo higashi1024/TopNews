@@ -1,66 +1,66 @@
 {
   "date": "2026-11-20",
-  "updated_at": "2026-11-20T10:00:09.788+09:00",
+  "updated_at": "2026-11-20T18:36:27.101+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "日経225先物取引",
-      "category": "経済・投資",
-      "volume_approx": "200+"
+      "keyword": "柳田悠岐",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 2,
-      "keyword": "鉄道",
-      "category": "ライフスタイル",
-      "volume_approx": "200+"
+      "keyword": "鹿島 対 清水",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
     },
     {
       "rank": 3,
-      "keyword": "田村伊知郎",
+      "keyword": "柏 対 千葉",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "2000+"
     },
     {
       "rank": 4,
-      "keyword": "総務省",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "神戸 対 水戸",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
     },
     {
       "rank": 5,
-      "keyword": "日経平均 株価",
-      "category": "経済・投資",
-      "volume_approx": "200+"
+      "keyword": "相撲結果",
+      "category": "スポーツ",
+      "volume_approx": "2000+"
     },
     {
       "rank": 6,
-      "keyword": "職場",
-      "category": "社会・ニュース",
-      "volume_approx": "200+"
+      "keyword": "今村聖奈",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     },
     {
       "rank": 7,
-      "keyword": "消費者物価指数",
+      "keyword": "日経平均 伊藤",
       "category": "経済・投資",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "指数",
-      "category": "テクノロジー",
+      "keyword": "キム・スヒョン",
+      "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "墜落",
+      "keyword": "下村海翔",
       "category": "社会・ニュース",
-      "volume_approx": "2000+"
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "ギタリスト",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "漫画家",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
     }
   ]
 }
