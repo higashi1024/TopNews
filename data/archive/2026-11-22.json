@@ -1,66 +1,66 @@
 {
   "date": "2026-11-22",
-  "updated_at": "2026-11-22T10:52:38.450+09:00",
+  "updated_at": "2026-11-22T18:16:56.531+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "狩野英孝",
-      "category": "エンタメ",
-      "volume_approx": "10000+"
+      "keyword": "菅原明良",
+      "category": "スポーツ",
+      "volume_approx": "5000+"
     },
     {
       "rank": 2,
-      "keyword": "福岡県議会",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "keyword": "大東駿介",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "就職氷河期",
-      "category": "経済・投資",
+      "keyword": "近鉄 人身事故",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "サンドウィッチマン",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "ミルキタ",
+      "category": "社会・ニュース",
+      "volume_approx": "5000+"
     },
     {
       "rank": 5,
-      "keyword": "ホークス",
+      "keyword": "相撲結果",
       "category": "スポーツ",
       "volume_approx": "2000+"
     },
     {
       "rank": 6,
-      "keyword": "御堂筋ランウェイ",
-      "category": "エンタメ",
-      "volume_approx": "100+"
+      "keyword": "杉村 太蔵",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 7,
-      "keyword": "カズレーザー",
-      "category": "ライフスタイル",
+      "keyword": "ホルムズ海峡",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "ルイス カスティーヨ",
-      "category": "スポーツ",
-      "volume_approx": "500+"
-    },
-    {
-      "rank": 9,
-      "keyword": "リオネル・メッシ",
+      "keyword": "鳥谷敬",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
+      "rank": 9,
+      "keyword": "nhk one",
+      "category": "エンタメ",
+      "volume_approx": "500+"
+    },
+    {
       "rank": 10,
-      "keyword": "バーチャル高校野球",
+      "keyword": "北海道銀行女子カーリング部",
       "category": "スポーツ",
-      "volume_approx": "2000+"
+      "volume_approx": "200+"
     }
   ]
 }
