@@ -1,66 +1,66 @@
 {
   "date": "2026-11-24",
-  "updated_at": "2026-11-24T12:45:04.836+09:00",
+  "updated_at": "2026-11-24T23:30:04.907+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "指原莉乃",
-      "category": "エンタメ",
-      "volume_approx": "2000+"
+      "keyword": "医薬品",
+      "category": "経済・投資",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "ノロウイルス",
-      "category": "社会・ニュース",
+      "keyword": "前田健太",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 3,
-      "keyword": "クリッパーズ",
-      "category": "スポーツ",
+      "keyword": "ti7",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "タイラー・オースティン",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "早期天候情報",
+      "category": "社会・ニュース",
+      "volume_approx": "2000+"
     },
     {
       "rank": 5,
-      "keyword": "雨雲",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "証券市場",
+      "category": "経済・投資",
+      "volume_approx": "20000+"
     },
     {
       "rank": 6,
-      "keyword": "飲酒運転",
+      "keyword": "関税",
       "category": "社会・ニュース",
-      "volume_approx": "500+"
+      "volume_approx": "200+"
     },
     {
       "rank": 7,
-      "keyword": "将来戦闘機",
-      "category": "テクノロジー",
+      "keyword": "馬場咲希",
+      "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 8,
-      "keyword": "女子サッカー",
-      "category": "スポーツ",
-      "volume_approx": "200+"
+      "keyword": "ソロモン諸島",
+      "category": "社会・ニュース",
+      "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "ちいかわ セブン",
+      "keyword": "ramu",
       "category": "エンタメ",
-      "volume_approx": "1000+"
+      "volume_approx": "500+"
     },
     {
       "rank": 10,
-      "keyword": "浅村栄斗",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
+      "keyword": "三浦 友和",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     }
   ]
 }
