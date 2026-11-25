@@ -1,64 +1,64 @@
 {
   "date": "2026-11-25",
-  "updated_at": "2026-11-25T08:43:43.697+09:00",
+  "updated_at": "2026-11-25T15:50:47.904+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "高市早苗",
-      "category": "社会・ニュース",
-      "volume_approx": "1000+"
+      "keyword": "リブート",
+      "category": "エンタメ",
+      "volume_approx": "500+"
     },
     {
       "rank": 2,
-      "keyword": "柴田獅子",
-      "category": "スポーツ",
-      "volume_approx": "100+"
+      "keyword": "海遊館 ラッコ",
+      "category": "ライフスタイル",
+      "volume_approx": "500+"
     },
     {
       "rank": 3,
-      "keyword": "伊藤大海 メジャー",
+      "keyword": "新人王",
       "category": "スポーツ",
-      "volume_approx": "100+"
+      "volume_approx": "1000+"
     },
     {
       "rank": 4,
-      "keyword": "マチノマ小手指",
-      "category": "ライフスタイル",
-      "volume_approx": "100+"
+      "keyword": "三成のうた",
+      "category": "エンタメ",
+      "volume_approx": "2000+"
     },
     {
       "rank": 5,
-      "keyword": "海鯤",
-      "category": "社会・ニュース",
+      "keyword": "かっぱ 寿司 赤字",
+      "category": "経済・投資",
       "volume_approx": "100+"
     },
     {
       "rank": 6,
-      "keyword": "浦和記念 2026",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 7,
-      "keyword": "thứ hạng của real madrid gặp psv",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 8,
-      "keyword": "山瀬慎之助",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 9,
-      "keyword": "流行語大賞 2026",
+      "keyword": "あいのり",
       "category": "エンタメ",
       "volume_approx": "100+"
     },
     {
+      "rank": 7,
+      "keyword": "キングギドラ",
+      "category": "エンタメ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 8,
+      "keyword": "ローソンストア100",
+      "category": "ライフスタイル",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "丸亀 製 麺",
+      "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 10,
-      "keyword": "山陽自動車道",
+      "keyword": "reject",
       "category": "社会・ニュース",
       "volume_approx": "100+"
     }
