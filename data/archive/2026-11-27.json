@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-27",
+  "updated_at": "2026-11-27T04:57:30.798+09:00",
+  "trends": [
+    {
+      "rank": 1,
+      "keyword": "純烈",
+      "category": "グルメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 2,
+      "keyword": "休場",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 3,
+      "keyword": "タリック・スクーバル",
+      "category": "経済・投資",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 4,
+      "keyword": "選抜高等学校野球大会",
+      "category": "スポーツ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 5,
+      "keyword": "杉浦 希空",
+      "category": "エンタメ",
+      "volume_approx": "500+"
+    },
+    {
+      "rank": 6,
+      "keyword": "uefaヨーロッパリーグ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    },
+    {
+      "rank": 7,
+      "keyword": "斎藤佑樹",
+      "category": "エンタメ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 8,
+      "keyword": "イチロー",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 9,
+      "keyword": "nfl",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 10,
+      "keyword": "ヨーロッパカンファレンスリーグ",
+      "category": "スポーツ",
+      "volume_approx": "100+"
+    }
+  ]
+}
