@@ -1,65 +1,65 @@
 {
   "date": "2026-11-26",
-  "updated_at": "2026-11-26T10:29:39.453+09:00",
+  "updated_at": "2026-11-26T19:23:31.798+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "ex",
+      "keyword": "裁判官",
+      "category": "社会・ニュース",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 2,
+      "keyword": "孤独のグルメ",
       "category": "エンタメ",
       "volume_approx": "200+"
     },
     {
-      "rank": 2,
-      "keyword": "メーガン",
-      "category": "社会・ニュース",
-      "volume_approx": "500+"
-    },
-    {
       "rank": 3,
-      "keyword": "渡辺リサ",
+      "keyword": "ジャパンカップ 予想",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
       "rank": 4,
-      "keyword": "リコーカップ",
-      "category": "スポーツ",
-      "volume_approx": "1000+"
-    },
-    {
-      "rank": 5,
-      "keyword": "福谷浩司",
-      "category": "スポーツ",
+      "keyword": "井林辰憲",
+      "category": "社会・ニュース",
       "volume_approx": "200+"
     },
     {
-      "rank": 6,
-      "keyword": "エジプト",
-      "category": "社会・ニュース",
+      "rank": 5,
+      "keyword": "株式 会社 osa",
+      "category": "経済・投資",
       "volume_approx": "100+"
     },
     {
+      "rank": 6,
+      "keyword": "坂口杏里",
+      "category": "エンタメ",
+      "volume_approx": "200+"
+    },
+    {
       "rank": 7,
-      "keyword": "カナダ",
-      "category": "グルメ",
+      "keyword": "三菱ふそう・スーパーグレート",
+      "category": "経済・投資",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "杉浦 希空",
-      "category": "社会・ニュース",
-      "volume_approx": "100+"
+      "keyword": "植木鉢",
+      "category": "ライフスタイル",
+      "volume_approx": "500+"
     },
     {
       "rank": 9,
-      "keyword": "ライチョウ",
-      "category": "社会・ニュース",
+      "keyword": "ドウデュース",
+      "category": "スポーツ",
       "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "ジョナサン・ウィートリー",
-      "category": "スポーツ",
+      "keyword": "クリスマス マーケット 新 豊洲",
+      "category": "ライフスタイル",
       "volume_approx": "500+"
     }
   ]
