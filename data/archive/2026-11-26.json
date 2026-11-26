@@ -1,66 +1,66 @@
 {
   "date": "2026-11-26",
-  "updated_at": "2026-11-26T02:46:02.114+09:00",
+  "updated_at": "2026-11-26T10:29:39.453+09:00",
   "trends": [
     {
       "rank": 1,
-      "keyword": "うどん",
-      "category": "グルメ",
-      "volume_approx": "1000+"
+      "keyword": "ex",
+      "category": "エンタメ",
+      "volume_approx": "200+"
     },
     {
       "rank": 2,
-      "keyword": "sabah vs barcelona",
-      "category": "スポーツ",
-      "volume_approx": "200+"
-    },
-    {
-      "rank": 3,
-      "keyword": "町野修斗",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 4,
-      "keyword": "openai",
-      "category": "テクノロジー",
+      "keyword": "メーガン",
+      "category": "社会・ニュース",
       "volume_approx": "500+"
     },
     {
-      "rank": 5,
-      "keyword": "長野 対 鹿児島",
-      "category": "スポーツ",
-      "volume_approx": "100+"
-    },
-    {
-      "rank": 6,
-      "keyword": "山口 対 福島",
+      "rank": 3,
+      "keyword": "渡辺リサ",
       "category": "スポーツ",
       "volume_approx": "200+"
     },
     {
+      "rank": 4,
+      "keyword": "リコーカップ",
+      "category": "スポーツ",
+      "volume_approx": "1000+"
+    },
+    {
+      "rank": 5,
+      "keyword": "福谷浩司",
+      "category": "スポーツ",
+      "volume_approx": "200+"
+    },
+    {
+      "rank": 6,
+      "keyword": "エジプト",
+      "category": "社会・ニュース",
+      "volume_approx": "100+"
+    },
+    {
       "rank": 7,
-      "keyword": "qqq",
-      "category": "経済・投資",
+      "keyword": "カナダ",
+      "category": "グルメ",
       "volume_approx": "100+"
     },
     {
       "rank": 8,
-      "keyword": "泉区 火事",
+      "keyword": "杉浦 希空",
       "category": "社会・ニュース",
       "volume_approx": "100+"
     },
     {
       "rank": 9,
-      "keyword": "高市",
+      "keyword": "ライチョウ",
       "category": "社会・ニュース",
-      "volume_approx": "5000+"
+      "volume_approx": "100+"
     },
     {
       "rank": 10,
-      "keyword": "大野智",
-      "category": "エンタメ",
-      "volume_approx": "200+"
+      "keyword": "ジョナサン・ウィートリー",
+      "category": "スポーツ",
+      "volume_approx": "500+"
     }
   ]
 }
